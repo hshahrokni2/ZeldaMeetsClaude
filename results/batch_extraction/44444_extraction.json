@@ -1,0 +1,194 @@
+{
+  "document_metadata": {
+    "pdf_id": "44444",
+    "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+    "brf_name": "Brf Kulingen nr 6",
+    "organization_number": "702002-9208",
+    "fiscal_year": 2023,
+    "extraction_date": "2025-11-13T13:22:00Z",
+    "extraction_version": "v1.0.0",
+    "pages_total": 20
+  },
+  "chairman": {
+    "value": "Susanne Riva",
+    "confidence": 1.0,
+    "evidence_pages": [5, 20],
+    "original_text": "Susanne Riva - Ordförande"
+  },
+  "financial_data": {
+    "total_revenue_tkr": {
+      "value": 1853.572,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "1 853 572",
+      "note": "Summa rörelseintäkter"
+    },
+    "property_revenue_tkr": {
+      "value": 1797.576,
+      "confidence": 1.0,
+      "evidence_pages": [15],
+      "original_text": "1 797 576",
+      "note": "Årsavgifter, bostäder (NOT 2)"
+    },
+    "interest_revenue_tkr": {
+      "value": 17.351,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "17 351",
+      "note": "Ränteintäkter och liknande resultatposter"
+    },
+    "other_revenue_tkr": {
+      "value": 13.916,
+      "confidence": 1.0,
+      "evidence_pages": [10, 15],
+      "original_text": "13 916",
+      "note": "Övriga rörelseintäkter (NOT 3: Elstöd)"
+    },
+    "total_costs_tkr": {
+      "value": 8862.599,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "-8 862 599",
+      "note": "Summa rörelsekostnader"
+    },
+    "operational_costs_tkr": {
+      "value": 8577.092,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "-8 577 092",
+      "note": "Driftskostnader (includes property management, repairs, maintenance, taxes)"
+    },
+    "maintenance_costs_tkr": {
+      "value": 7320.905,
+      "confidence": 0.95,
+      "evidence_pages": [15],
+      "original_text": "32 233 (Reparationer) + 7 288 672 (Planerade underhåll)",
+      "note": "NOT 5 (32 233) + NOT 6 (7 288 672) = 7 320 905"
+    },
+    "administrative_costs_tkr": {
+      "value": 111.676,
+      "confidence": 1.0,
+      "evidence_pages": [10, 16],
+      "original_text": "-111 676",
+      "note": "Övriga externa kostnader (NOT 9)"
+    },
+    "interest_costs_tkr": {
+      "value": 287.953,
+      "confidence": 1.0,
+      "evidence_pages": [10, 16],
+      "original_text": "-287 953",
+      "note": "Räntekostnader och liknande resultatposter (NOT 11)"
+    },
+    "depreciation_tkr": {
+      "value": 69.945,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "-69 945",
+      "note": "Avskrivningar av materiella anläggningstillgångar"
+    },
+    "net_result_tkr": {
+      "value": -7279.629,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_text": "-7 279 629",
+      "note": "Årets resultat / Result after financial items"
+    }
+  },
+  "balance_sheet_data": {
+    "total_assets_tkr": {
+      "value": 4043.459,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_text": "4 043 459",
+      "note": "SUMMA TILLGÅNGAR"
+    },
+    "fixed_assets_tkr": {
+      "value": 2283.562,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_text": "2 283 562",
+      "note": "SUMMA ANLÄGGNINGSTILLGÅNGAR"
+    },
+    "current_assets_tkr": {
+      "value": 1759.897,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_text": "1 759 897",
+      "note": "SUMMA OMSÄTTNINGSTILLGÅNGAR"
+    },
+    "cash_bank_tkr": {
+      "value": 1577.239,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_text": "1 577 239",
+      "note": "Kassa och bank"
+    },
+    "total_equity_tkr": {
+      "value": -2271.643,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_text": "-2 271 643",
+      "note": "SUMMA EGET KAPITAL (negative equity indicates financial distress)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_text": "0",
+      "note": "Summa långfristiga skulder"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 6315.102,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_text": "6 315 102",
+      "note": "Summa kortfristiga skulder"
+    },
+    "total_liabilities_tkr": {
+      "value": 6315.102,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_text": "6 315 102",
+      "note": "Total of all liabilities (0 long-term + 6 315 102 short-term)"
+    },
+    "total_debt_tkr": {
+      "value": 5760.25,
+      "confidence": 1.0,
+      "evidence_pages": [12, 18],
+      "original_text": "5 760 250",
+      "note": "Skulder till kreditinstitut (NOT 17: Nordea loans)"
+    },
+    "retained_earnings_tkr": {
+      "value": -3002.257,
+      "confidence": 1.0,
+      "evidence_pages": [9, 12],
+      "original_text": "-3 002 257",
+      "note": "Balanserat resultat (from Förändringar i eget kapital)"
+    }
+  },
+  "summary": {
+    "pdf_id": "44444",
+    "net_result_tkr": -7279.629,
+    "total_assets_tkr": 4043.459,
+    "chairman": "Susanne Riva",
+    "overall_confidence": 0.99,
+    "fields_extracted": 22,
+    "financial_status": "CRITICAL - Large negative result (-7.3 MSEK), negative equity (-2.3 MSEK), indicates severe financial distress",
+    "key_observations": [
+      "Large loss of -7.3 MSEK due to significant planned maintenance (7.3 MSEK) including roof, balconies, and fire protection",
+      "Negative equity of -2.3 MSEK indicates the BRF is technically insolvent",
+      "New loan of 5.8 MSEK taken in 2023 to fund renovations",
+      "Monthly fees increased by 20% in January 2023 and raised 6% in January 2024",
+      "Strong cash position (1.6 MSEK) despite negative equity",
+      "35 apartments in building built 1949 in Stockholm",
+      "Chairman: Susanne Riva"
+    ]
+  },
+  "extraction_quality": {
+    "chairman_confidence": 1.0,
+    "financial_confidence": 0.99,
+    "balance_sheet_confidence": 1.0,
+    "overall_completeness": 1.0,
+    "notes": "All requested fields successfully extracted with high confidence. Values converted from SEK to tkr (thousands)."
+  }
+}

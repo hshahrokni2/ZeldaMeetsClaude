@@ -1,0 +1,33 @@
+{
+  "agent_id": "chairman",
+  "pdf_id": "49908_årsredovisning_sundbyberg_brf_stugan_2",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T13:37:00Z",
+  "data": {
+    "chairman_name": {
+      "value": "Thomas Boussard",
+      "confidence": 0.95,
+      "evidence_pages": [1],
+      "original_string": "Thomas Boussard Ordförande",
+      "note": "Found in Styrelsen section"
+    },
+    "evidence_pages": [1]
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": [],
+    "additional_info": {
+      "board_members": [
+        "Thomas Boussard (Ordförande)",
+        "Ann-Charlotte Bolander (Ledamot)",
+        "Johan Fredrik Duprez (Ledamot)",
+        "John Rikard Lindberg Karlsson (Ledamot)",
+        "Anna Ingrid Helena Nyström (Ledamot)",
+        "Tove Vendel (Ledamot)"
+      ],
+      "board_alternates": [
+        "Mattias Ernesto Mattisson (Suppleant)"
+      ]
+    }
+  }
+}

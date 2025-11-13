@@ -1,0 +1,87 @@
+{
+  "agent_id": "balance_sheet",
+  "pdf_id": "49908_årsredovisning_sundbyberg_brf_stugan_2",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T13:36:00Z",
+  "data": {
+    "total_assets_tkr": {
+      "value": 33712,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "33 712 197 kr",
+      "note": "SUMMA TILLGÅNGAR from Balansräkning"
+    },
+    "fixed_assets_tkr": {
+      "value": 32324,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "32 324 278 kr",
+      "note": "Summa materiella anläggningstillgångar (Byggnader + Inventarier)"
+    },
+    "current_assets_tkr": {
+      "value": 1385,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "1 385 119 kr",
+      "note": "SUMMA OMSÄTTNINGSTILLGÅNGAR"
+    },
+    "cash_bank_tkr": {
+      "value": 440,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "440 321 kr",
+      "note": "Kassa och bank"
+    },
+    "total_liabilities_tkr": {
+      "value": 9633,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "9 633 284 kr (calculated)",
+      "note": "Sum of Långfristiga skulder (8 556 840) + Kortfristiga skulder (1 076 444)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 8557,
+      "confidence": 0.95,
+      "evidence_pages": [9, 15],
+      "original_string": "8 556 840 kr",
+      "note": "Summa långfristiga skulder (Skulder till kreditinstitut)"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 1076,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "1 076 444 kr",
+      "note": "Summa kortfristiga skulder"
+    },
+    "total_equity_tkr": {
+      "value": 24079,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "24 078 913 kr",
+      "note": "SUMMA EGET KAPITAL"
+    },
+    "retained_earnings_tkr": {
+      "value": -2571,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "-2 571 293 kr",
+      "note": "Balanserat resultat (Ansamlad förlust)"
+    },
+    "current_year_result_tkr": {
+      "value": 56,
+      "confidence": 0.95,
+      "evidence_pages": [7, 9],
+      "original_string": "56 052 kr",
+      "note": "Årets resultat (matches Resultaträkning)"
+    },
+    "evidence_pages": [7, 8, 9]
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": [],
+    "cross_validation": {
+      "balance_equation": "total_assets (33712) = total_equity (24079) + total_liabilities (9633) ✓ [33712 = 24079 + 9633]",
+      "current_assets": "current_assets (1385) = kortfristiga_fordringar (945) + kassa_och_bank (440) ✓"
+    }
+  }
+}

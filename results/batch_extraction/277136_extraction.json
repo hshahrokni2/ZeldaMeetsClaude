@@ -1,0 +1,251 @@
+{
+  "extraction_metadata": {
+    "document_id": "277136",
+    "document_name": "årsredovisning_stockholm_brf_musketören_10.pdf",
+    "organization_name": "Bostadsrättsföreningen Musketören 10",
+    "organization_id": "716418-1146",
+    "fiscal_year": "2021",
+    "extraction_date": "2025-11-13",
+    "currency": "SEK",
+    "unit": "tkr"
+  },
+
+  "financial_agent": {
+    "total_revenue_tkr": {
+      "value": 2268.421,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelseintäkter 2 268 421",
+      "notes": "Total operating income from income statement"
+    },
+    "net_revenue_tkr": {
+      "value": 2237.621,
+      "confidence": 1.0,
+      "evidence_pages": [8, 11],
+      "original_string": "Nettoomsättning Not 2 2 237 621",
+      "notes": "Net revenue including annual fees and rent"
+    },
+    "interest_revenue_tkr": {
+      "value": 627,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Övriga ränteintäkter och liknande resultatposter 627",
+      "notes": "Interest income"
+    },
+    "other_revenue_tkr": {
+      "value": 30.800,
+      "confidence": 1.0,
+      "evidence_pages": [8, 11],
+      "original_string": "Övriga rörelseintäkter Not 3 30 800",
+      "notes": "Återbäring försäkringsbolag (insurance rebate)"
+    },
+    "total_costs_tkr": {
+      "value": 3246.361,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelsekostnader -3 246 361",
+      "notes": "Total operating costs"
+    },
+    "operational_costs_tkr": {
+      "value": 2741.609,
+      "confidence": 1.0,
+      "evidence_pages": [8, 12],
+      "original_string": "Driftkostnader Not 4 -2 741 609",
+      "notes": "Operating costs including property costs, repairs, utilities"
+    },
+    "maintenance_costs_tkr": {
+      "value": 138.483,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Reparationer 138 483",
+      "notes": "Repair costs within operating costs"
+    },
+    "administrative_costs_tkr": {
+      "value": 131.344,
+      "confidence": 1.0,
+      "evidence_pages": [8, 13],
+      "original_string": "Övriga externa kostnader Not 5 -131 344",
+      "notes": "Other external costs including management fees"
+    },
+    "interest_costs_tkr": {
+      "value": 161.221,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Räntekostnader och liknande resultatposter -161 221",
+      "notes": "Interest costs and similar financial expenses"
+    },
+    "depreciation_tkr": {
+      "value": 373.407,
+      "confidence": 1.0,
+      "evidence_pages": [8, 13],
+      "original_string": "Avskrivning av materiella anläggningstillgångar Not 6 -373 407",
+      "notes": "Depreciation of tangible fixed assets"
+    },
+    "net_result_tkr": {
+      "value": -1138.534,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "ÅRETS RESULTAT -1 138 534",
+      "notes": "Net result for the year (negative)"
+    }
+  },
+
+  "balance_sheet_agent": {
+    "total_assets_tkr": {
+      "value": 17003.423,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA TILLGÅNGAR 17 003 423",
+      "notes": "Total assets at year end 2021-12-31"
+    },
+    "fixed_assets_tkr": {
+      "value": 14644.513,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA ANLÄGGNINGSTILLGÅNGAR 14 644 513",
+      "notes": "Total fixed assets including buildings and financial assets"
+    },
+    "current_assets_tkr": {
+      "value": 2358.910,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA OMSÄTTNINGSTILLGÅNGAR 2 358 910",
+      "notes": "Current assets including receivables and cash"
+    },
+    "cash_bank_tkr": {
+      "value": 64.408,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Kassa och bank 64 408",
+      "notes": "Cash and bank balances"
+    },
+    "short_term_receivables_tkr": {
+      "value": 2294.502,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Summa kortfristiga fordringar 2 294 502",
+      "notes": "Short-term receivables including client funds at SBC"
+    },
+    "total_liabilities_tkr": {
+      "value": 4601.124,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga skulder 4 601 124",
+      "notes": "Total liabilities (all short-term)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa långfristiga skulder 0",
+      "notes": "No long-term liabilities - association has loans with credit institution"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 4601.124,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga skulder 4 601 124",
+      "notes": "Short-term liabilities including short-term debt"
+    },
+    "debt_to_credit_institution_tkr": {
+      "value": 4130.000,
+      "confidence": 1.0,
+      "evidence_pages": [10, 15],
+      "original_string": "Kortfristig del av skulder till kreditinstitut Not 11,12 4 130 000",
+      "notes": "Short-term portion of debt to credit institution (SBAB)"
+    },
+    "total_equity_tkr": {
+      "value": 12402.299,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "SUMMA EGET KAPITAL 12 402 299",
+      "notes": "Total equity at year end"
+    },
+    "restricted_equity_tkr": {
+      "value": 16420.824,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa bundet eget kapital 16 420 824",
+      "notes": "Restricted equity including fund for external maintenance"
+    },
+    "unrestricted_equity_tkr": {
+      "value": -4018.525,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa ansamlad förlust -4 018 525",
+      "notes": "Accumulated loss in unrestricted equity"
+    }
+  },
+
+  "chairman_agent": {
+    "chairman_name": {
+      "value": "Anders Fällman",
+      "confidence": 1.0,
+      "evidence_pages": [3, 16],
+      "original_string": "Anders Fällman Ordförande",
+      "notes": "Chairman of the board with signature on page 16"
+    }
+  },
+
+  "audit_section": {
+    "balance_equation_check": {
+      "assets": 17003.423,
+      "equity": 12402.299,
+      "liabilities": 4601.124,
+      "calculated_total": 17003.423,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Balance equation verified: Assets (17,003.423) = Equity (12,402.299) + Liabilities (4,601.124)"
+    },
+    "net_result_consistency_check": {
+      "income_statement_result": -1138.534,
+      "balance_sheet_result": -1138.534,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Net result consistent between income statement and balance sheet"
+    },
+    "additional_validations": {
+      "soliditet_percent": {
+        "value": 73,
+        "calculation": "(12402.299 / 17003.423) * 100",
+        "reported_value": 73,
+        "status": "CONSISTENT",
+        "notes": "Soliditet (equity ratio) verified from page 6"
+      },
+      "negative_result": {
+        "status": "NOTED",
+        "notes": "Association had negative result of -1,139 tkr compared to -96 tkr previous year"
+      }
+    },
+    "overall_confidence_score": {
+      "financial_data": 1.0,
+      "balance_sheet_data": 1.0,
+      "chairman_data": 1.0,
+      "overall": 1.0,
+      "notes": "All data extracted from clearly labeled financial statements. High confidence in all extracted values."
+    }
+  },
+
+  "additional_context": {
+    "property_details": {
+      "property_designation": "MUSKETÖREN 10",
+      "location": "Stockholm",
+      "acquisition_year": 1986,
+      "construction_year": 1918,
+      "total_area_sqm": 4055,
+      "number_of_apartments": 17,
+      "number_of_commercial_spaces": 1
+    },
+    "key_observations": {
+      "negative_result": "Association had negative result of -1,139 tkr for 2021 compared to -96 tkr in 2020",
+      "major_renovation": "Large renovation project completed in 2021: new elevator, entrance modernization, new elevator control system",
+      "debt_status": "Association has debt to credit institution (SBAB) of 4,130 tkr",
+      "maintenance_plan": "Association follows maintenance plan from 2019-2033"
+    },
+    "fiscal_year": {
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "annual_meeting_date": "2021-05-18"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "extraction_metadata": {
+    "document_id": "267456",
+    "document_name": "årsredovisning_stockholm_brf_granen_18.pdf",
+    "organization_name": "Bostadsrättsföreningen Granen 18",
+    "organization_id": "716421-7726",
+    "fiscal_year": "2019",
+    "extraction_date": "2025-11-13",
+    "currency": "SEK",
+    "unit": "tkr"
+  },
+
+  "financial_agent": {
+    "total_revenue_tkr": {
+      "value": 1114.434,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelseintäkter 1 114 434",
+      "notes": "Sum of all operating income (Nettoomsättning + Övriga rörelseintäkter)"
+    },
+    "property_revenue_tkr": {
+      "value": 1107.459,
+      "confidence": 1.0,
+      "evidence_pages": [8, 11],
+      "original_string": "Nettoomsättning Not 2 1 107 459",
+      "notes": "Includes Årsavgifter (880 tkr) + Hyror bostäder (210 tkr) + other minor items"
+    },
+    "interest_revenue_tkr": {
+      "value": 250.339,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Övriga ränteintäkter och liknande resultatposter 250 339",
+      "notes": "Interest income and similar financial income"
+    },
+    "other_revenue_tkr": {
+      "value": 6.975,
+      "confidence": 1.0,
+      "evidence_pages": [8, 11],
+      "original_string": "Övriga rörelseintäkter Not 3 6 975",
+      "notes": "Includes Återbäring försäkringsbolag 6,475 + Övriga intäkter 500"
+    },
+    "total_costs_tkr": {
+      "value": 1127.655,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelsekostnader -1 127 655",
+      "notes": "Total operating costs including depreciation"
+    },
+    "operational_costs_tkr": {
+      "value": 825.820,
+      "confidence": 1.0,
+      "evidence_pages": [8, 12],
+      "original_string": "Driftkostnader Not 4 -825 820",
+      "notes": "Includes property costs, repairs, utilities, taxes and other operational expenses"
+    },
+    "maintenance_costs_tkr": {
+      "value": 44.651,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Reparationer 44 651",
+      "notes": "Repair costs within Driftkostnader, does not include periodic maintenance (Periodiskt underhåll was 0 in 2019)"
+    },
+    "administrative_costs_tkr": {
+      "value": 109.002,
+      "confidence": 1.0,
+      "evidence_pages": [8, 13],
+      "original_string": "Övriga externa kostnader Not 5 -109 002",
+      "notes": "Includes management fees (förvaltningsarvode), board costs, and administrative expenses"
+    },
+    "interest_costs_tkr": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "N/A - No interest costs listed",
+      "notes": "Association has no loans (inga lån) as stated on page 3"
+    },
+    "depreciation_tkr": {
+      "value": 192.834,
+      "confidence": 1.0,
+      "evidence_pages": [8, 13],
+      "original_string": "Avskrivning av materiella anläggningstillgångar Not 6 -192 834",
+      "notes": "Depreciation of tangible assets (Byggnad 90,618 + Förbättringar 102,216)"
+    },
+    "net_result_tkr": {
+      "value": 206.242,
+      "confidence": 1.0,
+      "evidence_pages": [8, 10],
+      "original_string": "ÅRETS RESULTAT 206 242",
+      "notes": "Net result after financial items and taxes"
+    }
+  },
+
+  "balance_sheet_agent": {
+    "total_assets_tkr": {
+      "value": 19443.977,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA TILLGÅNGAR 19 443 977",
+      "notes": "Total assets at year end"
+    },
+    "fixed_assets_tkr": {
+      "value": 14776.968,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA ANLÄGGNINGSTILLGÅNGAR 14 776 968",
+      "notes": "Fixed assets including buildings (13,213 tkr), ongoing construction (1,562 tkr), and financial assets (2 tkr)"
+    },
+    "current_assets_tkr": {
+      "value": 4667.009,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA OMSÄTTNINGSTILLGÅNGAR 4 667 009",
+      "notes": "Current assets including receivables, short-term investments, and cash"
+    },
+    "cash_bank_tkr": {
+      "value": 832.710,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Kassa och bank 832 710",
+      "notes": "Cash and bank balances at year end"
+    },
+    "total_liabilities_tkr": {
+      "value": 530.806,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga skulder 530 806",
+      "notes": "Total liabilities (all short-term, no long-term liabilities)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [3, 10],
+      "original_string": "Föreningen har i dagsläget inga lån",
+      "notes": "No long-term liabilities - association has no loans"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 530.806,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga skulder 530 806",
+      "notes": "Includes supplier debts (393 tkr), tax liabilities (16 tkr), and accrued expenses (116 tkr)"
+    },
+    "total_equity_tkr": {
+      "value": 18913.171,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "SUMMA EGET KAPITAL 18 913 171",
+      "notes": "Total equity including restricted and unrestricted equity"
+    },
+    "retained_earnings_tkr": {
+      "value": -4575.953,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Balanserat resultat -4 575 953",
+      "notes": "Accumulated deficit in unrestricted equity"
+    },
+    "current_year_result_tkr": {
+      "value": 206.242,
+      "confidence": 1.0,
+      "evidence_pages": [8, 10],
+      "original_string": "Årets resultat 206 242",
+      "notes": "Current year result shown in both income statement and balance sheet"
+    }
+  },
+
+  "chairman_agent": {
+    "chairman_name": {
+      "value": "Lotta Sandström",
+      "confidence": 1.0,
+      "evidence_pages": [3, 16],
+      "original_string": "Lotta Sandström Ordförande",
+      "notes": "Chairman of the board (Styrelseordförande) with signature on page 16"
+    }
+  },
+
+  "audit_section": {
+    "balance_equation_check": {
+      "assets": 19443.977,
+      "equity": 18913.171,
+      "liabilities": 530.806,
+      "calculated_total": 19443.977,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Balance equation verified: Assets (19,443.977) = Equity (18,913.171) + Liabilities (530.806)"
+    },
+    "net_result_consistency_check": {
+      "income_statement_result": 206.242,
+      "balance_sheet_result": 206.242,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Net result consistent between income statement and balance sheet"
+    },
+    "additional_validations": {
+      "soliditet_percent": {
+        "value": 97.27,
+        "calculation": "(18913.171 / 19443.977) * 100",
+        "reported_value": 97,
+        "status": "CONSISTENT",
+        "notes": "Soliditet (equity ratio) verified from page 7"
+      },
+      "no_loans_confirmed": {
+        "status": "VERIFIED",
+        "notes": "Association has no loans as stated on page 3 and confirmed by zero long-term liabilities"
+      },
+      "fund_for_external_maintenance": {
+        "value": 2440.958,
+        "previous_year": 1892.933,
+        "increase": 548.025,
+        "planned_reservation": 825.456,
+        "utilized": -277.431,
+        "status": "VERIFIED",
+        "notes": "Fund for external maintenance tracking verified from Note 14"
+      }
+    },
+    "overall_confidence_score": {
+      "financial_data": 1.0,
+      "balance_sheet_data": 1.0,
+      "chairman_data": 1.0,
+      "overall": 1.0,
+      "notes": "All data extracted from clearly labeled financial statements with complete documentation. High confidence in all extracted values."
+    }
+  },
+
+  "additional_context": {
+    "property_details": {
+      "property_designation": "GRANEN 18",
+      "location": "Stockholm",
+      "acquisition_year": 1994,
+      "construction_year": 1895,
+      "total_area_sqm": 2604,
+      "apartment_area_sqm": 2604,
+      "number_of_apartments": 21,
+      "rental_apartments": 1
+    },
+    "key_observations": {
+      "positive_result": "Association achieved positive result of 206 tkr after previous year loss of -482 tkr",
+      "no_debt": "Association is debt-free (inga lån) with strong financial position",
+      "high_soliditet": "Very high equity ratio of 97%, indicating strong financial stability",
+      "ongoing_renovation": "Major window replacement project ongoing (1,562 tkr in progress)",
+      "liquid_assets": "Strong liquidity with 3,910 tkr in total liquid assets (cash + investments)",
+      "maintenance_planning": "Active maintenance plan 2015-2035 with annual reservations to fund",
+      "tax_implications": "State income tax of 48 tkr due to investment income"
+    },
+    "fiscal_year": {
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "annual_meeting_date": "2019-05-28"
+    }
+  }
+}

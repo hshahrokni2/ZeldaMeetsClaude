@@ -1,0 +1,208 @@
+{
+  "document_metadata": {
+    "pdf_id": "44549",
+    "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+    "brf_name": "Bostadsrättsföreningen Y.K.-Huset",
+    "organization_number": "716405-7387",
+    "fiscal_year": 2021,
+    "extraction_date": "2025-11-13T14:45:00Z",
+    "extraction_version": "v1.0.0",
+    "pages_total": 24,
+    "extraction_note": "Limited text extraction - only budget table was successfully parsed. Balance sheet and chairman name not found in extracted text."
+  },
+  "chairman": {
+    "value": null,
+    "confidence": 0.0,
+    "evidence_pages": [],
+    "original_text": null,
+    "note": "Chairman name not found in extracted PDF text. The PDF text extraction was incomplete and did not capture the board/governance sections."
+  },
+  "financial_data": {
+    "total_revenue_tkr": {
+      "value": 2630.891,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "2 630 891",
+      "note": "Summa rörelseintäkter from 'Utfall 2021' column in budget table"
+    },
+    "property_revenue_tkr": {
+      "value": 2156.564,
+      "confidence": 1.0,
+      "evidence_pages": [2],
+      "original_text": "2 156 564",
+      "note": "Årsavgifter (apartment fees) from budget table"
+    },
+    "interest_revenue_tkr": {
+      "value": 0.083,
+      "confidence": 0.9,
+      "evidence_pages": [2, 3],
+      "original_text": "83",
+      "note": "Dröjsmålsränta avgifter/hyror (late payment interest) - minor financial income"
+    },
+    "other_revenue_tkr": {
+      "value": 474.244,
+      "confidence": 0.95,
+      "evidence_pages": [2],
+      "original_text": "383 989 + 61 178 + 9 600 + 16 800 + 17 763 + 13 + 17 517 + 2 500 - 35 033",
+      "note": "Sum of: Hyror lokaler (383,989) + Hyror reklamplats (61,178) + Bredbandsintäkter (9,600) + Tvättstuga (16,800) + Avgift andrahandsuthyrning (17,763) + Öresutjämning (13) + Extra statligt stöd (17,517) + Övriga intäkter (2,500) - Hyresrabatt (-35,033)"
+    },
+    "total_costs_tkr": {
+      "value": 2441.057,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "2 441 057",
+      "note": "SA RÖRELSENS KOSTNADER from budget table"
+    },
+    "operational_costs_tkr": {
+      "value": 1774.582,
+      "confidence": 0.95,
+      "evidence_pages": [2, 3],
+      "original_text": "Sum of categories",
+      "note": "Calculated as: Fastighetskostnader (266,566) + Taxebundna kostnader (976,173) + Övriga driftskostnader (124,543) + Fastighetsskatt (144,540) + Övriga förvaltnings- och rörelsekostnader (172,930) + Personalkostnader (90,795) = 1,775,547. Does not include repairs, maintenance, or depreciation."
+    },
+    "maintenance_costs_tkr": {
+      "value": 394.300,
+      "confidence": 1.0,
+      "evidence_pages": [2],
+      "original_text": "341 550 + 52 750",
+      "note": "Reparationer (341,550) + Periodiskt underhåll (52,750) = 394,300"
+    },
+    "administrative_costs_tkr": {
+      "value": 172.930,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "172 930",
+      "note": "Övriga förvaltnings- och rörelsekostnader including management fees (122,252), audit fees (17,503), membership fees (11,464), and other administrative expenses"
+    },
+    "interest_costs_tkr": {
+      "value": 31.076,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "31 076",
+      "note": "Låneräntor (loan interest expenses)"
+    },
+    "depreciation_tkr": {
+      "value": 271.211,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "271 211",
+      "note": "Avskrivningar och nedskrivningar: Byggnad (10,643) + Förbättringar (260,568) = 271,211"
+    },
+    "net_result_tkr": {
+      "value": 158.840,
+      "confidence": 1.0,
+      "evidence_pages": [2, 3],
+      "original_text": "158 840",
+      "note": "RESULTAT (Net result after financial items)"
+    }
+  },
+  "balance_sheet_data": {
+    "total_assets_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Balance sheet (Balansräkning) not found in extracted PDF text"
+    },
+    "fixed_assets_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "current_assets_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "cash_bank_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "total_equity_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "long_term_liabilities_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "short_term_liabilities_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "total_liabilities_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "total_debt_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    },
+    "retained_earnings_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "original_text": null,
+      "note": "Not found in extracted text"
+    }
+  },
+  "summary": {
+    "pdf_id": "44549",
+    "net_result_tkr": 158.840,
+    "total_assets_tkr": null,
+    "chairman": null,
+    "overall_confidence": 0.55,
+    "fields_extracted": 11,
+    "fields_total": 22,
+    "financial_status": "POSITIVE - Profit of 159 tkr (158,840 kr) in 2021",
+    "key_observations": [
+      "PDF text extraction was incomplete - only budget table captured",
+      "Balance sheet data not found in extracted text",
+      "Chairman name not found in extracted text",
+      "Financial data successfully extracted from budget table (Utfall 2021 column)",
+      "Positive net result of 159 tkr despite high maintenance costs (394 tkr)",
+      "Total revenue 2,631 tkr primarily from apartment fees (2,157 tkr, 82%)",
+      "Commercial rent contributes 384 tkr (15% of total revenue)",
+      "Maintenance costs of 394 tkr included repairs (342 tkr) and periodic maintenance (53 tkr)",
+      "Operating margin: 7.2% (189 tkr operating result / 2,631 tkr revenue)",
+      "Interest costs relatively low at 31 tkr, suggesting low debt burden",
+      "BRF Y.K.-Huset, Stockholm - Organization number: 716405-7387"
+    ]
+  },
+  "extraction_quality": {
+    "chairman_confidence": 0.0,
+    "financial_confidence": 0.96,
+    "balance_sheet_confidence": 0.0,
+    "overall_completeness": 0.50,
+    "notes": "Partial extraction only. PDF text extraction failed to capture balance sheet and governance sections. Only the budget comparison table was successfully extracted. Financial data (11 fields) extracted with high confidence from budget table. Balance sheet (10 fields) and chairman (1 field) could not be extracted. Overall: 11 of 22 fields successfully extracted (50% completeness).",
+    "extraction_limitations": [
+      "PDF appears to be image-based or has encoding issues preventing full text extraction",
+      "Only 11,085 characters extracted from 24-page document",
+      "Balansräkning (balance sheet) section not captured",
+      "Styrelsen (board) section not captured",
+      "Recommend manual review or OCR processing for complete extraction"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pdf_id": "270695",
+  "extraction_date": "2025-11-13T13:20:00Z",
+  "brf_name": "Brf Älvsbacka Strand 3",
+  "org_number": "769620-5751",
+  "fiscal_year": "2016-01-01 to 2016-12-31",
+  "chairman": {
+    "chairman": "Fred Brännström",
+    "evidence_pages": [3],
+    "confidence": 0.95
+  },
+  "financial": {
+    "total_revenue_tkr": 1202.854,
+    "property_revenue_tkr": 1202.854,
+    "interest_revenue_tkr": 0.005,
+    "total_costs_tkr": 903.338,
+    "operational_costs_tkr": 523.584,
+    "administrative_costs_tkr": 70.995,
+    "interest_costs_tkr": 139.078,
+    "depreciation_tkr": 300.619,
+    "net_result_tkr": 160.443,
+    "evidence_pages": [6],
+    "confidence": 0.98
+  },
+  "balance_sheet": {
+    "total_assets_tkr": 36852.801,
+    "fixed_assets_tkr": 36367.197,
+    "current_assets_tkr": 485.604,
+    "cash_bank_tkr": 450.932,
+    "total_liabilities_tkr": 9273.579,
+    "long_term_liabilities_tkr": 9033.259,
+    "short_term_liabilities_tkr": 240.320,
+    "total_equity_tkr": 27579.222,
+    "evidence_pages": [7, 8],
+    "confidence": 0.98
+  },
+  "metadata": {
+    "total_pages": 12,
+    "extraction_method": "manual_pdf_reading",
+    "extraction_confidence": 0.97,
+    "validation_status": "valid"
+  }
+}

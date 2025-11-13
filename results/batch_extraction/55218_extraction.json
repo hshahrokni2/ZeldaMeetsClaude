@@ -1,0 +1,179 @@
+{
+  "pdf_id": "55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+  "extraction_date": "2025-11-13T14:35:00Z",
+  "agents": [
+    {
+      "agent_id": "financial",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 11,
+      "data": {
+        "total_revenue_tkr": {
+          "value": 1808,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "1 808 291 kr"
+        },
+        "property_revenue_tkr": {
+          "value": 1794,
+          "confidence": 0.95,
+          "evidence_pages": [8, 12],
+          "original_string": "1 793 705 kr (Nettoomsättning)"
+        },
+        "interest_revenue_tkr": {
+          "value": 0,
+          "confidence": 0.90,
+          "evidence_pages": [8],
+          "original_string": "Not explicitly stated in income statement"
+        },
+        "other_revenue_tkr": {
+          "value": 15,
+          "confidence": 0.95,
+          "evidence_pages": [8, 12],
+          "original_string": "14 586 kr"
+        },
+        "total_costs_tkr": {
+          "value": 997,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "996 613 kr"
+        },
+        "operational_costs_tkr": {
+          "value": 323,
+          "confidence": 0.95,
+          "evidence_pages": [8, 12],
+          "original_string": "323 325 kr"
+        },
+        "maintenance_costs_tkr": {
+          "value": 10,
+          "confidence": 0.90,
+          "evidence_pages": [12],
+          "original_string": "9 542 kr (Underhåll)"
+        },
+        "administrative_costs_tkr": {
+          "value": 129,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "129 523 kr (Övriga externa + Personal)"
+        },
+        "interest_costs_tkr": {
+          "value": 208,
+          "confidence": 0.95,
+          "evidence_pages": [8, 14],
+          "original_string": "207 935 kr"
+        },
+        "depreciation_tkr": {
+          "value": 544,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "543 766 kr"
+        },
+        "net_result_tkr": {
+          "value": 616,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "615 616 kr"
+        }
+      }
+    },
+    {
+      "agent_id": "balance_sheet",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 10,
+      "data": {
+        "total_assets_tkr": {
+          "value": 16507,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "16 507 052 kr"
+        },
+        "fixed_assets_tkr": {
+          "value": 13084,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "13 083 538 kr"
+        },
+        "current_assets_tkr": {
+          "value": 3424,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "3 423 514 kr"
+        },
+        "cash_bank_tkr": {
+          "value": 3358,
+          "confidence": 0.95,
+          "evidence_pages": [9, 16],
+          "original_string": "3 357 608 kr"
+        },
+        "short_term_investments_tkr": {
+          "value": 0,
+          "confidence": 0.90,
+          "evidence_pages": [9],
+          "original_string": "Not listed separately"
+        },
+        "total_liabilities_tkr": {
+          "value": 11920,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "11 920 070 kr (calculated)"
+        },
+        "long_term_liabilities_tkr": {
+          "value": 9144,
+          "confidence": 0.95,
+          "evidence_pages": [10, 16],
+          "original_string": "9 143 768 kr"
+        },
+        "short_term_liabilities_tkr": {
+          "value": 2776,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "2 776 302 kr"
+        },
+        "total_equity_tkr": {
+          "value": 4587,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "4 586 982 kr"
+        },
+        "retained_earnings_tkr": {
+          "value": 1265,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "1 265 075 kr (Balanserat resultat)"
+        }
+      }
+    },
+    {
+      "agent_id": "chairman",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 1,
+      "data": {
+        "chairman_name": {
+          "value": "Jonas Karlsson",
+          "confidence": 0.95,
+          "evidence_pages": [5],
+          "original_string": "Jonas Karlsson Ordförande 2022"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_fields": 22,
+    "total_agents": 3,
+    "high_confidence": 20,
+    "medium_confidence": 2,
+    "low_confidence": 0,
+    "overall_confidence": 0.94
+  },
+  "audit_report": {
+    "cross_validation": {
+      "balance_equation": "PASS: total_assets (16507) = total_equity (4587) + total_liabilities (11920) ✓",
+      "result_consistency": "PASS: net_result from income statement (616) matches balance sheet (616) ✓"
+    },
+    "status": "COMPLETE",
+    "audit_score": 95
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pdf_id": "278531",
+  "extraction_date": "2025-11-13T13:20:00Z",
+  "chairman": {
+    "chairman": "Caroline Rendahl",
+    "confidence": 0.95,
+    "evidence_pages": [3],
+    "original_string": "Caroline Rendahl - ledamot ordförande",
+    "note": "Found in Styrelse section of Förvaltningsberättelse"
+  },
+  "financial": {
+    "total_revenue_tkr": null,
+    "property_revenue_tkr": null,
+    "interest_revenue_tkr": null,
+    "other_revenue_tkr": null,
+    "total_costs_tkr": null,
+    "operational_costs_tkr": null,
+    "maintenance_costs_tkr": null,
+    "administrative_costs_tkr": null,
+    "interest_costs_tkr": null,
+    "depreciation_tkr": null,
+    "net_result_tkr": {
+      "value": 36,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "35 987",
+      "note": "Årets resultat from Resultaträkning (2020-01-01 to 2020-12-31). Converted from SEK to tkr."
+    },
+    "evidence_pages": [7]
+  },
+  "balance_sheet": {
+    "total_assets_tkr": {
+      "value": 12287,
+      "confidence": 0.95,
+      "evidence_pages": [6],
+      "original_string": "12 286 814",
+      "note": "Summa tillgångar from Balansräkning (2020-12-31). Converted from SEK to tkr."
+    },
+    "fixed_assets_tkr": null,
+    "current_assets_tkr": null,
+    "cash_bank_tkr": null,
+    "short_term_investments_tkr": null,
+    "total_liabilities_tkr": null,
+    "long_term_liabilities_tkr": null,
+    "short_term_liabilities_tkr": null,
+    "total_debt_tkr": null,
+    "total_equity_tkr": null,
+    "evidence_pages": [6]
+  },
+  "metadata": {
+    "total_pages": 10,
+    "extraction_method": "claude_direct_pdf_extraction",
+    "fiscal_year": 2020,
+    "brf_name": "Brf Krondiket",
+    "organization_number": "716456-9803"
+  }
+}

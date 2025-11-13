@@ -1,0 +1,252 @@
+{
+  "pdf_id": "269172_årsredovisning_malmö_brf_hörnhuset",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+  "extraction_date": "2025-11-13T13:05:00Z",
+  "agents": [
+    {
+      "agent_id": "financial",
+      "extraction_pass": 1,
+      "timestamp": "2025-11-13T13:05:00Z",
+      "data": {
+        "total_revenue_tkr": {
+          "value": 1530.536,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "1 530 536 kr",
+          "note": "Summa rörelseintäkter from Resultaträkning"
+        },
+        "property_revenue_tkr": {
+          "value": 1511.926,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "1 511 926 kr",
+          "note": "Nettoomsättning (includes annual fees and rental income per Note 2)"
+        },
+        "interest_revenue_tkr": {
+          "value": 8.396,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "8 396 kr",
+          "note": "Ränteintäkter och liknande resultatposter"
+        },
+        "other_revenue_tkr": {
+          "value": 18.610,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "18 610 kr",
+          "note": "Övriga rörelseintäkter (per Note 3: insurance compensation, electricity billing, etc.)"
+        },
+        "total_costs_tkr": {
+          "value": 3631.164,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "3 631 164 kr",
+          "note": "Summa rörelsekostnader"
+        },
+        "operational_costs_tkr": {
+          "value": 3366.648,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "3 366 648 kr",
+          "note": "Driftkostnader (operational costs per Notes 4-8)"
+        },
+        "maintenance_costs_tkr": {
+          "value": 125.080,
+          "confidence": 0.90,
+          "evidence_pages": [13],
+          "original_string": "125 080 kr",
+          "note": "From Note 5 Reparationer: Tvättstuga (7 257) + Ventilation (82 500) + Hissar (1 957) + Temp. rep (33 366)"
+        },
+        "administrative_costs_tkr": {
+          "value": 106.174,
+          "confidence": 0.95,
+          "evidence_pages": [8, 14],
+          "original_string": "106 174 kr",
+          "note": "Övriga externa kostnader (includes external management, audit, legal fees per Note 9)"
+        },
+        "interest_costs_tkr": {
+          "value": 251.838,
+          "confidence": 0.95,
+          "evidence_pages": [8, 15],
+          "original_string": "251 838 kr",
+          "note": "Räntekostnader och liknande resultatposter (per Note 11: interest on credit institution loans)"
+        },
+        "depreciation_tkr": {
+          "value": 159.348,
+          "confidence": 0.95,
+          "evidence_pages": [8, 15],
+          "original_string": "159 348 kr",
+          "note": "Avskrivningar av materiella anläggningstillgångar (1.1% depreciation on buildings per Note 12)"
+        },
+        "net_result_tkr": {
+          "value": -2344.071,
+          "confidence": 0.95,
+          "evidence_pages": [8, 7],
+          "original_string": "-2 344 071 kr",
+          "note": "Årets resultat (negative = loss). Matches result disposition on page 7"
+        }
+      },
+      "audit_notes": {
+        "missing_fields": [],
+        "low_confidence_fields": ["maintenance_costs_tkr"],
+        "cross_validation": {
+          "revenue_check": "total_revenue (1530.536) = property_revenue (1511.926) + other_revenue (18.610) ✓",
+          "result_check": "net_result (-2344.071) = revenue (1530.536) - costs (3631.164) - net_financial (-243.442) ✓ [-2344.070]",
+          "financial_items": "net_financial (-243.442) = interest_revenue (8.396) - interest_costs (251.838) ✓"
+        }
+      }
+    },
+    {
+      "agent_id": "balance_sheet",
+      "extraction_pass": 1,
+      "timestamp": "2025-11-13T13:05:00Z",
+      "data": {
+        "total_assets_tkr": {
+          "value": 22936.977,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "22 936 977 kr",
+          "note": "SUMMA TILLGÅNGAR from Balansräkning"
+        },
+        "fixed_assets_tkr": {
+          "value": 22285.878,
+          "confidence": 0.95,
+          "evidence_pages": [9, 15],
+          "original_string": "22 285 878 kr",
+          "note": "Summa materiella anläggningstillgångar (Bygnad och mark). Per Note 12: tax value 35,094,000 kr"
+        },
+        "current_assets_tkr": {
+          "value": 651.099,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "651 099 kr",
+          "note": "SUMMA OMSÄTTNINGSTILLGÅNGAR"
+        },
+        "cash_bank_tkr": {
+          "value": 72.289,
+          "confidence": 0.95,
+          "evidence_pages": [9, 11],
+          "original_string": "72 289 kr",
+          "note": "Kassa och bank. Per Note 13: broken down into account balances with Nabo"
+        },
+        "total_liabilities_tkr": {
+          "value": 9789.672,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "9 789 672 kr (calculated)",
+          "note": "Sum of long_term_liabilities (2 172 856) + short_term_liabilities (7 616 816)"
+        },
+        "long_term_liabilities_tkr": {
+          "value": 2172.856,
+          "confidence": 0.95,
+          "evidence_pages": [10, 16],
+          "original_string": "2 172 856 kr",
+          "note": "Summa långfristiga skulder (Skulder till kreditinstitut). Per Note 15: 5 loans from Stadshypotek"
+        },
+        "short_term_liabilities_tkr": {
+          "value": 7616.816,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "7 616 816 kr",
+          "note": "Summa kortfristiga skulder (includes short-term portion of loans, supplier debts, accruals)"
+        },
+        "total_equity_tkr": {
+          "value": 13147.306,
+          "confidence": 0.95,
+          "evidence_pages": [10, 7],
+          "original_string": "13 147 306 kr",
+          "note": "SUMMA EGET KAPITAL. Down from 15,491,376 kr in 2022 due to negative results"
+        },
+        "retained_earnings_tkr": {
+          "value": -2751.667,
+          "confidence": 0.95,
+          "evidence_pages": [10, 7],
+          "original_string": "-2 751 667 kr",
+          "note": "Balanserat resultat (Fritt eget kapital). Includes prior year loss of -2,476,343"
+        },
+        "current_year_result_tkr": {
+          "value": -2344.071,
+          "confidence": 0.95,
+          "evidence_pages": [8, 10],
+          "original_string": "-2 344 071 kr",
+          "note": "Årets resultat (matches Resultaträkning on page 8)"
+        },
+        "evidence_pages": [8, 9, 10]
+      },
+      "audit_notes": {
+        "missing_fields": ["short_term_investments_tkr"],
+        "low_confidence_fields": [],
+        "cross_validation": {
+          "balance_equation": "total_assets (22936.977) = total_equity (13147.306) + total_liabilities (9789.672) ✓ [22936.978]",
+          "equity_breakdown": "total_equity (13147.306) = bundet_kapital (18243.043) + fritt_kapital (-5095.737) ✓",
+          "free_equity": "fritt_kapital (-5095.737) = retained_earnings (-2751.667) + current_year_result (-2344.071) ✓ [-5095.738]",
+          "current_assets": "current_assets (651.099) = kortfristiga_fordringar (578.810) + kassa_bank (72.289) ✓"
+        }
+      }
+    },
+    {
+      "agent_id": "chairman",
+      "extraction_pass": 1,
+      "timestamp": "2025-11-13T13:05:00Z",
+      "data": {
+        "chairman_name": {
+          "value": "V Catharina J Boethius Claeson",
+          "confidence": 0.95,
+          "evidence_pages": [4, 17],
+          "original_string": "V Catharina J Boethius Claeson - Ordförande",
+          "note": "Found in Styrelsens sammansättning section on page 4, confirmed in signatures on page 17"
+        },
+        "evidence_pages": [4, 17]
+      },
+      "audit_notes": {
+        "missing_fields": [],
+        "low_confidence_fields": [],
+        "additional_info": {
+          "board_composition": [
+            "V Catharina J Boethius Claeson (Ordförande)",
+            "Anna van Duijvenbode (Styrelseledamot)",
+            "Elin Wikström (Styrelseledamot)",
+            "Hanieh Tjäder Heidarabadi (Styrelseledamot)",
+            "Saga Lovisa Holm (suppleant)"
+          ],
+          "auditors": [
+            "Camilla Bakklund (Revisor)",
+            "Alexandra Hill (Internrevisor)"
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_fields_extracted": 22,
+    "high_confidence_fields": 21,
+    "medium_confidence_fields": 1,
+    "low_confidence_fields": 0,
+    "overall_confidence": 0.95,
+    "validation_status": "PASS",
+    "key_metrics": {
+      "total_assets_tkr": 22936.977,
+      "total_equity_tkr": 13147.306,
+      "net_result_tkr": -2344.071,
+      "chairman_name": "V Catharina J Boethius Claeson",
+      "brf_name": "Brf Hörnhuset",
+      "location": "Malmö",
+      "fiscal_year": "2023"
+    },
+    "validation_checks": {
+      "balance_sheet_equation": "PASS - Assets (22936.977) = Equity (13147.306) + Liabilities (9789.672)",
+      "revenue_breakdown": "PASS - Total revenue matches sum of components",
+      "result_consistency": "PASS - Net result consistent across Resultaträkning and Balansräkning",
+      "chairman_verification": "PASS - Chairman name found in governance section and signatures"
+    }
+  },
+  "metadata": {
+    "extraction_method": "claude_direct_pdf_reading",
+    "extraction_model": "claude-sonnet-4-5",
+    "extraction_timestamp": "2025-11-13T13:05:00Z",
+    "document_pages": 17,
+    "document_year": 2023,
+    "brf_id": "269172",
+    "org_number": "769612-9423"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "extraction_metadata": {
+    "document_id": "53536",
+    "document_name": "årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+    "organization_name": "Brf Marketenteriet i Nacka",
+    "organization_id": "769609-8057",
+    "fiscal_year": "2023",
+    "extraction_date": "2025-11-13",
+    "currency": "SEK",
+    "unit": "tkr"
+  },
+
+  "financial_agent": {
+    "total_revenue_tkr": {
+      "value": 2451,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelseintäkter 2 451",
+      "notes": "Total operating income including all revenue streams"
+    },
+    "property_revenue_tkr": {
+      "value": 2445,
+      "confidence": 1.0,
+      "evidence_pages": [8, 12],
+      "original_string": "Nettoomsättning 2 445",
+      "notes": "From Note 2: Årsavgifter bostäder 2,395 + Kabel-TV/Bredband 50 + Övriga intäkter 0"
+    },
+    "interest_revenue_tkr": {
+      "value": 29,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Ränteintäkter och liknande resultatposter 29",
+      "notes": "Interest income and similar financial income"
+    },
+    "other_revenue_tkr": {
+      "value": 7,
+      "confidence": 1.0,
+      "evidence_pages": [8, 13],
+      "original_string": "Övriga rörelseintäkter 7",
+      "notes": "From Note 3: Elprisstöd 7 + Övriga intäkter 0"
+    },
+    "total_costs_tkr": {
+      "value": 2079,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Summa rörelsekostnader -2 079",
+      "notes": "Total operating costs including depreciation"
+    },
+    "operational_costs_tkr": {
+      "value": 1374,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Driftskostnader -1 374",
+      "notes": "Operating costs broken down in Notes 4-8"
+    },
+    "maintenance_costs_tkr": {
+      "value": 346,
+      "confidence": 1.0,
+      "evidence_pages": [13],
+      "original_string": "Reparationer 214 + Planerade underhåll 132",
+      "notes": "Combined from Note 5 (Reparationer 214) and Note 6 (Planerade underhåll 132)"
+    },
+    "administrative_costs_tkr": {
+      "value": 205,
+      "confidence": 1.0,
+      "evidence_pages": [8, 14],
+      "original_string": "Övriga externa kostnader -205",
+      "notes": "From Note 9: includes management fees, consulting, and administrative expenses"
+    },
+    "interest_costs_tkr": {
+      "value": 390,
+      "confidence": 1.0,
+      "evidence_pages": [8, 14],
+      "original_string": "Räntekostnader och liknande resultatposter -390",
+      "notes": "From Note 11: Interest expenses on loans (389 to credit institutions + 1 other)"
+    },
+    "depreciation_tkr": {
+      "value": 411,
+      "confidence": 1.0,
+      "evidence_pages": [8],
+      "original_string": "Avskrivningar av materiella anläggningstillgångar -411",
+      "notes": "Depreciation of tangible fixed assets (building depreciation)"
+    },
+    "net_result_tkr": {
+      "value": 11,
+      "confidence": 1.0,
+      "evidence_pages": [8, 10],
+      "original_string": "ÅRETS RESULTAT 11",
+      "notes": "Net result after financial items (no taxes for genuine BRF)"
+    }
+  },
+
+  "balance_sheet_agent": {
+    "total_assets_tkr": {
+      "value": 62927,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA TILLGÅNGAR 62 927",
+      "notes": "Total assets at year end 2023-12-31"
+    },
+    "fixed_assets_tkr": {
+      "value": 61082,
+      "confidence": 1.0,
+      "evidence_pages": [9, 15],
+      "original_string": "SUMMA ANLÄGGNINGSTILLGÅNGAR 61 082",
+      "notes": "From Note 12: Buildings and land (66,448 - 5,366 accumulated depreciation)"
+    },
+    "current_assets_tkr": {
+      "value": 1845,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "SUMMA OMSÄTTNINGSTILLGÅNGAR 1 845",
+      "notes": "Current assets including receivables (247) and cash/bank (1,598)"
+    },
+    "cash_bank_tkr": {
+      "value": 1598,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Kassa och bank 1 598",
+      "notes": "Cash and bank balances at year end"
+    },
+    "total_liabilities_tkr": {
+      "value": 19593,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Långfristiga skulder 6 600 + Kortfristiga skulder 12 993",
+      "notes": "Total liabilities: long-term (6,600) + short-term (12,993)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 6600,
+      "confidence": 1.0,
+      "evidence_pages": [10, 16],
+      "original_string": "Summa långfristiga skulder 6 600",
+      "notes": "From Note 15: Nordea Hypotek loan maturing 2026-11-17 at 1.09% rate"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 12993,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga skulder 12 993",
+      "notes": "Includes short-term bank debt (12,380), suppliers (128), taxes (118), and accrued expenses (367)"
+    },
+    "total_equity_tkr": {
+      "value": 43334,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "SUMMA EGET KAPITAL 43 334",
+      "notes": "Total equity including bound (46,240) and free equity (-2,906)"
+    },
+    "retained_earnings_tkr": {
+      "value": -2917,
+      "confidence": 1.0,
+      "evidence_pages": [7, 10],
+      "original_string": "Balanserat resultat -2 917",
+      "notes": "Accumulated deficit in unrestricted equity"
+    },
+    "current_year_result_tkr": {
+      "value": 11,
+      "confidence": 1.0,
+      "evidence_pages": [8, 10],
+      "original_string": "Årets resultat 11",
+      "notes": "Current year result shown in both income statement and balance sheet"
+    }
+  },
+
+  "chairman_agent": {
+    "chairman_name": {
+      "value": "Rolf Johan Olof Eliasson",
+      "confidence": 1.0,
+      "evidence_pages": [4, 17],
+      "original_string": "Rolf Johan Olof Eliasson Ordförande",
+      "notes": "Chairman of the board (Styrelseordförande) listed in management section and signatures"
+    }
+  },
+
+  "audit_section": {
+    "balance_equation_check": {
+      "assets": 62927,
+      "equity": 43334,
+      "liabilities": 19593,
+      "calculated_total": 62927,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Balance equation verified: Assets (62,927) = Equity (43,334) + Liabilities (19,593)"
+    },
+    "net_result_consistency_check": {
+      "income_statement_result": 11,
+      "balance_sheet_result": 11,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Net result consistent between income statement and balance sheet"
+    },
+    "additional_validations": {
+      "soliditet_percent": {
+        "value": 69,
+        "calculation": "(43334 / 62927) * 100",
+        "reported_value": 69,
+        "status": "CONSISTENT",
+        "notes": "Soliditet (equity ratio) verified from page 6"
+      },
+      "debt_analysis": {
+        "total_debt_tkr": 18980,
+        "long_term_debt": 6600,
+        "short_term_debt": 12380,
+        "average_interest_rate": 2.04,
+        "status": "VERIFIED",
+        "notes": "From Note 15: Three Nordea loans with rates 1.09%, 4.66%, and 1.05%"
+      },
+      "maintenance_fund": {
+        "yttre_fond": 1900,
+        "previous_year": 2028,
+        "change": -128,
+        "status": "VERIFIED",
+        "notes": "External maintenance fund decreased by 128 tkr during the year"
+      }
+    },
+    "overall_confidence_score": {
+      "financial_data": 1.0,
+      "balance_sheet_data": 1.0,
+      "chairman_data": 1.0,
+      "overall": 1.0,
+      "notes": "All data extracted from clearly labeled financial statements with complete documentation. High confidence in all extracted values."
+    }
+  },
+
+  "additional_context": {
+    "property_details": {
+      "property_designation": "Sicklaön 145:12",
+      "location": "Nacka",
+      "acquisition_year": 2004,
+      "construction_year": 2005,
+      "total_area_sqm": 2565,
+      "number_of_apartments": 38,
+      "member_count": 54
+    },
+    "key_observations": {
+      "positive_result": "Association achieved positive result of 11 tkr after previous year loss of -207 tkr",
+      "soliditet": "Soliditet of 69% indicates stable financial position",
+      "debt_position": "Total debt of 18,980 tkr across three Nordea loans",
+      "significant_maintenance": "Planned maintenance of 132 tkr including facade work (107 tkr)",
+      "interest_rate_increase": "Interest costs increased from 213 tkr to 390 tkr due to rising rates",
+      "annual_fee_increase": "Annual fees increased from 2,182 tkr to 2,395 tkr",
+      "construction_defects": "Moisture damage in facade identified, renovation planned for August 2024"
+    },
+    "fiscal_year": {
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "annual_meeting_date": "2023-05-23"
+    }
+  }
+}

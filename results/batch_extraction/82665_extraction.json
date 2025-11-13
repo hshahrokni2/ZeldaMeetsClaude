@@ -1,0 +1,180 @@
+{
+  "pdf_id": "82665_årsredovisning_lund_brf_vipemöllan_3",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+  "extraction_date": "2025-11-13T13:45:00Z",
+  "agents": [
+    {
+      "agent_id": "financial",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 11,
+      "data": {
+        "total_revenue_tkr": {
+          "value": 2541,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "2 541 159 kr"
+        },
+        "property_revenue_tkr": {
+          "value": 2484,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "2 484 171 kr"
+        },
+        "interest_revenue_tkr": {
+          "value": 34,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "34 330 kr"
+        },
+        "other_revenue_tkr": {
+          "value": 57,
+          "confidence": 0.95,
+          "evidence_pages": [8, 13],
+          "original_string": "56 988 kr"
+        },
+        "total_costs_tkr": {
+          "value": 2364,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "2 364 004 kr"
+        },
+        "operational_costs_tkr": {
+          "value": 1366,
+          "confidence": 0.95,
+          "evidence_pages": [8, 14],
+          "original_string": "1 366 309 kr"
+        },
+        "maintenance_costs_tkr": {
+          "value": 133,
+          "confidence": 0.95,
+          "evidence_pages": [14],
+          "original_string": "133 146 kr"
+        },
+        "administrative_costs_tkr": {
+          "value": 166,
+          "confidence": 0.95,
+          "evidence_pages": [8, 15],
+          "original_string": "165 638 kr"
+        },
+        "interest_costs_tkr": {
+          "value": 515,
+          "confidence": 0.95,
+          "evidence_pages": [8, 15],
+          "original_string": "515 209 kr"
+        },
+        "depreciation_tkr": {
+          "value": 824,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "824 160 kr"
+        },
+        "net_result_tkr": {
+          "value": -304,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "-303 724 kr"
+        }
+      }
+    },
+    {
+      "agent_id": "balance_sheet",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 10,
+      "data": {
+        "total_assets_tkr": {
+          "value": 107717,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "107 717 184 kr"
+        },
+        "fixed_assets_tkr": {
+          "value": 105142,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "105 142 391 kr"
+        },
+        "current_assets_tkr": {
+          "value": 2575,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "2 574 793 kr"
+        },
+        "cash_bank_tkr": {
+          "value": 2340,
+          "confidence": 0.95,
+          "evidence_pages": [11],
+          "original_string": "2 339 580 kr"
+        },
+        "short_term_investments_tkr": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence_pages": [],
+          "original_string": "Not separately disclosed",
+          "notes": "Short-term investments not separately disclosed in balance sheet"
+        },
+        "total_liabilities_tkr": {
+          "value": 31027,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "31 026 651 kr (calculated)"
+        },
+        "long_term_liabilities_tkr": {
+          "value": 30363,
+          "confidence": 0.95,
+          "evidence_pages": [10, 17],
+          "original_string": "30 362 839 kr"
+        },
+        "short_term_liabilities_tkr": {
+          "value": 664,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "663 812 kr"
+        },
+        "total_equity_tkr": {
+          "value": 76691,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "76 690 533 kr"
+        },
+        "retained_earnings_tkr": {
+          "value": -3423,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "-3 423 301 kr"
+        }
+      }
+    },
+    {
+      "agent_id": "chairman",
+      "extraction_pass": 1,
+      "confidence": 0.95,
+      "fields_extracted": 1,
+      "data": {
+        "chairman_name": {
+          "value": "Jerry Joel Sommerfeldt",
+          "confidence": 0.95,
+          "evidence_pages": [4],
+          "original_string": "Jerry Joel Sommerfeldt Ordförande"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_fields": 22,
+    "total_agents": 3,
+    "high_confidence": 21,
+    "medium_confidence": 0,
+    "low_confidence": 1,
+    "overall_confidence": 0.95
+  },
+  "audit_report": {
+    "cross_validation": {
+      "balance_equation": "PASS: total_assets (107717) = total_equity (76691) + total_liabilities (31027) ✓",
+      "result_consistency": "PASS: net_result from income statement (-304) matches with årets resultat on balance sheet (-304) ✓"
+    },
+    "status": "COMPLETE",
+    "audit_score": 95
+  }
+}

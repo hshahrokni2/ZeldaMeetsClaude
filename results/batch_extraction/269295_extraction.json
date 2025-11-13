@@ -1,0 +1,44 @@
+{
+  "pdf_id": "269295",
+  "extraction_date": "2025-11-13T13:20:00Z",
+  "brf_name": "RBF Torshällahus 1",
+  "org_number": "718000-3357",
+  "fiscal_year": "2020-09-01 to 2021-08-31",
+  "chairman": {
+    "chairman": "Annelie Dyplin",
+    "evidence_pages": [6],
+    "confidence": 0.95
+  },
+  "financial": {
+    "total_revenue_tkr": 4203.607,
+    "property_revenue_tkr": 4107.545,
+    "interest_revenue_tkr": 7.556,
+    "other_revenue_tkr": 96.062,
+    "total_costs_tkr": 3568.216,
+    "operational_costs_tkr": 2512.456,
+    "administrative_costs_tkr": 203.460,
+    "interest_costs_tkr": 352.359,
+    "depreciation_tkr": 793.495,
+    "net_result_tkr": 291.548,
+    "evidence_pages": [9],
+    "confidence": 0.98
+  },
+  "balance_sheet": {
+    "total_assets_tkr": 21544.915,
+    "fixed_assets_tkr": 17441.597,
+    "current_assets_tkr": 4093.319,
+    "cash_bank_tkr": 4002.479,
+    "total_liabilities_tkr": 16225.065,
+    "long_term_liabilities_tkr": 10124.888,
+    "short_term_liabilities_tkr": 6100.177,
+    "total_equity_tkr": 5319.850,
+    "evidence_pages": [10, 11],
+    "confidence": 0.98
+  },
+  "metadata": {
+    "total_pages": 28,
+    "extraction_method": "manual_pdf_reading",
+    "extraction_confidence": 0.97,
+    "validation_status": "valid"
+  }
+}

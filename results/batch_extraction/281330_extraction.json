@@ -1,0 +1,57 @@
+{
+  "pdf_id": "281330",
+  "extraction_date": "2025-11-13T13:20:00Z",
+  "chairman": {
+    "chairman": "Ann-Catrin Hedbom",
+    "confidence": 0.95,
+    "evidence_pages": [2],
+    "original_string": "Ann-Catrin Hedbom, ordförande",
+    "note": "Found in board member listing in Förvaltningsberättelse"
+  },
+  "financial": {
+    "total_revenue_tkr": null,
+    "property_revenue_tkr": null,
+    "interest_revenue_tkr": null,
+    "other_revenue_tkr": null,
+    "total_costs_tkr": null,
+    "operational_costs_tkr": null,
+    "maintenance_costs_tkr": null,
+    "administrative_costs_tkr": null,
+    "interest_costs_tkr": null,
+    "depreciation_tkr": null,
+    "net_result_tkr": {
+      "value": -435,
+      "confidence": 0.95,
+      "evidence_pages": [4],
+      "original_string": "-435 113",
+      "note": "Årets resultat from Resultaträkning (2022-01-01 to 2022-12-31). Converted from SEK to tkr."
+    },
+    "evidence_pages": [4]
+  },
+  "balance_sheet": {
+    "total_assets_tkr": {
+      "value": 55096,
+      "confidence": 0.95,
+      "evidence_pages": [5],
+      "original_string": "55 095 922",
+      "note": "Summa tillgångar from Balansräkning (2022-12-31). Converted from SEK to tkr."
+    },
+    "fixed_assets_tkr": null,
+    "current_assets_tkr": null,
+    "cash_bank_tkr": null,
+    "short_term_investments_tkr": null,
+    "total_liabilities_tkr": null,
+    "long_term_liabilities_tkr": null,
+    "short_term_liabilities_tkr": null,
+    "total_debt_tkr": null,
+    "total_equity_tkr": null,
+    "evidence_pages": [5, 6]
+  },
+  "metadata": {
+    "total_pages": 10,
+    "extraction_method": "claude_direct_pdf_extraction",
+    "fiscal_year": 2022,
+    "brf_name": "Bostadsrättsföreningen Stäppan i Leksand",
+    "organization_number": "769632-6417"
+  }
+}

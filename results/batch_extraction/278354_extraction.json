@@ -1,0 +1,258 @@
+{
+  "extraction_metadata": {
+    "document_id": "278354",
+    "document_name": "årsredovisning_stockholm_brf_the_brick_terra.pdf",
+    "organization_name": "Brf The BRiCK Terra",
+    "organization_id": "769627-3239",
+    "fiscal_year": "2023",
+    "extraction_date": "2025-11-13",
+    "currency": "SEK",
+    "unit": "kr"
+  },
+
+  "financial_agent": {
+    "total_revenue_tkr": {
+      "value": 20034.374,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Summa rörelseintäkter 20 034 374",
+      "notes": "Total operating income including all revenues"
+    },
+    "net_revenue_tkr": {
+      "value": 18774.946,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Nettoomsättning 18 774 946",
+      "notes": "Net revenue including annual fees, rent, electricity, and other income"
+    },
+    "interest_revenue_tkr": {
+      "value": 0.177,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Ränteintäkter och liknande resultatposter 176 968",
+      "notes": "Interest income in kr, converted to tkr"
+    },
+    "other_revenue_tkr": {
+      "value": 1259.428,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Övriga rörelseintäkter 1 259 428",
+      "notes": "Other operating income including electricity subsidy and insurance compensation"
+    },
+    "total_costs_tkr": {
+      "value": 25886.221,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Summa rörelsekostnader -25 886 221",
+      "notes": "Total operating costs"
+    },
+    "operational_costs_tkr": {
+      "value": 7817.980,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Driftskostnader -7 817 980",
+      "notes": "Operating costs including property management, repairs, and utilities"
+    },
+    "maintenance_costs_tkr": {
+      "value": 411.355,
+      "confidence": 1.0,
+      "evidence_pages": [15],
+      "original_string": "Reparationer Summa 411 355",
+      "notes": "Repair costs from Note 6"
+    },
+    "administrative_costs_tkr": {
+      "value": 1510.106,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Övriga externa kostnader -1 510 106",
+      "notes": "Other external costs including management fees and administration"
+    },
+    "interest_costs_tkr": {
+      "value": 7946.232,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Räntekostnader och liknande resultatposter -7 946 232",
+      "notes": "Interest costs and similar financial expenses"
+    },
+    "depreciation_tkr": {
+      "value": 16136.486,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "Avskrivningar av materiella anläggningstillgångar -16 136 486",
+      "notes": "Depreciation of tangible fixed assets"
+    },
+    "net_result_tkr": {
+      "value": -13621.112,
+      "confidence": 1.0,
+      "evidence_pages": [9],
+      "original_string": "ÅRETS RESULTAT -13 621 112",
+      "notes": "Net result for the year (negative)"
+    }
+  },
+
+  "balance_sheet_agent": {
+    "total_assets_tkr": {
+      "value": 1215701.464,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "SUMMA TILLGÅNGAR 1 215 701 464",
+      "notes": "Total assets at year end 2023-12-31"
+    },
+    "fixed_assets_tkr": {
+      "value": 1128949.229,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa materiella anläggningstillgångar 1 128 949 229",
+      "notes": "Total fixed assets (building and land)"
+    },
+    "current_assets_tkr": {
+      "value": 86752.235,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "SUMMA OMSÄTTNINGSTILLGÅNGAR 86 752 235",
+      "notes": "Current assets including receivables and cash"
+    },
+    "cash_bank_tkr": {
+      "value": 19966.903,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kassa och bank 19 966 903",
+      "notes": "Cash and bank including client funds"
+    },
+    "short_term_receivables_tkr": {
+      "value": 66785.332,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "Summa kortfristiga fordringar 66 785 332",
+      "notes": "Short-term receivables"
+    },
+    "total_liabilities_tkr": {
+      "value": 280437.116,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "Summa långfristiga skulder 49 063 743 + Summa kortfristiga skulder 231 373 373",
+      "notes": "Total liabilities (long-term + short-term)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 49063.743,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "Summa långfristiga skulder 49 063 743",
+      "notes": "Long-term debt to credit institutions"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 231373.373,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "Summa kortfristiga skulder 231 373 373",
+      "notes": "Short-term liabilities including short-term debt"
+    },
+    "total_debt_tkr": {
+      "value": 198011.971,
+      "confidence": 1.0,
+      "evidence_pages": [19],
+      "original_string": "Skulder till kreditinstitut Summa 198 011 971",
+      "notes": "Total debt to credit institutions from Note 16"
+    },
+    "total_equity_tkr": {
+      "value": 935264.348,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "SUMMA EGET KAPITAL 935 264 348",
+      "notes": "Total equity at year end"
+    },
+    "restricted_equity_tkr": {
+      "value": 978705.080,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "Summa bundet eget kapital 978 705 080",
+      "notes": "Restricted equity including member deposits and maintenance fund"
+    },
+    "unrestricted_equity_tkr": {
+      "value": -43440.732,
+      "confidence": 1.0,
+      "evidence_pages": [11],
+      "original_string": "Summa ansamlad förlust -43 440 732",
+      "notes": "Accumulated loss in unrestricted equity"
+    }
+  },
+
+  "chairman_agent": {
+    "chairman_name": {
+      "value": "Annica Nord Saez",
+      "confidence": 1.0,
+      "evidence_pages": [4, 20],
+      "original_string": "Annica Nord Saez Ordförande",
+      "notes": "Chairman of the board with signature on page 20"
+    }
+  },
+
+  "audit_section": {
+    "balance_equation_check": {
+      "assets": 1215701.464,
+      "equity": 935264.348,
+      "liabilities": 280437.116,
+      "calculated_total": 1215701.464,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Balance equation verified: Assets (1,215,701.464) = Equity (935,264.348) + Liabilities (280,437.116)"
+    },
+    "net_result_consistency_check": {
+      "income_statement_result": -13621.112,
+      "balance_sheet_result": -13621.112,
+      "difference": 0.0,
+      "status": "PASS",
+      "notes": "Net result consistent between income statement and balance sheet"
+    },
+    "additional_validations": {
+      "soliditet_percent": {
+        "value": 76,
+        "calculation": "(935264.348 / 1215701.464) * 100",
+        "reported_value": 76,
+        "status": "CONSISTENT",
+        "notes": "Soliditet (equity ratio) verified from page 7"
+      },
+      "negative_result": {
+        "status": "NOTED",
+        "notes": "Association had negative result of -13,621 tkr due to increased interest costs and depreciation"
+      },
+      "high_debt": {
+        "status": "NOTED",
+        "notes": "Association has significant debt of 198,012 tkr to credit institutions"
+      }
+    },
+    "overall_confidence_score": {
+      "financial_data": 1.0,
+      "balance_sheet_data": 1.0,
+      "chairman_data": 1.0,
+      "overall": 1.0,
+      "notes": "All data extracted from clearly labeled financial statements. High confidence in all extracted values."
+    }
+  },
+
+  "additional_context": {
+    "property_details": {
+      "property_designation": "Majblomstret 4",
+      "location": "Stockholm",
+      "acquisition_year": 2019,
+      "construction_year": 2020,
+      "total_area_sqm": 17466,
+      "apartment_area_sqm": 15348,
+      "number_of_apartments": 346,
+      "number_of_commercial_spaces": 1
+    },
+    "key_observations": {
+      "negative_result": "Association had negative result of -13,621 tkr for 2023 compared to -15,161 tkr in 2022",
+      "high_debt": "Association has debt to credit institutions of 198,012 tkr with Swedbank",
+      "interest_rate_increase": "Significant increase in interest costs from 4,376 tkr (2022) to 7,946 tkr (2023) due to rising rates",
+      "fee_increase": "Association increased fees by 25% from March 1, 2023",
+      "fee_decrease": "Association decreased fees by 13% from February 1, 2024",
+      "management_changes": "Changed to SBC for technical, cleaning, and economic management in 2023"
+    },
+    "fiscal_year": {
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "annual_meeting_date": "2023-06-20"
+    }
+  }
+}

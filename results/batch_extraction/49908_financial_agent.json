@@ -1,0 +1,92 @@
+{
+  "agent_id": "financial",
+  "pdf_id": "49908_årsredovisning_sundbyberg_brf_stugan_2",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T13:35:00Z",
+  "data": {
+    "total_revenue_tkr": {
+      "value": 1849,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "1 848 996 kr",
+      "note": "Summa rörelseintäkter from Resultaträkning"
+    },
+    "property_revenue_tkr": {
+      "value": 1849,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "1 848 735 kr",
+      "note": "Nettoomsättning from Resultaträkning"
+    },
+    "interest_revenue_tkr": {
+      "value": 0.108,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "108 kr",
+      "note": "Övriga ränteintäkter och liknande resultatposter"
+    },
+    "other_revenue_tkr": {
+      "value": 0.261,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "261 kr",
+      "note": "Övriga rörelseintäkter"
+    },
+    "total_costs_tkr": {
+      "value": 1643,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "1 643 478 kr",
+      "note": "Summa rörelsekostnader"
+    },
+    "operational_costs_tkr": {
+      "value": 1020,
+      "confidence": 0.95,
+      "evidence_pages": [7, 12],
+      "original_string": "1 020 463 kr",
+      "note": "Driftkostnader from Not 4"
+    },
+    "maintenance_costs_tkr": {
+      "value": 160,
+      "confidence": 0.95,
+      "evidence_pages": [12],
+      "original_string": "160 404 kr",
+      "note": "Reparationer from Not 4"
+    },
+    "administrative_costs_tkr": {
+      "value": 83,
+      "confidence": 0.95,
+      "evidence_pages": [13],
+      "original_string": "83 472 kr",
+      "note": "Övriga externa kostnader from Not 5"
+    },
+    "interest_costs_tkr": {
+      "value": 150,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "149 573 kr",
+      "note": "Räntekostnader och liknande resultatposter"
+    },
+    "depreciation_tkr": {
+      "value": 540,
+      "confidence": 0.95,
+      "evidence_pages": [7, 13],
+      "original_string": "539 543 kr",
+      "note": "Avskrivning av materiella anläggningstillgångar"
+    },
+    "net_result_tkr": {
+      "value": 56,
+      "confidence": 0.95,
+      "evidence_pages": [7],
+      "original_string": "56 052 kr",
+      "note": "ÅRETS RESULTAT"
+    }
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": [],
+    "cross_validation": {
+      "result_check": "net_result (56) = total_revenue (1849) - total_costs (1643) - net_financial (150) ≈ 56 ✓"
+    }
+  }
+}
