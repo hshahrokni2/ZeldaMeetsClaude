@@ -1,0 +1,169 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "extraction_date": "2025-11-13T12:15:00Z",
+  "fiscal_year": 2020,
+  "brf_name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+  "organization_number": "725000-1232",
+  "agents": [
+    {
+      "agentId": "chairman",
+      "data": {
+        "chairman_name": {
+          "value": "Johan Larsson",
+          "confidence": 0.95,
+          "evidence_pages": [5]
+        }
+      },
+      "confidence": 0.95,
+      "pass": 1
+    },
+    {
+      "agentId": "financial",
+      "data": {
+        "total_revenue_tkr": {
+          "value": 953,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "953 181 kr"
+        },
+        "property_revenue_tkr": {
+          "value": 906,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "905 904 kr"
+        },
+        "interest_revenue_tkr": {
+          "value": 5,
+          "confidence": 0.90,
+          "evidence_pages": [8],
+          "original_string": "4 770 kr"
+        },
+        "other_revenue_tkr": {
+          "value": 47,
+          "confidence": 0.90,
+          "evidence_pages": [8],
+          "original_string": "47 277 kr"
+        },
+        "total_costs_tkr": {
+          "value": 1552,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "1 552 228 kr"
+        },
+        "operational_costs_tkr": {
+          "value": 1211,
+          "confidence": 0.90,
+          "evidence_pages": [8, 12],
+          "original_string": "1 211 339 kr"
+        },
+        "maintenance_costs_tkr": {
+          "value": 781,
+          "confidence": 0.95,
+          "evidence_pages": [12],
+          "original_string": "-781 160 kr"
+        },
+        "administrative_costs_tkr": {
+          "value": 112,
+          "confidence": 0.85,
+          "evidence_pages": [12],
+          "original_string": "-112 428 kr"
+        },
+        "interest_costs_tkr": {
+          "value": 60,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "-60 175 kr"
+        },
+        "depreciation_tkr": {
+          "value": 130,
+          "confidence": 0.95,
+          "evidence_pages": [8, 12],
+          "original_string": "-129 758 kr"
+        },
+        "net_result_tkr": {
+          "value": -654,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "original_string": "-654 451 kr"
+        }
+      },
+      "confidence": 0.92,
+      "pass": 1
+    },
+    {
+      "agentId": "balance_sheet",
+      "data": {
+        "total_assets_tkr": {
+          "value": 6383,
+          "confidence": 0.95,
+          "evidence_pages": [9, 10],
+          "original_string": "6 383 338 kr"
+        },
+        "fixed_assets_tkr": {
+          "value": 5652,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "5 652 337 kr"
+        },
+        "current_assets_tkr": {
+          "value": 731,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "original_string": "731 001 kr"
+        },
+        "cash_bank_tkr": {
+          "value": 686,
+          "confidence": 0.95,
+          "evidence_pages": [9, 14],
+          "original_string": "685 571 kr"
+        },
+        "total_liabilities_tkr": {
+          "value": 5556,
+          "confidence": 0.90,
+          "evidence_pages": [10],
+          "original_string": "5 556 057 kr"
+        },
+        "long_term_liabilities_tkr": {
+          "value": 5037,
+          "confidence": 0.95,
+          "evidence_pages": [10, 14],
+          "original_string": "5 036 523 kr"
+        },
+        "short_term_liabilities_tkr": {
+          "value": 520,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "519 534 kr"
+        },
+        "total_equity_tkr": {
+          "value": 827,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "original_string": "827 281 kr"
+        },
+        "retained_earnings_tkr": {
+          "value": 709,
+          "confidence": 0.90,
+          "evidence_pages": [10],
+          "original_string": "709 474 kr"
+        },
+        "current_year_result_tkr": {
+          "value": -654,
+          "confidence": 0.95,
+          "evidence_pages": [8, 10],
+          "original_string": "-654 451 kr"
+        }
+      },
+      "confidence": 0.93,
+      "pass": 1
+    }
+  ],
+  "summary": {
+    "totalFields": 22,
+    "highConfidence": 18,
+    "mediumConfidence": 3,
+    "lowConfidence": 1,
+    "overallConfidence": 0.93
+  }
+}

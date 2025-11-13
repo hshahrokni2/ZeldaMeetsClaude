@@ -1,0 +1,92 @@
+{
+  "agent_id": "financial",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T12:00:00Z",
+  "data": {
+    "total_revenue_tkr": {
+      "value": 953,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "953 181 kr"
+    },
+    "property_revenue_tkr": {
+      "value": 906,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "905 904 kr",
+      "note": "Nettoomsättning from Resultaträkning"
+    },
+    "interest_revenue_tkr": {
+      "value": 5,
+      "confidence": 0.90,
+      "evidence_pages": [8],
+      "original_string": "4 770 kr",
+      "note": "Övriga ränteintäkter och liknande resultatposter"
+    },
+    "other_revenue_tkr": {
+      "value": 47,
+      "confidence": 0.90,
+      "evidence_pages": [8],
+      "original_string": "47 277 kr",
+      "note": "Övriga rörelseintäkter"
+    },
+    "total_costs_tkr": {
+      "value": 1552,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "1 552 228 kr",
+      "note": "Summa rörelsekostnader"
+    },
+    "operational_costs_tkr": {
+      "value": 1211,
+      "confidence": 0.90,
+      "evidence_pages": [8, 12],
+      "original_string": "1 211 339 kr",
+      "note": "Driftkostnader - includes underhåll 781 tkr + reparationer 133 tkr + other operational items"
+    },
+    "maintenance_costs_tkr": {
+      "value": 781,
+      "confidence": 0.95,
+      "evidence_pages": [12],
+      "original_string": "-781 160 kr",
+      "note": "Underhåll from Not 4"
+    },
+    "administrative_costs_tkr": {
+      "value": 112,
+      "confidence": 0.85,
+      "evidence_pages": [12],
+      "original_string": "-112 428 kr",
+      "note": "Förvaltningsarvode administration from Not 5"
+    },
+    "interest_costs_tkr": {
+      "value": 60,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "-60 175 kr",
+      "note": "Räntekostnader och liknande resultatposter"
+    },
+    "depreciation_tkr": {
+      "value": 130,
+      "confidence": 0.95,
+      "evidence_pages": [8, 12],
+      "original_string": "-129 758 kr",
+      "note": "Avskrivningar av materiella anläggningstillgångar"
+    },
+    "net_result_tkr": {
+      "value": -654,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "-654 451 kr",
+      "note": "Årets resultat (negative = loss)"
+    }
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": ["administrative_costs_tkr"],
+    "cross_validation": {
+      "revenue_check": "total_revenue (953) = property_revenue (906) + other_revenue (47) ✓",
+      "result_check": "net_result (-654) = total_revenue (953) - total_costs (1552) - net_financial (-55) ≈ -654 ✓"
+    }
+  }
+}

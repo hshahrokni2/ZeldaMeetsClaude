@@ -1,0 +1,85 @@
+{
+  "pdfId": "267197_årsredovisning_norrköping_brf_axet_4",
+  "auditDate": "2025-11-13T12:20:00Z",
+  "overallScore": 88,
+  "passFailStatus": "NEEDS_REFINEMENT",
+  "issues": [
+    {
+      "severity": "MEDIUM",
+      "category": "LOW_CONFIDENCE",
+      "agent": "financial",
+      "field": "administrative_costs_tkr",
+      "description": "Field 'administrative_costs_tkr' has confidence 0.85 (below 0.90 threshold)",
+      "recommendation": "Verify administrative costs by checking Note 5 in detail and cross-referencing with 'Övriga externa kostnader'"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "EVIDENCE_GAP",
+      "agent": "financial",
+      "field": "operational_costs_tkr",
+      "description": "Operational costs may include multiple subcategories - need to verify breakdown",
+      "recommendation": "Review Note 4 (Driftskostnader) completely to ensure all cost categories are properly attributed"
+    },
+    {
+      "severity": "LOW",
+      "category": "DISCREPANCY",
+      "agent": "balance_sheet",
+      "field": "total_liabilities_tkr",
+      "description": "Minor calculation discrepancy: long_term (5037) + short_term (520) = 5557, but reported as 5556",
+      "recommendation": "Re-examine balance sheet totals on page 10 to verify exact amounts"
+    },
+    {
+      "severity": "HIGH",
+      "category": "MISSING_FIELD",
+      "agent": "financial",
+      "field": "property_revenue_tkr",
+      "description": "Need to distinguish between 'Årsavgifter' (annual fees) and 'Hyror' (rents) within property revenue",
+      "recommendation": "Check Note 2 (Nettoomsättning) for detailed breakdown of property revenue sources"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "FORMAT_ERROR",
+      "agent": "balance_sheet",
+      "field": "total_liabilities_tkr",
+      "description": "Field 'total_liabilities_tkr' calculated from components rather than directly extracted",
+      "recommendation": "Verify if explicit 'Summa skulder' exists in balance sheet or if calculation is required"
+    }
+  ],
+  "statistics": {
+    "totalFields": 22,
+    "missingFields": 1,
+    "lowConfidenceFields": 1,
+    "evidenceGaps": 1,
+    "crossAgentDiscrepancies": 0
+  },
+  "recommendations": [
+    "Extract 1 missing field: Detailed property revenue breakdown",
+    "Verify and re-extract 1 low-confidence field: administrative_costs_tkr",
+    "Add detailed notes for operational_costs_tkr breakdown",
+    "Resolve minor calculation discrepancy in total_liabilities_tkr"
+  ],
+  "cross_validation": {
+    "balance_equation_check": {
+      "status": "PASS",
+      "formula": "assets = equity + liabilities",
+      "calculated": "6383 = 827 + 5556",
+      "result": "VALID (within rounding tolerance)"
+    },
+    "income_statement_check": {
+      "status": "PASS",
+      "formula": "net_result = total_revenue - total_costs - net_financial_costs",
+      "calculated": "-654 ≈ 953 - 1552 - 55",
+      "result": "VALID"
+    },
+    "consistency_check": {
+      "status": "PASS",
+      "note": "current_year_result in balance sheet (-654) matches årets resultat in income statement (-654)"
+    }
+  },
+  "next_steps": [
+    "Pass 2: Re-extract with focus on property revenue breakdown (Note 2)",
+    "Pass 2: Verify administrative costs calculation",
+    "Pass 2: Confirm total liabilities exact value",
+    "After Pass 2: Target confidence ≥95% and score ≥95"
+  ]
+}

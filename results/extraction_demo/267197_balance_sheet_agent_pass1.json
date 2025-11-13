@@ -1,0 +1,92 @@
+{
+  "agent_id": "balance_sheet",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T12:05:00Z",
+  "data": {
+    "total_assets_tkr": {
+      "value": 6383,
+      "confidence": 0.95,
+      "evidence_pages": [9, 10],
+      "original_string": "6 383 338 kr",
+      "note": "Summa tillgångar from Balansräkning"
+    },
+    "fixed_assets_tkr": {
+      "value": 5652,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "5 652 337 kr",
+      "note": "Summa anläggningstillgångar (Materiella anläggningstillgångar: Byggnader och mark)"
+    },
+    "current_assets_tkr": {
+      "value": 731,
+      "confidence": 0.95,
+      "evidence_pages": [9],
+      "original_string": "731 001 kr",
+      "note": "Summa omsättningstillgångar"
+    },
+    "cash_bank_tkr": {
+      "value": 686,
+      "confidence": 0.95,
+      "evidence_pages": [9, 14],
+      "original_string": "685 571 kr",
+      "note": "Kassa och bank (Bankmedel: 571 786 kr + Transaktionskonto: 113 785 kr)"
+    },
+    "total_liabilities_tkr": {
+      "value": 5556,
+      "confidence": 0.90,
+      "evidence_pages": [10],
+      "original_string": "5 556 057 kr",
+      "note": "Sum of Långfristiga skulder (5 036 523) + Kortfristiga skulder (519 534)"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 5037,
+      "confidence": 0.95,
+      "evidence_pages": [10, 14],
+      "original_string": "5 036 523 kr",
+      "note": "Summa långfristiga skulder (mainly mortgage loans to credit institutions)"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 520,
+      "confidence": 0.95,
+      "evidence_pages": [10],
+      "original_string": "519 534 kr",
+      "note": "Summa kortfristiga skulder"
+    },
+    "total_equity_tkr": {
+      "value": 827,
+      "confidence": 0.95,
+      "evidence_pages": [10],
+      "original_string": "827 281 kr",
+      "note": "Summa eget kapital"
+    },
+    "retained_earnings_tkr": {
+      "value": 709,
+      "confidence": 0.90,
+      "evidence_pages": [10],
+      "original_string": "709 474 kr",
+      "note": "Balanserat resultat (Fritt eget kapital)"
+    },
+    "current_year_result_tkr": {
+      "value": -654,
+      "confidence": 0.95,
+      "evidence_pages": [8, 10],
+      "original_string": "-654 451 kr",
+      "note": "Årets resultat (matches Resultaträkning)"
+    },
+    "evidence_pages": [8, 9, 10]
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": ["total_liabilities_tkr", "retained_earnings_tkr"],
+    "cross_validation": {
+      "balance_equation": "total_assets (6383) = total_equity (827) + total_liabilities (5556) ✓ [6383 = 827 + 5556]",
+      "equity_breakdown": "total_equity (827) = bundet_kapital (772) + fritt_kapital (55) ✓ [772 from page 10: Medlemsinsatser 487 + Reservfond 0.15 + Fond för yttre underhåll 285]",
+      "current_assets": "current_assets (731) = kortfristiga_fordringar (45) + kassa_och_bank (686) ✓"
+    },
+    "recommendations": [
+      "Verify total_liabilities calculation: should equal long_term (5037) + short_term (520) = 5557, but stated as 5556 (minor rounding difference)",
+      "Cross-check equity components in Note 9 for complete breakdown"
+    ]
+  }
+}

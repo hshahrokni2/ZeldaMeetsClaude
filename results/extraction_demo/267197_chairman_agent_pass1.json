@@ -1,0 +1,36 @@
+{
+  "agent_id": "chairman",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "extraction_pass": 1,
+  "timestamp": "2025-11-13T12:10:00Z",
+  "data": {
+    "chairman_name": {
+      "value": "Johan Larsson",
+      "confidence": 0.95,
+      "evidence_pages": [5],
+      "original_string": "Johan Larsson - Ordförande",
+      "note": "Found in Styrelse section under Ordinarie ledamöter"
+    },
+    "evidence_pages": [5]
+  },
+  "audit_notes": {
+    "missing_fields": [],
+    "low_confidence_fields": [],
+    "additional_info": {
+      "vice_chairman": "Johan Axelsson",
+      "secretary": "Björn Rennås",
+      "board_members": [
+        "Johan Larsson (Ordförande, 2022)",
+        "Johan Axelsson (Vice ordförande, 2021)",
+        "Björn Rennås (Sekreterare, 2021)"
+      ],
+      "board_alternates": [
+        "Björn Landqvist (Suppleant, 2021)",
+        "Sandra Sjöberg (Suppleant, 2021)",
+        "Dennis Andersson (Suppleant, 2022)",
+        "Maud Velin (Suppleant, 2022)",
+        "Delia Hansen (Suppleant, 2022)"
+      ]
+    }
+  }
+}
