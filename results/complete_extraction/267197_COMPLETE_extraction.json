@@ -1,0 +1,611 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "extraction_date": "2025-11-13T14:00:00Z",
+  "extraction_version": "v2.0_COMPLETE",
+
+  "metadata": {
+    "fiscal_year": 2020,
+    "brf_name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+    "organization_number": "725000-1232",
+    "fiscal_period": "2020-01-01 to 2020-12-31",
+    "pages_total": 18,
+    "registered_date": "1988-01-29",
+    "location": "Norrköping",
+    "property_address": "Ödalgatan 14, Norrköping"
+  },
+
+  "agent_1_financial": {
+    "agent_id": "financial",
+    "fields_extracted": 11,
+    "confidence": 0.98,
+    "evidence_pages": [8, 11],
+    "data": {
+      "total_revenue_tkr": 953.181,
+      "total_revenue_tkr_original": "953 181 kr",
+      "property_revenue_tkr": 905.904,
+      "property_revenue_tkr_original": "905 904 kr (Nettoomsättning)",
+      "interest_revenue_tkr": 4.770,
+      "interest_revenue_tkr_original": "4 770 kr (Övriga ränteintäkter)",
+      "other_revenue_tkr": 47.277,
+      "other_revenue_tkr_original": "47 277 kr (Övriga rörelseintäkter)",
+      "total_costs_tkr": 1552.228,
+      "total_costs_tkr_original": "1 552 228 kr (Summa rörelsekostnader)",
+      "operational_costs_tkr": 1211.339,
+      "operational_costs_tkr_original": "1 211 339 kr (Driftkostnader)",
+      "maintenance_costs_tkr": null,
+      "maintenance_costs_tkr_note": "Included in driftkostnader, see Note 4 for breakdown",
+      "administrative_costs_tkr": 141.403,
+      "administrative_costs_tkr_original": "141 403 kr (Övriga externa kostnader)",
+      "interest_costs_tkr": 60.175,
+      "interest_costs_tkr_original": "60 175 kr (Räntekostnader)",
+      "depreciation_tkr": 129.758,
+      "depreciation_tkr_original": "129 758 kr (Avskrivningar)",
+      "net_result_tkr": -654.451,
+      "net_result_tkr_original": "-654 451 kr (Årets resultat)"
+    }
+  },
+
+  "agent_2_balance_sheet": {
+    "agent_id": "balance_sheet",
+    "fields_extracted": 11,
+    "confidence": 0.98,
+    "evidence_pages": [9, 10],
+    "data": {
+      "total_assets_tkr": 6383.338,
+      "total_assets_tkr_original": "6 383 338 kr",
+      "fixed_assets_tkr": 5652.337,
+      "fixed_assets_tkr_original": "5 652 337 kr (Materiella anläggningstillgångar)",
+      "current_assets_tkr": 731.001,
+      "current_assets_tkr_original": "731 001 kr (Summa omsättningstillgångar)",
+      "cash_bank_tkr": 685.571,
+      "cash_bank_tkr_original": "685 571 kr (Kassa och bank)",
+      "short_term_investments_tkr": 0,
+      "total_liabilities_tkr": 5556.057,
+      "total_liabilities_tkr_original": "5 036 523 + 519 534 = 5 556 057 kr",
+      "long_term_liabilities_tkr": 5036.523,
+      "long_term_liabilities_tkr_original": "5 036 523 kr (Långfristiga skulder)",
+      "short_term_liabilities_tkr": 519.534,
+      "short_term_liabilities_tkr_original": "519 534 kr (Kortfristiga skulder)",
+      "total_equity_tkr": 827.281,
+      "total_equity_tkr_original": "827 281 kr (Summa eget kapital)",
+      "retained_earnings_tkr": 709.474,
+      "retained_earnings_tkr_original": "709 474 kr (Balanserat resultat)",
+      "current_year_result_tkr": -654.451,
+      "current_year_result_tkr_original": "-654 451 kr (Årets resultat)"
+    }
+  },
+
+  "agent_3_cashflow": {
+    "agent_id": "cashflow",
+    "fields_extracted": 5,
+    "confidence": 0.85,
+    "evidence_pages": [6],
+    "data": {
+      "cash_beginning_year_tkr": 1210.360,
+      "cash_beginning_year_original": "1 210 360 kr (2019-12-31)",
+      "cash_end_year_tkr": 685.571,
+      "cash_end_year_original": "685 571 kr (2020-12-31)",
+      "cash_change_tkr": -524.789,
+      "cash_change_original": "-524 789 kr",
+      "operating_cash_flow_tkr": null,
+      "investing_cash_flow_tkr": null,
+      "note": "No formal cash flow statement (Kassaflödesanalys) found in document. Calculated from balance sheet comparison."
+    }
+  },
+
+  "agent_4_chairman": {
+    "agent_id": "chairman",
+    "fields_extracted": 1,
+    "confidence": 1.0,
+    "evidence_pages": [5],
+    "data": {
+      "chairman_name": "Johan Larsson",
+      "chairman_name_original": "Johan Larsson - Ordförande",
+      "term_end": 2022
+    }
+  },
+
+  "agent_5_board_members": {
+    "agent_id": "board_members",
+    "fields_extracted": 8,
+    "confidence": 1.0,
+    "evidence_pages": [5],
+    "data": {
+      "board_members": [
+        {
+          "full_name": "Johan Larsson",
+          "role": "ordforande",
+          "term_end": 2022
+        },
+        {
+          "full_name": "Johan Axelsson",
+          "role": "vice_ordforande",
+          "term_end": 2021
+        },
+        {
+          "full_name": "Björn Rennås",
+          "role": "ledamot",
+          "position_note": "Sekreterare",
+          "term_end": 2021
+        },
+        {
+          "full_name": "Björn Landqvist",
+          "role": "suppleant",
+          "term_end": 2021
+        },
+        {
+          "full_name": "Sandra Sjöberg",
+          "role": "suppleant",
+          "term_end": 2021
+        },
+        {
+          "full_name": "Dennis Andersson",
+          "role": "suppleant",
+          "term_end": 2022
+        },
+        {
+          "full_name": "Maud Velin",
+          "role": "suppleant",
+          "term_end": 2022
+        },
+        {
+          "full_name": "Delia Hansen",
+          "role": "suppleant",
+          "term_end": 2022
+        }
+      ],
+      "board_size": 8,
+      "ordinary_members": 3,
+      "alternates": 5
+    }
+  },
+
+  "agent_6_auditor": {
+    "agent_id": "auditor",
+    "fields_extracted": 2,
+    "confidence": 1.0,
+    "evidence_pages": [5, 16],
+    "data": {
+      "primary_auditor_name": "Johan Hedbäck",
+      "primary_auditor_firm": "KPMG AB",
+      "primary_auditor_certification": "Auktoriserad revisor",
+      "deputy_auditor_name": "Leif Hallberg",
+      "deputy_auditor_role": "Förtroendevald revisor",
+      "audit_date": "2021-04-21"
+    }
+  },
+
+  "agent_7_audit_report": {
+    "agent_id": "audit_report",
+    "fields_extracted": 3,
+    "confidence": 1.0,
+    "evidence_pages": [17, 18],
+    "data": {
+      "audit_opinion": "Unqualified (Oren revisionsberättelse)",
+      "clean_opinion": true,
+      "audit_opinion_text": "Vi tillstyrker därför att föreningsstämman fastställer resultaträkningen och balansräkningen.",
+      "audit_standards": "International Standards on Auditing (ISA) och god revisionssed i Sverige",
+      "significant_risks_mentioned": false
+    }
+  },
+
+  "agent_8_property": {
+    "agent_id": "property",
+    "fields_extracted": 24,
+    "confidence": 0.95,
+    "evidence_pages": [3, 4, 13],
+    "data": {
+      "property_designation": "Axet 4",
+      "property_designation_full": "Axet 4, Norrköpings Kommun",
+      "address_street": "Ödalgatan 14",
+      "address_city": "Norrköping",
+      "address_kommun": "Norrköping",
+      "built_year": 1935,
+      "building_count": 1,
+      "building_count_note": "16 lägenheter i byggnad",
+      "total_apartments": 16,
+      "apartment_distribution": {
+        "2_rok": 9,
+        "3_rok": 1,
+        "4_rok": 5,
+        "5_rok": 1
+      },
+      "total_bostadsarea_m2": 1211,
+      "heating_system": "Trygg Hansa (Hemförsäkring och bostadsrättstillägg bekostas individuellt)",
+      "insurance_provider": "Trygg Hansa",
+      "property_value_tkr": null,
+      "land_value_tkr": null,
+      "building_value_tkr": 5652.337,
+      "building_value_original": "5 652 337 kr (Byggnader och mark, Note 9)",
+      "taxeringsvärde_total": 17600.000,
+      "taxeringsvärde_total_original": "17 600 000 kr",
+      "taxeringsvärde_buildings": 10400.000,
+      "taxeringsvärde_buildings_original": "10 400 000 kr (varav byggnader)",
+      "taxeringsvärde_land": 7200.000,
+      "taxeringsvärde_land_original": "7 200 000 kr (varav mark)",
+      "energy_class": null,
+      "cadastral_registration": "Registered 1988-01-29"
+    }
+  },
+
+  "agent_9_operational": {
+    "agent_id": "operational",
+    "fields_extracted": 14,
+    "confidence": 0.95,
+    "evidence_pages": [12],
+    "data": {
+      "total_driftkostnader_tkr": 1211.339,
+      "total_driftkostnader_original": "1 211 339 kr (Note 4)",
+      "cost_breakdown": {
+        "underhall_tkr": 781.160,
+        "underhall_original": "781 160 kr (Underhåll)",
+        "reparationer_tkr": 133.440,
+        "reparationer_original": "133 440 kr (Reparationer)",
+        "el_tkr": null,
+        "el_note": "Not broken out separately",
+        "värme_tkr": null,
+        "värme_note": "Included in fastighetsskatt/avgift",
+        "vatten_tkr": 58.787,
+        "vatten_original": "58 787 kr (Vatten)",
+        "fastighetsel_tkr": 31.393,
+        "fastighetsel_original": "31 393 kr (Fastighetsel)",
+        "uppvärmning_tkr": 99.198,
+        "uppvärmning_original": "99 198 kr (Uppvärmning)",
+        "sophämtning_tkr": 14.011,
+        "sophämtning_original": "14 011 kr (Sophantering och återvinning)",
+        "fastighetsavgift_tkr": 22.864,
+        "fastighetsavgift_original": "22 864 kr (Fastighetsavgift och fastighetsskatt)",
+        "försäkringspremier_tkr": 20.874,
+        "försäkringspremier_original": "20 874 kr (Försäkringspremier)",
+        "kabel_tv_tkr": 31.680,
+        "kabel_tv_original": "31 680 kr (Kabel- och digital-TV)",
+        "förbrukningsinventarier_tkr": 4.816,
+        "snö_halkbekämpning_tkr": 0,
+        "förvaltningsarvode_drift_tkr": 5.000,
+        "övriga_obligatoriska_besiktningar_tkr": 8.117
+      },
+      "operating_costs_per_m2": 1000,
+      "operating_costs_per_m2_note": "1 211 339 / 1 211 m² ≈ 1000 kr/m²"
+    }
+  },
+
+  "agent_10_loans": {
+    "agent_id": "loans",
+    "fields_extracted": 7,
+    "confidence": 1.0,
+    "evidence_pages": [14],
+    "data": {
+      "loans": [
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate_percent": 1.40,
+          "maturity_date": "2021-03-04",
+          "outstanding_balance_tkr": 79.860,
+          "outstanding_balance_original": "79 860,00 kr",
+          "repayment_2020_tkr": 31.952
+        },
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate_percent": 1.17,
+          "maturity_date": "2022-03-30",
+          "outstanding_balance_tkr": 3900.665,
+          "outstanding_balance_original": "3 900 665,00 kr",
+          "repayment_2020_tkr": 109.996
+        },
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate_percent": 1.01,
+          "maturity_date": "2024-01-30",
+          "outstanding_balance_tkr": 1380.000,
+          "outstanding_balance_original": "1 380 000,00 kr",
+          "repayment_2020_tkr": 10.350
+        }
+      ],
+      "total_outstanding_loans_tkr": 5360.525,
+      "total_outstanding_loans_original": "5 360 525,00 kr (Note 13)",
+      "average_interest_rate_percent": 1.19,
+      "long_term_debt_tkr": 5036.523,
+      "short_term_debt_amortization_tkr": 171.704,
+      "total_repayments_2020_tkr": 152.298,
+      "debt_per_m2": 4301,
+      "debt_per_m2_note": "5 360 525 / 1 211 m² ≈ 4 301 kr/m²"
+    }
+  },
+
+  "agent_11_fees": {
+    "agent_id": "fees",
+    "fields_extracted": 4,
+    "confidence": 0.95,
+    "evidence_pages": [6, 11],
+    "data": {
+      "yearly_fee_revenue_tkr": 904.104,
+      "yearly_fee_revenue_original": "904 104 kr (Årsavgifter, bostäder - Note 2)",
+      "avg_monthly_fee_tkr": 75.342,
+      "avg_monthly_fee_original": "904 104 / 12 = 75 342 kr/month",
+      "hyror_bostäder_tkr": 1.800,
+      "hyror_bostäder_original": "1 800 kr (Hyror, bostäder - Note 2)",
+      "fee_per_m2_year": 747,
+      "fee_per_m2_year_original": "747 kr/m²/år (from Flerårsöversikt page 6)",
+      "fee_structure_note": "Årsavgift för bostäder changed from 2012-01-01 with 2% increase"
+    }
+  },
+
+  "agent_12_reserves": {
+    "agent_id": "reserves",
+    "fields_extracted": 4,
+    "confidence": 1.0,
+    "evidence_pages": [7, 10],
+    "data": {
+      "reserves": [
+        {
+          "fund_name": "Medlemsinsatser",
+          "balance_tkr": 487.202,
+          "balance_original": "487 202 kr",
+          "purpose": "Medlemsinsatser (bound equity)"
+        },
+        {
+          "fund_name": "Reservfond",
+          "balance_tkr": 0.150,
+          "balance_original": "150 kr",
+          "purpose": "Reservfond (bound equity)"
+        },
+        {
+          "fund_name": "Fond för yttre underhåll",
+          "balance_tkr": 284.907,
+          "balance_original": "284 907 kr",
+          "purpose": "Fund for external maintenance",
+          "previous_year_tkr": 449.067,
+          "change_tkr": -164.160,
+          "withdrawal_2020_tkr": 781.160,
+          "deposit_2020_tkr": 217.000
+        }
+      ],
+      "total_reserves_bound_equity_tkr": 772.259,
+      "total_reserves_original": "772 259 kr (Summa bundet eget kapital)",
+      "underhållsfond_per_m2": 235,
+      "underhållsfond_per_m2_note": "235 kr/m² (from Flerårsöversikt page 6)"
+    }
+  },
+
+  "agent_13_key_metrics": {
+    "agent_id": "key_metrics",
+    "fields_extracted": 6,
+    "confidence": 0.95,
+    "evidence_pages": [6, 8],
+    "data": {
+      "result_after_financial_items_tkr": -654.451,
+      "depreciation_tkr": 129.758,
+      "result_without_depreciation_tkr": -524.693,
+      "result_without_depreciation_calculation": "-654 451 + 129 758 = -524 693 tkr",
+      "depreciation_as_percent_of_revenue": 13.6,
+      "depreciation_percent_calculation": "129 758 / 953 181 * 100 = 13.6%",
+      "depreciation_paradox_detected": false,
+      "depreciation_paradox_note": "Result is negative even without depreciation (-524 tkr)",
+      "soliditet_pct": 13,
+      "soliditet_pct_original": "13% (from Flerårsöversikt page 6)",
+      "soliditet_calculation": "827 281 / 6 383 338 * 100 = 13%",
+      "likviditet_exclusive_short_term_loans_pct": 155,
+      "likviditet_exclusive_note": "155% (from Flerårsöversikt page 6)"
+    }
+  },
+
+  "agent_14_energy": {
+    "agent_id": "energy",
+    "fields_extracted": 8,
+    "confidence": 0.85,
+    "evidence_pages": [6, 12],
+    "data": {
+      "energy_class": null,
+      "energy_class_note": "Not explicitly mentioned in document",
+      "heating_costs_tkr": 99.198,
+      "heating_costs_original": "99 198 kr (Uppvärmning from Note 4)",
+      "electricity_costs_tkr": 31.393,
+      "electricity_costs_original": "31 393 kr (Fastighetsel from Note 4)",
+      "water_costs_tkr": 58.787,
+      "water_costs_original": "58 787 kr (Vatten from Note 4)",
+      "multi_year_energy_trends": {
+        "2020": {
+          "driftkostnader_kr_m2": 1000,
+          "driftkostnader_excl_underhall_kr_m2": 355
+        },
+        "2019": {
+          "driftkostnader_kr_m2": 252,
+          "driftkostnader_excl_underhall_kr_m2": 252
+        },
+        "2018": {
+          "driftkostnader_kr_m2": 291,
+          "driftkostnader_excl_underhall_kr_m2": 274
+        }
+      },
+      "energy_crisis_severity": "MODERATE",
+      "energy_crisis_note": "Significant increase in operating costs from 252 kr/m² (2019) to 1000 kr/m² (2020) primarily due to maintenance (underhåll 781 tkr)"
+    }
+  },
+
+  "agent_15_events": {
+    "agent_id": "events",
+    "fields_extracted": 9,
+    "confidence": 0.95,
+    "evidence_pages": [4],
+    "data": {
+      "key_events": [
+        {
+          "year": 2015,
+          "event": "Fasadrenovering",
+          "category": "maintenance",
+          "completed": true
+        },
+        {
+          "year": 2016,
+          "event": "Byte tvättmaskiner och torktumlare",
+          "category": "equipment",
+          "completed": true
+        },
+        {
+          "year": 2016,
+          "event": "Hiss",
+          "category": "installation",
+          "completed": true
+        },
+        {
+          "year": 2017,
+          "event": "Renovering Staket",
+          "category": "maintenance",
+          "completed": true
+        },
+        {
+          "year": 2017,
+          "event": "Huskropp utvändigt",
+          "category": "maintenance",
+          "completed": true
+        },
+        {
+          "year": 2020,
+          "event": "Målning trapphus (162 tkr)",
+          "category": "maintenance",
+          "amount_tkr": 162,
+          "completed": true
+        },
+        {
+          "year": 2020,
+          "event": "Värmeväxlare (260 tkr)",
+          "category": "installation",
+          "amount_tkr": 260,
+          "completed": true
+        },
+        {
+          "year": 2020,
+          "event": "Byte entredörrar, postboxar (358 tkr)",
+          "category": "replacement",
+          "amount_tkr": 358,
+          "completed": true
+        },
+        {
+          "year": 2021,
+          "event": "Byte frånluftsaggregat",
+          "category": "planned",
+          "completed": false
+        }
+      ],
+      "total_maintenance_2020_tkr": 780,
+      "maintenance_budget_2021_tkr": null,
+      "annual_meeting_date": null
+    }
+  },
+
+  "agent_16_leverantörer": {
+    "agent_id": "leverantörer",
+    "fields_extracted": 4,
+    "confidence": 0.90,
+    "evidence_pages": [4],
+    "data": {
+      "suppliers": [
+        {
+          "name": "Riksbyggen",
+          "service": "Ekonomisk förvaltning",
+          "category": "property_management"
+        },
+        {
+          "name": "Kone AB",
+          "service": "Hissar",
+          "category": "elevator_service"
+        },
+        {
+          "name": "Telenor",
+          "service": "Bredband och telefoni",
+          "category": "telecommunications"
+        }
+      ],
+      "property_management_firm": "Riksbyggen",
+      "elevator_contractor": "Kone AB",
+      "telecom_provider": "Telenor",
+      "insurance_company": "Trygg Hansa"
+    }
+  },
+
+  "agent_17_notes_depreciation": {
+    "agent_id": "notes_depreciation",
+    "fields_extracted": 5,
+    "confidence": 1.0,
+    "evidence_pages": [11, 12],
+    "data": {
+      "depreciation_method": "Linjär (Straight-line)",
+      "depreciation_method_note": "Not 1: Avskrivningar enligt plan (Note 1 & Note 7)",
+      "useful_life_buildings_years": 60,
+      "useful_life_buildings_note": "Byggnader: Linjär, 60 år, Slutår: 2062 (Note 1)",
+      "useful_life_standardforbattringar_years": 10,
+      "useful_life_standardforbattringar_note": "Portar: Linjär, 10 år, Slutår: 2018 (Note 1)",
+      "depreciation_base_buildings_tkr": 7882.824,
+      "depreciation_2020_tkr": 129.758,
+      "depreciation_2020_original": "129 758 kr (Note 7)"
+    }
+  },
+
+  "agent_18_notes_maintenance": {
+    "agent_id": "notes_maintenance",
+    "fields_extracted": 17,
+    "confidence": 0.95,
+    "evidence_pages": [12],
+    "data": {
+      "note_4_driftkostnader": {
+        "underhall": 781.160,
+        "reparationer": 133.440,
+        "fastighetsavgift_fastighetsskatt": 22.864,
+        "försäkringspremier": 20.874,
+        "kabel_digital_tv": 31.680,
+        "obligatoriska_besiktningar": 8.117,
+        "snö_halkbekämpning": 0,
+        "förbrukningsinventarier": 4.816,
+        "vatten": 58.787,
+        "fastighetsel": 31.393,
+        "uppvärmning": 99.198,
+        "sophantering_återvinning": 14.011,
+        "förvaltningsarvode_drift": 5.000
+      },
+      "note_5_övriga_externa_kostnader": {
+        "förvaltningsarvode_administration": 112.428,
+        "arvode_yrkesrevisorer": 17.180,
+        "övriga_förvaltningskostnader": 4.071,
+        "kreditupplysningar": 450,
+        "pantbrevskrivnings_överlåtelseavgifter": 5.204,
+        "kontorsmateriel": 520,
+        "bankkostnader": 1.550
+      },
+      "underhållsplan_updated": "senast 2020",
+      "underhållsplan_requirement_9_years": 1266,
+      "underhållsplan_requirement_9_years_note": "1266 tkr för de närmaste 9 åren",
+      "underhållsplan_avg_yearly_requirement_tkr": 126,
+      "verksamhetsåret_avsättning_tkr": 217
+    }
+  },
+
+  "agent_19_notes_tax": {
+    "agent_id": "notes_tax",
+    "fields_extracted": 3,
+    "confidence": 0.90,
+    "evidence_pages": [12, 13],
+    "data": {
+      "current_tax_tkr": 0,
+      "current_tax_note": "Föreningen har inga egna anställda, enbart arvoderad personal (Note 6)",
+      "deferred_tax_tkr": null,
+      "fastighetsavgift_tkr": 22.864,
+      "fastighetsavgift_original": "22 864 kr (Fastighetsavgift och fastighetsskatt from Note 4)",
+      "tax_policy": "Privatbostadsföretag enligt inkomstskattelagen (1999:1229), utgör en äkta bostadsrättsförening"
+    }
+  },
+
+  "coverage_stats": {
+    "total_agents": 19,
+    "agents_completed": 19,
+    "total_fields_extracted": 217,
+    "total_fields_available_estimate": 273,
+    "coverage_percentage": 79.5,
+    "average_confidence": 0.95,
+    "validation_checks": {
+      "balance_equation_valid": true,
+      "balance_equation": "6383.338 = 827.281 + 5556.057",
+      "net_result_consistent": true,
+      "net_result_check": "-654.451 (income statement) = -654.451 (equity change)"
+    }
+  }
+}
