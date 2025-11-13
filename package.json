@@ -1,0 +1,31 @@
+{
+  "name": "zelda-meets-claude",
+  "version": "1.0.0",
+  "description": "Autonomous ground truth generation for Swedish BRF annual reports using 19-agent consensus system",
+  "main": "index.ts",
+  "scripts": {
+    "extract": "echo 'Extraction scripts require source implementation from chameleon_api'",
+    "test": "echo 'Test suite pending Phase 2 completion'"
+  },
+  "keywords": [
+    "brf",
+    "swedish",
+    "annual-reports",
+    "extraction",
+    "ground-truth",
+    "consensus",
+    "agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "openai": "^4.20.0",
+    "@google/generative-ai": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
