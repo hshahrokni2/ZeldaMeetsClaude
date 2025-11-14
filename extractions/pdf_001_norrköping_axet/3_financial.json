@@ -1,8 +1,12 @@
 {
   "section": "Level 3 - Financial Data",
   "extraction_date": "2025-11-14T00:19:00Z",
+  "pass2_update_date": "2025-11-14T03:00:00Z",
   "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
-  "fields_extracted": 168,
+  "fields_extracted": 213,
+  "pass1_fields": 168,
+  "pass2_fields_added": 45,
+  "pass2_note": "Multi-year table completed: 12/12 rows (was 3/12)",
 
   "financial_data": {
     "income_statement": {
@@ -278,78 +282,113 @@
     },
 
     "multi_year_overview": {
-      "years": [
-        {
-          "year": 2020,
-          "nettoomsattning_tkr": {"value": 906, "confidence": 1.0, "evidence_pages": [6], "original_string": "906"},
-          "driftsoverskott_tkr": null,
-          "arsresultat_tkr": {"value": -654, "confidence": 1.0, "evidence_pages": [6], "original_string": "-654"},
-          "tillgangar_tkr": null,
-          "skulder_tkr": null,
-          "eget_kapital_tkr": null,
-          "soliditet_procent": {"value": 13, "confidence": 1.0, "evidence_pages": [6], "original_string": "13"},
-          "is_complete": false,
-          "extraction_confidence": 0.9,
-          "source_page": 6
-        },
-        {
-          "year": 2019,
-          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
-          "driftsoverskott_tkr": null,
-          "arsresultat_tkr": {"value": 262, "confidence": 1.0, "evidence_pages": [6], "original_string": "262"},
-          "tillgangar_tkr": null,
-          "skulder_tkr": null,
-          "eget_kapital_tkr": null,
-          "soliditet_procent": {"value": 21, "confidence": 1.0, "evidence_pages": [6], "original_string": "21"},
-          "is_complete": false,
-          "extraction_confidence": 0.9,
-          "source_page": 6
-        },
-        {
-          "year": 2018,
-          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
-          "driftsoverskott_tkr": null,
-          "arsresultat_tkr": {"value": 184, "confidence": 1.0, "evidence_pages": [6], "original_string": "184"},
-          "tillgangar_tkr": null,
-          "skulder_tkr": null,
-          "eget_kapital_tkr": null,
-          "soliditet_procent": {"value": 18, "confidence": 1.0, "evidence_pages": [6], "original_string": "18"},
-          "is_complete": false,
-          "extraction_confidence": 0.9,
-          "source_page": 6
-        },
-        {
-          "year": 2017,
-          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
-          "driftsoverskott_tkr": null,
-          "arsresultat_tkr": {"value": -198, "confidence": 1.0, "evidence_pages": [6], "original_string": "-198"},
-          "tillgangar_tkr": null,
-          "skulder_tkr": null,
-          "eget_kapital_tkr": null,
-          "soliditet_procent": {"value": 15, "confidence": 1.0, "evidence_pages": [6], "original_string": "15"},
-          "is_complete": false,
-          "extraction_confidence": 0.9,
-          "source_page": 6
-        },
-        {
-          "year": 2016,
-          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
-          "driftsoverskott_tkr": null,
-          "arsresultat_tkr": {"value": 33, "confidence": 1.0, "evidence_pages": [6], "original_string": "33"},
-          "tillgangar_tkr": null,
-          "skulder_tkr": null,
-          "eget_kapital_tkr": null,
-          "soliditet_procent": {"value": 17, "confidence": 1.0, "evidence_pages": [6], "original_string": "17"},
-          "is_complete": false,
-          "extraction_confidence": 0.9,
-          "source_page": 6
-        }
-      ],
-      "years_covered": [2016, 2017, 2018, 2019, 2020],
+      "years_covered": [2020, 2019, 2018, 2017, 2016],
       "num_years": 5,
-      "table_orientation": "years_columns",
-      "extraction_method": "manual_from_table",
-      "confidence": 0.95
+      "table_source_page": 6,
+      "extraction_method": "complete_pass2_verification",
+
+      "nettoomsattning_tkr": {
+        "2020": {"value": 906, "confidence": 1.0, "evidence_pages": [6], "original_string": "906"},
+        "2019": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+        "2018": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+        "2017": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+        "2016": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"}
+      },
+
+      "resultat_efter_finansiella_poster_tkr": {
+        "2020": {"value": -654, "confidence": 1.0, "evidence_pages": [6], "original_string": "-654"},
+        "2019": {"value": 262, "confidence": 1.0, "evidence_pages": [6], "original_string": "262"},
+        "2018": {"value": 184, "confidence": 1.0, "evidence_pages": [6], "original_string": "184"},
+        "2017": {"value": -198, "confidence": 1.0, "evidence_pages": [6], "original_string": "-198"},
+        "2016": {"value": 33, "confidence": 1.0, "evidence_pages": [6], "original_string": "33"}
+      },
+
+      "resultat_exklusive_avskrivningar_tkr": {
+        "2020": {"value": -524, "confidence": 1.0, "evidence_pages": [6], "original_string": "-524"},
+        "2019": {"value": 392, "confidence": 1.0, "evidence_pages": [6], "original_string": "392"},
+        "2018": {"value": 321, "confidence": 1.0, "evidence_pages": [6], "original_string": "321"},
+        "2017": {"value": -60, "confidence": 1.0, "evidence_pages": [6], "original_string": "-60"},
+        "2016": {"value": 171, "confidence": 1.0, "evidence_pages": [6], "original_string": "171"}
+      },
+
+      "soliditet_procent": {
+        "2020": {"value": 13, "confidence": 1.0, "evidence_pages": [6], "original_string": "13"},
+        "2019": {"value": 21, "confidence": 1.0, "evidence_pages": [6], "original_string": "21"},
+        "2018": {"value": 18, "confidence": 1.0, "evidence_pages": [6], "original_string": "18"},
+        "2017": {"value": 15, "confidence": 1.0, "evidence_pages": [6], "original_string": "15"},
+        "2016": {"value": 17, "confidence": 1.0, "evidence_pages": [6], "original_string": "17"}
+      },
+
+      "likviditet_exklusive_omforhandling_procent": {
+        "2020": {"value": 155, "confidence": 1.0, "evidence_pages": [6], "original_string": "155"},
+        "2019": {"value": 373, "confidence": 1.0, "evidence_pages": [6], "original_string": "373"},
+        "2018": {"value": 311, "confidence": 1.0, "evidence_pages": [6], "original_string": "311"},
+        "2017": {"value": 242, "confidence": 1.0, "evidence_pages": [6], "original_string": "242"},
+        "2016": {"value": 341, "confidence": 1.0, "evidence_pages": [6], "original_string": "341"}
+      },
+
+      "likviditet_inklusive_omforhandling_procent": {
+        "2020": {"value": 141, "confidence": 1.0, "evidence_pages": [6], "original_string": "141"},
+        "2019": null,
+        "2018": null,
+        "2017": null,
+        "2016": null
+      },
+
+      "arsavgift_bostader_kr_per_sqm": {
+        "2020": {"value": 747, "confidence": 1.0, "evidence_pages": [6], "original_string": "747"},
+        "2019": {"value": 747, "confidence": 1.0, "evidence_pages": [6], "original_string": "747"},
+        "2018": {"value": 747, "confidence": 1.0, "evidence_pages": [6], "original_string": "747"},
+        "2017": {"value": 747, "confidence": 1.0, "evidence_pages": [6], "original_string": "747"},
+        "2016": {"value": 747, "confidence": 1.0, "evidence_pages": [6], "original_string": "747"}
+      },
+
+      "driftkostnader_kr_per_sqm": {
+        "2020": {"value": 1000, "confidence": 1.0, "evidence_pages": [6], "original_string": "1 000"},
+        "2019": {"value": 252, "confidence": 1.0, "evidence_pages": [6], "original_string": "252"},
+        "2018": {"value": 291, "confidence": 1.0, "evidence_pages": [6], "original_string": "291"},
+        "2017": {"value": 574, "confidence": 1.0, "evidence_pages": [6], "original_string": "574"},
+        "2016": {"value": 377, "confidence": 1.0, "evidence_pages": [6], "original_string": "377"}
+      },
+
+      "driftkostnader_exkl_underhall_kr_per_sqm": {
+        "2020": {"value": 355, "confidence": 1.0, "evidence_pages": [6], "original_string": "355"},
+        "2019": {"value": 252, "confidence": 1.0, "evidence_pages": [6], "original_string": "252"},
+        "2018": {"value": 274, "confidence": 1.0, "evidence_pages": [6], "original_string": "274"},
+        "2017": {"value": 248, "confidence": 1.0, "evidence_pages": [6], "original_string": "248"},
+        "2016": {"value": 249, "confidence": 1.0, "evidence_pages": [6], "original_string": "249"}
+      },
+
+      "ranta_kr_per_sqm": {
+        "2020": {"value": 50, "confidence": 1.0, "evidence_pages": [6], "original_string": "50"},
+        "2019": {"value": 53, "confidence": 1.0, "evidence_pages": [6], "original_string": "53"},
+        "2018": {"value": 72, "confidence": 1.0, "evidence_pages": [6], "original_string": "72"},
+        "2017": {"value": 128, "confidence": 1.0, "evidence_pages": [6], "original_string": "128"},
+        "2016": {"value": 134, "confidence": 1.0, "evidence_pages": [6], "original_string": "134"}
+      },
+
+      "underhallsfond_kr_per_sqm": {
+        "2020": {"value": 235, "confidence": 1.0, "evidence_pages": [6], "original_string": "235"},
+        "2019": {"value": 371, "confidence": 1.0, "evidence_pages": [6], "original_string": "371"},
+        "2018": {"value": 192, "confidence": 1.0, "evidence_pages": [6], "original_string": "192"},
+        "2017": {"value": 72, "confidence": 1.0, "evidence_pages": [6], "original_string": "72"},
+        "2016": {"value": 262, "confidence": 1.0, "evidence_pages": [6], "original_string": "262"}
+      },
+
+      "lan_kr_per_sqm": {
+        "2020": {"value": 4301, "confidence": 1.0, "evidence_pages": [6], "original_string": "4 301"},
+        "2019": {"value": 4427, "confidence": 1.0, "evidence_pages": [6], "original_string": "4 427"},
+        "2018": {"value": 4544, "confidence": 1.0, "evidence_pages": [6], "original_string": "4 544"},
+        "2017": {"value": 4661, "confidence": 1.0, "evidence_pages": [6], "original_string": "4 661"},
+        "2016": {"value": 4774, "confidence": 1.0, "evidence_pages": [6], "original_string": "4 774"}
+      },
+
+      "total_rows_in_table": 12,
+      "rows_extracted": 12,
+      "is_complete": true,
+      "extraction_confidence": 1.0,
+      "pass2_verified": true,
+      "verification_date": "2025-11-14"
     },
 
     "calculated_metrics": {
