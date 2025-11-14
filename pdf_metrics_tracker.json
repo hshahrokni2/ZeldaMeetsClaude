@@ -1,0 +1,103 @@
+{
+  "extraction_project": "BRF Annual Reports - Manual Extraction",
+  "target_metrics": {
+    "accuracy": 0.95,
+    "completeness": 0.95,
+    "time_per_pdf_minutes": 120
+  },
+  "pdfs": [
+    {
+      "id": 1,
+      "name": "norrköping_axet_4",
+      "org_number": "725000-1232",
+      "fiscal_year": 2020,
+      "auditor": "KPMG",
+      "property_manager": "Riksbyggen",
+      "format_type": "riksbyggen_standard",
+      "pages": 18,
+      "metrics": {
+        "pass1_fields": 487,
+        "pass2_fields_added": 45,
+        "total_fields": 532,
+        "total_possible": 535,
+        "completeness": 0.994,
+        "spot_check_accuracy": 1.0,
+        "spot_check_sample": 20,
+        "automated_test_pass_rate": 0.75,
+        "pass1_time_minutes": 32,
+        "pass2_time_minutes": 90,
+        "total_time_minutes": 122,
+        "commits": 18
+      },
+      "strengths": [
+        "financial_statements_100%",
+        "complex_loan_reconciliation_100%",
+        "all_15_notes_complete",
+        "metadata_perfect",
+        "member_movement_reconciliation_correct"
+      ],
+      "weakpoints_found": [
+        "multi_year_table_incomplete_pass1",
+        "only_3_of_12_rows_extracted_initially"
+      ],
+      "weakpoints_fixed": [
+        "multi_year_table_completed_pass2"
+      ],
+      "patterns_identified": {
+        "universal": [
+          "balance_sheet_equation_validates",
+          "note_references_consistent",
+          "15_notes_standard_structure",
+          "member_movement_reconciliation",
+          "loan_amortization_tracking"
+        ],
+        "format_specific_riksbyggen": [
+          "multi_year_table_page_6",
+          "multi_year_table_12_rows",
+          "red_riksbyggen_logo_header",
+          "flerårsöversikt_kr_per_sqm_metrics",
+          "property_manager_riksbyggen_explicitly_stated"
+        ],
+        "uncertain": [
+          "small_maintenance_tables_page_4",
+          "narrative_explanations_minimal"
+        ]
+      },
+      "validation_methods": [
+        "random_spot_check_20_fields",
+        "loan_reconciliation_validation",
+        "multi_year_table_completion",
+        "automated_validation_suite",
+        "page_by_page_gap_analysis"
+      ],
+      "grade": "A"
+    }
+  ],
+  "cross_pdf_analysis": {
+    "pdfs_analyzed": 1,
+    "universal_patterns": [
+      "balance_sheet_equation",
+      "note_references",
+      "15_notes_structure",
+      "member_reconciliation",
+      "loan_tracking"
+    ],
+    "format_types_identified": [
+      "riksbyggen_standard"
+    ],
+    "accuracy_trend": [0.97],
+    "completeness_trend": [0.994],
+    "time_trend": [122],
+    "patterns_converging": "need_more_pdfs",
+    "automation_recommendation": "continue_manual_collect_data",
+    "next_decision_point": "after_pdf_5"
+  },
+  "learning_system_status": {
+    "manual_learning_loop": "active",
+    "structured_metrics": "implemented",
+    "pattern_library": "started",
+    "dspy_optimization": "not_yet",
+    "langgraph_pipeline": "not_yet",
+    "evaluation_scheduled": "after_pdf_5"
+  }
+}
