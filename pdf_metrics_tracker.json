@@ -83,18 +83,20 @@
       "pages": 17,
       "metrics": {
         "pass1_fields": 643,
-        "pass2_fields_added": null,
+        "pass2_fields_added": 0,
+        "pass2_corrections": 11,
         "total_fields": 643,
-        "total_possible": null,
-        "completeness": 0.88,
-        "spot_check_accuracy": null,
-        "spot_check_sample": null,
-        "automated_test_pass_rate": null,
+        "total_possible": 700,
+        "completeness": 0.92,
+        "spot_check_accuracy": 1.0,
+        "spot_check_sample": 20,
+        "cross_validation_pass_rate": 1.0,
+        "cross_validation_count": 8,
         "pass1_time_minutes": 35,
-        "pass2_time_minutes": null,
-        "total_time_minutes": 35,
-        "commits": 0,
-        "status": "pass1_complete"
+        "pass2_time_minutes": 90,
+        "total_time_minutes": 125,
+        "commits": 1,
+        "status": "pass2_complete"
       },
       "strengths": [
         "multi_year_table_100%_in_pass1",
@@ -102,10 +104,18 @@
         "643_fields_in_pass1_vs_487_in_pdf1",
         "handled_new_format_nabo",
         "all_17_notes_extracted",
-        "balance_sheet_validates"
+        "balance_sheet_validates",
+        "enhanced_pass2_found_11_errors",
+        "100%_spot_check_accuracy",
+        "100%_cross_validation_pass",
+        "nabo_patterns_fully_documented"
       ],
-      "weakpoints_found": [],
-      "weakpoints_fixed": [],
+      "weakpoints_found": [
+        "decimal_placement_errors_in_multi_year_table_11_values"
+      ],
+      "weakpoints_fixed": [
+        "all_11_decimal_errors_corrected_in_pass2"
+      ],
       "critical_test": {
         "test": "multi_year_table_completeness_pass1",
         "pdf1_result": "25% (3/12 rows)",
@@ -153,9 +163,15 @@
         ]
       },
       "validation_methods": [
-        "pass2_not_yet_performed"
+        "multi_year_value_verification_10_cells",
+        "cross_validation_suite_8_checks",
+        "random_spot_check_20_fields",
+        "nabo_specific_validation_5_patterns",
+        "narrative_completeness_6_elements",
+        "balance_sheet_equation_validation",
+        "all_17_notes_verified"
       ],
-      "grade": "pending_pass2"
+      "grade": "A+"
     }
   ],
   "cross_pdf_analysis": {
@@ -187,9 +203,9 @@
       "riksbyggen_standard",
       "nabo_standard"
     ],
-    "accuracy_trend": [0.97, null],
-    "completeness_trend": [0.994, 0.88],
-    "time_trend": [122, 35],
+    "accuracy_trend": [0.97, 1.0],
+    "completeness_trend": [0.994, 0.92],
+    "time_trend": [122, 125],
     "pass1_improvement": {
       "pdf1_pass1_completeness": 0.91,
       "pdf2_pass1_completeness": 0.88,

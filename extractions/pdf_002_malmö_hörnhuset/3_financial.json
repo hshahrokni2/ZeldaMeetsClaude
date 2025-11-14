@@ -1,8 +1,12 @@
 {
   "section": "Level 3 - Financial Data",
   "extraction_date": "2025-11-14",
-  "extraction_pass": "pass1",
+  "extraction_pass": "pass2",
+  "pass1_date": "2025-11-14T04:00:00Z",
+  "pass2_date": "2025-11-14T05:00:00Z",
   "fields_extracted": 245,
+  "pass2_corrections": 11,
+  "pass2_corrections_detail": "Fixed decimal placement in multi-year table tkr values",
   "critical_learning_applied": "COUNT_ROWS_FIRST_EXTRACT_ALL",
 
   "multi_year_overview": {
@@ -20,31 +24,31 @@
     },
 
     "nettoomsattning_tkr": {
-      "2023": {"value": 1511.926, "confidence": 1.0, "evidence_pages": [6]},
-      "2022": {"value": 1366.424, "confidence": 1.0, "evidence_pages": [6]},
-      "2021": {"value": 1333.222, "confidence": 1.0, "evidence_pages": [6]},
-      "2020": {"value": 1333.553, "confidence": 1.0, "evidence_pages": [6]}
+      "2023": {"value": 1511926, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2022": {"value": 1366424, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2021": {"value": 1333222, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2020": {"value": 1333553, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"}
     },
 
     "resultat_efter_finansiella_poster_tkr": {
-      "2023": {"value": -2344.071, "confidence": 1.0, "evidence_pages": [6]},
-      "2022": {"value": -994.883, "confidence": 1.0, "evidence_pages": [6]},
-      "2021": {"value": -361.410, "confidence": 1.0, "evidence_pages": [6]},
-      "2020": {"value": -2002.248, "confidence": 1.0, "evidence_pages": [6]}
+      "2023": {"value": -2344071, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2022": {"value": -994883, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2021": {"value": -361410, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2020": {"value": -2002248, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"}
     },
 
     "soliditet_procent": {
-      "2023": {"value": 57, "confidence": 1.0, "evidence_pages": [6]},
-      "2022": {"value": 66, "confidence": 1.0, "evidence_pages": [6]},
-      "2021": {"value": 67, "confidence": 1.0, "evidence_pages": [6]},
-      "2020": {"value": 64, "confidence": 1.0, "evidence_pages": [6]}
+      "2023": {"value": 57, "confidence": 1.0, "evidence_pages": [6], "pass2_verified": "correct"},
+      "2022": {"value": 66, "confidence": 1.0, "evidence_pages": [6], "pass2_verified": "correct"},
+      "2021": {"value": 67, "confidence": 1.0, "evidence_pages": [6], "pass2_verified": "correct"},
+      "2020": {"value": 64, "confidence": 1.0, "evidence_pages": [6], "pass2_verified": "correct"}
     },
 
     "yttre_fond": {
-      "2023": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
-      "2022": {"value": 719.559, "confidence": 1.0, "evidence_pages": [6]},
-      "2021": {"value": 782.380, "confidence": 1.0, "evidence_pages": [6]},
-      "2020": {"value": 532.380, "confidence": 1.0, "evidence_pages": [6]}
+      "2023": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6], "pass2_verified": "correct"},
+      "2022": {"value": 719559, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2021": {"value": 782380, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"},
+      "2020": {"value": 532380, "confidence": 1.0, "evidence_pages": [6], "pass2_corrected": "decimal_placement_fixed"}
     },
 
     "taxeringsvarde": {
