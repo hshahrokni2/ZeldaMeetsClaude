@@ -1,0 +1,340 @@
+{
+  "section": "Level 2 - Governance Structure",
+  "extraction_date": "2025-11-14T00:17:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 52,
+
+  "governance": {
+    "chairman": {
+      "value": "Johan Larsson",
+      "confidence": 1.0,
+      "evidence_pages": [5, 16],
+      "original_string": "Johan Larsson - Ordförande"
+    },
+
+    "vice_chairman": {
+      "value": "Johan Axelsson",
+      "confidence": 1.0,
+      "evidence_pages": [5, 16],
+      "original_string": "Johan Axelsson - Vice ordförande"
+    },
+
+    "board_members": [
+      {
+        "full_name": {
+          "value": "Johan Larsson",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Johan Larsson"
+        },
+        "role": "ordforande",
+        "term_start": null,
+        "term_end": {
+          "value": "2022",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2022"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Johan Axelsson",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Johan Axelsson"
+        },
+        "role": "vice_ordforande",
+        "term_start": null,
+        "term_end": {
+          "value": "2021",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2021"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Björn Remnås",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Björn Remnås"
+        },
+        "role": "ledamot",
+        "term_start": null,
+        "term_end": {
+          "value": "2021",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2021"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Björn Landqvist",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Björn Landqvist"
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": {
+          "value": "2021",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2021"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Sandra Sjöberg",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Sandra Sjöberg"
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": {
+          "value": "2021",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2021"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Dennis Andersson",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Dennis Andersson"
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": {
+          "value": "2022",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2022"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Maud Velin",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Maud Velin"
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": {
+          "value": "2022",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2022"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "full_name": {
+          "value": "Delia Hansen",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "Delia Hansen"
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": {
+          "value": "2022",
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "original_string": "2022"
+        },
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [5]
+      }
+    ],
+
+    "board_size": {
+      "value": 8,
+      "confidence": 1.0,
+      "evidence_pages": [5],
+      "original_string": "3 ordinarie + 5 suppleanter"
+    },
+
+    "board_term_years": null,
+
+    "primary_auditor": {
+      "name": {
+        "value": "KPMG AB",
+        "confidence": 1.0,
+        "evidence_pages": [5, 16],
+        "original_string": "KPMG AB"
+      },
+      "firm": {
+        "value": "KPMG AB",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "KPMG AB"
+      },
+      "certification": {
+        "value": "Auktoriserad revisor",
+        "confidence": 1.0,
+        "evidence_pages": [5, 16],
+        "original_string": "Auktoriserad revisor"
+      },
+      "contact_info": null,
+      "source_page": [5, 16]
+    },
+
+    "deputy_auditor": {
+      "name": {
+        "value": "Leif Hallberg",
+        "confidence": 1.0,
+        "evidence_pages": [5, 16],
+        "original_string": "Leif Hallberg"
+      },
+      "firm": null,
+      "certification": {
+        "value": "Förtroendevald revisor",
+        "confidence": 1.0,
+        "evidence_pages": [5, 16],
+        "original_string": "Förtroendevald revisor"
+      },
+      "contact_info": null,
+      "source_page": [5, 16]
+    },
+
+    "audit_period": null,
+
+    "nomination_committee": {
+      "value": ["Björn Remnås (sammankallande)", "Johan Axelsson"],
+      "confidence": 1.0,
+      "evidence_pages": [5],
+      "original_string": "Björn Remnås (sammankallande), Johan Axelsson"
+    },
+
+    "nomination_committee_details": {
+      "value": "Utsedd av stämman",
+      "confidence": 1.0,
+      "evidence_pages": [5],
+      "original_string": "Utsedd av Stämman"
+    },
+
+    "annual_meeting_date": {
+      "value": "2020",
+      "confidence": 0.8,
+      "evidence_pages": [5],
+      "original_string": "Vid räkenskapsårets början uppgick föreningens medlemsantal till 21 personer"
+    },
+
+    "annual_meeting_location": null,
+
+    "annual_meeting_attendees": null,
+
+    "extraordinary_meetings": null,
+
+    "stadgar_last_updated": null,
+
+    "bylaws_references": null,
+
+    "member_information": {
+      "members_start_of_year": {
+        "value": 21,
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Vid räkenskapsårets början uppgick föreningens medlemsantal till 21 personer"
+      },
+      "members_joined": {
+        "value": 3,
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Årets tillkommande medlemmar uppgår till 3 personer"
+      },
+      "members_left": {
+        "value": 4,
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Årets avgående medlemmar uppgår till 4 personer"
+      },
+      "members_end_of_year": {
+        "value": 20,
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Föreningens medlemsantal på bokslutsdagen uppgår till 20 personer"
+      }
+    },
+
+    "annual_fee_changes": {
+      "last_change_date": {
+        "value": "2012-01-01",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Föreningens årsavgift ändrades 2012-01-01"
+      },
+      "last_change_percentage": {
+        "value": 2.0,
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "då den höjdes med 2 %"
+      },
+      "fee_increase_decision": {
+        "value": "Efter att ha antagit budgeten för det kommande verksamhetsåret har styrelsen beslutat om oförändrad årsavgift",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Efter att ha antagit budgeten för det kommande verksamhetsåret har styrelsen beslutat om oförändrad årsavgift"
+      }
+    },
+
+    "external_agreements": {
+      "property_transfers": {
+        "value": "2 överlåtelser av bostadsrätter skett (föregående år 2 st.)",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Baserat på kontraktsdatum har under verksamhetsåret 2 överlåtelser av bostadsrätter skett (föregående år 2 st.)"
+      }
+    },
+
+    "source_pages": [3, 5, 16]
+  },
+
+  "extraction_notes": [
+    "Board has 3 regular members + 5 alternates (8 total)",
+    "Chairman: Johan Larsson (mandate until 2022)",
+    "Vice chairman: Johan Axelsson (mandate until 2021)",
+    "Secretary: Björn Remnås (mandate until 2021)",
+    "Primary auditor: KPMG AB (Auktoriserad revisor)",
+    "Deputy auditor: Leif Hallberg (Förtroendevald revisor)",
+    "Nomination committee: Björn Remnås (chair) and Johan Axelsson",
+    "Members: Started with 21, +3 new, -4 left, ended with 20",
+    "Annual fee last changed 2012-01-01 (+2%), unchanged for 2020",
+    "2 property transfers during the year"
+  ]
+}
