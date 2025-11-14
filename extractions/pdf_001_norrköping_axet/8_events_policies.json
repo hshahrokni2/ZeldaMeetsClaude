@@ -1,0 +1,229 @@
+{
+  "section": "Level 8 - Events & Policies",
+  "extraction_date": "2025-11-14T00:30:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 22,
+
+  "events": [
+    {
+      "event_date": {
+        "value": "2020",
+        "confidence": 0.9,
+        "evidence_pages": [3]
+      },
+      "event_type": {
+        "value": "Financial",
+        "confidence": 1.0,
+        "evidence_pages": [3]
+      },
+      "description": {
+        "value": "Årets resultat är 916 tkr sämre än föregående år. Förändringen beror främst på högre kostnader för drift och underhåll. Räntekostnaderna har minskat i år.",
+        "confidence": 1.0,
+        "evidence_pages": [3],
+        "original_string": "Årets resultat är 916 tkr sämre än föregående år. Förändringen beror främst på högre kostnader för drift och underhåll. Räntekostnaderna har minskat i år."
+      },
+      "financial_impact": {
+        "value": -916000,
+        "confidence": 1.0,
+        "evidence_pages": [3]
+      },
+      "related_documents": [],
+      "source_page": [3]
+    },
+    {
+      "event_date": {
+        "value": "2020",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "event_type": {
+        "value": "Maintenance",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "description": {
+        "value": "Föreningen har under verksamhetsåret utfört löpande reparationer av uppkomna skador samt planerat underhåll av normala förlitningar. Föreningen har under verksamhetsåret utfört reparationer för 13 tkr (bl a lagning av väggar, elarbeten utanför lägenhet i tvättstuga) och planerat underhåll för 781 tkr.",
+        "confidence": 1.0,
+        "evidence_pages": [4],
+        "original_string": "Major maintenance work: 781 tkr + repairs: 13 tkr"
+      },
+      "financial_impact": {
+        "value": -794000,
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "related_documents": [],
+      "source_page": [4]
+    },
+    {
+      "event_date": {
+        "value": "2020",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "event_type": {
+        "value": "Planning",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "description": {
+        "value": "Underhållsplan: Föreningens underhållsplan uppdaterades senast 2020 och visar på ett underhållsbehov på 1266 tkr för de närmaste 9 åren.",
+        "confidence": 1.0,
+        "evidence_pages": [4],
+        "original_string": "Underhållsplan uppdaterad 2020"
+      },
+      "financial_impact": null,
+      "related_documents": [],
+      "source_page": [4]
+    },
+    {
+      "event_date": {
+        "value": "2020",
+        "confidence": 0.9,
+        "evidence_pages": [5]
+      },
+      "event_type": {
+        "value": "Governance",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "description": {
+        "value": "Efter att ha antagit budgeten för det kommande verksamhetsåret har styrelsen beslutat om oförändrad årsavgift.",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "Board decision: No fee increase for upcoming year"
+      },
+      "financial_impact": null,
+      "related_documents": [],
+      "source_page": [5]
+    },
+    {
+      "event_date": {
+        "value": "2020",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "event_type": {
+        "value": "Membership",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "description": {
+        "value": "Baserat på kontraktsdatum har under verksamhetsåret 2 överlåtelser av bostadsrätter skett (föregående år 2 st.)",
+        "confidence": 1.0,
+        "evidence_pages": [5],
+        "original_string": "2 property transfers during the year"
+      },
+      "financial_impact": null,
+      "related_documents": [],
+      "source_page": [5]
+    }
+  ],
+
+  "policies": [
+    {
+      "policy_name": {
+        "value": "Redovisningsprinciper",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "policy_type": "financial",
+      "policy_description": {
+        "value": "Årsredovisningen är upprättad i enlighet med årsredovisningslagen och BokföringsnämndenS allmänna råd (BFNAR 2016:10) om årsredovisning i mindre företag.",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "effective_date": {
+        "value": "2020-01-01",
+        "confidence": 0.9,
+        "evidence_pages": [11]
+      },
+      "review_date": null,
+      "approved_by": {
+        "value": "Styrelsen",
+        "confidence": 0.9,
+        "evidence_pages": [11]
+      },
+      "source_page": [11]
+    },
+    {
+      "policy_name": {
+        "value": "Avskrivningsprinciper",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "policy_type": "financial",
+      "policy_description": {
+        "value": "Byggnader: Linjär avskrivning 60 år, Standardförbättringar: Linjär avskrivning 10 år, Portar: Linjär avskrivning 10 år",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "effective_date": null,
+      "review_date": null,
+      "approved_by": null,
+      "source_page": [11]
+    },
+    {
+      "policy_name": {
+        "value": "Hemförsäkring policy",
+        "confidence": 1.0,
+        "evidence_pages": [3]
+      },
+      "policy_type": "operational",
+      "policy_description": {
+        "value": "Hemförsäkring och bostadsrättstillägg bekostas individuellt av bostadsrättsinnehavarna",
+        "confidence": 1.0,
+        "evidence_pages": [3]
+      },
+      "effective_date": null,
+      "review_date": null,
+      "approved_by": null,
+      "source_page": [3]
+    }
+  ],
+
+  "environmental": {
+    "total_energy_consumption_kwh": null,
+    "renewable_energy_percentage": null,
+    "energy_efficiency_improvements": [],
+    "waste_management_system": {
+      "value": "Sophantering och återvinning",
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Sophantering återvinning -14 011"
+    },
+    "recycling_rate": null,
+    "water_consumption_m3": null,
+    "water_saving_measures": [],
+    "environmental_certifications": [],
+    "green_investments": [],
+    "source_pages": [12]
+  },
+
+  "key_events_summary": {
+    "fiscal_year": 2020,
+    "major_developments": [
+      "Significant loss of 654,451 kr (vs profit 261,985 kr in 2019)",
+      "Major maintenance work completed: 781,160 kr",
+      "Repairs completed: 133,440 kr",
+      "Maintenance plan updated for next 9 years (1,266 tkr)",
+      "2 property transfers",
+      "Board decided to keep fees unchanged",
+      "Cash reserves decreased from 1.21M kr to 685k kr"
+    ]
+  },
+
+  "source_pages": [3, 4, 5, 11, 12],
+
+  "extraction_notes": [
+    "5 main events documented for 2020",
+    "Major event: Financial loss of 916 tkr vs previous year",
+    "Maintenance event: 781 tkr planned maintenance + 133 tkr repairs",
+    "Governance: Board decided no fee increase",
+    "2 property transfers during year",
+    "3 policies documented (accounting, depreciation, insurance)",
+    "Environmental: Waste management system in place",
+    "Maintenance plan updated 2020",
+    "Key issue: Large decrease in financial result due to maintenance costs"
+  ]
+}

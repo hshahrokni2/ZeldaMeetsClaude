@@ -1,0 +1,366 @@
+{
+  "section": "Level 7 - Operations Data",
+  "extraction_date": "2025-11-14T00:29:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 35,
+
+  "operations": {
+    "property_manager": {
+      "value": "Riksbyggen",
+      "confidence": 1.0,
+      "evidence_pages": [1, 3, 4],
+      "original_string": "Riksbyggen - Rum för hela Livet"
+    },
+
+    "property_management_fee": {
+      "value": 112428,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Förvaltningsarvode administration -112 428"
+    },
+
+    "suppliers": [
+      {
+        "company_name": {
+          "value": "Riksbyggen",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "service_type": {
+          "value": "Ekonomisk förvaltning",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "contract_value_annual": {
+          "value": 112428,
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": {
+          "value": "Riksbyggens kontor i Norrköping",
+          "confidence": 1.0,
+          "evidence_pages": [3]
+        },
+        "source_page": [3, 4, 12]
+      },
+      {
+        "company_name": {
+          "value": "Kone AB",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "service_type": {
+          "value": "Hissar",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [4]
+      },
+      {
+        "company_name": {
+          "value": "Telenor",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "service_type": {
+          "value": "Bredband och telefoni",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "contract_value_annual": {
+          "value": 31680,
+          "confidence": 1.0,
+          "evidence_pages": [11, 12]
+        },
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [4, 11, 12]
+      },
+      {
+        "company_name": {
+          "value": "Trygg Hansa",
+          "confidence": 1.0,
+          "evidence_pages": [3]
+        },
+        "service_type": {
+          "value": "Försäkring - Fullvärdeförsäkrad",
+          "confidence": 1.0,
+          "evidence_pages": [3]
+        },
+        "contract_value_annual": {
+          "value": 20874,
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [3, 12]
+      },
+      {
+        "company_name": {
+          "value": "KPMG AB",
+          "confidence": 1.0,
+          "evidence_pages": [5, 16]
+        },
+        "service_type": {
+          "value": "Auktoriserad revisor",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": {
+          "value": 17180,
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": {
+          "value": "Utsedd av stämman",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contact_info": null,
+        "source_page": [5, 12, 16]
+      }
+    ],
+
+    "maintenance_plan_years": {
+      "value": 9,
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "för de närmaste 9 åren"
+    },
+
+    "planned_maintenance": [
+      {
+        "description": {
+          "value": "Fasadrenovering",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2015,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": {
+          "value": "2015",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "source_page": [4]
+      },
+      {
+        "description": {
+          "value": "Byte tvättmaskiner och torktumlare",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2016,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": {
+          "value": "2016",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "source_page": [4]
+      },
+      {
+        "description": {
+          "value": "Hiss",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2016,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": {
+          "value": "2016",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "source_page": [4]
+      },
+      {
+        "description": {
+          "value": "Renovering Staket",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2017,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": {
+          "value": "2017",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "source_page": [4]
+      },
+      {
+        "description": {
+          "value": "Huskropp utvändigt",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2017,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": {
+          "value": "2017",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "source_page": [4]
+      },
+      {
+        "description": {
+          "value": "Byte frånluftsaggregat",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "planned_year": {
+          "value": 2021,
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "planned",
+        "actual_cost": null,
+        "completion_date": null,
+        "source_page": [4]
+      }
+    ],
+
+    "completed_maintenance": [
+      {
+        "description": {
+          "value": "Various maintenance work in 2020",
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "planned_year": {
+          "value": 2020,
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": {
+          "value": 781160,
+          "confidence": 1.0,
+          "evidence_pages": [12],
+          "original_string": "Underhåll -781 160"
+        },
+        "completion_date": {
+          "value": "2020",
+          "confidence": 1.0,
+          "evidence_pages": [12]
+        },
+        "source_page": [12]
+      }
+    ],
+
+    "insurance_provider": {
+      "value": "Trygg Hansa",
+      "confidence": 1.0,
+      "evidence_pages": [3],
+      "original_string": "Trygg Hansa"
+    },
+
+    "insurance_coverage_types": [
+      "Fullvärdeförsäkrad"
+    ],
+
+    "insurance_premium_annual": {
+      "value": 20874,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Försäkringspremier -20 874"
+    },
+
+    "insurance_deductible": null,
+
+    "electricity_provider": null,
+
+    "heating_provider": null,
+
+    "water_provider": null,
+
+    "broadband_provider": {
+      "value": "Telenor",
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "Telenor - Bredband och telefoni"
+    },
+
+    "number_of_employees": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [12],
+      "original_string": "Föreningen har inga egna anställda, enbart arvoderad personal"
+    },
+
+    "employee_roles": [],
+
+    "source_pages": [3, 4, 5, 12]
+  },
+
+  "extraction_notes": [
+    "Property manager: Riksbyggen (fee: 112,428 kr/year)",
+    "5 main suppliers: Riksbyggen, Kone AB, Telenor, Trygg Hansa, KPMG",
+    "Insurance: Trygg Hansa (20,874 kr/year, full value coverage)",
+    "Telecom: Telenor (31,680 kr/year)",
+    "Auditor: KPMG (17,180 kr/year)",
+    "Elevator service: Kone AB",
+    "Maintenance plan covers 9 years",
+    "Major maintenance in 2020: 781,160 kr",
+    "Past projects: Facade (2015), Elevator (2016), Fence (2017)",
+    "Planned: Ventilation system replacement (2021)",
+    "No employees - board members paid via fees",
+    "Homeowners responsible for individual home insurance"
+  ]
+}
