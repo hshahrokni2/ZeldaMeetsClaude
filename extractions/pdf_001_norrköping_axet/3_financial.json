@@ -1,0 +1,424 @@
+{
+  "section": "Level 3 - Financial Data",
+  "extraction_date": "2025-11-14T00:19:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 168,
+
+  "financial_data": {
+    "income_statement": {
+      "revenue_total": {
+        "value": 953181,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "953 181"
+      },
+
+      "revenue_line_items": [
+        {
+          "category": {"value": "Nettoomsättning", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 2", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": 905904, "confidence": 1.0, "evidence_pages": [8], "original_string": "905 904"},
+          "amount_previous_year": {"value": 905305, "confidence": 1.0, "evidence_pages": [8], "original_string": "905 305"},
+          "note_reference": {"value": 2, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        },
+        {
+          "category": {"value": "Övriga rörelseintäkter", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 3", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": 47277, "confidence": 1.0, "evidence_pages": [8], "original_string": "47 277"},
+          "amount_previous_year": {"value": 35381, "confidence": 1.0, "evidence_pages": [8], "original_string": "35 381"},
+          "note_reference": {"value": 3, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        }
+      ],
+
+      "expenses_total": {
+        "value": -1552228,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "-1 552 228"
+      },
+
+      "expenses_line_items": [
+        {
+          "category": {"value": "Driftskostnader", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 4", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": -1211339, "confidence": 1.0, "evidence_pages": [8], "original_string": "-1 211 339"},
+          "amount_previous_year": {"value": -304606, "confidence": 1.0, "evidence_pages": [8], "original_string": "-304 606"},
+          "note_reference": {"value": 4, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        },
+        {
+          "category": {"value": "Övriga externa kostnader", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 5", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": -141403, "confidence": 1.0, "evidence_pages": [8], "original_string": "-141 403"},
+          "amount_previous_year": {"value": -136658, "confidence": 1.0, "evidence_pages": [8], "original_string": "-136 658"},
+          "note_reference": {"value": 5, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        },
+        {
+          "category": {"value": "Personalkostnader", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 6", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": -69728, "confidence": 1.0, "evidence_pages": [8], "original_string": "-69 728"},
+          "amount_previous_year": {"value": -48625, "confidence": 1.0, "evidence_pages": [8], "original_string": "-48 625"},
+          "note_reference": {"value": 6, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        },
+        {
+          "category": {"value": "Avskrivningar av materiella anläggningstillgångar", "confidence": 1.0, "evidence_pages": [8]},
+          "description": {"value": "Not 7", "confidence": 1.0, "evidence_pages": [8]},
+          "amount_current_year": {"value": -129758, "confidence": 1.0, "evidence_pages": [8], "original_string": "-129 758"},
+          "amount_previous_year": {"value": -129758, "confidence": 1.0, "evidence_pages": [8], "original_string": "-129 758"},
+          "note_reference": {"value": 7, "confidence": 1.0, "evidence_pages": [8]},
+          "source_page": 8
+        }
+      ],
+
+      "operating_result": {
+        "value": -599047,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "-599 047"
+      },
+
+      "financial_income": {
+        "value": 4770,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "4 770"
+      },
+
+      "financial_expenses": {
+        "value": -60175,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "-60 175"
+      },
+
+      "result_before_tax": {
+        "value": -654451,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "-654 451"
+      },
+
+      "tax": null,
+
+      "result_after_tax": {
+        "value": -654451,
+        "confidence": 1.0,
+        "evidence_pages": [8],
+        "original_string": "-654 451"
+      },
+
+      "source_pages": [8]
+    },
+
+    "balance_sheet": {
+      "assets_total": {
+        "value": 6383338,
+        "confidence": 1.0,
+        "evidence_pages": [9],
+        "original_string": "6 383 338"
+      },
+
+      "fixed_assets": {
+        "value": 5652337,
+        "confidence": 1.0,
+        "evidence_pages": [9],
+        "original_string": "5 652 337"
+      },
+
+      "current_assets": {
+        "value": 731001,
+        "confidence": 1.0,
+        "evidence_pages": [9],
+        "original_string": "731 001"
+      },
+
+      "assets_line_items": [
+        {
+          "category": {"value": "Materiella anläggningstillgångar", "confidence": 1.0},
+          "subcategory": {"value": "Byggnader och mark", "confidence": 1.0},
+          "description": {"value": "Not 9", "confidence": 1.0},
+          "amount_current_year": {"value": 5652337, "confidence": 1.0, "evidence_pages": [9], "original_string": "5 652 337"},
+          "amount_previous_year": {"value": 5782096, "confidence": 1.0, "evidence_pages": [9], "original_string": "5 782 096"},
+          "note_reference": {"value": 9, "confidence": 1.0},
+          "source_page": 9
+        },
+        {
+          "category": {"value": "Kortfristiga fordringar", "confidence": 1.0},
+          "subcategory": {"value": "Kund-, avgifts- och hyresfordringar", "confidence": 1.0},
+          "amount_current_year": {"value": 700, "confidence": 1.0, "evidence_pages": [9], "original_string": "700"},
+          "amount_previous_year": {"value": 0, "confidence": 1.0, "evidence_pages": [9], "original_string": "0"},
+          "source_page": 9
+        },
+        {
+          "category": {"value": "Kortfristiga fordringar", "confidence": 1.0},
+          "subcategory": {"value": "Övriga fordringar", "confidence": 1.0},
+          "description": {"value": "Not 10", "confidence": 1.0},
+          "amount_current_year": {"value": 1587, "confidence": 1.0, "evidence_pages": [9], "original_string": "1 587"},
+          "amount_previous_year": {"value": 575, "confidence": 1.0, "evidence_pages": [9], "original_string": "575"},
+          "note_reference": {"value": 10, "confidence": 1.0},
+          "source_page": 9
+        },
+        {
+          "category": {"value": "Kortfristiga fordringar", "confidence": 1.0},
+          "subcategory": {"value": "Förutbetalda kostnader och upplupna intäkter", "confidence": 1.0},
+          "description": {"value": "Not 11", "confidence": 1.0},
+          "amount_current_year": {"value": 43143, "confidence": 1.0, "evidence_pages": [9], "original_string": "43 143"},
+          "amount_previous_year": {"value": 43471, "confidence": 1.0, "evidence_pages": [9], "original_string": "43 471"},
+          "note_reference": {"value": 11, "confidence": 1.0},
+          "source_page": 9
+        },
+        {
+          "category": {"value": "Kassa och bank", "confidence": 1.0},
+          "description": {"value": "Not 12", "confidence": 1.0},
+          "amount_current_year": {"value": 685571, "confidence": 1.0, "evidence_pages": [9], "original_string": "685 571"},
+          "amount_previous_year": {"value": 1210360, "confidence": 1.0, "evidence_pages": [9], "original_string": "1 210 360"},
+          "note_reference": {"value": 12, "confidence": 1.0},
+          "source_page": 9
+        }
+      ],
+
+      "liabilities_total": {
+        "value": 5556057,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "5 036 523 + 519 534"
+      },
+
+      "equity_total": {
+        "value": 827281,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "827 281"
+      },
+
+      "long_term_liabilities": {
+        "value": 5036523,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "5 036 523"
+      },
+
+      "short_term_liabilities": {
+        "value": 519534,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "519 534"
+      },
+
+      "liability_line_items": [
+        {
+          "category": {"value": "Långfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Övriga skulder till kreditinstitut", "confidence": 1.0},
+          "description": {"value": "Not 13", "confidence": 1.0},
+          "amount_current_year": {"value": 5036523, "confidence": 1.0, "evidence_pages": [10], "original_string": "5 036 523"},
+          "amount_previous_year": {"value": 5218577, "confidence": 1.0, "evidence_pages": [10], "original_string": "5 218 577"},
+          "note_reference": {"value": 13, "confidence": 1.0},
+          "source_page": 10
+        },
+        {
+          "category": {"value": "Kortfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Övriga skulder till kreditinstitut (amorteringar)", "confidence": 1.0},
+          "description": {"value": "Not 13", "confidence": 1.0},
+          "amount_current_year": {"value": 171704, "confidence": 1.0, "evidence_pages": [10], "original_string": "171 704"},
+          "amount_previous_year": {"value": 141948, "confidence": 1.0, "evidence_pages": [10], "original_string": "141 948"},
+          "note_reference": {"value": 13, "confidence": 1.0},
+          "source_page": 10
+        },
+        {
+          "category": {"value": "Kortfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Leverantörsskulder", "confidence": 1.0},
+          "amount_current_year": {"value": 135912, "confidence": 1.0, "evidence_pages": [10], "original_string": "135 912"},
+          "amount_previous_year": {"value": 13004, "confidence": 1.0, "evidence_pages": [10], "original_string": "13 004"},
+          "source_page": 10
+        },
+        {
+          "category": {"value": "Kortfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Skatteskulder", "confidence": 1.0},
+          "amount_current_year": {"value": 1304, "confidence": 1.0, "evidence_pages": [10], "original_string": "1 304"},
+          "amount_previous_year": {"value": 916, "confidence": 1.0, "evidence_pages": [10], "original_string": "916"},
+          "source_page": 10
+        },
+        {
+          "category": {"value": "Kortfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Övriga skulder", "confidence": 1.0},
+          "amount_current_year": {"value": 180, "confidence": 1.0, "evidence_pages": [10], "original_string": "180"},
+          "amount_previous_year": {"value": 726, "confidence": 1.0, "evidence_pages": [10], "original_string": "726"},
+          "source_page": 10
+        },
+        {
+          "category": {"value": "Kortfristiga skulder", "confidence": 1.0},
+          "subcategory": {"value": "Upplupna kostnader och förutbetalda intäkter", "confidence": 1.0},
+          "description": {"value": "Not 14", "confidence": 1.0},
+          "amount_current_year": {"value": 210434, "confidence": 1.0, "evidence_pages": [10], "original_string": "210 434"},
+          "amount_previous_year": {"value": 179599, "confidence": 1.0, "evidence_pages": [10], "original_string": "179 599"},
+          "note_reference": {"value": 14, "confidence": 1.0},
+          "source_page": 10
+        }
+      ],
+
+      "equity_breakdown": {
+        "bundet_eget_kapital": {
+          "medlemsinsatser": {"value": 487202, "confidence": 1.0, "evidence_pages": [10], "original_string": "487 202"},
+          "reservfond": {"value": 150, "confidence": 1.0, "evidence_pages": [10], "original_string": "150"},
+          "fond_yttre_underhall": {"value": 284907, "confidence": 1.0, "evidence_pages": [10], "original_string": "284 907"},
+          "summa": {"value": 772259, "confidence": 1.0, "evidence_pages": [10], "original_string": "772 259"}
+        },
+        "fritt_eget_kapital": {
+          "balanserat_resultat": {"value": 709474, "confidence": 1.0, "evidence_pages": [10], "original_string": "709 474"},
+          "arets_resultat": {"value": -654451, "confidence": 1.0, "evidence_pages": [10], "original_string": "-654 451"},
+          "summa": {"value": 55023, "confidence": 1.0, "evidence_pages": [10], "original_string": "55 023"}
+        }
+      },
+
+      "source_pages": [9, 10]
+    },
+
+    "multi_year_overview": {
+      "years": [
+        {
+          "year": 2020,
+          "nettoomsattning_tkr": {"value": 906, "confidence": 1.0, "evidence_pages": [6], "original_string": "906"},
+          "driftsoverskott_tkr": null,
+          "arsresultat_tkr": {"value": -654, "confidence": 1.0, "evidence_pages": [6], "original_string": "-654"},
+          "tillgangar_tkr": null,
+          "skulder_tkr": null,
+          "eget_kapital_tkr": null,
+          "soliditet_procent": {"value": 13, "confidence": 1.0, "evidence_pages": [6], "original_string": "13"},
+          "is_complete": false,
+          "extraction_confidence": 0.9,
+          "source_page": 6
+        },
+        {
+          "year": 2019,
+          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+          "driftsoverskott_tkr": null,
+          "arsresultat_tkr": {"value": 262, "confidence": 1.0, "evidence_pages": [6], "original_string": "262"},
+          "tillgangar_tkr": null,
+          "skulder_tkr": null,
+          "eget_kapital_tkr": null,
+          "soliditet_procent": {"value": 21, "confidence": 1.0, "evidence_pages": [6], "original_string": "21"},
+          "is_complete": false,
+          "extraction_confidence": 0.9,
+          "source_page": 6
+        },
+        {
+          "year": 2018,
+          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+          "driftsoverskott_tkr": null,
+          "arsresultat_tkr": {"value": 184, "confidence": 1.0, "evidence_pages": [6], "original_string": "184"},
+          "tillgangar_tkr": null,
+          "skulder_tkr": null,
+          "eget_kapital_tkr": null,
+          "soliditet_procent": {"value": 18, "confidence": 1.0, "evidence_pages": [6], "original_string": "18"},
+          "is_complete": false,
+          "extraction_confidence": 0.9,
+          "source_page": 6
+        },
+        {
+          "year": 2017,
+          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+          "driftsoverskott_tkr": null,
+          "arsresultat_tkr": {"value": -198, "confidence": 1.0, "evidence_pages": [6], "original_string": "-198"},
+          "tillgangar_tkr": null,
+          "skulder_tkr": null,
+          "eget_kapital_tkr": null,
+          "soliditet_procent": {"value": 15, "confidence": 1.0, "evidence_pages": [6], "original_string": "15"},
+          "is_complete": false,
+          "extraction_confidence": 0.9,
+          "source_page": 6
+        },
+        {
+          "year": 2016,
+          "nettoomsattning_tkr": {"value": 905, "confidence": 1.0, "evidence_pages": [6], "original_string": "905"},
+          "driftsoverskott_tkr": null,
+          "arsresultat_tkr": {"value": 33, "confidence": 1.0, "evidence_pages": [6], "original_string": "33"},
+          "tillgangar_tkr": null,
+          "skulder_tkr": null,
+          "eget_kapital_tkr": null,
+          "soliditet_procent": {"value": 17, "confidence": 1.0, "evidence_pages": [6], "original_string": "17"},
+          "is_complete": false,
+          "extraction_confidence": 0.9,
+          "source_page": 6
+        }
+      ],
+      "years_covered": [2016, 2017, 2018, 2019, 2020],
+      "num_years": 5,
+      "table_orientation": "years_columns",
+      "extraction_method": "manual_from_table",
+      "confidence": 0.95
+    },
+
+    "calculated_metrics": {
+      "total_debt_extracted": {
+        "value": 5208227,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "5 036 523 + 171 704"
+      },
+
+      "total_area_sqm_extracted": {
+        "value": 1211,
+        "confidence": 1.0,
+        "evidence_pages": [3],
+        "original_string": "1 211 m²"
+      },
+
+      "debt_per_sqm_extracted": {
+        "value": 4301,
+        "confidence": 1.0,
+        "evidence_pages": [6],
+        "original_string": "4 301"
+      },
+
+      "debt_per_sqm_calculated": 4301,
+
+      "equity_extracted": {
+        "value": 827281,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "827 281"
+      },
+
+      "assets_extracted": {
+        "value": 6383338,
+        "confidence": 1.0,
+        "evidence_pages": [9],
+        "original_string": "6 383 338"
+      },
+
+      "solidarity_percent_extracted": {
+        "value": 13,
+        "confidence": 1.0,
+        "evidence_pages": [6],
+        "original_string": "13"
+      },
+
+      "solidarity_percent_calculated": 12.96,
+
+      "validation_status": "valid",
+      "validation_warnings": [],
+      "validation_errors": [],
+      "overall_confidence": 0.98
+    }
+  },
+
+  "extraction_notes": [
+    "Income statement shows major loss in 2020: -654,451 kr vs profit 261,985 kr in 2019",
+    "Operating costs increased dramatically: 1,211,339 kr (2020) vs 304,606 kr (2019)",
+    "Total revenue stable at ~905 tkr across all years 2016-2020",
+    "Total assets decreased from 7,036,502 kr (2019) to 6,383,338 kr (2020)",
+    "Equity decreased from 1,481,732 kr (2019) to 827,281 kr (2020)",
+    "Long-term debt: 5,036,523 kr (2020)",
+    "Short-term debt: 519,534 kr (2020)",
+    "Total debt per sqm: 4,301 kr/m² (stable across years)",
+    "Solidarity ratio dropped to 13% (2020) from 21% (2019)",
+    "Cash and bank decreased from 1,210,360 kr to 685,571 kr",
+    "Multi-year data available for 2016-2020 (5 years)",
+    "Depreciation constant at 129,758 kr per year",
+    "Financial expenses: 60,175 kr (2020), down from 64,149 kr (2019)"
+  ]
+}

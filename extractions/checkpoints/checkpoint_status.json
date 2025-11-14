@@ -1,11 +1,11 @@
 {
   "current_pdf_number": 1,
   "current_pdf_name": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
-  "current_section": 3,
-  "current_section_name": "financial",
+  "current_section": 4,
+  "current_section_name": "notes",
   "status": "in_progress",
   "started_at": "2025-11-14T00:00:00Z",
-  "sections_completed": ["1_metadata", "2_governance"],
-  "total_fields_extracted": 77,
-  "last_updated": "2025-11-14T00:18:00Z"
+  "sections_completed": ["1_metadata", "2_governance", "3_financial"],
+  "total_fields_extracted": 245,
+  "last_updated": "2025-11-14T00:21:00Z"
 }
