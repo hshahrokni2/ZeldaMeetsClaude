@@ -1,0 +1,505 @@
+{
+  "section": "Level 4 - Notes Collection",
+  "extraction_date": "2025-11-14T00:22:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 98,
+
+  "notes_collection": {
+    "note_1_accounting_principles": {
+      "note_number": {"value": 1, "confidence": 1.0, "evidence_pages": [11]},
+      "title": {
+        "value": "Allmänna redovisningsprinciper",
+        "confidence": 1.0,
+        "evidence_pages": [11],
+        "original_string": "Not 1 Allmänna redovisningsprinciper"
+      },
+      "content": {
+        "value": "Årsredovisningen är upprättad i enlighet med årsredovisningslagen och BokföringsnämndenS allmänna råd (BFNAR 2016:10) om årsredovisning i mindre företag. Redovisningsprinciperna är oförändrade i jämförelse med föregående år förutom den delen av föreningens långfristiga skuld som är föremål för omförhandling inom 12 månader från räkenskapsårets utgång. Dessa redovisas fr.o.m. 2020 som kortfristig skuld. Jämförelseårets siffror har inte räknats om.",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "tables": [],
+      "line_items": [],
+      "source_pages": [11]
+    },
+
+    "note_2_revenue": {
+      "note_number": {"value": 2, "confidence": 1.0, "evidence_pages": [11]},
+      "title": {
+        "value": "Nettoomsättning",
+        "confidence": 1.0,
+        "evidence_pages": [11],
+        "original_string": "Not 2 Nettoomsättning"
+      },
+      "tables": [
+        {
+          "description": "Revenue breakdown by type",
+          "data": {
+            "arsavgifter_bostader_2020": {"value": 904104, "confidence": 1.0, "original_string": "904 104"},
+            "arsavgifter_bostader_2019": {"value": 904105, "confidence": 1.0, "original_string": "904 105"},
+            "hyror_bostader_2020": {"value": 1800, "confidence": 1.0, "original_string": "1 800"},
+            "hyror_bostader_2019": {"value": 1200, "confidence": 1.0, "original_string": "1 200"},
+            "summa_2020": {"value": 905904, "confidence": 1.0, "original_string": "905 904"},
+            "summa_2019": {"value": 905305, "confidence": 1.0, "original_string": "905 305"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [11]
+    },
+
+    "note_3_other_revenue": {
+      "note_number": {"value": 3, "confidence": 1.0, "evidence_pages": [11]},
+      "title": {
+        "value": "Övriga rörelseintäkter",
+        "confidence": 1.0,
+        "evidence_pages": [11],
+        "original_string": "Not 3 Övriga rörelseintäkter"
+      },
+      "tables": [
+        {
+          "description": "Other operating income",
+          "data": {
+            "kabel_tv_avgifter_2020": {"value": 31680, "confidence": 1.0, "original_string": "31 680"},
+            "kabel_tv_avgifter_2019": {"value": 31680, "confidence": 1.0, "original_string": "31 680"},
+            "ovriga_ersattningar_2020": {"value": 5172, "confidence": 1.0, "original_string": "5 172"},
+            "ovriga_ersattningar_2019": {"value": 3701, "confidence": 1.0, "original_string": "3 701"},
+            "ovriga_rorelseintakter_2020": {"value": 10425, "confidence": 1.0, "original_string": "10 425"},
+            "ovriga_rorelseintakter_2019": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "summa_2020": {"value": 47277, "confidence": 1.0, "original_string": "47 277"},
+            "summa_2019": {"value": 35381, "confidence": 1.0, "original_string": "35 381"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [11]
+    },
+
+    "note_4_operating_costs": {
+      "note_number": {"value": 4, "confidence": 1.0, "evidence_pages": [12]},
+      "title": {
+        "value": "Driftskostnader",
+        "confidence": 1.0,
+        "evidence_pages": [12],
+        "original_string": "Not 4 Driftskostnader"
+      },
+      "tables": [
+        {
+          "description": "Operating costs breakdown",
+          "data": {
+            "underhall_2020": {"value": -781160, "confidence": 1.0, "original_string": "-781 160"},
+            "underhall_2019": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "reparationer_2020": {"value": -133440, "confidence": 1.0, "original_string": "-133 440"},
+            "reparationer_2019": {"value": -13072, "confidence": 1.0, "original_string": "-13 072"},
+            "fastighetsavgift_och_fastighetsskatt_2020": {"value": -22864, "confidence": 1.0, "original_string": "-22 864"},
+            "fastighetsavgift_och_fastighetsskatt_2019": {"value": -22032, "confidence": 1.0, "original_string": "-22 032"},
+            "forsakringspremier_2020": {"value": -20874, "confidence": 1.0, "original_string": "-20 874"},
+            "forsakringspremier_2019": {"value": -19688, "confidence": 1.0, "original_string": "-19 688"},
+            "kabel_digital_tv_2020": {"value": -31680, "confidence": 1.0, "original_string": "-31 680"},
+            "kabel_digital_tv_2019": {"value": -31680, "confidence": 1.0, "original_string": "-31 680"},
+            "obligatoriska_besiktningar_2020": {"value": -8117, "confidence": 1.0, "original_string": "-8 117"},
+            "obligatoriska_besiktningar_2019": {"value": -31354, "confidence": 1.0, "original_string": "-31 354"},
+            "sno_halkbekampning_2020": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "sno_halkbekampning_2019": {"value": -2058, "confidence": 1.0, "original_string": "-2 058"},
+            "forbrukningsinventarier_2020": {"value": -4816, "confidence": 1.0, "original_string": "-4 816"},
+            "forbrukningsinventarier_2019": {"value": -3806, "confidence": 1.0, "original_string": "-3 806"},
+            "vatten_2020": {"value": -58787, "confidence": 1.0, "original_string": "-58 787"},
+            "vatten_2019": {"value": -36832, "confidence": 1.0, "original_string": "-36 832"},
+            "fastighetsel_2020": {"value": -31393, "confidence": 1.0, "original_string": "-31 393"},
+            "fastighetsel_2019": {"value": -38585, "confidence": 1.0, "original_string": "-38 585"},
+            "uppvarmning_2020": {"value": -99198, "confidence": 1.0, "original_string": "-99 198"},
+            "uppvarmning_2019": {"value": -92129, "confidence": 1.0, "original_string": "-92 129"},
+            "sophantering_atervinning_2020": {"value": -14011, "confidence": 1.0, "original_string": "-14 011"},
+            "sophantering_atervinning_2019": {"value": -13370, "confidence": 1.0, "original_string": "-13 370"},
+            "forvaltningsarvode_drift_2020": {"value": -5000, "confidence": 1.0, "original_string": "-5 000"},
+            "forvaltningsarvode_drift_2019": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "summa_2020": {"value": -1211339, "confidence": 1.0, "original_string": "-1 211 339"},
+            "summa_2019": {"value": -304606, "confidence": 1.0, "original_string": "-304 606"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [12],
+      "special_notes": "Major increase in underhåll (maintenance) from 0 to 781,160 kr in 2020"
+    },
+
+    "note_5_other_external_costs": {
+      "note_number": {"value": 5, "confidence": 1.0, "evidence_pages": [12]},
+      "title": {
+        "value": "Övriga externa kostnader",
+        "confidence": 1.0,
+        "evidence_pages": [12],
+        "original_string": "Not 5 Övriga externa kostnader"
+      },
+      "tables": [
+        {
+          "description": "Other external costs",
+          "data": {
+            "forvaltningsarvode_administration_2020": {"value": -112428, "confidence": 1.0, "original_string": "-112 428"},
+            "forvaltningsarvode_administration_2019": {"value": -111163, "confidence": 1.0, "original_string": "-111 163"},
+            "arvode_yrkesrevisorer_2020": {"value": -17180, "confidence": 1.0, "original_string": "-17 180"},
+            "arvode_yrkesrevisorer_2019": {"value": -16775, "confidence": 1.0, "original_string": "-16 775"},
+            "ovriga_forvaltningskostnader_2020": {"value": -4071, "confidence": 1.0, "original_string": "-4 071"},
+            "ovriga_forvaltningskostnader_2019": {"value": -1866, "confidence": 1.0, "original_string": "-1 866"},
+            "kreditupplysningar_2020": {"value": -450, "confidence": 1.0, "original_string": "-450"},
+            "kreditupplysningar_2019": {"value": -180, "confidence": 1.0, "original_string": "-180"},
+            "pantforskrivnings_overlatelaseavgifter_2020": {"value": -5204, "confidence": 1.0, "original_string": "-5 204"},
+            "pantforskrivnings_overlatelaseavgifter_2019": {"value": -4651, "confidence": 1.0, "original_string": "-4 651"},
+            "kontorsmateriel_2020": {"value": -520, "confidence": 1.0, "original_string": "-520"},
+            "kontorsmateriel_2019": {"value": -473, "confidence": 1.0, "original_string": "-473"},
+            "bankkostnader_2020": {"value": -1550, "confidence": 1.0, "original_string": "-1 550"},
+            "bankkostnader_2019": {"value": -1550, "confidence": 1.0, "original_string": "-1 550"},
+            "summa_2020": {"value": -141403, "confidence": 1.0, "original_string": "-141 403"},
+            "summa_2019": {"value": -136658, "confidence": 1.0, "original_string": "-136 658"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [12]
+    },
+
+    "note_6_personnel": {
+      "note_number": {"value": 6, "confidence": 1.0, "evidence_pages": [12]},
+      "title": {
+        "value": "Personalkostnader",
+        "confidence": 1.0,
+        "evidence_pages": [12],
+        "original_string": "Not 6 Personalkostnader"
+      },
+      "tables": [
+        {
+          "description": "Personnel costs",
+          "data": {
+            "styrelsearvoden_2020": {"value": -51800, "confidence": 1.0, "original_string": "-51 800"},
+            "styrelsearvoden_2019": {"value": -34500, "confidence": 1.0, "original_string": "-34 500"},
+            "arvode_fortroendevalda_uppdragstagare_2020": {"value": -1500, "confidence": 1.0, "original_string": "-1 500"},
+            "arvode_fortroendevalda_uppdragstagare_2019": {"value": -2500, "confidence": 1.0, "original_string": "-2 500"},
+            "sociala_kostnader_2020": {"value": -16428, "confidence": 1.0, "original_string": "-16 428"},
+            "sociala_kostnader_2019": {"value": -11625, "confidence": 1.0, "original_string": "-11 625"},
+            "summa_2020": {"value": -69728, "confidence": 1.0, "original_string": "-69 728"},
+            "summa_2019": {"value": -48625, "confidence": 1.0, "original_string": "-48 625"}
+          }
+        }
+      ],
+      "content": {
+        "value": "Föreningen har inga egna anställda, enbart arvoderad personal",
+        "confidence": 1.0,
+        "evidence_pages": [12],
+        "original_string": "Föreningen har inga egna anställda, enbart arvoderad personal"
+      },
+      "line_items": [],
+      "source_pages": [12]
+    },
+
+    "note_7_depreciation": {
+      "note_number": {"value": 7, "confidence": 1.0, "evidence_pages": [12]},
+      "title": {
+        "value": "Avskrivningar av materiella anläggningstillgångar",
+        "confidence": 1.0,
+        "evidence_pages": [12],
+        "original_string": "Not 7 Avskrivningar av materiella anläggningstillgångar"
+      },
+      "tables": [
+        {
+          "description": "Depreciation",
+          "data": {
+            "avskrivning_byggnader_2020": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"},
+            "avskrivning_byggnader_2019": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"},
+            "summa_2020": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"},
+            "summa_2019": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [12]
+    },
+
+    "note_8_interest_income": {
+      "note_number": {"value": 8, "confidence": 1.0, "evidence_pages": [13]},
+      "title": {
+        "value": "Övriga ränteintäkter och liknande resultatposter",
+        "confidence": 1.0,
+        "evidence_pages": [13],
+        "original_string": "Not 8 Övriga ränteintäkter och liknande resultatposter"
+      },
+      "tables": [
+        {
+          "description": "Interest income and similar",
+          "data": {
+            "ranteintakter_hyres_kundfordringar_2020": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "ranteintakter_hyres_kundfordringar_2019": {"value": 68, "confidence": 1.0, "original_string": "68"},
+            "ranteintakter_likviditetsplacering_2020": {"value": 4770, "confidence": 1.0, "original_string": "4 770"},
+            "ranteintakter_likviditetsplacering_2019": {"value": 5028, "confidence": 1.0, "original_string": "5 028"},
+            "summa_2020": {"value": 4770, "confidence": 1.0, "original_string": "4 770"},
+            "summa_2019": {"value": 5096, "confidence": 1.0, "original_string": "5 096"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [13]
+    },
+
+    "note_9_buildings": {
+      "note_number": {"value": 9, "confidence": 1.0, "evidence_pages": [13]},
+      "title": {
+        "value": "Byggnader och mark",
+        "confidence": 1.0,
+        "evidence_pages": [13],
+        "original_string": "Not 9 Byggnader och mark - Anskaffningsvärden"
+      },
+      "tables": [
+        {
+          "description": "Buildings and land acquisition values",
+          "data": {
+            "vid_arets_borjan_2020": {"value": 7882824, "confidence": 1.0, "original_string": "7 882 824"},
+            "vid_arets_borjan_2019": {"value": 7882824, "confidence": 1.0, "original_string": "7 882 824"},
+            "mark_2020": {"value": 200000, "confidence": 1.0, "original_string": "200 000"},
+            "mark_2019": {"value": 200000, "confidence": 1.0, "original_string": "200 000"},
+            "standardforbattringar_2020": {"value": 77583, "confidence": 1.0, "original_string": "77 583"},
+            "standardforbattringar_2019": {"value": 77583, "confidence": 1.0, "original_string": "77 583"},
+            "summa_anskaffningsvarde_2020": {"value": 8160407, "confidence": 1.0, "original_string": "8 160 407"},
+            "summa_anskaffningsvarde_2019": {"value": 8160407, "confidence": 1.0, "original_string": "8 160 407"},
+            "ackumulerade_avskrivningar_byggnader_2020": {"value": -2300728, "confidence": 1.0, "original_string": "-2 300 728"},
+            "ackumulerade_avskrivningar_byggnader_2019": {"value": -2170970, "confidence": 1.0, "original_string": "-2 170 970"},
+            "ackumulerade_avskrivningar_standardforbattringar_2020": {"value": -77583, "confidence": 1.0, "original_string": "-77 583"},
+            "ackumulerade_avskrivningar_standardforbattringar_2019": {"value": -77583, "confidence": 1.0, "original_string": "-77 583"},
+            "arets_avskrivningar_byggnader_2020": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"},
+            "arets_avskrivningar_byggnader_2019": {"value": -129758, "confidence": 1.0, "original_string": "-129 758"},
+            "arets_avskrivningar_standardforbattringar_2020": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "arets_avskrivningar_standardforbattringar_2019": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "summa_ackumulerade_avskrivningar_2020": {"value": -2508069, "confidence": 1.0, "original_string": "-2 508 069"},
+            "summa_ackumulerade_avskrivningar_2019": {"value": -2378311, "confidence": 1.0, "original_string": "-2 378 311"},
+            "restvarde_enligt_plan_2020": {"value": 5652337, "confidence": 1.0, "original_string": "5 652 337"},
+            "restvarde_enligt_plan_2019": {"value": 5782096, "confidence": 1.0, "original_string": "5 782 096"}
+          }
+        },
+        {
+          "description": "Tax assessment values",
+          "data": {
+            "byggnader_taxeringsvarde_2020": {"value": 17600000, "confidence": 1.0, "original_string": "17 600 000"},
+            "byggnader_taxeringsvarde_2019": {"value": 17600000, "confidence": 1.0, "original_string": "17 600 000"},
+            "varav_byggnader_2020": {"value": 10400000, "confidence": 1.0, "original_string": "10 400 000"},
+            "varav_byggnader_2019": {"value": 10400000, "confidence": 1.0, "original_string": "10 400 000"},
+            "varav_mark_2020": {"value": 7200000, "confidence": 1.0, "original_string": "7 200 000"},
+            "varav_mark_2019": {"value": 7200000, "confidence": 1.0, "original_string": "7 200 000"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [13],
+      "depreciation_method": {
+        "value": "Linjär avskrivning, Byggnader 60 år, Standardförbättringar 10 år",
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      }
+    },
+
+    "note_10_other_receivables": {
+      "note_number": {"value": 10, "confidence": 1.0, "evidence_pages": [14]},
+      "title": {
+        "value": "Övriga fordringar",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "Not 10 Övriga fordringar"
+      },
+      "tables": [
+        {
+          "description": "Other receivables",
+          "data": {
+            "skattekonto_2020": {"value": 1587, "confidence": 1.0, "original_string": "1 587"},
+            "skattekonto_2019": {"value": 575, "confidence": 1.0, "original_string": "575"},
+            "summa_2020": {"value": 1587, "confidence": 1.0, "original_string": "1 587"},
+            "summa_2019": {"value": 575, "confidence": 1.0, "original_string": "575"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [14]
+    },
+
+    "note_11_prepaid_expenses": {
+      "note_number": {"value": 11, "confidence": 1.0, "evidence_pages": [14]},
+      "title": {
+        "value": "Förutbetalda kostnader och upplupna intäkter",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "Not 11 Förutbetalda kostnader och upplupna intäkter"
+      },
+      "tables": [
+        {
+          "description": "Prepaid expenses and accrued income",
+          "data": {
+            "forutbetalda_forsakringspremier_2020": {"value": 10790, "confidence": 1.0, "original_string": "10 790"},
+            "forutbetalda_forsakringspremier_2019": {"value": 10084, "confidence": 1.0, "original_string": "10 084"},
+            "forutbetalt_forvaltningsarvode_2020": {"value": 27073, "confidence": 1.0, "original_string": "27 073"},
+            "forutbetalt_forvaltningsarvode_2019": {"value": 28107, "confidence": 1.0, "original_string": "28 107"},
+            "forutbetald_kabel_tv_avgift_2020": {"value": 5280, "confidence": 1.0, "original_string": "5 280"},
+            "forutbetald_kabel_tv_avgift_2019": {"value": 5280, "confidence": 1.0, "original_string": "5 280"},
+            "summa_2020": {"value": 43143, "confidence": 1.0, "original_string": "43 143"},
+            "summa_2019": {"value": 43471, "confidence": 1.0, "original_string": "43 471"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [14]
+    },
+
+    "note_12_cash": {
+      "note_number": {"value": 12, "confidence": 1.0, "evidence_pages": [14]},
+      "title": {
+        "value": "Kassa och bank",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "Not 12 Kassa och bank"
+      },
+      "tables": [
+        {
+          "description": "Cash and bank",
+          "data": {
+            "bankmedel_2020": {"value": 571786, "confidence": 1.0, "original_string": "571 786"},
+            "bankmedel_2019": {"value": 667015, "confidence": 1.0, "original_string": "667 015"},
+            "transaktionskonto_2020": {"value": 113785, "confidence": 1.0, "original_string": "113 785"},
+            "transaktionskonto_2019": {"value": 543345, "confidence": 1.0, "original_string": "543 345"},
+            "summa_2020": {"value": 685571, "confidence": 1.0, "original_string": "685 571"},
+            "summa_2019": {"value": 1210360, "confidence": 1.0, "original_string": "1 210 360"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [14]
+    },
+
+    "note_13_liabilities": {
+      "note_number": {"value": 13, "confidence": 1.0, "evidence_pages": [14]},
+      "title": {
+        "value": "Övriga skulder till kreditinstitut",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "Not 13 Övriga skulder till kreditinstitut"
+      },
+      "tables": [
+        {
+          "description": "Long-term liabilities",
+          "data": {
+            "inteckningslan_2020": {"value": 5208227, "confidence": 1.0, "original_string": "5 208 227"},
+            "inteckningslan_2019": {"value": 5360525, "confidence": 1.0, "original_string": "5 360 525"},
+            "nasta_ars_omforhandling_langfristiga_skulder_2020": {"value": -47908, "confidence": 1.0, "original_string": "-47 908"},
+            "nasta_ars_omforhandling_langfristiga_skulder_2019": {"value": -141948, "confidence": 1.0, "original_string": "-141 948"},
+            "nasta_ars_amortering_langfristiga_skulder_2020": {"value": -123796, "confidence": 1.0, "original_string": "-123 796"},
+            "nasta_ars_amortering_langfristiga_skulder_2019": {"value": 0, "confidence": 1.0, "original_string": "0"},
+            "langfristig_skuld_vid_arets_slut_2020": {"value": 5036523, "confidence": 1.0, "original_string": "5 036 523"},
+            "langfristig_skuld_vid_arets_slut_2019": {"value": 5218577, "confidence": 1.0, "original_string": "5 218 577"}
+          }
+        }
+      ],
+      "content": {
+        "value": "Tabell och kommentar nedan anges i hela kronor. Kreditgivare: STADSHYPOTEK. 3 lån med ränta 1.40%, 1.17%, 1.01%, villkorsändringsdag 2021-03-01, 2022-03-30, 2024-01-30, lånebelopp 79,860, 3,900,665, 1,380,000. Totalt: 5,360,525 kr. Under nästa räkenskapsår ska föreningen amortera 123,796 kr varför den delen av skulden betraktas som kortfristig skuld.",
+        "confidence": 1.0,
+        "evidence_pages": [14]
+      },
+      "line_items": [],
+      "source_pages": [14],
+      "loans": [
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate": 1.40,
+          "maturity_date": "2021-03-01",
+          "amount": 79860,
+          "confidence": 1.0
+        },
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate": 1.17,
+          "maturity_date": "2022-03-30",
+          "amount": 3900665,
+          "confidence": 1.0
+        },
+        {
+          "lender": "STADSHYPOTEK",
+          "interest_rate": 1.01,
+          "maturity_date": "2024-01-30",
+          "amount": 1380000,
+          "confidence": 1.0
+        }
+      ]
+    },
+
+    "note_14_accrued_expenses": {
+      "note_number": {"value": 14, "confidence": 1.0, "evidence_pages": [15]},
+      "title": {
+        "value": "Upplupna kostnader och förutbetalda intäkter",
+        "confidence": 1.0,
+        "evidence_pages": [15],
+        "original_string": "Not 14 Upplupna kostnader och förutbetalda intäkter"
+      },
+      "tables": [
+        {
+          "description": "Accrued expenses and prepaid income",
+          "data": {
+            "upplupna_sociala_avgifter_2020": {"value": 14893, "confidence": 1.0, "original_string": "14 893"},
+            "upplupna_sociala_avgifter_2019": {"value": 13039, "confidence": 1.0, "original_string": "13 039"},
+            "upplupna_rantekostnader_2020": {"value": 1201, "confidence": 1.0, "original_string": "1 201"},
+            "upplupna_rantekostnader_2019": {"value": 1446, "confidence": 1.0, "original_string": "1 446"},
+            "upplupna_kostnader_reparationer_underhall_2020": {"value": 26344, "confidence": 1.0, "original_string": "26 344"},
+            "upplupna_kostnader_reparationer_underhall_2019": {"value": 2797, "confidence": 1.0, "original_string": "2 797"},
+            "upplupna_elkostnader_2020": {"value": 2052, "confidence": 1.0, "original_string": "2 052"},
+            "upplupna_elkostnader_2019": {"value": 3567, "confidence": 1.0, "original_string": "3 567"},
+            "upplupna_varmekostnader_2020": {"value": 15942, "confidence": 1.0, "original_string": "15 942"},
+            "upplupna_varmekostnader_2019": {"value": 14548, "confidence": 1.0, "original_string": "14 548"},
+            "upplupna_revisionsarvoden_2020": {"value": 16830, "confidence": 1.0, "original_string": "16 830"},
+            "upplupna_revisionsarvoden_2019": {"value": 16150, "confidence": 1.0, "original_string": "16 150"},
+            "upplupna_styrelsearvoden_2020": {"value": 47400, "confidence": 1.0, "original_string": "47 400"},
+            "upplupna_styrelsearvoden_2019": {"value": 41500, "confidence": 1.0, "original_string": "41 500"},
+            "summa_2020": {"value": 210434, "confidence": 1.0, "original_string": "210 434"},
+            "summa_2019": {"value": 179599, "confidence": 1.0, "original_string": "179 599"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [15]
+    },
+
+    "note_15_pledged_assets": {
+      "note_number": {"value": 15, "confidence": 1.0, "evidence_pages": [15]},
+      "title": {
+        "value": "Ställda säkerheter",
+        "confidence": 1.0,
+        "evidence_pages": [15],
+        "original_string": "Not 15 Ställda säkerheter"
+      },
+      "tables": [
+        {
+          "description": "Pledged assets",
+          "data": {
+            "fastighetsinteckningar_2020": {"value": 8533000, "confidence": 1.0, "original_string": "8 533 000"},
+            "fastighetsinteckningar_2019": {"value": 8533000, "confidence": 1.0, "original_string": "8 533 000"},
+            "eventualforpliktelser_2020": {"value": "Inga", "confidence": 1.0, "original_string": "Inga"},
+            "eventualforpliktelser_2019": {"value": "Inga", "confidence": 1.0, "original_string": "Inga"}
+          }
+        }
+      ],
+      "line_items": [],
+      "source_pages": [15]
+    },
+
+    "total_notes": 15
+  },
+
+  "extraction_notes": [
+    "Not 1: Accounting principles - BFNAR 2016:10 for smaller companies",
+    "Not 2: Revenue 905,904 kr (2020) - mainly from annual fees (904,104 kr)",
+    "Not 3: Other revenue 47,277 kr - includes cable TV fees 31,680 kr",
+    "Not 4: Operating costs 1,211,339 kr - major increase due to maintenance 781,160 kr",
+    "Not 5: Other external costs 141,403 kr - admin fees, auditors, etc.",
+    "Not 6: Personnel costs 69,728 kr - no employees, only board fees",
+    "Not 7: Depreciation constant at 129,758 kr/year (buildings 60 years linear)",
+    "Not 8: Interest income 4,770 kr from liquidity placement",
+    "Not 9: Buildings value 5,652,337 kr, tax assessment 17,600,000 kr",
+    "Not 10: Other receivables 1,587 kr (tax account)",
+    "Not 11: Prepaid expenses 43,143 kr (insurance, admin, cable TV)",
+    "Not 12: Cash and bank 685,571 kr (down from 1,210,360 kr)",
+    "Not 13: Three loans from STADSHYPOTEK totaling 5,360,525 kr (rates: 1.40%, 1.17%, 1.01%)",
+    "Not 14: Accrued expenses 210,434 kr (board fees, repairs, utilities)",
+    "Not 15: Property mortgages 8,533,000 kr, no contingent liabilities"
+  ]
+}
