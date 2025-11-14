@@ -1,0 +1,380 @@
+{
+  "section": "Level 6 - Fees & Loans",
+  "extraction_date": "2025-11-14T00:27:00Z",
+  "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "fields_extracted": 42,
+
+  "fees": {
+    "arsavgift_per_sqm_total": {
+      "value": 747,
+      "confidence": 1.0,
+      "evidence_pages": [5, 6],
+      "original_string": "747 kr/m²/år"
+    },
+
+    "arsavgift_per_apartment_avg": {
+      "value": 56625,
+      "confidence": 0.9,
+      "evidence_pages": [5],
+      "original_string": "Calculated: 747 kr/m²/år × 75.78 m² average"
+    },
+
+    "manadsavgift_per_sqm": null,
+
+    "manadsavgift_per_apartment_avg": null,
+
+    "inkluderar_vatten": {
+      "value": true,
+      "confidence": 0.9,
+      "evidence_pages": [12],
+      "original_string": "Vatten -58,787 kr in operating costs"
+    },
+
+    "inkluderar_uppvarmning": {
+      "value": true,
+      "confidence": 0.9,
+      "evidence_pages": [12],
+      "original_string": "Uppvärmning -99,198 kr in operating costs"
+    },
+
+    "inkluderar_el": {
+      "value": false,
+      "confidence": 0.9,
+      "evidence_pages": [12],
+      "original_string": "Fastighetsel only, not apartment electricity"
+    },
+
+    "inkluderar_bredband": {
+      "value": true,
+      "confidence": 0.9,
+      "evidence_pages": [4],
+      "original_string": "Telenor - Bredband och telefoni"
+    },
+
+    "fee_calculation_basis": {
+      "value": "Per square meter (kr/m²/år)",
+      "confidence": 1.0,
+      "evidence_pages": [5, 6],
+      "original_string": "747 kr/m²/år"
+    },
+
+    "fee_includes": [
+      "water",
+      "heating",
+      "broadband",
+      "property_electricity",
+      "waste_management",
+      "insurance",
+      "property_tax",
+      "maintenance",
+      "property_management"
+    ],
+
+    "fee_excludes": [
+      "apartment_electricity",
+      "home_insurance",
+      "apartment_content_insurance"
+    ],
+
+    "last_fee_increase_date": {
+      "value": "2012-01-01",
+      "confidence": 1.0,
+      "evidence_pages": [5],
+      "original_string": "Föreningens årsavgift ändrades 2012-01-01"
+    },
+
+    "last_fee_increase_percentage": {
+      "value": 2.0,
+      "confidence": 1.0,
+      "evidence_pages": [5],
+      "original_string": "då den höjdes med 2 %"
+    },
+
+    "planned_fee_changes": [
+      {
+        "year": 2020,
+        "decision": "No change",
+        "note": {
+          "value": "Efter att ha antagit budgeten för det kommande verksamhetsåret har styrelsen beslutat om oförändrad årsavgift",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        }
+      }
+    ],
+
+    "special_assessments": [],
+
+    "source_pages": [4, 5, 6, 12]
+  },
+
+  "loans": [
+    {
+      "loan_number": {
+        "value": "Loan 1",
+        "confidence": 1.0,
+        "evidence_pages": [14]
+      },
+      "lender": {
+        "value": "STADSHYPOTEK",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "STADSHYPOTEK"
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 79860,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "79 860,00"
+      },
+      "interest_rate": {
+        "value": 1.40,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "1,40%"
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2021-03-01",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "2021-03-01"
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Property mortgage (part of 8,533,000 kr total)",
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "covenants": [],
+      "source_page": [14]
+    },
+    {
+      "loan_number": {
+        "value": "Loan 2",
+        "confidence": 1.0,
+        "evidence_pages": [14]
+      },
+      "lender": {
+        "value": "STADSHYPOTEK",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "STADSHYPOTEK"
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 3900665,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "3 900 665,00"
+      },
+      "interest_rate": {
+        "value": 1.17,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "1,17%"
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2022-03-30",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "2022-03-30"
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Property mortgage (part of 8,533,000 kr total)",
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "covenants": [],
+      "source_page": [14]
+    },
+    {
+      "loan_number": {
+        "value": "Loan 3",
+        "confidence": 1.0,
+        "evidence_pages": [14]
+      },
+      "lender": {
+        "value": "STADSHYPOTEK",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "STADSHYPOTEK"
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 1380000,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "1 380 000,00"
+      },
+      "interest_rate": {
+        "value": 1.01,
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "1,01%"
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2024-01-30",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "2024-01-30"
+      },
+      "amortization_schedule": {
+        "value": "Next year amortization: 123,796 kr",
+        "confidence": 1.0,
+        "evidence_pages": [14],
+        "original_string": "Under nästa räkenskapsår ska föreningen amortera 123 796 kr"
+      },
+      "collateral": {
+        "value": "Property mortgage (part of 8,533,000 kr total)",
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "covenants": [],
+      "source_page": [14]
+    }
+  ],
+
+  "loan_summary": {
+    "total_debt": {
+      "value": 5360525,
+      "confidence": 1.0,
+      "evidence_pages": [14],
+      "original_string": "5 360 525,00"
+    },
+    "long_term_portion": {
+      "value": 5036523,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "5 036 523"
+    },
+    "short_term_portion": {
+      "value": 171704,
+      "confidence": 1.0,
+      "evidence_pages": [10],
+      "original_string": "171 704"
+    },
+    "debt_per_sqm": {
+      "value": 4301,
+      "confidence": 1.0,
+      "evidence_pages": [6],
+      "original_string": "4 301 kr/m²"
+    },
+    "weighted_average_interest_rate": {
+      "value": 1.14,
+      "confidence": 0.95,
+      "evidence_pages": [14],
+      "original_string": "Calculated from loan amounts and rates"
+    },
+    "total_property_mortgage": {
+      "value": 8533000,
+      "confidence": 1.0,
+      "evidence_pages": [15],
+      "original_string": "8 533 000"
+    }
+  },
+
+  "reserves": [
+    {
+      "fund_name": {
+        "value": "Reservfond",
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "Reservfond"
+      },
+      "balance": {
+        "value": 150,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "150"
+      },
+      "purpose": {
+        "value": "General reserve fund",
+        "confidence": 0.9,
+        "evidence_pages": [10]
+      },
+      "target_amount": null,
+      "annual_contribution": null,
+      "source_page": [10]
+    },
+    {
+      "fund_name": {
+        "value": "Fond för yttre underhåll",
+        "confidence": 1.0,
+        "evidence_pages": [7, 10],
+        "original_string": "Fond för yttre underhåll"
+      },
+      "balance": {
+        "value": 284907,
+        "confidence": 1.0,
+        "evidence_pages": [10],
+        "original_string": "284 907"
+      },
+      "purpose": {
+        "value": "External maintenance fund",
+        "confidence": 1.0,
+        "evidence_pages": [7, 10]
+      },
+      "target_amount": null,
+      "annual_contribution": {
+        "value": 217000,
+        "confidence": 1.0,
+        "evidence_pages": [7],
+        "original_string": "217 000"
+      },
+      "source_page": [7, 10],
+      "special_notes": {
+        "value": "Fund decreased from 449,067 kr to 284,907 kr due to maintenance withdrawals",
+        "confidence": 1.0,
+        "evidence_pages": [7, 10]
+      }
+    }
+  ],
+
+  "maintenance_plan": {
+    "total_planned_next_9_years": {
+      "value": 1266000,
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "1266 tkr för de närmaste 9 åren"
+    },
+    "average_annual": {
+      "value": 126000,
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "126 tkr"
+    },
+    "current_year_allocation": {
+      "value": 217000,
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "217 tkr"
+    },
+    "last_updated": {
+      "value": "2020",
+      "confidence": 1.0,
+      "evidence_pages": [4],
+      "original_string": "Föreningens underhållsplan uppdaterades senast 2020"
+    }
+  },
+
+  "source_pages": [4, 5, 6, 7, 10, 12, 14, 15],
+
+  "extraction_notes": [
+    "Annual fee: 747 kr/m²/år (unchanged since 2012 increase of 2%)",
+    "Total loans: 5,360,525 kr from STADSHYPOTEK (3 loans)",
+    "Interest rates: 1.40%, 1.17%, 1.01% (weighted avg ~1.14%)",
+    "Loan maturities: 2021, 2022, 2024",
+    "Debt per sqm: 4,301 kr/m²",
+    "Property mortgage collateral: 8,533,000 kr",
+    "Reserve fund: 150 kr",
+    "Maintenance fund: 284,907 kr (down from 449,067 kr)",
+    "Maintenance plan: 1,266 tkr for next 9 years",
+    "Next year amortization: 123,796 kr",
+    "Fee includes: water, heating, broadband, property mgmt, waste, insurance, tax",
+    "Fee excludes: apartment electricity, home insurance"
+  ]
+}

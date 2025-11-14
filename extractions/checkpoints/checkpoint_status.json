@@ -1,11 +1,11 @@
 {
   "current_pdf_number": 1,
   "current_pdf_name": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
-  "current_section": 6,
-  "current_section_name": "fees_loans",
+  "current_section": 7,
+  "current_section_name": "operations",
   "status": "in_progress",
   "started_at": "2025-11-14T00:00:00Z",
-  "sections_completed": ["1_metadata", "2_governance", "3_financial", "4_notes", "5_property"],
-  "total_fields_extracted": 388,
-  "last_updated": "2025-11-14T00:26:00Z"
+  "sections_completed": ["1_metadata", "2_governance", "3_financial", "4_notes", "5_property", "6_fees_loans"],
+  "total_fields_extracted": 430,
+  "last_updated": "2025-11-14T00:28:00Z"
 }
