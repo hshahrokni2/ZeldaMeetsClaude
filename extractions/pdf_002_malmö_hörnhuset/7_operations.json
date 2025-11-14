@@ -1,0 +1,306 @@
+{
+  "section": "Level 7 - Operations",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 38,
+
+  "suppliers_and_contracts": {
+    "electricity": {
+      "supplier": "Eon",
+      "service": "El",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "waste_management": {
+      "supplier": "Stena recycling",
+      "service": "Sophämtning och avfallshantering",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "elevator_maintenance": {
+      "supplier": "HissElektra",
+      "service": "Underhåll hissar",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "elevator_inspection": {
+      "supplier": "Kiwa",
+      "service": "besiktning av hissar",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "property_maintenance": {
+      "supplier": "BengtiHus",
+      "service": "vaktmästare/underhåll",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "technical_management": {
+      "supplier": "TMO Sverige AB Martin Åhrén",
+      "service": "Teknisk förvaltning",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "financial_management": {
+      "supplier": "Nabo",
+      "service": "Ekonomisk förvaltning",
+      "cost_2023": 74556,
+      "cost_2022": 71520,
+      "confidence": 1.0,
+      "evidence_pages": [5, 14]
+    },
+
+    "internet_tv": {
+      "supplier": "Tele 2",
+      "service": "Bredband/TV",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "district_heating": {
+      "supplier": "Eon",
+      "service": "Fjärrvärme",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "total_suppliers_documented": 9
+  },
+
+  "operating_costs": {
+    "fastighetsskotsel_total": {
+      "2023": 195338,
+      "2022": 217863,
+      "breakdown_note": "Note 4",
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+
+    "repairs_total": {
+      "2023": 125080,
+      "2022": 66362,
+      "breakdown_note": "Note 5",
+      "note": "Increased repairs due to ventilation work",
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+
+    "planned_maintenance_total": {
+      "2023": 2459917,
+      "2022": 1121503,
+      "breakdown_note": "Note 6",
+      "note": "Major increase due to roof replacement (2.46M)",
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "utility_costs_total": {
+      "2023": 441390,
+      "2022": 394642,
+      "breakdown_note": "Note 7",
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "other_operating_costs_total": {
+      "2023": 144923,
+      "2022": 131756,
+      "breakdown_note": "Note 8",
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "total_operating_costs": {
+      "2023": 3366648,
+      "2022": 1932125,
+      "increase": 1434523,
+      "increase_percent": 74.2,
+      "note": "Major increase driven by roof replacement project",
+      "confidence": 1.0,
+      "evidence_pages": [8]
+    }
+  },
+
+  "utility_breakdown": {
+    "electricity": {
+      "2023": 50929,
+      "2022": 59349,
+      "per_kvm_2023": 25,
+      "per_kvm_2022": 30,
+      "confidence": 1.0,
+      "evidence_pages": [6, 14]
+    },
+
+    "heating": {
+      "2023": 264020,
+      "2022": 227577,
+      "per_kvm_2023": 132,
+      "per_kvm_2022": 114,
+      "increase_percent": 16.0,
+      "confidence": 1.0,
+      "evidence_pages": [6, 14]
+    },
+
+    "water": {
+      "2023": 78622,
+      "2022": 60395,
+      "per_kvm_2023": 39,
+      "per_kvm_2022": 30,
+      "increase_percent": 30.2,
+      "confidence": 1.0,
+      "evidence_pages": [6, 14]
+    },
+
+    "waste": {
+      "2023": 47819,
+      "2022": 47321,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "total_utilities": {
+      "2023": 441390,
+      "2022": 394642,
+      "increase": 46748,
+      "increase_percent": 11.8,
+      "note": "Utility costs increased significantly",
+      "confidence": 1.0
+    },
+
+    "energy_cost_per_kvm": {
+      "2023": 197,
+      "2022": 174,
+      "unit": "kr/m²",
+      "note": "Total energy cost (electricity + heating + water per sqm)",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    }
+  },
+
+  "insurance_costs": {
+    "property_insurance": {
+      "2023": 24163,
+      "2022": 20262,
+      "increase_percent": 19.3,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    }
+  },
+
+  "property_tax": {
+    "fastighetsskatt": {
+      "2023": 39898,
+      "2022": 38358,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    }
+  },
+
+  "cable_and_internet": {
+    "kabel_tv": {
+      "2023": 32578,
+      "2022": 29576,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "bredband": {
+      "2023": 48284,
+      "2022": 43560,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "total_cable_internet": {
+      "2023": 80862,
+      "2022": 73136,
+      "confidence": 1.0
+    },
+
+    "cable_tv_revenue": {
+      "2023": 45540,
+      "2022": 45540,
+      "note": "Revenue from charging residents",
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+
+    "net_cost": {
+      "2023": 35322,
+      "2022": 27596,
+      "note": "Net cost after resident charges",
+      "confidence": 1.0
+    }
+  },
+
+  "external_costs": {
+    "legal_costs": {
+      "2023": 3188,
+      "2022": 914,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "audit_fees": {
+      "2023": 15875,
+      "2022": 16250,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "economic_management": {
+      "2023": 74556,
+      "2022": 71520,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "other_management_costs": {
+      "2023": 12556,
+      "2022": 16570,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+
+    "total_external_costs": {
+      "2023": 106174,
+      "2022": 105254,
+      "confidence": 1.0,
+      "evidence_pages": [8, 14]
+    }
+  },
+
+  "savings_metrics": {
+    "sparande_per_kvm_totalyta": {
+      "2023": 138,
+      "2022": 143,
+      "2021": 55,
+      "unit": "kr/m²",
+      "note": "Savings per sqm of total area",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    }
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.98,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "supplier_list_documented",
+      "utility_costs_broken_down",
+      "operating_costs_in_notes",
+      "external_management_costs_tracked"
+    ],
+    "format_specific_nabo": [
+      "nabo_as_economic_manager",
+      "tmo_sverige_as_technical_manager",
+      "different_supplier_mix_than_pdf1"
+    ]
+  }
+}

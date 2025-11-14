@@ -1,0 +1,213 @@
+{
+  "section": "Level 2 - Governance",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 48,
+
+  "board_composition": {
+    "total_members": 4,
+    "total_alternates": 1,
+    "total_count": 5,
+
+    "chairman": {
+      "name": "V Catharina J Boethius Claeson",
+      "title": "Ordförande",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "board_members": [
+      {
+        "name": "Anna van Duijvenbode",
+        "title": "Styrelseledamot",
+        "confidence": 1.0,
+        "evidence_pages": [4, 17]
+      },
+      {
+        "name": "Elin Wikström",
+        "title": "Styrelseledamot",
+        "confidence": 1.0,
+        "evidence_pages": [4, 17]
+      },
+      {
+        "name": "Hanieh Tjäder Heidarabadi",
+        "title": "Styrelseledamot",
+        "confidence": 1.0,
+        "evidence_pages": [4, 17]
+      }
+    ],
+
+    "alternates": [
+      {
+        "name": "Saga Lovisa Holm",
+        "title": "suppleant",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      }
+    ],
+
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "election_committee": {
+    "members": [
+      {
+        "name": "Carl alberto Bettini",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      {
+        "name": "Lukas Lund",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      }
+    ],
+    "total_members": 2,
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "auditors": {
+    "external_auditor": {
+      "name": "Camilla Bakklund",
+      "title": "Revisor",
+      "firm": null,
+      "confidence": 1.0,
+      "evidence_pages": [4, 17]
+    },
+
+    "internal_auditor": {
+      "name": "Alexandra Hill",
+      "title": "Internrevisor",
+      "confidence": 1.0,
+      "evidence_pages": [4, 17]
+    },
+
+    "confidence": 1.0,
+    "evidence_pages": [4, 17],
+    "pattern_note": "DIFFERENT from PDF #1: Individual auditor (Camilla Bakklund) vs audit firm (KPMG)"
+  },
+
+  "signatory_authority": {
+    "signing_method": "firmateckning_av_styrelsen",
+    "signed_by_board": true,
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "member_information": {
+    "total_members_at_year_start": {
+      "value": 33,
+      "year": 2023,
+      "confidence": 0.95,
+      "evidence_pages": [5],
+      "note": "Stated as 33 at beginning and end"
+    },
+
+    "total_members_at_year_end": {
+      "value": 33,
+      "year": 2023,
+      "confidence": 0.95,
+      "evidence_pages": [5]
+    },
+
+    "transfers_during_year": {
+      "value": 2,
+      "note": "1 överlåtelse mentioned",
+      "confidence": 0.9,
+      "evidence_pages": [5]
+    },
+
+    "net_change": 0,
+    "reconciliation": {
+      "beginning": 33,
+      "additions": 0,
+      "departures": 0,
+      "ending": 33,
+      "validates": true
+    },
+
+    "confidence": 0.9,
+    "evidence_pages": [5]
+  },
+
+  "annual_meeting": {
+    "date": "2023-05-11",
+    "type": "ordinarie_foreningsstamma",
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "board_activity": {
+    "protocol_count": 9,
+    "meeting_type": "protokollförda_sammanträden",
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "signatures": {
+    "board_signatures": [
+      {
+        "name": "Anna van Duijvenbode",
+        "title": "Styrelseledamot",
+        "signed": true,
+        "evidence_pages": [17]
+      },
+      {
+        "name": "Elin Wikström",
+        "title": "Styrelseledamot",
+        "signed": true,
+        "evidence_pages": [17]
+      },
+      {
+        "name": "Hanieh Tjäder Heidarabadi",
+        "title": "Styrelseledamot",
+        "signed": true,
+        "evidence_pages": [17]
+      },
+      {
+        "name": "V Catharina J Boethius Claeson",
+        "title": "Ordförande",
+        "signed": true,
+        "evidence_pages": [17]
+      }
+    ],
+
+    "auditor_signatures": [
+      {
+        "name": "Alexandra Hill",
+        "title": "Internrevisor",
+        "signed": true,
+        "evidence_pages": [17]
+      },
+      {
+        "name": "Camilla Bakklund",
+        "title": "Revisor",
+        "note": "anba.v",
+        "signed": true,
+        "evidence_pages": [17]
+      }
+    ],
+
+    "signature_location": "Malmö",
+    "electronically_signed": true,
+    "confidence": 1.0,
+    "evidence_pages": [17]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.97,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "board_structure_present",
+      "auditor_signatures_required",
+      "annual_meeting_documented",
+      "signatory_authority_defined"
+    ],
+    "format_specific_nabo": [
+      "smaller_board_5_people_vs_8_in_pdf1",
+      "individual_auditor_vs_firm"
+    ]
+  }
+}

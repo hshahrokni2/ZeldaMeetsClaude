@@ -1,0 +1,119 @@
+{
+  "section": "Level 1 - Metadata",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "pdf_source": "269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+  "fields_extracted": 28,
+
+  "brf_name": {
+    "value": "Brf Hörnhuset",
+    "full_name": "Bostadsrättsföreningen Hörnhuset",
+    "confidence": 1.0,
+    "evidence_pages": [1, 2]
+  },
+
+  "organization_number": {
+    "value": "769612-9423",
+    "confidence": 1.0,
+    "evidence_pages": [1, 2]
+  },
+
+  "fiscal_year": {
+    "value": 2023,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31",
+    "confidence": 1.0,
+    "evidence_pages": [2]
+  },
+
+  "location": {
+    "city": "Malmö",
+    "confidence": 1.0,
+    "evidence_pages": [1, 4]
+  },
+
+  "property_manager": {
+    "name": "Nabo",
+    "type": "external",
+    "logo_color": "green_wave_design",
+    "confidence": 1.0,
+    "evidence_pages": [1, 5],
+    "pattern_note": "DIFFERENT from PDF #1 (Riksbyggen) - testing pattern generalization"
+  },
+
+  "document_metadata": {
+    "total_pages": 17,
+    "content_pages": 15,
+    "cover_page": 1,
+    "toc_page": 2,
+    "signatures_page": 17,
+    "confidence": 1.0,
+    "evidence_pages": [1, 2]
+  },
+
+  "registration": {
+    "registration_date": "2005-08-25",
+    "economic_plan_registered": "2006-06-25",
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "legal_status": {
+    "type": "privatbostadsföretag",
+    "governing_law": "inkomstskattelagen (1999:1229)",
+    "is_akta_bostadsrattsforening": true,
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "insurance_status": {
+    "property_insured_with": "Länsförsäkringar",
+    "collective_tenant_insurance": true,
+    "member_liability_insurance": true,
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "annual_meeting": {
+    "ordinary_meeting_date": "2023-05-11",
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "protocol_count": {
+    "board_protocols_during_year": 9,
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "maintenance_plan": {
+    "plan_created": 2015,
+    "plan_extends_to": 2033,
+    "plan_updated": 2023,
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "electronic_signature": {
+    "electronically_signed": true,
+    "signature_date": "same_day_as_electronic_submission",
+    "confidence": 1.0,
+    "evidence_pages": [17]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.98,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "org_number_format",
+      "fiscal_year_structure",
+      "registration_dates_present",
+      "annual_meeting_documented"
+    ],
+    "format_specific_nabo": [
+      "nabo_logo_green_wave",
+      "different_page_count",
+      "different_insurance_provider"
+    ]
+  }
+}

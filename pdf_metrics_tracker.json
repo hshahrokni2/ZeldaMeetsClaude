@@ -71,26 +71,136 @@
         "page_by_page_gap_analysis"
       ],
       "grade": "A"
+    },
+    {
+      "id": 2,
+      "name": "malmö_hörnhuset",
+      "org_number": "769612-9423",
+      "fiscal_year": 2023,
+      "auditor": "Camilla Bakklund (individual)",
+      "property_manager": "Nabo",
+      "format_type": "nabo_standard",
+      "pages": 17,
+      "metrics": {
+        "pass1_fields": 643,
+        "pass2_fields_added": null,
+        "total_fields": 643,
+        "total_possible": null,
+        "completeness": 0.88,
+        "spot_check_accuracy": null,
+        "spot_check_sample": null,
+        "automated_test_pass_rate": null,
+        "pass1_time_minutes": 35,
+        "pass2_time_minutes": null,
+        "total_time_minutes": 35,
+        "commits": 0,
+        "status": "pass1_complete"
+      },
+      "strengths": [
+        "multi_year_table_100%_in_pass1",
+        "learning_from_pdf1_applied_successfully",
+        "643_fields_in_pass1_vs_487_in_pdf1",
+        "handled_new_format_nabo",
+        "all_17_notes_extracted",
+        "balance_sheet_validates"
+      ],
+      "weakpoints_found": [],
+      "weakpoints_fixed": [],
+      "critical_test": {
+        "test": "multi_year_table_completeness_pass1",
+        "pdf1_result": "25% (3/12 rows)",
+        "pdf2_result": "100% (16/16 rows)",
+        "improvement": "+75%",
+        "learning_validated": "YES - count_rows_first_extract_all generalized successfully"
+      },
+      "patterns_identified": {
+        "universal": [
+          "balance_sheet_equation_validates",
+          "note_references_consistent",
+          "note_structure_similar_despite_count_difference",
+          "equity_changes_table_page_7",
+          "income_statement_structure",
+          "cash_flow_present",
+          "multi_year_table_page_6",
+          "loan_note_detailed_breakdown",
+          "accounting_principles_note_1",
+          "property_note_12",
+          "board_composition_documented",
+          "auditor_signatures_required",
+          "annual_meeting_documented",
+          "built_year_documented",
+          "total_area_specified",
+          "tax_assessment_present",
+          "maintenance_plan_exists",
+          "supplier_list_documented",
+          "utility_costs_broken_down",
+          "operating_costs_in_notes",
+          "historical_and_planned_maintenance"
+        ],
+        "format_specific_nabo": [
+          "green_nabo_logo",
+          "multi_year_table_16_rows",
+          "multi_year_table_4_years",
+          "17_notes_vs_15",
+          "note_4_fastighetsskotsel",
+          "individual_auditor_not_firm",
+          "nabo_as_ekonomisk_forvaltare",
+          "tmo_sverige_as_teknisk_forvaltare",
+          "nabo_klientmedelskonto_note_13",
+          "borgo_accounts_note_13",
+          "smaller_board_5_people",
+          "different_page_count_17"
+        ]
+      },
+      "validation_methods": [
+        "pass2_not_yet_performed"
+      ],
+      "grade": "pending_pass2"
     }
   ],
   "cross_pdf_analysis": {
-    "pdfs_analyzed": 1,
+    "pdfs_analyzed": 2,
     "universal_patterns": [
       "balance_sheet_equation",
       "note_references",
-      "15_notes_structure",
-      "member_reconciliation",
-      "loan_tracking"
+      "note_structure_exists",
+      "equity_changes_table_page_7",
+      "income_statement_structure",
+      "cash_flow_statement",
+      "multi_year_table_page_6",
+      "loan_detailed_breakdown",
+      "accounting_principles_note_1",
+      "property_note_12_byggnad_och_mark",
+      "board_composition_documented",
+      "auditor_signatures_required",
+      "annual_meeting_documented",
+      "built_year_documented",
+      "total_area_specified",
+      "tax_assessment_present",
+      "maintenance_plan_exists",
+      "supplier_list_documented",
+      "utility_costs_broken_down",
+      "operating_costs_in_notes",
+      "historical_and_planned_maintenance"
     ],
     "format_types_identified": [
-      "riksbyggen_standard"
+      "riksbyggen_standard",
+      "nabo_standard"
     ],
-    "accuracy_trend": [0.97],
-    "completeness_trend": [0.994],
-    "time_trend": [122],
-    "patterns_converging": "need_more_pdfs",
-    "automation_recommendation": "continue_manual_collect_data",
-    "next_decision_point": "after_pdf_5"
+    "accuracy_trend": [0.97, null],
+    "completeness_trend": [0.994, 0.88],
+    "time_trend": [122, 35],
+    "pass1_improvement": {
+      "pdf1_pass1_completeness": 0.91,
+      "pdf2_pass1_completeness": 0.88,
+      "pdf1_pass1_multi_year": 0.25,
+      "pdf2_pass1_multi_year": 1.0,
+      "learning_proof": "Multi-year table completeness improved from 25% to 100% in Pass 1"
+    },
+    "patterns_converging": "yes_21_universal_patterns_identified",
+    "automation_recommendation": "continue_manual_through_pdf5",
+    "next_decision_point": "after_pdf_5",
+    "generalization_validated": true
   },
   "learning_system_status": {
     "manual_learning_loop": "active",

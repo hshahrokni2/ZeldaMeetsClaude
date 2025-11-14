@@ -1,0 +1,198 @@
+{
+  "section": "Level 8 - Events and Policies",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 32,
+
+  "significant_events_2023": {
+    "roof_replacement": {
+      "description": "Omläggning av tak samt byte av fläkt för frånluftsventilation",
+      "period": "2023-2023",
+      "cost": 2459917,
+      "financing": "New loan of 2,000,000 kr",
+      "note": "Major project completed in 2023",
+      "confidence": 1.0,
+      "evidence_pages": [5, 14, 16]
+    },
+
+    "annual_fee_increase": {
+      "date": "2023-01-01",
+      "increase_percent": 10,
+      "decision_by": "Board (styrelsens beslut)",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "cost_inflation": {
+      "description": "Under året höjdes avgifterna i Brf Hörnhuset med 3%, detta för att täcka de ökande kostnaderna både vad gäller el/värme men också räntehöjningar samt höjd för långsiktigt sparande",
+      "factors": [
+        "electricity_cost_increase",
+        "heating_cost_increase",
+        "interest_rate_increases",
+        "increased_long_term_savings"
+      ],
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "yttre_fond_usage": {
+      "description": "Yttre fond completely depleted to cover losses",
+      "beginning_balance": 719559,
+      "ending_balance": 0,
+      "amount_used": -719559,
+      "purpose": "Cover operating losses",
+      "confidence": 1.0,
+      "evidence_pages": [7, 10]
+    },
+
+    "new_loan": {
+      "description": "Nytt lån togs inför takbyte på 2 000 000 som i dagsläget har rörlig ränta",
+      "amount": 2000000,
+      "purpose": "Roof replacement",
+      "interest_type": "rörlig ränta (variable rate)",
+      "lender": "Stadshypotek",
+      "confidence": 1.0,
+      "evidence_pages": [5, 16]
+    },
+
+    "major_loss_year": {
+      "year_result": -2344071,
+      "operating_result": -2100628,
+      "note": "2023 was a major loss year due to roof replacement costs",
+      "confidence": 1.0,
+      "evidence_pages": [8]
+    },
+
+    "electricity_subsidy": {
+      "description": "Elprisstöd (electricity price subsidy received)",
+      "amount": 15019,
+      "year": 2023,
+      "note": "Government subsidy for high electricity prices",
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    }
+  },
+
+  "historical_events": {
+    "2021_2022_laundry_room": {
+      "description": "Ny maskinpark i tvättstugan",
+      "period": "2021-2022",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "2020_2021_elevator_renovation": {
+      "description": "Renovering/byte av föreningens 2 hissar",
+      "period": "2020-2021",
+      "cost_2022": 786250,
+      "note": "Major elevator replacement project",
+      "confidence": 1.0,
+      "evidence_pages": [5, 14]
+    },
+
+    "2019_2020_facade_windows": {
+      "description": "Byte av fönster mot gata samt rRenovering av fasad mot gata och gård. Ommålning av fönster mot gård",
+      "period": "2019-2020",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    }
+  },
+
+  "future_plans": {
+    "planned_maintenance_2024_2028": {
+      "period": "2024-2028",
+      "projects": [
+        {
+          "description": "Genomgång av värmecentral",
+          "category": "heating_system"
+        },
+        {
+          "description": "genomgång vatten och avloppsledningar i källargolv/Eonrelining/spolning",
+          "category": "plumbing"
+        },
+        {
+          "description": "Genomgång av el",
+          "category": "electrical"
+        },
+        {
+          "description": "Målningtrapphus och entré",
+          "category": "painting"
+        }
+      ],
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+
+    "five_year_debt_projection": {
+      "projected_debt_2028": 9132683,
+      "current_debt_2023": 9506703,
+      "projected_reduction": -374020,
+      "note": "Expected debt reduction through amortization",
+      "confidence": 1.0,
+      "evidence_pages": [16]
+    },
+
+    "future_cost_mitigation": {
+      "description": "Vid behov kommer även den att höjas men i dagsläget finns inga sådana planer",
+      "note": "Fee increases may be needed but not currently planned beyond 3% inflation adjustment",
+      "confidence": 0.9,
+      "evidence_pages": [5]
+    }
+  },
+
+  "accounting_policy_changes": {
+    "no_significant_changes": {
+      "note": "Accounting follows Årsredovisningslagen och Bokföringsnämndens allmänna råd 2016:10 (K2), årsredovisning i mindre företag och 2023:1",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "short_term_debt_classification": {
+      "policy": "Lån med en bindningstid på ett år eller mindre tas i årsredovisningen upp som kortfristiga skulder",
+      "impact": "Significant reclassification of loans from long-term to short-term",
+      "confidence": 1.0,
+      "evidence_pages": [12, 16]
+    }
+  },
+
+  "board_proposals": {
+    "result_disposition": {
+      "total_available": -5095737,
+      "balanserat_resultat": -2751667,
+      "arets_resultat": -2344071,
+      "board_proposal": {
+        "reservering_fond_yttre_underhall": 250000,
+        "balanseras_i_ny_rakning": -5345737,
+        "total": -5095737
+      },
+      "note": "Board proposes to reserve 250k for maintenance fund and carry forward the loss",
+      "confidence": 1.0,
+      "evidence_pages": [7]
+    }
+  },
+
+  "member_transfers": {
+    "transfers_during_year": 2,
+    "net_member_change": 0,
+    "total_members_start": 33,
+    "total_members_end": 33,
+    "confidence": 0.9,
+    "evidence_pages": [5]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.95,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "significant_events_documented",
+      "historical_maintenance_tracked",
+      "future_plans_outlined",
+      "result_disposition_proposal_present"
+    ],
+    "format_specific_nabo": [
+      "different_event_timeline_than_pdf1",
+      "roof_replacement_major_2023_event",
+      "yttre_fond_completely_depleted"
+    ]
+  }
+}

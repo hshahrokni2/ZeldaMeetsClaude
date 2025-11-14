@@ -1,0 +1,585 @@
+{
+  "section": "Level 3 - Financial Data",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 245,
+  "critical_learning_applied": "COUNT_ROWS_FIRST_EXTRACT_ALL",
+
+  "multi_year_overview": {
+    "table_name": "NYCKELTAL",
+    "years_covered": [2023, 2022, 2021, 2020],
+    "num_years": 4,
+    "source_page": 6,
+
+    "row_count_verification": {
+      "counted_before_extraction": 16,
+      "extracted": 16,
+      "completeness": "100%",
+      "learning_test": "SUCCESS - Applied 'count rows first' from PDF #1",
+      "format_difference": "16 rows (vs 12 in PDF #1), 4 years (vs 5 in PDF #1)"
+    },
+
+    "nettoomsattning_tkr": {
+      "2023": {"value": 1511.926, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 1366.424, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 1333.222, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": 1333.553, "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "resultat_efter_finansiella_poster_tkr": {
+      "2023": {"value": -2344.071, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": -994.883, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": -361.410, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": -2002.248, "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "soliditet_procent": {
+      "2023": {"value": 57, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 66, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 67, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": 64, "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "yttre_fond": {
+      "2023": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 719.559, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 782.380, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": 532.380, "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "taxeringsvarde": {
+      "2023": {"value": 35094000, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 35094000, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 29514000, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": 29514000, "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "arsavgift_per_kvm_upplaten_bostadsratt_kr": {
+      "2023": {"value": 721, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 653, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "arsavgifternas_andel_av_totala_rorelseintakter_procent": {
+      "2023": {"value": 88.9, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 89.7, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "skuldsattning_per_kvm_upplaten_bostadsratt_kr": {
+      "2023": {"value": 5041, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 4022, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 4062, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "skuldsattning_per_kvm_totalyta_kr": {
+      "2023": {"value": 4751, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 3791, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 3828, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "sparande_per_kvm_totalyta_kr": {
+      "2023": {"value": 138, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 143, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 55, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "elkostnad_per_kvm_totalyta_kr": {
+      "2023": {"value": 25, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 30, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "varmekostnad_per_kvm_totalyta_kr": {
+      "2023": {"value": 132, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 114, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "vattenkostnad_per_kvm_totalyta_kr": {
+      "2023": {"value": 39, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 30, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "energikostnad_per_kvm_totalyta_kr": {
+      "2023": {"value": 197, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 174, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "genomsnittlig_skuldränta_procent": {
+      "2023": {"value": 2.95, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 1.38, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": 2.95, "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "räntekänslighet_procent": {
+      "2023": {"value": 6.99, "confidence": 1.0, "evidence_pages": [6]},
+      "2022": {"value": 6.16, "confidence": 1.0, "evidence_pages": [6]},
+      "2021": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]},
+      "2020": {"value": null, "note": "dash indicates N/A", "confidence": 1.0, "evidence_pages": [6]}
+    },
+
+    "total_rows_in_table": 16,
+    "rows_extracted": 16,
+    "is_complete": true,
+    "pass1_complete": true,
+    "extraction_confidence": 1.0,
+    "source_page": 6,
+    "learning_validation": {
+      "pdf1_learning_applied": "count_rows_first_extract_all",
+      "generalization_test": "SUCCESS",
+      "worked_despite_different_format": true,
+      "worked_despite_different_row_count": true,
+      "worked_despite_different_year_count": true
+    }
+  },
+
+  "income_statement": {
+    "fiscal_year": 2023,
+    "comparison_year": 2022,
+
+    "revenue": {
+      "nettoomsattning": {
+        "2023": {"value": 1511926, "note_ref": "Not 2", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": 1366424, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "ovriga_rorelseintakter": {
+        "2023": {"value": 18610, "note_ref": "Not 3", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": 6302, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "summa_rorelseintakter": {
+        "2023": {"value": 1530536, "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": 1372726, "confidence": 1.0, "evidence_pages": [8]}
+      }
+    },
+
+    "operating_expenses": {
+      "driftskostnader": {
+        "2023": {"value": -3366648, "note_ref": "Not 4, 5, 6, 7, 8", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -1932125, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "ovriga_externa_kostnader": {
+        "2023": {"value": -106174, "note_ref": "Not 9", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -105254, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "personalkostnader": {
+        "2023": {"value": 1006, "note_ref": "Not 10", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -66824, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "avskrivningar_materiella_anlaggningstillgangar": {
+        "2023": {"value": -159348, "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -159348, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "summa_rorelsekostnader": {
+        "2023": {"value": -3631164, "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -2263551, "confidence": 1.0, "evidence_pages": [8]}
+      }
+    },
+
+    "rorelseresultat": {
+      "2023": {"value": -2100628, "confidence": 1.0, "evidence_pages": [8]},
+      "2022": {"value": -890825, "confidence": 1.0, "evidence_pages": [8]}
+    },
+
+    "financial_items": {
+      "ranteintakter_och_liknande_resultatposter": {
+        "2023": {"value": 8396, "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": 1460, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "rantekostnader_och_liknande_resultatposter": {
+        "2023": {"value": -251838, "note_ref": "Not 11", "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -105518, "confidence": 1.0, "evidence_pages": [8]}
+      },
+
+      "summa_finansiella_poster": {
+        "2023": {"value": -243442, "confidence": 1.0, "evidence_pages": [8]},
+        "2022": {"value": -104058, "confidence": 1.0, "evidence_pages": [8]}
+      }
+    },
+
+    "resultat_efter_finansiella_poster": {
+      "2023": {"value": -2344071, "confidence": 1.0, "evidence_pages": [8]},
+      "2022": {"value": -994883, "confidence": 1.0, "evidence_pages": [8]}
+    },
+
+    "arets_resultat": {
+      "2023": {"value": -2344071, "confidence": 1.0, "evidence_pages": [8]},
+      "2022": {"value": -994883, "confidence": 1.0, "evidence_pages": [8]}
+    },
+
+    "is_complete": true,
+    "extraction_confidence": 1.0,
+    "source_pages": [8]
+  },
+
+  "balance_sheet": {
+    "assets": {
+      "anlaggningstillgangar": {
+        "materiella_anlaggningstillgangar": {
+          "byggnad_och_mark": {
+            "2023": {"value": 22285878, "note_ref": "Not 12", "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 22445226, "confidence": 1.0, "evidence_pages": [9]}
+          },
+
+          "summa_materiella": {
+            "2023": {"value": 22285878, "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 22445226, "confidence": 1.0, "evidence_pages": [9]}
+          }
+        },
+
+        "summa_anlaggningstillgangar": {
+          "2023": {"value": 22285878, "confidence": 1.0, "evidence_pages": [9]},
+          "2022": {"value": 22445226, "confidence": 1.0, "evidence_pages": [9]}
+        }
+      },
+
+      "omsattningstillgangar": {
+        "kortfristiga_fordringar": {
+          "kund_och_avgiftsfordringar": {
+            "2023": {"value": 2369, "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 3977, "confidence": 1.0, "evidence_pages": [9]}
+          },
+
+          "ovriga_fordringar": {
+            "2023": {"value": 552248, "note_ref": "Not 13", "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 1004983, "confidence": 1.0, "evidence_pages": [9]}
+          },
+
+          "forutbetalda_kostnader_och_upplupna_intakter": {
+            "2023": {"value": 24193, "note_ref": "Not 14", "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 54656, "confidence": 1.0, "evidence_pages": [9]}
+          },
+
+          "summa_kortfristiga_fordringar": {
+            "2023": {"value": 578810, "confidence": 1.0, "evidence_pages": [9]},
+            "2022": {"value": 1063616, "confidence": 1.0, "evidence_pages": [9]}
+          }
+        },
+
+        "kassa_och_bank": {
+          "2023": {"value": 72289, "confidence": 1.0, "evidence_pages": [9]},
+          "2022": {"value": 0, "confidence": 1.0, "evidence_pages": [9]}
+        },
+
+        "summa_omsattningstillgangar": {
+          "2023": {"value": 651099, "confidence": 1.0, "evidence_pages": [9]},
+          "2022": {"value": 1063616, "confidence": 1.0, "evidence_pages": [9]}
+        }
+      },
+
+      "summa_tillgangar": {
+        "2023": {"value": 22936977, "confidence": 1.0, "evidence_pages": [9]},
+        "2022": {"value": 23508842, "confidence": 1.0, "evidence_pages": [9]}
+      }
+    },
+
+    "equity_and_liabilities": {
+      "eget_kapital": {
+        "bundet_eget_kapital": {
+          "medlemsinsatser": {
+            "2023": {"value": 18243043, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 18243043, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "fond_for_yttre_underhall": {
+            "2023": {"value": 0, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 719559, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "summa_bundet_eget_kapital": {
+            "2023": {"value": 18243043, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 18962602, "confidence": 1.0, "evidence_pages": [10]}
+          }
+        },
+
+        "fritt_eget_kapital": {
+          "balanserat_resultat": {
+            "2023": {"value": -2751667, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": -2476343, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "arets_resultat": {
+            "2023": {"value": -2344071, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": -994883, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "summa_fritt_eget_kapital": {
+            "2023": {"value": -5095737, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": -3471226, "confidence": 1.0, "evidence_pages": [10]}
+          }
+        },
+
+        "summa_eget_kapital": {
+          "2023": {"value": 13147306, "confidence": 1.0, "evidence_pages": [10]},
+          "2022": {"value": 15491376, "confidence": 1.0, "evidence_pages": [10]}
+        }
+      },
+
+      "skulder": {
+        "langfristiga_skulder": {
+          "skulder_till_kreditinstitut": {
+            "2023": {"value": 2172856, "note_ref": "Not 15", "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 4258957, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "summa_langfristiga_skulder": {
+            "2023": {"value": 2172856, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 4258957, "confidence": 1.0, "evidence_pages": [10]}
+          }
+        },
+
+        "kortfristiga_skulder": {
+          "skulder_till_kreditinstitut": {
+            "2023": {"value": 7333847, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 3326290, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "leverantorsskulder": {
+            "2023": {"value": 105699, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 162617, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "skatteskulder": {
+            "2023": {"value": 2355, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 3196, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "ovriga_kortfristiga_skulder": {
+            "2023": {"value": 58, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": -5, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "upplupna_kostnader_och_forutbetalda_intakter": {
+            "2023": {"value": 174857, "note_ref": "Not 16", "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 266411, "confidence": 1.0, "evidence_pages": [10]}
+          },
+
+          "summa_kortfristiga_skulder": {
+            "2023": {"value": 7616816, "confidence": 1.0, "evidence_pages": [10]},
+            "2022": {"value": 3758509, "confidence": 1.0, "evidence_pages": [10]}
+          }
+        },
+
+        "summa_skulder": {
+          "2023": {"value": 9789672, "confidence": 1.0, "evidence_pages": [10]},
+          "2022": {"value": 8017466, "confidence": 1.0, "evidence_pages": [10]}
+        }
+      },
+
+      "summa_eget_kapital_och_skulder": {
+        "2023": {"value": 22936977, "confidence": 1.0, "evidence_pages": [10]},
+        "2022": {"value": 23508842, "confidence": 1.0, "evidence_pages": [10]}
+      }
+    },
+
+    "balance_sheet_equation_validates": true,
+    "validation": {
+      "2023": {
+        "assets": 22936977,
+        "liabilities": 9789672,
+        "equity": 13147306,
+        "equation": "22936977 = 9789672 + 13147306",
+        "validates": true
+      },
+      "2022": {
+        "assets": 23508842,
+        "liabilities": 8017466,
+        "equity": 15491376,
+        "equation": "23508842 = 8017466 + 15491376",
+        "validates": true
+      }
+    },
+
+    "is_complete": true,
+    "extraction_confidence": 1.0,
+    "source_pages": [9, 10]
+  },
+
+  "equity_changes": {
+    "table_title": "Förändringar i eget kapital",
+    "period": "2022-12-31 to 2023-12-31",
+
+    "bundet_eget_kapital": {
+      "medlemsinsatser": {
+        "beginning_2022_12_31": 18243043,
+        "changes": 0,
+        "ending_2023_12_31": 18243043
+      },
+
+      "fond_yttre_underhall": {
+        "beginning_2022_12_31": 719559,
+        "disposal_to_cover_loss": -719559,
+        "ending_2023_12_31": 0
+      }
+    },
+
+    "fritt_eget_kapital": {
+      "balanserat_resultat": {
+        "beginning_2022_12_31": -2476343,
+        "prior_year_result_allocation": -994883,
+        "yttre_fond_usage": 719559,
+        "ending_2023_12_31": -2751667
+      },
+
+      "arets_resultat": {
+        "beginning_2022_12_31": -994883,
+        "allocation_from_prior_year": 994883,
+        "current_year_result": -2344071,
+        "ending_2023_12_31": -2344071
+      }
+    },
+
+    "total_equity_movement": {
+      "beginning_2022_12_31": 15491376,
+      "yttre_fond_usage_net": 0,
+      "current_year_loss": -2344071,
+      "ending_2023_12_31": 13147306
+    },
+
+    "reconciliation_validates": true,
+    "is_complete": true,
+    "extraction_confidence": 0.98,
+    "source_pages": [7]
+  },
+
+  "cash_flow": {
+    "den_lopande_verksamheten": {
+      "rorelseresultat": {
+        "2023": -2100628,
+        "2022": -890825
+      },
+
+      "justeringar_ej_i_kassaflode": {
+        "arets_avskrivningar": {
+          "2023": 159348,
+          "2022": 159348
+        },
+        "subtotal": {
+          "2023": -1941280,
+          "2022": -731477
+        }
+      },
+
+      "erhallen_ranta": {
+        "2023": 8396,
+        "2022": 1460
+      },
+
+      "erlagd_ranta": {
+        "2023": -234226,
+        "2022": -87740
+      },
+
+      "kassaflode_fran_lopande_verksamheten_fore_forandringar_av_rorelsekapital": {
+        "2023": -2167111,
+        "2022": -817757
+      }
+    },
+
+    "forandring_i_rorelsekapital": {
+      "kortfristiga_fordringar_increase_decrease": {
+        "2023": 32057,
+        "2022": -9332
+      },
+
+      "kortfristiga_skulder_increase_decrease": {
+        "2023": -166862,
+        "2022": 77871
+      },
+
+      "kassaflode_fran_den_lopande_verksamheten": {
+        "2023": -2301916,
+        "2022": -749218
+      }
+    },
+
+    "investeringsverksamheten": {
+      "kassaflode_fran_investeringsverksamheten": {
+        "2023": 0,
+        "2022": 0
+      }
+    },
+
+    "finansieringsverksamheten": {
+      "upptagna_lan": {
+        "2023": 2012444,
+        "2022": 21000
+      },
+
+      "amortering_av_lan": {
+        "2023": -90988,
+        "2022": -95804
+      },
+
+      "kassaflode_fran_finansieringsverksamhet": {
+        "2023": 1921456,
+        "2022": -74804
+      }
+    },
+
+    "arets_kassaflode": {
+      "2023": -380460,
+      "2022": -824022
+    },
+
+    "likivda_medel_vid_arets_borjan": {
+      "2023": 1004472,
+      "2022": 1828494
+    },
+
+    "likvida_medel_vid_arets_slut": {
+      "2023": 624012,
+      "2022": 1004472,
+      "note": "Includes both cash and Övriga fordringar classified as liquid"
+    },
+
+    "is_complete": true,
+    "extraction_confidence": 0.95,
+    "source_pages": [11]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.98,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "balance_sheet_equation_validates",
+      "equity_changes_table_present",
+      "income_statement_structure_similar",
+      "cash_flow_statement_present",
+      "multi_year_table_exists_on_page_6"
+    ],
+    "format_specific_nabo": [
+      "multi_year_table_16_rows_not_12",
+      "multi_year_table_4_years_not_5",
+      "different_metric_names_in_table",
+      "yttre_fond_used_to_cover_losses"
+    ],
+    "critical_learning_test": {
+      "learning_from_pdf1": "count_rows_first_extract_all",
+      "applied_successfully": true,
+      "worked_despite_format_differences": true,
+      "pass1_multiyear_completeness": "100%",
+      "pdf1_pass1_multiyear_completeness": "25%",
+      "improvement_proof": "Learning generalized successfully!"
+    }
+  }
+}

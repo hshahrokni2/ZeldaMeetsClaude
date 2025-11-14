@@ -1,0 +1,658 @@
+{
+  "section": "Level 4 - Notes",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 142,
+  "total_notes": 17,
+
+  "note_1_redovisnings_och_varderingsprinciper": {
+    "note_number": 1,
+    "title": "Redovisnings- och värderingsprinciper",
+
+    "accounting_framework": {
+      "law_reference": "Årsredovisningslagen och Bokföringsnämndens allmänna råd 2016:10 (K2)",
+      "supplementary_guidance": "årsredovisning i mindre företag och 2023:1",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "revenue_recognition": {
+      "method": "bokförs i den period de avser oavsett när betalning eller avisering skett",
+      "includes": "brodband, kabel-tv, vatten och värme",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "fixed_assets_depreciation": {
+      "method": "linjärt över den bedömda ekonomiska livslängden",
+      "depreciation_rate_byggnad": "1,1%",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "yttre_fond_policy": {
+      "description": "Reservering till föreningens fond för yttre underhåll",
+      "treatment": "sker överföring från balanserat resultat till fond för yttre underhåll och redovisas som bundet eget kapital",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "property_tax": {
+      "calculation": "1,589 kr per bostadslägenhet",
+      "local_tax_rate": "1,00% av lokalernas taxeringsvärde",
+      "treatment": "avgiften högs 0,30% av taxeringsvärdet för bostadshus",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "borrowing_policy": {
+      "description": "Lån med en bindningstid på ett år eller mindre tas i årsredovisningen upp som kortfristiga skulder",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "cash_flow_method": {
+      "method": "indirekt metod",
+      "client_funds_classification": "likivda medel",
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [12]
+  },
+
+  "note_2_nettoomsattning": {
+    "note_number": 2,
+    "title": "Nettoomsättning",
+
+    "revenue_breakdown": {
+      "arsavgifter_bostader": {
+        "2023": 1318716,
+        "2022": 1190127
+      },
+      "hyresintakter_bostader": {
+        "2023": 77724,
+        "2022": 70656
+      },
+      "hyresintakter_lokaler": {
+        "2023": 66096,
+        "2022": 60101
+      },
+      "kabel_tv_bredband": {
+        "2023": 45540,
+        "2022": 45540
+      },
+      "ovriga_intakter": {
+        "2023": 3850,
+        "2022": 0
+      },
+      "summa": {
+        "2023": 1511926,
+        "2022": 1366424
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [13]
+  },
+
+  "note_3_ovriga_rorelseintakter": {
+    "note_number": 3,
+    "title": "Övriga rörelseintäkter",
+
+    "breakdown": {
+      "ores_och_kronutjamning": {
+        "2023": 2,
+        "2022": 1
+      },
+      "elprisstod": {
+        "2023": 15019,
+        "2022": 0
+      },
+      "ovriga_intakter": {
+        "2023": 412,
+        "2022": 6301
+      },
+      "aterbetaln_all_framtid": {
+        "2023": 3177,
+        "2022": 0
+      },
+      "summa": {
+        "2023": 18610,
+        "2022": 6302
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [13]
+  },
+
+  "note_4_fastighetsskotsel": {
+    "note_number": 4,
+    "title": "Fastighetsskötsel",
+
+    "breakdown": {
+      "fastkotsel_teknisk_forv_arvode": {
+        "2023": 89824,
+        "2022": 190184
+      },
+      "fastighetsskotsel": {
+        "2023": 62410,
+        "2022": 4046
+      },
+      "besiktning_och_service": {
+        "2023": 43105,
+        "2022": 23634
+      },
+      "summa": {
+        "2023": 195338,
+        "2022": 217863
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [13],
+    "pattern_note": "Note 4 title is 'Fastighetsskötsel' (Nabo) vs 'Driftskostnader' (Riksbyggen PDF #1)"
+  },
+
+  "note_5_reparationer": {
+    "note_number": 5,
+    "title": "Reparationer",
+
+    "breakdown": {
+      "reparationer": {
+        "2023": 0,
+        "2022": 11406
+      },
+      "tvattstuga": {
+        "2023": 7257,
+        "2022": 9484
+      },
+      "va": {
+        "2023": 0,
+        "2022": 7794
+      },
+      "ventilation": {
+        "2023": 82500,
+        "2022": 0
+      },
+      "hissar": {
+        "2023": 1957,
+        "2022": 22935
+      },
+      "forsakringsarende_vattenskada": {
+        "2023": 0,
+        "2022": 14743
+      },
+      "temp_rep_und_eller_projekt": {
+        "2023": 33366,
+        "2022": 0
+      },
+      "summa": {
+        "2023": 125080,
+        "2022": 66362
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [13]
+  },
+
+  "note_6_planerade_underhall": {
+    "note_number": 6,
+    "title": "Planerade underhåll",
+
+    "breakdown": {
+      "tvattstuga": {
+        "2023": 0,
+        "2022": 262478
+      },
+      "trapphus_port_entre": {
+        "2023": 0,
+        "2022": 8293
+      },
+      "dorrar_och_las_porttele": {
+        "2023": 0,
+        "2022": 58201
+      },
+      "hissar": {
+        "2023": 0,
+        "2022": 786250
+      },
+      "tak": {
+        "2023": 2459917,
+        "2022": 6281
+      },
+      "summa": {
+        "2023": 2459917,
+        "2022": 1121503
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [14]
+  },
+
+  "note_7_taxebundna_kostnader": {
+    "note_number": 7,
+    "title": "Taxebundna kostnader",
+
+    "breakdown": {
+      "fastighetsel": {
+        "2023": 50929,
+        "2022": 59349
+      },
+      "uppvarmning": {
+        "2023": 264020,
+        "2022": 227577
+      },
+      "vatten": {
+        "2023": 78622,
+        "2022": 60395
+      },
+      "sophamtning": {
+        "2023": 47819,
+        "2022": 47321
+      },
+      "summa": {
+        "2023": 441390,
+        "2022": 394642
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [14]
+  },
+
+  "note_8_ovriga_driftskostnader": {
+    "note_number": 8,
+    "title": "Övriga driftskostnader",
+
+    "breakdown": {
+      "fastighetsforsakringar": {
+        "2023": 24163,
+        "2022": 20262
+      },
+      "kabel_tv": {
+        "2023": 32578,
+        "2022": 29576
+      },
+      "bredband": {
+        "2023": 48284,
+        "2022": 43560
+      },
+      "fastighetsskatt": {
+        "2023": 39898,
+        "2022": 38358
+      },
+      "summa": {
+        "2023": 144923,
+        "2022": 131756
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [14]
+  },
+
+  "note_9_ovriga_externa_kostnader": {
+    "note_number": 9,
+    "title": "Övriga externa kostnader",
+
+    "breakdown": {
+      "juridiska_kostnader": {
+        "2023": 3188,
+        "2022": 914
+      },
+      "revisionsarvoden": {
+        "2023": 15875,
+        "2022": 16250
+      },
+      "ekonomisk_forvaltning": {
+        "2023": 74556,
+        "2022": 71520
+      },
+      "ovriga_forvaltningskostnader": {
+        "2023": 12556,
+        "2022": 16570
+      },
+      "summa": {
+        "2023": 106174,
+        "2022": 105254
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [14]
+  },
+
+  "note_10_personalkostnader": {
+    "note_number": 10,
+    "title": "Personalkostnader",
+
+    "breakdown": {
+      "styrelsearvoden": {
+        "2023": -1750,
+        "2022": 50848
+      },
+      "loner_arbetare": {
+        "2023": 750,
+        "2022": 0
+      },
+      "sociala_avgifter": {
+        "2023": -6,
+        "2022": 15976
+      },
+      "summa": {
+        "2023": -1006,
+        "2022": 66824
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 0.95,
+    "evidence_pages": [14],
+    "note": "Negative values in 2023 - unusual but as stated in PDF"
+  },
+
+  "note_11_rantekostnader_och_liknande_resultatposter": {
+    "note_number": 11,
+    "title": "Räntekostnader och liknande resultatposter",
+
+    "breakdown": {
+      "rantekostnader_avseende_skulder_till_kreditinstitut": {
+        "2023": 251811,
+        "2022": 105504
+      },
+      "ovriga_rantekostnader": {
+        "2023": 27,
+        "2022": 14
+      },
+      "summa": {
+        "2023": 251838,
+        "2022": 105518
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [15]
+  },
+
+  "note_12_byggnad_och_mark": {
+    "note_number": 12,
+    "title": "Byggnad och mark",
+
+    "ackumulerat_anskaffningsvarde": {
+      "ingaende": 24445367,
+      "utgaende_ackumulerat_anskaffningsvarde": 24445367
+    },
+
+    "ackumulerad_avskrivning": {
+      "ingaende": -2000141,
+      "arets_avskrivning": -159348,
+      "utgaende_ackumulerad_avskrivning": -2159489
+    },
+
+    "utgaende_restvarde_enligt_plan": {
+      "2023": 22285878,
+      "2022": 22445226
+    },
+
+    "taxeringsvarde": {
+      "taxeringsvarde_byggnad": 21896000,
+      "taxeringsvarde_mark": 13198000,
+      "summa": 35094000
+    },
+
+    "varav_mark_ingaende": {
+      "value": 10012211,
+      "note": "I utgående restvärde ingår mark med",
+      "confidence": 1.0
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [15]
+  },
+
+  "note_13_ovriga_fordringar": {
+    "note_number": 13,
+    "title": "Övriga fordringar",
+
+    "breakdown": {
+      "skattekonto": {
+        "2023": 525,
+        "2022": 511
+      },
+      "nabo_klientmedelskonto": {
+        "2023": 212348,
+        "2022": 278013
+      },
+      "borgo": {
+        "2023": 339376,
+        "2022": 726459
+      },
+      "summa": {
+        "2023": 552248,
+        "2022": 1004983
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [15]
+  },
+
+  "note_14_forutbetalda_kostnader_och_upplupna_intakter": {
+    "note_number": 14,
+    "title": "Förutbetalda kostnader och upplupna intäkter",
+
+    "breakdown": {
+      "ovriga_forutbetalda_kostnader_och_upplupna_intakter": {
+        "2023": 750,
+        "2022": 831
+      },
+      "forsakringspremier": {
+        "2023": 2028,
+        "2022": 26191
+      },
+      "kabel_tv": {
+        "2023": 8556,
+        "2022": 8106
+      },
+      "bredband": {
+        "2023": 12859,
+        "2022": 12071
+      },
+      "forvaltning": {
+        "2023": 0,
+        "2022": 7457
+      },
+      "summa": {
+        "2023": 24193,
+        "2022": 54656
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [16]
+  },
+
+  "note_15_skulder_till_kreditinstitut": {
+    "note_number": 15,
+    "title": "Skulder till kreditinstitut",
+
+    "loan_details": [
+      {
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-02-26",
+        "interest_rate": "5,00%",
+        "amount_2023": 1956486,
+        "amount_2022": 1981214,
+        "amortization_2023": -24728
+      },
+      {
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-02-02",
+        "interest_rate": "5,00%",
+        "amount_2023": 1296260,
+        "amount_2022": 1323000,
+        "amortization_2023": -26740
+      },
+      {
+        "lender": "Stadshypotek",
+        "maturity_date": "2025-03-30",
+        "interest_rate": "2,77%",
+        "amount_2023": 2172856,
+        "amount_2022": 2172856,
+        "amortization_2023": 0
+      },
+      {
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-06-30",
+        "interest_rate": "1,24%",
+        "amount_2023": 2086101,
+        "amount_2022": 2108177,
+        "amortization_2023": -22076
+      },
+      {
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-01-02",
+        "interest_rate": "5,00%",
+        "amount_2023": 1995000,
+        "amount_2022": null,
+        "new_loan": true,
+        "note": "New loan taken for roof replacement"
+      }
+    ],
+
+    "summary": {
+      "total_loans_2023": 9506703,
+      "total_loans_2022": 7585247,
+      "short_term_portion_2023": 7333847,
+      "short_term_portion_2022": 3326290,
+      "long_term_portion_2023": 2172856,
+      "long_term_portion_2022": 4258957
+    },
+
+    "amortization_analysis": {
+      "total_amortization_2023": -73544,
+      "new_loan_2023": 1995000,
+      "net_loan_increase": 1921456,
+      "reconciliation": {
+        "beginning_2022": 7585247,
+        "new_loan": 1995000,
+        "amortization": -73544,
+        "ending_2023": 9506703,
+        "validates": true
+      }
+    },
+
+    "balance_sheet_reconciliation": {
+      "note_15_total": 9506703,
+      "balance_sheet_long_term": 2172856,
+      "balance_sheet_short_term": 7333847,
+      "balance_sheet_total": 9506703,
+      "validates": true
+    },
+
+    "special_note": "Om fem år beräknas skulden till kreditinstitut uppgå till 9 132 683 kr. Enligt föreningens redovisningsprinciper ska de delar av lånen som har slutbetalningsdag inom ett år redovisas som kortfristiga tillsammans med den amortering som planeras att ske under nästa räkenskapsår.",
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [16]
+  },
+
+  "note_16_upplupna_kostnader_och_forutbetalda_intakter": {
+    "note_number": 16,
+    "title": "Upplupna kostnader och förutbetalda intäkter",
+
+    "breakdown": {
+      "ovriga_upplupna_kostnader_och_forutbetalda_intakter": {
+        "2023": 14680,
+        "2022": 65274
+      },
+      "el": {
+        "2023": 4293,
+        "2022": 8220
+      },
+      "uppvarmning": {
+        "2023": 38012,
+        "2022": 33725
+      },
+      "utgiftsrantor": {
+        "2023": 35390,
+        "2022": 17778
+      },
+      "uppkost_vatten": {
+        "2023": 6624,
+        "2022": 0
+      },
+      "sociala_avgifter": {
+        "2023": 0,
+        "2022": 15741
+      },
+      "forutbetalda_avgifter_hyror": {
+        "2023": 72279,
+        "2022": 125673
+      },
+      "ovriga_uppl_kostn": {
+        "2023": 3579,
+        "2022": 0
+      },
+      "summa": {
+        "2023": 174857,
+        "2022": 266411
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [16]
+  },
+
+  "note_17_stallda_sakerheter": {
+    "note_number": 17,
+    "title": "Ställda säkerheter",
+
+    "security_pledged": {
+      "fastighetsinteckning": {
+        "2023": 14508000,
+        "2022": 14508000
+      }
+    },
+
+    "is_complete": true,
+    "confidence": 1.0,
+    "evidence_pages": [16]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.98,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "note_structure_similar",
+      "note_references_from_income_statement",
+      "loan_note_with_detailed_breakdown",
+      "accounting_principles_in_note_1"
+    ],
+    "format_specific_nabo": [
+      "17_notes_vs_15_in_pdf1",
+      "note_4_title_fastighetsskotsel_vs_driftskostnader",
+      "nabo_klientmedelskonto_in_note_13",
+      "borgo_accounts_in_note_13"
+    ]
+  }
+}

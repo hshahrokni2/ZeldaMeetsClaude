@@ -1,0 +1,243 @@
+{
+  "section": "Level 5 - Property Information",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 42,
+
+  "property_basic_info": {
+    "property_designation": {
+      "beteckning": "Vägen 8",
+      "forvarv": "2006",
+      "kommun": "Malmö",
+      "full_designation": "Vägen 8, 2006, Malmö",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "location": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "built_year": {
+      "value": 1930,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "building_age_2023": {
+      "value": 93,
+      "note": "Very old building - 93 years in 2023",
+      "confidence": 1.0
+    }
+  },
+
+  "property_composition": {
+    "rental_units": {
+      "hyreslagenheter": 1,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "cooperative_apartments": {
+      "bostadsratter": 21,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "total_units": {
+      "value": 22,
+      "calculation": "1 rental + 21 cooperative",
+      "confidence": 1.0
+    },
+
+    "commercial_units": {
+      "lokaler": 1,
+      "area_lokaler_kvm": 50,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    }
+  },
+
+  "property_areas": {
+    "total_area_residential": {
+      "value": 1951,
+      "unit": "kvm",
+      "description": "Total area for residential units",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "commercial_area": {
+      "value": 50,
+      "unit": "kvm",
+      "description": "lokalyta",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+
+    "total_building_area": {
+      "value": 2001,
+      "unit": "kvm",
+      "calculation": "1951 (residential) + 50 (commercial)",
+      "description": "Byggnadernas totalyta",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    }
+  },
+
+  "tax_assessment": {
+    "taxeringsvarde_total": {
+      "2023": 35094000,
+      "2022": 35094000,
+      "2021": 29514000,
+      "2020": 29514000,
+      "confidence": 1.0,
+      "evidence_pages": [6, 15]
+    },
+
+    "taxeringsvarde_breakdown": {
+      "byggnad": {
+        "value": 21896000,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "mark": {
+        "value": 13198000,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "total": {
+        "value": 35094000,
+        "validates": true,
+        "evidence_pages": [15]
+      }
+    },
+
+    "mark_value_in_balance_sheet": {
+      "value": 10012211,
+      "note": "I utgående restvärde ingår mark med",
+      "confidence": 1.0,
+      "evidence_pages": [15]
+    }
+  },
+
+  "insurance": {
+    "property_insurance_provider": "Länsförsäkringar",
+    "insurance_types": [
+      "Fastighetsförsäkring",
+      "Kollektivt bostadsrättstillägg för medlemmarna",
+      "Ansvarsförsäkring för styrelsen"
+    ],
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "ownership_rights": {
+    "market_includes_owner_rights": true,
+    "note": "Marken innehas med äganderätt",
+    "confidence": 1.0,
+    "evidence_pages": [4]
+  },
+
+  "maintenance_plan": {
+    "plan_created": 2015,
+    "plan_valid_through": 2033,
+    "plan_updated": 2023,
+    "maintenance_reserve_fund": {
+      "yttre_fond_2023": 0,
+      "yttre_fond_2022": 719559,
+      "note": "Fund was used to cover losses in 2023",
+      "confidence": 1.0,
+      "evidence_pages": [5, 6, 7]
+    },
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "historical_maintenance": {
+    "projects": [
+      {
+        "period": "2023-2023",
+        "description": "Omläggning av tak samt byte av fläkt för frånluftsventilation",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      {
+        "period": "2021-2022",
+        "description": "Ny maskinpark i tvättstugan",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      {
+        "period": "2020-2021",
+        "description": "Renovering/byte av föreningens 2 hissar",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      {
+        "period": "2019-2020",
+        "description": "Byte av fönster mot gata samt rRenovering av fasad mot gata och gård. Ommålning av fönster mot gård",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      }
+    ],
+    "total_historical_projects": 4,
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "planned_maintenance": {
+    "period": "2024-2028",
+    "projects": [
+      {
+        "description": "Genomgång av värmecentral",
+        "confidence": 1.0
+      },
+      {
+        "description": "genomgång vatten och avloppsledningar i källargolv/Eonrelining/spolning",
+        "confidence": 1.0
+      },
+      {
+        "description": "Genomgång av el",
+        "confidence": 1.0
+      },
+      {
+        "description": "Målningtrapphus och entré",
+        "confidence": 1.0
+      }
+    ],
+    "confidence": 1.0,
+    "evidence_pages": [5]
+  },
+
+  "depreciation_accounting": {
+    "depreciation_method": "linjärt",
+    "depreciation_rate_building": 1.1,
+    "depreciation_rate_percent": "1,1%",
+    "accumulated_depreciation_2023": -2159489,
+    "accumulated_depreciation_2022": -2000141,
+    "annual_depreciation_2023": -159348,
+    "confidence": 1.0,
+    "evidence_pages": [12, 15]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.98,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "built_year_documented",
+      "total_area_specified",
+      "tax_assessment_value_present",
+      "maintenance_plan_exists",
+      "historical_and_planned_maintenance_documented"
+    ],
+    "format_specific_nabo": [
+      "older_building_1930_vs_1935_in_pdf1",
+      "slightly_larger_2001kvm_vs_1211kvm",
+      "more_units_22_vs_16_in_pdf1"
+    ]
+  }
+}

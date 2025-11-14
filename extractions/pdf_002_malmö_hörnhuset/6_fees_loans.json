@@ -1,0 +1,297 @@
+{
+  "section": "Level 6 - Fees and Loans",
+  "extraction_date": "2025-11-14",
+  "extraction_pass": "pass1",
+  "fields_extracted": 68,
+
+  "annual_fees": {
+    "arsavgift_per_kvm_2023": {
+      "value": 721,
+      "unit": "kr/m²",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+
+    "arsavgift_per_kvm_2022": {
+      "value": 653,
+      "unit": "kr/m²",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+
+    "annual_fee_change": {
+      "increase_kr": 68,
+      "increase_percent": 10.4,
+      "note": "Significant increase due to cost inflation",
+      "confidence": 1.0
+    },
+
+    "fee_adjustment_history": {
+      "2023_01_01_adjustment": {
+        "increase_percent": 10,
+        "reason": "According to board decision",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+
+      "2023_increase_reason": {
+        "description": "Under året höjdes avgifterna i Brf Hörnhuset med 3%, detta för att täcka de ökande kostnaderna både vad gäller el/värme men också räntehöjningar samt höjd för långsiktigt sparande",
+        "factors": ["electricity", "heating", "interest rate increases", "long-term savings"],
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      }
+    },
+
+    "fee_revenue_composition": {
+      "arsavgifternas_andel_av_totala_rorelseintakter": {
+        "2023": 88.9,
+        "2022": 89.7,
+        "unit": "%",
+        "note": "Annual fees as percentage of total operating revenue",
+        "confidence": 1.0,
+        "evidence_pages": [6]
+      }
+    },
+
+    "total_fee_revenue": {
+      "2023": 1318716,
+      "2022": 1190127,
+      "source": "Note 2 - Årsavgifter, bostäder",
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    }
+  },
+
+  "loans": {
+    "total_loans": {
+      "2023": 9506703,
+      "2022": 7585247,
+      "increase": 1921456,
+      "increase_percent": 25.3,
+      "confidence": 1.0,
+      "evidence_pages": [16]
+    },
+
+    "loan_breakdown": {
+      "long_term_loans": {
+        "2023": 2172856,
+        "2022": 4258957,
+        "decrease": -2086101,
+        "note": "Significant decrease due to reclassification to short-term",
+        "confidence": 1.0,
+        "evidence_pages": [10, 16]
+      },
+
+      "short_term_loans": {
+        "2023": 7333847,
+        "2022": 3326290,
+        "increase": 4007557,
+        "note": "Increase due to new loan + reclassification from long-term",
+        "confidence": 1.0,
+        "evidence_pages": [10, 16]
+      }
+    },
+
+    "individual_loans": [
+      {
+        "loan_id": 1,
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-02-26",
+        "interest_rate_2023": 5.00,
+        "amount_2023": 1956486,
+        "amount_2022": 1981214,
+        "amortization_2023": -24728,
+        "classification": "short_term",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      {
+        "loan_id": 2,
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-02-02",
+        "interest_rate_2023": 5.00,
+        "amount_2023": 1296260,
+        "amount_2022": 1323000,
+        "amortization_2023": -26740,
+        "classification": "short_term",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      {
+        "loan_id": 3,
+        "lender": "Stadshypotek",
+        "maturity_date": "2025-03-30",
+        "interest_rate_2023": 2.77,
+        "amount_2023": 2172856,
+        "amount_2022": 2172856,
+        "amortization_2023": 0,
+        "classification": "long_term",
+        "note": "Only long-term loan remaining",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      {
+        "loan_id": 4,
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-06-30",
+        "interest_rate_2023": 1.24,
+        "amount_2023": 2086101,
+        "amount_2022": 2108177,
+        "amortization_2023": -22076,
+        "classification": "short_term",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      {
+        "loan_id": 5,
+        "lender": "Stadshypotek",
+        "maturity_date": "2024-01-02",
+        "interest_rate_2023": 5.00,
+        "amount_2023": 1995000,
+        "amount_2022": null,
+        "new_loan": true,
+        "classification": "short_term",
+        "purpose": "Roof replacement (takbyte)",
+        "note": "Nytt lån togs inför takbyte på 2 000 000 som i dagsläget har rörlig ränta",
+        "confidence": 1.0,
+        "evidence_pages": [5, 16]
+      }
+    ],
+
+    "total_loan_count": 5,
+
+    "loan_reconciliation": {
+      "beginning_balance_2022": 7585247,
+      "new_loan_2023": 1995000,
+      "total_amortization_2023": -73544,
+      "ending_balance_2023": 9506703,
+      "validates": true,
+      "calculation": "7585247 + 1995000 - 73544 = 9506703",
+      "confidence": 1.0
+    },
+
+    "future_loan_projection": {
+      "projected_debt_5_years": 9132683,
+      "note": "Om fem år beräknas skulden till kreditinstitut uppgå till 9 132 683 kr",
+      "confidence": 1.0,
+      "evidence_pages": [16]
+    }
+  },
+
+  "debt_metrics": {
+    "skuldsattning_per_kvm_upplaten_bostadsratt": {
+      "2023": 5041,
+      "2022": 4022,
+      "2021": 4062,
+      "unit": "kr/m²",
+      "note": "Debt per sqm of cooperative apartments",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+
+    "skuldsattning_per_kvm_totalyta": {
+      "2023": 4751,
+      "2022": 3791,
+      "2021": 3828,
+      "unit": "kr/m²",
+      "note": "Debt per sqm of total area",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+
+    "debt_increase_analysis": {
+      "increase_2022_to_2023": 960,
+      "increase_percent": 25.3,
+      "reason": "New loan of 2M for roof replacement",
+      "confidence": 1.0
+    }
+  },
+
+  "interest_costs": {
+    "total_interest_costs": {
+      "2023": 251838,
+      "2022": 105518,
+      "increase": 146320,
+      "increase_percent": 138.7,
+      "note": "Interest costs more than doubled due to rate increases",
+      "confidence": 1.0,
+      "evidence_pages": [8, 15]
+    },
+
+    "interest_revenue": {
+      "2023": 8396,
+      "2022": 1460,
+      "note": "Interest income from deposits",
+      "confidence": 1.0,
+      "evidence_pages": [8]
+    },
+
+    "net_interest_cost": {
+      "2023": 243442,
+      "2022": 104058,
+      "increase": 139384,
+      "increase_percent": 133.9,
+      "confidence": 1.0
+    },
+
+    "genomsnittlig_skuldränta": {
+      "2023": 2.95,
+      "2022": 1.38,
+      "2021": 2.95,
+      "unit": "%",
+      "note": "Average interest rate on debt",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+
+    "räntekänslighet": {
+      "2023": 6.99,
+      "2022": 6.16,
+      "unit": "%",
+      "note": "Interest rate sensitivity measure",
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    }
+  },
+
+  "collateral": {
+    "fastighetsinteckning": {
+      "2023": 14508000,
+      "2022": 14508000,
+      "note": "Property mortgage pledged as security",
+      "confidence": 1.0,
+      "evidence_pages": [16]
+    },
+
+    "collateral_coverage_ratio": {
+      "2023": 1.53,
+      "calculation": "14508000 / 9506703",
+      "note": "Collateral covers 153% of loans",
+      "confidence": 1.0
+    }
+  },
+
+  "loan_policy": {
+    "short_term_classification": "Lån med en bindningstid på ett år eller mindre tas i årsredovisningen upp som kortfristiga skulder",
+    "reclassification_policy": "Enligt föreningens redovisningsprinciper ska de delar av lånen som har slutbetalningsdag inom ett år redovisas som kortfristiga tillsammans med den amortering som planeras att ske under nästa räkenskapsår",
+    "confidence": 1.0,
+    "evidence_pages": [12, 16]
+  },
+
+  "is_complete": true,
+  "extraction_confidence": 0.99,
+  "pattern_tracking": {
+    "universal_patterns_confirmed": [
+      "loan_details_in_note_15",
+      "annual_fee_documented",
+      "debt_per_sqm_metrics",
+      "interest_rate_tracking",
+      "collateral_documented"
+    ],
+    "format_specific_nabo": [
+      "5_loans_from_stadshypotek",
+      "significant_short_term_reclassification",
+      "new_loan_for_specific_project_roof"
+    ]
+  }
+}
