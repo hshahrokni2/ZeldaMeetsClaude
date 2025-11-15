@@ -1,0 +1,67 @@
+{
+  "board_members": [
+    {
+      "name": "Lotta Sandström",
+      "role": "Ordförande",
+      "type": "ledamot"
+    },
+    {
+      "name": "Magnus Andersson",
+      "role": "Ledamot",
+      "type": "ledamot"
+    },
+    {
+      "name": "Mikael Livas",
+      "role": "Ledamot",
+      "type": "ledamot"
+    },
+    {
+      "name": "Joakim Paulsson",
+      "role": "Ledamot",
+      "type": "ledamot"
+    },
+    {
+      "name": "Simon Pettersson",
+      "role": "Ledamot",
+      "type": "ledamot"
+    },
+    {
+      "name": "Louise Göransson",
+      "role": "Suppleant",
+      "type": "suppleant"
+    },
+    {
+      "name": "Henriette Wachtmeister",
+      "role": "Suppleant + Kassör",
+      "type": "suppleant"
+    }
+  ],
+  "board_meetings_count": 10,
+  "auditors": [
+    {
+      "name": "Nils Förander",
+      "role": "Ordinarie Intern",
+      "type": "internal"
+    },
+    {
+      "name": "John Dyrvold",
+      "role": "Suppleant Intern",
+      "type": "internal"
+    }
+  ],
+  "election_committee": [
+    {
+      "name": "Lars Bingsmark Lundgren",
+      "role": "Sammankallande"
+    },
+    {
+      "name": "Peter Lennartsson",
+      "role": "Ledamot"
+    }
+  ],
+  "registered_date": "1992-01-27",
+  "economic_plan_registered": "1996-03-22",
+  "current_bylaws_registered": "2017-02-20",
+  "is_genuine_brf": true,
+  "notes": "Föreningen är ett s.k. privatbostadsföretag enligt inkomstskattelagen"
+}

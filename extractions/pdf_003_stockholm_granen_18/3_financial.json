@@ -1,0 +1,148 @@
+{
+  "income_statement": {
+    "revenue": {
+      "total_revenue": 1114434,
+      "annual_fees": 880010,
+      "rental_income_residential": 210000,
+      "rental_income_commercial": 0,
+      "second_hand_rental_fee": 8868,
+      "guest_apartment_income": 8600,
+      "other_operating_income": 6975,
+      "rounding_adjustment": -19,
+      "notes": "Övriga rörelseintäkter includes insurance rebate 6475 kr"
+    },
+    "operating_expenses": {
+      "total_operating_expenses": 1127655,
+      "operating_costs": 825820,
+      "other_external_costs": 109002,
+      "depreciation": 192834,
+      "breakdown": {
+        "property_maintenance": 119584,
+        "repairs": 44651,
+        "periodic_maintenance": 0,
+        "utility_costs": 506626,
+        "other_operating_costs": 124665,
+        "property_tax": 30294
+      }
+    },
+    "operating_result": -13221,
+    "financial_items": {
+      "financial_income": 250339,
+      "financial_expenses": 0,
+      "write_down_financial_assets": 16905,
+      "total_financial_items": 267244
+    },
+    "result_before_tax": 254023,
+    "tax": {
+      "state_income_tax": -47781,
+      "total_tax": -47781
+    },
+    "net_result": 206242
+  },
+  "balance_sheet": {
+    "assets": {
+      "fixed_assets": {
+        "buildings_and_land": 13212792,
+        "ongoing_construction": 1562376,
+        "equipment": 0,
+        "total_tangible_assets": 14775168,
+        "other_long_term_securities": 1800,
+        "total_financial_assets": 1800,
+        "total_fixed_assets": 14776968
+      },
+      "current_assets": {
+        "other_receivables": 712781,
+        "prepaid_expenses_accrued_income": 44728,
+        "total_short_term_receivables": 757509,
+        "short_term_investments": 3076790,
+        "cash_and_bank": 832710,
+        "total_current_assets": 4667009
+      },
+      "total_assets": 19443977
+    },
+    "liabilities": {
+      "equity": {
+        "restricted_equity": {
+          "member_contributions": 20841924,
+          "external_maintenance_fund": 2440958,
+          "total_restricted": 23282882
+        },
+        "unrestricted_equity": {
+          "retained_earnings": -4575953,
+          "net_result": 206242,
+          "total_unrestricted": -4369711
+        },
+        "total_equity": 18913171
+      },
+      "long_term_liabilities": {
+        "mortgage_loans": 0,
+        "other_long_term_liabilities": 0,
+        "total_long_term_liabilities": 0
+      },
+      "short_term_liabilities": {
+        "accounts_payable": 393363,
+        "tax_liabilities": 16134,
+        "other_liabilities": 5000,
+        "accrued_expenses_prepaid_income": 116309,
+        "total_short_term_liabilities": 530806
+      },
+      "total_liabilities_and_equity": 19443977
+    }
+  },
+  "multi_year_comparison": {
+    "2019": {
+      "annual_fee_per_sqm": 354,
+      "electricity_cost_per_sqm": 13,
+      "heating_cost_per_sqm": 139,
+      "water_cost_per_sqm": 18,
+      "equity_ratio_percent": 97,
+      "result_after_financial_items_tkr": 254,
+      "net_revenue_tkr": 1107
+    },
+    "2018": {
+      "annual_fee_per_sqm": 338,
+      "electricity_cost_per_sqm": 12,
+      "heating_cost_per_sqm": 134,
+      "water_cost_per_sqm": 21,
+      "equity_ratio_percent": 99,
+      "result_after_financial_items_tkr": -479,
+      "net_revenue_tkr": 1113
+    },
+    "2017": {
+      "annual_fee_per_sqm": 338,
+      "electricity_cost_per_sqm": 10,
+      "heating_cost_per_sqm": 128,
+      "water_cost_per_sqm": 20,
+      "equity_ratio_percent": 99,
+      "result_after_financial_items_tkr": -124,
+      "net_revenue_tkr": 1110
+    },
+    "2016": {
+      "annual_fee_per_sqm": 338,
+      "electricity_cost_per_sqm": 9,
+      "heating_cost_per_sqm": 126,
+      "water_cost_per_sqm": 20,
+      "equity_ratio_percent": 99,
+      "result_after_financial_items_tkr": 77,
+      "net_revenue_tkr": 1106
+    }
+  },
+  "cash_flow": {
+    "liquid_assets_beginning": 1136601,
+    "inflows": {
+      "operating_revenue": 1114434,
+      "financial_income": 267244,
+      "decrease_short_term_receivables": 1163827,
+      "increase_short_term_liabilities": 324203,
+      "total_inflows": 2869708
+    },
+    "outflows": {
+      "operating_expenses_excl_depreciation": 982603,
+      "increase_fixed_assets": 1562376,
+      "total_outflows": 2544979
+    },
+    "liquid_assets_ending": 1461330,
+    "change_in_liquid_assets": 324730
+  },
+  "notes": "No loans. Strong financial position. Ongoing window replacement project."
+}

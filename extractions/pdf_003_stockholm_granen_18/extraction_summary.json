@@ -1,0 +1,81 @@
+{
+  "pdf_id": "pdf_003",
+  "filename": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+  "extraction_date": "2025-11-15",
+  "extraction_pass": "pass_1_complete",
+  "brf_name": "BRF Granen 18",
+  "fiscal_year": 2019,
+  "management_company": "SBC",
+
+  "extraction_stats": {
+    "total_pages": 19,
+    "json_files_created": 9,
+    "sections_extracted": [
+      "basic_info",
+      "governance",
+      "financial",
+      "property",
+      "maintenance",
+      "contracts",
+      "members",
+      "notes_narrative",
+      "detailed_notes"
+    ]
+  },
+
+  "key_findings": {
+    "financial_health": "Excellent - no loans, 97% equity ratio, positive result after several loss years",
+    "net_result_2019": 206242,
+    "total_assets": 19443977,
+    "loans": 0,
+    "equity_ratio": "97%",
+    "annual_fee_per_sqm": 354,
+    "members": 28,
+    "apartments_bostadsratt": 21,
+    "apartments_hyresratt": 1,
+    "total_area_sqm": 2604,
+    "construction_year": 1895,
+    "major_project_2019": "Window replacement - 50 windows with aluminum frames"
+  },
+
+  "notable_items": [
+    "Historic building from 1895",
+    "No loans - debt-free",
+    "Major window replacement project 2019",
+    "Provides heating to neighbor BRF Valhall 90 (29% of heating cost)",
+    "Tax assessment value increased from 81M to 107M",
+    "Strong maintenance fund: 2.4M SEK",
+    "Multiple postponements in 2020 due to COVID-19",
+    "Self-managed technical maintenance by board and members"
+  ],
+
+  "data_quality": {
+    "completeness_estimate": "95%",
+    "multi_year_data_available": true,
+    "years_available": [2016, 2017, 2018, 2019],
+    "missing_data": [
+      "Exact property address",
+      "Individual apartment sizes",
+      "Exact costs for some planned maintenance items"
+    ],
+    "notes": "Comprehensive annual report with detailed notes. Good multi-year comparison data."
+  },
+
+  "format_observations": {
+    "management_company": "SBC",
+    "format_type": "Standard SBC format",
+    "page_count": 19,
+    "includes_auditor_report": true,
+    "includes_signatures": true,
+    "includes_guide": true,
+    "similar_to_previous_pdfs": "No - first SBC-managed PDF in this extraction series"
+  },
+
+  "next_steps": [
+    "Pass 2: Enhanced validation",
+    "Spot check random fields",
+    "Cross-validate financial calculations",
+    "Verify multi-year data accuracy",
+    "Check for Swedish number formatting issues"
+  ]
+}

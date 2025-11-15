@@ -1,0 +1,20 @@
+{
+  "membership": {
+    "member_apartments": 21,
+    "members_beginning_of_year": 30,
+    "new_members": 0,
+    "departed_members": 2,
+    "members_end_of_year": 28
+  },
+  "transactions_2019": {
+    "transfers": 1,
+    "approved_second_hand_rentals": 1,
+    "second_hand_rental_details": "1 st till och med 2020-09-30"
+  },
+  "fees": {
+    "transfer_and_mortgage_fee": "Betalas av köpare",
+    "second_hand_rental_fee": "Ja",
+    "move_in_fee": "Ja"
+  },
+  "notes": "Överlåtelse- och pantsättningsavgift betalas av köpare. Föreningen tar även ut avgift för andrahandsuthyrning och inflyttning."
+}

@@ -1,0 +1,52 @@
+{
+  "properties": [
+    {
+      "property_designation": "GRANEN 18",
+      "acquisition_year": 1994,
+      "municipality": "Stockholm",
+      "construction_year": 1895,
+      "value_year": 1979,
+      "building_count": 1,
+      "building_type": "Flerbostadshus",
+      "total_area_sqm": 2604,
+      "apartment_area_sqm": 2604,
+      "heating_type": "Fjärrvärme",
+      "tax_assessment_value_building": 35000000,
+      "tax_assessment_value_land": 72000000,
+      "tax_assessment_value_total": 107000000,
+      "tax_assessment_year": 2019,
+      "previous_tax_value_building": 29000000,
+      "previous_tax_value_land": 52000000,
+      "previous_tax_value_total": 81000000,
+      "book_value_land": 5322008,
+      "book_value_buildings": 13212792,
+      "accumulated_depreciation": -3021666
+    }
+  ],
+  "apartments": {
+    "total_count": 22,
+    "bostadsratt_count": 21,
+    "hyresratt_count": 1,
+    "distribution": {
+      "1_rok": 1,
+      "2_rok": 4,
+      "3_rok": 4,
+      "4_rok": 12,
+      "5_rok": 0,
+      "over_5_rok": 1
+    }
+  },
+  "common_spaces": [
+    {
+      "type": "Övernattningslägenhet",
+      "description": "Gästlägenhet",
+      "notes": "Kodlås kommer att införas för ökad säkerhet och ordning"
+    }
+  ],
+  "insurance": {
+    "full_value_insurance": true,
+    "provider": "Bostadsrätternas medlemsförsäkring",
+    "board_liability_insurance": true
+  },
+  "notes": "Building from 1895, value year 1979. Tax value increased significantly from 81M to 107M. 2604 sqm total area."
+}

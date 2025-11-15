@@ -1,0 +1,62 @@
+{
+  "maintenance_plan": {
+    "exists": true,
+    "created_year": 2015,
+    "covers_years": "2015-2035",
+    "last_updated": null
+  },
+  "completed_maintenance_2019": [
+    {
+      "year": 2019,
+      "description": "Byte av fönster mot innergård totalt ca 50 moderna fönster insatta",
+      "category": "Fönster",
+      "cost_estimate": null,
+      "notes": "Del 1 byten avslutat. Del 2 puts och måleriarbeten pågår under 2020. Vid första genomgången antogs 33 fönster behöva bytas, men vid noggrannare genomgång ökade till ca 50 st. Aluminiumramade fönster."
+    },
+    {
+      "year": 2019,
+      "description": "Renovering av fönster i höger och vänster trapphus",
+      "category": "Fönster",
+      "cost_estimate": null,
+      "notes": "Mycket gamla fönster där flera har kvar originalglas som är munblåsta. Några visade sig vara genomruttna."
+    }
+  ],
+  "planned_maintenance": [
+    {
+      "year": 2020,
+      "description": "Två soprum - lagningar och målning väggar och golv",
+      "category": "Sophantering",
+      "status": "planned"
+    },
+    {
+      "year": 2020,
+      "description": "Spolning och filmning av stammar",
+      "category": "VVS",
+      "status": "planned",
+      "notes": "Beslutsunderlag inför kommande stamrenovering"
+    },
+    {
+      "year": "februari 2020",
+      "description": "Renovering av båda hissarna",
+      "category": "Hiss",
+      "status": "planned",
+      "notes": "Teknisk renovering, byte av slitna delar, montering av fotoceller"
+    },
+    {
+      "year": 2020,
+      "description": "Fasadrenovering",
+      "category": "Fasad",
+      "status": "planned"
+    }
+  ],
+  "external_maintenance_fund": {
+    "balance_2019": 2440958,
+    "balance_2018": 1892933,
+    "annual_allocation_2019": 825456,
+    "annual_allocation_2018": 825456,
+    "utilized_2019": -277431,
+    "utilized_2018": -164207
+  },
+  "technical_status": "Fastigheten är i gott skick och väl underhållen",
+  "notes": "Major window replacement project completed in 2019. Maintenance plan covers 2015-2035. No loans currently."
+}

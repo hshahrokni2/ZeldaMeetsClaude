@@ -1,0 +1,55 @@
+{
+  "property_management": {
+    "economic_management": "SBC Sveriges BostadsrättsCentrum AB",
+    "technical_management": "Styrelse och medlemmar",
+    "apartment_registry": "SBC Sveriges BostadsrättsCentrum AB"
+  },
+  "major_contracts": [
+    {
+      "service": "Internet, TV, Telefon",
+      "provider": "Comhem",
+      "type": "telecom"
+    },
+    {
+      "service": "Grovsopor",
+      "provider": "Suez Recycling AB",
+      "type": "waste"
+    },
+    {
+      "service": "Städ och fönsterputs",
+      "provider": "Mickes Fönsterputs & Städ",
+      "type": "cleaning"
+    },
+    {
+      "service": "Hisservice",
+      "provider": "Otis AB",
+      "type": "elevator"
+    },
+    {
+      "service": "Snöskottning (avropsavtal)",
+      "provider": "TS Gruppen",
+      "type": "snow_removal"
+    },
+    {
+      "service": "Fjärrvärme",
+      "provider": "Stockholm Exergi AB",
+      "type": "heating"
+    },
+    {
+      "service": "Hushållsavfall",
+      "provider": "Stockholm Vatten/Urbaser",
+      "type": "waste"
+    },
+    {
+      "service": "Kameraövervakning Entré",
+      "provider": "Securitas",
+      "type": "security"
+    },
+    {
+      "service": "Passersystem för stora porten",
+      "provider": "Axlås/solidlås larm och passersystem",
+      "type": "access_control"
+    }
+  ],
+  "notes": "Technical management handled by board and members. Economic management by SBC."
+}

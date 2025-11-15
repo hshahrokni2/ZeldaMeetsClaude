@@ -1,0 +1,114 @@
+{
+  "accounting_principles": {
+    "framework": "BFNAR 2016:10, Årsredovisning i mindre företag (K2)",
+    "simplification_rule": "Förenklingsregeln gällande periodiseringar har tillämpats",
+    "consistency": "Samma värderingsprinciper har använts som föregående år",
+    "maintenance_fund_allocation": "Reservering till fond för yttre underhåll enligt underhållsplan görs i årsbokslutet",
+    "depreciation_method": "Avskrivningar på anläggningstillgångar enligt plan baseras på ursprungliga anskaffningsvärdet och beräknad nyttjandeperiod"
+  },
+  "depreciation_schedule": {
+    "buildings": "100 år",
+    "heating_system": "20 år",
+    "stairwell_renovation": "20 år"
+  },
+  "investment_valuation": "Likvida placeringar värderas i enlighet med Årsredovisningslagen till det lägsta av anskaffningsvärdet och det verkliga värdet",
+  "detailed_operating_costs": {
+    "property_costs": {
+      "yard_maintenance_order": 1200,
+      "snow_removal": 7375,
+      "cleaning_contract": 46380,
+      "cleaning_on_demand": 8738,
+      "chimney_sweeping": 17500,
+      "elevator_inspection": 3711,
+      "authority_supervision": 19611,
+      "surveillance": 5670,
+      "yard": 7747,
+      "service_agreements": 1433,
+      "consumables": 219,
+      "total": 119584
+    },
+    "repairs": {
+      "locks": 4125,
+      "plumbing": 12703,
+      "electrical": 3806,
+      "elevator": 24017,
+      "total": 44651
+    },
+    "periodic_maintenance_2018": {
+      "windows": 184136,
+      "yard_outdoor": 93295,
+      "total": 277431,
+      "note": "2019 had 0 in periodic maintenance as costs were capitalized"
+    },
+    "utility_costs": {
+      "electricity": 33314,
+      "heating": 361278,
+      "heating_note": "BRF Valhall 90 försörjs med fjärrvärme från värmecentral. Vi fakturerar dem ca 100,000 kr/år = 29% av total värmekostnad",
+      "water": 47182,
+      "waste_collection": 64852,
+      "total": 506626
+    },
+    "other_operating": {
+      "insurance": 53414,
+      "ground_rent": 196,
+      "cable_tv": 68595,
+      "broadband": 2460,
+      "total": 124665
+    },
+    "property_tax": 30294
+  },
+  "other_external_costs": {
+    "telecom": 4044,
+    "association_costs": 5965,
+    "board_costs": 10000,
+    "recreation_activities": 2151,
+    "study_activities": 438,
+    "management_fee": 63808,
+    "administration": 5079,
+    "short_term_equipment": 2990,
+    "consulting_fees": 9656,
+    "magazines_literature": 451,
+    "bostadsrätterna_sverige_fee": 4420,
+    "total": 109002
+  },
+  "short_term_investments": [
+    {
+      "name": "Ålandsbanken Norden Aktie",
+      "nominal_value": 0,
+      "book_value_2019": 366981,
+      "market_value_2019": 841237,
+      "book_value_2018": 563641
+    },
+    {
+      "name": "TLSN20",
+      "nominal_value": 0,
+      "book_value_2019": 0,
+      "market_value_2019": 0,
+      "book_value_2018": 1000000,
+      "note": "Utbetald obligation under året"
+    },
+    {
+      "name": "Landshypotek FRN",
+      "nominal_value": 1000000,
+      "book_value_2019": 1000000,
+      "market_value_2019": 1023960,
+      "book_value_2018": 1000000
+    },
+    {
+      "name": "Safe Play",
+      "nominal_value": 1700000,
+      "book_value_2019": 1709809,
+      "market_value_2019": 1782362,
+      "book_value_2018": 1683094
+    }
+  ],
+  "receivables_breakdown": {
+    "customer_receivables": 45354,
+    "tax_account": 3164,
+    "tax_receivable": 0,
+    "client_funds_at_sbc": 628621,
+    "credit_invoice_receivables": 35642,
+    "total": 712781
+  },
+  "property_tax_note": "Fastighetsavgiften för hyreshus är 1,377 kr per bostadslägenhet, dock max 0,3% av taxeringsvärdet för bostadshus med tomtmark. Lokaler beskattas med 1% av lokalernas taxeringsvärde."
+}

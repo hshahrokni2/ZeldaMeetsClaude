@@ -1,0 +1,58 @@
+{
+  "significant_events_2019": [
+    {
+      "category": "maintenance",
+      "description": "Window replacement project",
+      "details": "Replaced approximately 50 windows facing the courtyard with modern aluminum-framed windows. Initial assessment was 33 windows, but detailed inspection increased to 50. Renovation of old stairwell windows including some with original mouth-blown glass, some of which were completely rotten."
+    },
+    {
+      "category": "financial",
+      "description": "Maintenance from top down",
+      "details": "Following maintenance plan - working from roof downward. Roof previously sealed. Window replacement completed. Facade work towards Valhallavägen and Villagatan continuing."
+    }
+  ],
+  "significant_events_after_year_end": [
+    {
+      "category": "maintenance",
+      "description": "Elevator renovation February 2020",
+      "details": "Both elevators underwent renovation including installation of photocells (now EU safety standard - elevator stops if beam is broken)"
+    },
+    {
+      "category": "maintenance",
+      "description": "Waste room painting March 2020",
+      "details": "Both waste rooms painted. Improved recycling with food waste for biogas. Reduced household waste pickups from current 2/week. Eliminated waste chute and carousel system (ergonomic issues with heavy lifting) replacing with two 370L bins."
+    },
+    {
+      "category": "maintenance_postponed",
+      "description": "Postponed due to COVID-19",
+      "details": "Pipe inspection/filming postponed due to infection risk. Basement hallway painting postponed - want to analyze seven pipes first to prioritize future pipe renovation."
+    },
+    {
+      "category": "planned",
+      "description": "Outdoor courtyard renovation",
+      "details": "Plan to renovate outer courtyards facing Villagatan. Planted trees have taken root. Need drainage installation near walls to prevent basement moisture. Soil depleted and needs improvement for vegetation."
+    },
+    {
+      "category": "planned",
+      "description": "Internet improvement investigation",
+      "details": "Investigating how to improve internet reception and use pre-installed fiber technology. Researching which fiber provider offers best value."
+    },
+    {
+      "category": "waste_management",
+      "description": "Improved sorting",
+      "details": "Improved paper/cardboard packaging sorting with dedicated 370L bin. Reduced newspaper recycling bin from 370L to 190L due to decreased paper newspaper volume. Board encourages members to use 'Källsortera' app from Suez."
+    }
+  ],
+  "board_commentary": "Vi fortsätter att underhålla vårt hus ovanifrån och nedåt. Taket har tidigare tätats. Nu har vi bytt ut dåliga fönster mot innergården liksom på taket.",
+  "maintenance_philosophy": "Maintaining building from top to bottom following long-term maintenance plan 2015-2035",
+  "special_notes": [
+    {
+      "topic": "Neighbor heating arrangement",
+      "description": "Neighbor association BRF Valhall 90 receives district heating from this building's (previously jointly owned) heating central. They are invoiced approximately 100,000 kr/year (29% of total heating cost)"
+    }
+  ],
+  "associations": {
+    "member_of": "Bostadsrätterna Sverige Ek För",
+    "annual_fee": 4420
+  }
+}
