@@ -1,0 +1,28 @@
+{
+  "current_pdf": 3,
+  "total_pdfs_planned": 20,
+  "extraction_status": {
+    "pdf_001": "not_started",
+    "pdf_002": "not_started",
+    "pdf_003": "in_progress"
+  },
+  "pdfs": [
+    {
+      "id": "pdf_001",
+      "filename": "270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "status": "not_started"
+    },
+    {
+      "id": "pdf_002",
+      "filename": "53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "status": "not_started"
+    },
+    {
+      "id": "pdf_003",
+      "filename": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "status": "in_progress",
+      "started_at": "2025-11-15T12:36:00Z"
+    }
+  ],
+  "notes": "Starting fresh with PDF #3 after crash recovery. All outputs will be committed to git."
+}

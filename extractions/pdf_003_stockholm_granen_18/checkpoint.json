@@ -1,0 +1,15 @@
+{
+  "pdf_id": "pdf_003",
+  "filename": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+  "brf_name": "BRF Granen 18",
+  "city": "Stockholm",
+  "year": 2024,
+  "status": "pass_1_in_progress",
+  "pass_1": {
+    "status": "in_progress",
+    "started_at": "2025-11-15T12:36:00Z"
+  },
+  "pass_2": {
+    "status": "pending"
+  }
+}
