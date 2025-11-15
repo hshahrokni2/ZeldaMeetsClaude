@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "created": "2025-11-15",
+  "purpose": "Track schema evolution and refinements based on actual PDF extraction experience",
+
+  "pdfs_analyzed": [
+    {
+      "pdf_id": "pdf_003",
+      "management_company": "SBC",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [],
+        "schema_fields_never_populated": [
+          "property.property_address (only property designation available)",
+          "apartments.individual_sizes (only distribution by room count)"
+        ],
+        "new_patterns_discovered": [
+          "SBC uses 'Klientmedel hos SBC' in receivables",
+          "SBC provides neighbor heating arrangement details",
+          "SBC includes comprehensive 'how to read' guide"
+        ]
+      },
+      "validation_refinements_needed": [
+        "SBC format: Check for 'Klientmedel hos SBC' in receivables",
+        "Add validation for heating arrangement with neighbors",
+        "Swedish number formatting appears clean in SBC reports"
+      ],
+      "company_specific_patterns": {
+        "SBC": {
+          "format": "Standard SBC template with guide",
+          "sections": "Comprehensive 14-page report",
+          "quality": "High quality, consistent formatting",
+          "number_formatting": "Clean - no decimal errors observed"
+        }
+      }
+    }
+  ],
+
+  "accumulated_learnings": {
+    "management_companies_seen": ["SBC", "Riksbyggen", "Nabo"],
+    "error_patterns_by_company": {
+      "SBC": {
+        "errors_found": 0,
+        "notes": "Clean extraction, well-formatted reports"
+      },
+      "Nabo": {
+        "errors_found": 11,
+        "error_type": "Swedish number formatting - spaces misread as decimals",
+        "notes": "Requires careful VALUE verification for Swedish numbers"
+      },
+      "Riksbyggen": {
+        "errors_found": "Unknown - need to extract PDF #1",
+        "notes": "Baseline established per user"
+      }
+    },
+    "high_risk_areas": [
+      "Multi-year financial tables (Swedish number formatting)",
+      "Large financial values with space separators",
+      "Per-sqm calculations",
+      "Percentage values"
+    ]
+  },
+
+  "schema_refinement_proposals": {
+    "v1_1": {
+      "add_fields": [
+        "property.neighbor_arrangements (for shared facilities)",
+        "governance.board_roles_detail (kassör, vice ordförande, etc)",
+        "financial.client_funds_held_by_manager (SBC-specific)",
+        "notes.covid_impacts (for 2020+ reports)"
+      ],
+      "make_optional": [
+        "property.property_address (not always available)",
+        "apartments.individual_sizes (rarely provided)"
+      ],
+      "add_validation_rules": [
+        "If management=SBC, check for 'Klientmedel hos SBC'",
+        "If management=Nabo, apply enhanced Swedish number validation",
+        "Multi-year tables: always verify VALUES not just structure"
+      ]
+    }
+  },
+
+  "automation_readiness": {
+    "ready_for_dspy": false,
+    "reason": "Need 10+ PDFs to build optimization corpus",
+    "ready_after_pdf": 10,
+    "ready_for_langgraph": false,
+    "reason": "Schema still evolving, need stable patterns first",
+    "ready_after_pdf": 15,
+    "current_approach": "Manual extraction with systematic validation",
+    "building_towards": "Automated extraction with learned patterns"
+  },
+
+  "next_pdf_focus": {
+    "pdf_id": "pdf_004",
+    "filename": "270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+    "goals": [
+      "Identify management company",
+      "Apply 40-field stratified spot check",
+      "Perform 10 financial cross-checks",
+      "Document schema gaps",
+      "Build company pattern library"
+    ]
+  }
+}
