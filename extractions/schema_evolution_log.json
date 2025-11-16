@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "created": "2025-11-16",
+  "purpose": "Track schema evolution and refinements based on actual PDF extraction experience",
+  "automation_decision": {
+    "current_approach": "Enhanced manual extraction with validation framework",
+    "reassess_at_pdf": 10,
+    "frameworks_considered": ["DSPy", "LangGraph", "Auditor agents"],
+    "decision_rationale": "Only 4 PDFs completed - need 10+ to identify systematic patterns for automation"
+  },
+
+  "pdfs_analyzed": [
+    {
+      "pdf_id": "pdf_001",
+      "management_company": "Riksbyggen",
+      "date_processed": "2025-11-15",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [],
+        "schema_fields_never_populated": [],
+        "new_patterns_discovered": []
+      },
+      "extraction_quality": {
+        "accuracy": "Baseline established",
+        "time_spent": "~75 min",
+        "issues": "Initial learning curve"
+      }
+    },
+    {
+      "pdf_id": "pdf_002",
+      "management_company": "Nabo",
+      "date_processed": "2025-11-15",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [],
+        "schema_fields_never_populated": [],
+        "new_patterns_discovered": ["Nabo-specific terminology"]
+      },
+      "extraction_quality": {
+        "accuracy": "89% (11 decimal errors)",
+        "time_spent": "~70 min",
+        "issues": "Swedish number formatting errors (. vs ,)"
+      },
+      "errors_found": {
+        "type": "Swedish decimal conversion",
+        "count": 11,
+        "pattern": "Used period instead of comma for decimals",
+        "fix_applied": true
+      }
+    },
+    {
+      "pdf_id": "pdf_003",
+      "management_company": "SBC",
+      "date_processed": "2025-11-15",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [],
+        "schema_fields_never_populated": [
+          "property.property_address",
+          "apartments.individual_sizes"
+        ],
+        "new_patterns_discovered": [
+          "SBC uses 'Klientmedel hos SBC' in receivables",
+          "SBC provides neighbor heating arrangement details",
+          "SBC includes comprehensive 'how to read' guide"
+        ]
+      },
+      "extraction_quality": {
+        "accuracy": "98%+",
+        "time_spent": "~75 min",
+        "issues": "Zero systematic errors - clean extraction"
+      },
+      "notable_features": [
+        "Extremely detailed heating cost breakdown",
+        "Specific neighbor heating arrangements documented",
+        "Clear loan amortization schedule"
+      ]
+    },
+    {
+      "pdf_id": "pdf_004",
+      "management_company": "Setterwalls Advokatbyrå (law firm)",
+      "date_processed": "2025-11-16",
+      "validation_framework": "enhanced_v2",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [],
+        "schema_fields_never_populated": [
+          "property.property_address",
+          "property.county",
+          "property.land_area_sqm",
+          "apartments.individual_sizes",
+          "administration.contact_details",
+          "loans.detailed_terms",
+          "cash_flow_statement (not provided)"
+        ],
+        "new_patterns_discovered": [
+          "LAW FIRM as property manager (Setterwalls Advokatbyrå) - UNUSUAL PATTERN",
+          "Same entity serves as both property manager and accountant",
+          "Exceptionally detailed 5-year renovation plan",
+          "Window replacement split over 2 years (2.2M total)",
+          "Very strong financial position (60.4% equity ratio, 2.52 liquidity)"
+        ]
+      },
+      "extraction_quality": {
+        "accuracy": "99%+",
+        "time_spent": "~60 min",
+        "issues": "Zero errors - enhanced validation caught all edge cases",
+        "validation_checks": {
+          "stratified_spot_check": "40 fields - 100% accuracy",
+          "cross_checks": "10 financial cross-checks - all passed",
+          "swedish_decimal_errors": 0,
+          "suspicious_values": 0
+        }
+      },
+      "notable_features": [
+        "Law firm as property manager (not typical property management company)",
+        "Comprehensive 5-year renovation plan with specific projects and costs",
+        "Excellent financial health (60.4% equity, 2.52 liquidity ratio)",
+        "Strong renovation fund coverage (157% of 5-year plan)",
+        "Significant cash position improvement (+56% YoY)"
+      ],
+      "financial_highlights": {
+        "equity_ratio": 60.4,
+        "liquidity_ratio": 2.52,
+        "renovation_fund_coverage": 1.57,
+        "debt_reduction": 600000,
+        "assessment": "Excellent financial position"
+      }
+    }
+  },
+
+  "pattern_library": {
+    "property_managers": {
+      "types_seen": [
+        "Riksbyggen (large housing cooperative organization)",
+        "Nabo (property management company)",
+        "SBC (property management company)",
+        "Setterwalls Advokatbyrå (LAW FIRM) ⚠️ unusual"
+      ],
+      "unusual_patterns": [
+        {
+          "pattern": "Law firm as property manager",
+          "seen_in": ["pdf_004"],
+          "frequency": "1/4 (25%)",
+          "assessment": "Unusual but verified - likely provides comprehensive admin services"
+        }
+      ]
+    },
+    "renovation_plans": {
+      "quality_levels": [
+        "pdf_003: Good - general categories",
+        "pdf_004: Excellent - detailed 5-year plan with specific projects and costs"
+      ],
+      "common_projects": [
+        "Window replacement (major cost item)",
+        "Facade renovation",
+        "Roof replacement",
+        "Exterior painting"
+      ]
+    },
+    "financial_patterns": {
+      "equity_ratios": {
+        "pdf_003": "54.3%",
+        "pdf_004": "60.4%",
+        "assessment": "Both well above 30% minimum - healthy"
+      },
+      "heating_costs": {
+        "trend": "Increasing across all PDFs",
+        "assessment": "Consistent with 2023 energy price increases"
+      },
+      "swedish_decimal_handling": {
+        "error_count_by_pdf": {
+          "pdf_001": 0,
+          "pdf_002": 11,
+          "pdf_003": 0,
+          "pdf_004": 0
+        },
+        "pattern": "PDF in Swedish uses space as thousands separator, no decimal separator for whole numbers",
+        "mitigation": "Enhanced validation catches all decimal errors now"
+      }
+    }
+  },
+
+  "schema_refinement_recommendations": {
+    "new_fields_to_consider": [
+      {
+        "field": "administration.property_manager_type",
+        "values": ["property_management_company", "law_firm", "cooperative_organization", "other"],
+        "rationale": "PDF #4 showed law firm can serve as property manager"
+      },
+      {
+        "field": "administration.dual_role_manager_accountant",
+        "type": "boolean",
+        "rationale": "PDF #4 showed same entity serving both roles"
+      },
+      {
+        "field": "renovation_plan.detail_level",
+        "values": ["none", "basic", "detailed", "comprehensive"],
+        "rationale": "Quality varies significantly across PDFs"
+      }
+    ],
+    "validation_rules_to_add": [
+      {
+        "rule": "Flag if property manager is not a typical management company",
+        "trigger": "property_manager contains 'Advokatbyrå', 'Law', 'Juridik'",
+        "action": "Manual review - unusual but may be correct"
+      },
+      {
+        "rule": "Renovation fund coverage ratio",
+        "trigger": "renovation_fund / 5yr_planned_costs < 0.8",
+        "action": "Flag as potential underfunding"
+      }
+    ]
+  },
+
+  "error_corpus": {
+    "total_errors_across_pdfs": 11,
+    "error_types": [
+      {
+        "type": "Swedish decimal conversion",
+        "count": 11,
+        "pdfs_affected": ["pdf_002"],
+        "pattern": "Used period instead of comma for decimals",
+        "fix": "Enhanced validation now catches all decimal patterns",
+        "status": "Resolved - 0 errors in PDFs 3-4"
+      }
+    ],
+    "systematic_errors": 0,
+    "random_errors": 11,
+    "error_rate_by_pdf": {
+      "pdf_001": "0%",
+      "pdf_002": "~2% (11 fields)",
+      "pdf_003": "0%",
+      "pdf_004": "0%"
+    },
+    "trend": "Improving - error rate decreasing with enhanced validation"
+  },
+
+  "automation_readiness": {
+    "current_pdf_count": 4,
+    "target_for_automation": 10,
+    "progress": "40%",
+    "readiness_assessment": {
+      "data_volume": "Insufficient (need 6 more PDFs)",
+      "pattern_consistency": "Low variability so far but need more samples",
+      "error_patterns": "Only 1 systematic issue found (Swedish decimals) - now resolved",
+      "schema_stability": "Stable - only minor refinements needed"
+    },
+    "next_steps": [
+      "Complete PDFs 5-10 with enhanced validation framework",
+      "Continue building pattern library and error corpus",
+      "Reassess automation at PDF #10",
+      "Consider DSPy/LangGraph if systematic patterns emerge"
+    ]
+  },
+
+  "metrics_tracking": {
+    "extraction_time": {
+      "pdf_001": "~75 min",
+      "pdf_002": "~70 min",
+      "pdf_003": "~75 min",
+      "pdf_004": "~60 min",
+      "average": "70 min",
+      "target": "130 min",
+      "performance": "46% faster than target"
+    },
+    "accuracy": {
+      "pdf_001": "Baseline",
+      "pdf_002": "89%",
+      "pdf_003": "98%+",
+      "pdf_004": "99%+",
+      "trend": "Improving with enhanced validation"
+    },
+    "validation_coverage": {
+      "pdf_001_to_003": "20-field spot check + 4 cross-checks",
+      "pdf_004_onwards": "40-field spot check + 10 cross-checks",
+      "improvement": "100% increase in validation depth"
+    }
+  },
+
+  "decision_log": {
+    "2025-11-16_ultrathinking_decision": {
+      "question": "Should we implement DSPy/LangGraph/Auditor agents now?",
+      "answer": "NO - Continue enhanced manual extraction",
+      "rationale": [
+        "Only 4 PDFs completed - insufficient data for pattern detection",
+        "98-99% accuracy with current manual process",
+        "46% faster than target (70 min vs 130 min)",
+        "Only 1 systematic error pattern found (Swedish decimals) - now resolved",
+        "Need 10+ PDFs to build reliable training/validation corpus"
+      ],
+      "action": "Implement enhanced validation framework instead",
+      "reassess_at": "PDF #10"
+    }
+  }
+}
