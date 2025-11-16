@@ -1,0 +1,598 @@
+{
+  "extraction_metadata": {
+    "pdf_id": "277136",
+    "extraction_date": "2025-11-16",
+    "extraction_version": "1.0.0",
+    "pdf_filename": "277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+    "total_pages": 22,
+    "extractor": "claude-sonnet-4-5"
+  },
+  "document_metadata": {
+    "document_id": "716418-1146_2021",
+    "document_type": "arsredovisning",
+    "fiscal_year": 2021,
+    "report_date": "2022-04-20",
+    "brf_name": "Bostadsrättsföreningen Musketören 10",
+    "organization_number": "716418-1146",
+    "pages_total": 22,
+    "is_machine_readable": true,
+    "file_size_bytes": 9140737
+  },
+  "basic_info": {
+    "brf_full_name": "Bostadsrättsföreningen Musketören 10",
+    "org_number": "716418-1146",
+    "registration_date": "1983-05-16",
+    "economic_plan_registered": "1986-06-03",
+    "bylaws_registered": "2015-11-03",
+    "registered_office": "Stockholm",
+    "property_designation": "MUSKETÖREN 10",
+    "acquisition_year": 1986,
+    "location": {
+      "city": "Stockholm",
+      "kommun": "Stockholm"
+    },
+    "management_company": "SBC Sveriges BostadsrättsCentrum AB",
+    "technical_management": "Fastighetsskötsel Lindskog AB",
+    "insurance_provider": "Via Brandkontoret",
+    "heating_method": "Bergvärme"
+  },
+  "governance": {
+    "board": {
+      "chairman": {
+        "name": "Anders Fällman",
+        "role": "Ordförande",
+        "evidence_page": 3
+      },
+      "members": [
+        {
+          "name": "Carl-Johan Ahlström",
+          "role": "Ledamot",
+          "evidence_page": 3
+        },
+        {
+          "name": "John Dahlfors",
+          "role": "Ledamot",
+          "evidence_page": 3
+        },
+        {
+          "name": "Marianne Frisk van der Kleijn",
+          "role": "Ledamot",
+          "evidence_page": 3
+        }
+      ],
+      "protocol_meetings_held": 5,
+      "evidence_page": 3
+    },
+    "auditors": {
+      "ordinary": {
+        "name": "Carina Toresson",
+        "type": "Ordinarie Extern",
+        "firm": "Toresson Revision AB",
+        "evidence_page": 3
+      },
+      "deputy": {
+        "name": "Ralf Toresson",
+        "type": "Suppleant Extern",
+        "firm": "Toresson Revision AB",
+        "evidence_page": 3
+      }
+    },
+    "election_committee": [
+      {
+        "name": "Lina Callerström",
+        "evidence_page": 3
+      },
+      {
+        "name": "Marieann Nilsson",
+        "evidence_page": 3
+      }
+    ],
+    "annual_meeting": {
+      "date": "2021-05-18",
+      "type": "Ordinarie föreningsstämma",
+      "evidence_page": 3
+    },
+    "auditor_report_date": "2022-11-05",
+    "board_signatures_date": "2022-04-20"
+  },
+  "property_data": {
+    "building_year": 1918,
+    "renovation_year": 1930,
+    "number_of_buildings": 1,
+    "building_type": "flerbostadshus",
+    "total_area_sqm": 4055,
+    "residential_area_sqm": 3635,
+    "commercial_area_sqm": 420,
+    "taxable_area_sqm": 4055,
+    "number_of_member_apartments": 17,
+    "number_of_rental_apartments": 0,
+    "number_of_commercial_spaces": 3,
+    "commercial_details": "17 lägenheter och 1 lokal med bostadsrätt samt 2 lokaler med hyresrätt",
+    "apartment_distribution": {
+      "1_rok": 0,
+      "2_rok": 3,
+      "3_rok": 0,
+      "4_rok": 1,
+      "5_rok": 4,
+      "over_5_rok": 9
+    },
+    "commercial_spaces": [
+      {
+        "type": "Kontor/läger",
+        "area_sqm": 235,
+        "apartment_number": "240630"
+      },
+      {
+        "type": "Konstnär",
+        "area_sqm": 96,
+        "apartment_number": "230930"
+      },
+      {
+        "type": "Förråd",
+        "area_sqm": 10,
+        "apartment_number": "230209"
+      }
+    ],
+    "voluntarily_registered": true,
+    "evidence_pages": [4]
+  },
+  "financial_summary_2021": {
+    "fiscal_year": 2021,
+    "total_revenue_sek": 2268421,
+    "total_operating_costs_sek": 3246361,
+    "operating_result_sek": -977940,
+    "financial_income_sek": 627,
+    "financial_costs_sek": 161221,
+    "result_after_financial_items_sek": -1138534,
+    "year_result_sek": -1138534,
+    "total_assets_sek": 17003423,
+    "total_equity_sek": 12402299,
+    "total_liabilities_sek": 4601124,
+    "equity_ratio_percent": 73,
+    "liquidity_sek": 64408,
+    "evidence_pages": [5, 6, 8, 9, 10]
+  },
+  "income_statement": {
+    "2021": {
+      "operating_income": {
+        "net_revenue": 2237621,
+        "rental_income_apartments": 1571914,
+        "rental_income_commercial": 93372,
+        "rent_commercial_space_momspliktig": 515584,
+        "rent_commercial": 92050,
+        "rent_storage": 12000,
+        "rent_discount": -47294,
+        "late_payment_compensation": -6,
+        "other_operating_income": 30800,
+        "total": 2268421
+      },
+      "operating_costs": {
+        "property_costs": 2741609,
+        "depreciation": 373407,
+        "other_external_costs": 131344,
+        "total": 3246361
+      },
+      "operating_result": -977940,
+      "financial_items": {
+        "other_interest_income": 627,
+        "interest_expenses": -161221,
+        "total": -160594
+      },
+      "result_after_financial_items": -1138534,
+      "year_result": -1138534
+    },
+    "2020": {
+      "operating_income": {
+        "net_revenue": 2202522,
+        "other_operating_income": 29400,
+        "total": 2231922
+      },
+      "operating_costs": {
+        "property_costs": 1681591,
+        "depreciation": 373407,
+        "other_external_costs": 107798,
+        "total": 2162796
+      },
+      "operating_result": 69126,
+      "financial_items": {
+        "other_interest_income": 352,
+        "interest_expenses": -165922,
+        "total": -165570
+      },
+      "result_after_financial_items": -96444,
+      "year_result": -96444
+    }
+  },
+  "balance_sheet": {
+    "2021": {
+      "assets": {
+        "fixed_assets": {
+          "buildings": 14642313,
+          "other_longterm_securities": 2200,
+          "total": 14644513
+        },
+        "current_assets": {
+          "short_term_receivables": 2294502,
+          "cash_and_bank": 64408,
+          "total": 2358910
+        },
+        "total_assets": 17003423
+      },
+      "equity_and_liabilities": {
+        "restricted_equity": {
+          "member_contributions": 9795402,
+          "capital_contribution_fund": 6012306,
+          "fund_additional_maintenance": 613116,
+          "total": 16420824
+        },
+        "accumulated_loss": {
+          "balance_sheet_result": -2879991,
+          "year_result": -1138534,
+          "total": -4018525
+        },
+        "total_equity": 12402299,
+        "longterm_liabilities": 0,
+        "shortterm_liabilities": {
+          "shortterm_part_credit_institution": 4130000,
+          "supplier_debts": 84419,
+          "tax_debts": 5657,
+          "other_debts": 204827,
+          "accrued_costs_prepaid_income": 176221,
+          "total": 4601124
+        },
+        "total_equity_and_liabilities": 17003423
+      }
+    },
+    "2020": {
+      "assets": {
+        "fixed_assets": {
+          "buildings": 15015720,
+          "other_longterm_securities": 2200,
+          "total": 15017920
+        },
+        "current_assets": {
+          "short_term_receivables": 3298087,
+          "cash_and_bank": 67124,
+          "total": 3365212
+        },
+        "total_assets": 18383132
+      },
+      "equity_and_liabilities": {
+        "restricted_equity": {
+          "member_contributions": 9795402,
+          "capital_contribution_fund": 6012306,
+          "fund_additional_maintenance": 729697,
+          "total": 16537405
+        },
+        "accumulated_loss": {
+          "balance_sheet_result": -2900129,
+          "year_result": -96444,
+          "total": -2996572
+        },
+        "total_equity": 13540833,
+        "longterm_liabilities": 4130000,
+        "shortterm_liabilities": {
+          "shortterm_part_credit_institution": 130000,
+          "supplier_debts": 204012,
+          "tax_debts": 12953,
+          "other_debts": 21110,
+          "accrued_costs_prepaid_income": 344224,
+          "total": 712299
+        },
+        "total_equity_and_liabilities": 18383132
+      }
+    }
+  },
+  "detailed_operating_costs_2021": {
+    "property_costs": {
+      "entrepreneur": 86874,
+      "maintenance": 12729,
+      "garden_maintenance": 0,
+      "cleaning_entrepreneur": 74394,
+      "cleaning_per_order": 136553,
+      "doormat_hyrmattor": 12950,
+      "cleaning_supplies": 21621,
+      "ovk_ventilation_control": 44114,
+      "elevator_inspection": 18481,
+      "authority_inspection": 2460,
+      "common_space_equipment": 0,
+      "garden": 575,
+      "service_agreement": 9875,
+      "consumables": 247,
+      "disturbance_tour_alarm": 0,
+      "total_property_maintenance": 420874
+    },
+    "repairs": {
+      "property_apartments": 5625,
+      "commercial_spaces": 0,
+      "common_space_equipment": 0,
+      "laundry": 0,
+      "entrance_stairwell": 20360,
+      "locks": 11144,
+      "vvs": 43522,
+      "heat_equipment_undercentral": 2268,
+      "ventilation": 0,
+      "telephone_tv_cable_portphone": 10049,
+      "broadband": 741,
+      "elevator": 44774,
+      "damage_tiles_facade": 0,
+      "total_repairs": 138483
+    },
+    "periodic_maintenance": {
+      "commercial_spaces": 42400,
+      "basement": 0,
+      "entrance_stairwell": 0,
+      "vvs": 0,
+      "ventilation": 0,
+      "electrical_installations": 0,
+      "elevator": 1440238,
+      "roof": 0,
+      "windows": 0,
+      "total_periodic_maintenance": 1482638
+    },
+    "taxable_costs": {
+      "electricity": 187439,
+      "heating": 217432,
+      "water": 47367,
+      "waste_cleaning": 74979,
+      "garbage_fee": 0,
+      "total_taxable": 527217
+    },
+    "other_operating_costs": {
+      "insurance": 50171,
+      "ground_lease_road_fee": 3655,
+      "cable_tv": 15361,
+      "broadband": 45378,
+      "total_other_operating": 114565
+    },
+    "property_tax": 57833,
+    "total_operating_costs": 2741609
+  },
+  "other_external_costs_2021": {
+    "telephone_data_communication": 5515,
+    "legal_actions": 0,
+    "audit_external_revisor": 15942,
+    "association_costs": 1112,
+    "board_costs": 0,
+    "leisure_entertainment": 2256,
+    "management_fee": 50048,
+    "administration": 2198,
+    "consultant_fee": 49714,
+    "bostadsratterna_sverige_ek_for": 4560,
+    "total": 131344
+  },
+  "loans_and_debt": {
+    "2021": {
+      "longterm_debt_credit_institution": 0,
+      "shortterm_debt_credit_institution": 4130000,
+      "total_debt": 4130000,
+      "lender": "SBAB",
+      "interest_rate_percent": 3.820,
+      "maturity_date": "2022-08-04",
+      "pledged_securities": 5300000,
+      "projected_debt_5_years": 3480000
+    },
+    "2020": {
+      "longterm_debt_credit_institution": 4130000,
+      "shortterm_debt_credit_institution": 130000,
+      "total_debt": 4260000,
+      "pledged_securities": 5300000
+    },
+    "evidence_pages": [10, 15]
+  },
+  "key_metrics": {
+    "2021": {
+      "annual_fee_per_sqm_residential": 446,
+      "rent_per_sqm_rental": 1899,
+      "loan_per_sqm_residential": 1106,
+      "electricity_cost_per_sqm_total": 46,
+      "heating_cost_per_sqm_total": 54,
+      "water_cost_per_sqm_total": 12,
+      "capital_cost_per_sqm_total": 40,
+      "equity_ratio_percent": 73,
+      "result_after_financial_items_tkr": -1139,
+      "net_revenue_tkr": 2238
+    },
+    "2020": {
+      "annual_fee_per_sqm_residential": 446,
+      "rent_per_sqm_rental": 1641,
+      "loan_per_sqm_residential": 1141,
+      "electricity_cost_per_sqm_total": 38,
+      "heating_cost_per_sqm_total": 49,
+      "water_cost_per_sqm_total": 11,
+      "capital_cost_per_sqm_total": 41,
+      "equity_ratio_percent": 74,
+      "result_after_financial_items_tkr": -96,
+      "net_revenue_tkr": 2203
+    },
+    "2019": {
+      "annual_fee_per_sqm_residential": 487,
+      "rent_per_sqm_rental": 1565,
+      "loan_per_sqm_residential": 1175,
+      "electricity_cost_per_sqm_total": 49,
+      "heating_cost_per_sqm_total": 56,
+      "water_cost_per_sqm_total": 9,
+      "capital_cost_per_sqm_total": 42,
+      "equity_ratio_percent": 73,
+      "result_after_financial_items_tkr": 307,
+      "net_revenue_tkr": 2330
+    },
+    "2018": {
+      "annual_fee_per_sqm_residential": 482,
+      "rent_per_sqm_rental": 1462,
+      "loan_per_sqm_residential": 1210,
+      "electricity_cost_per_sqm_total": 54,
+      "heating_cost_per_sqm_total": 30,
+      "water_cost_per_sqm_total": 10,
+      "capital_cost_per_sqm_total": 43,
+      "equity_ratio_percent": 71,
+      "result_after_financial_items_tkr": -306,
+      "net_revenue_tkr": 2284
+    },
+    "evidence_page": 6
+  },
+  "maintenance_plan": {
+    "plan_period": "2019-2033",
+    "completed_2021": [
+      {
+        "description": "Modernisering och byte av hiss, hissmaskineri och entrédörr vid entrén mot Karlaplan 12",
+        "year": 2021,
+        "evidence_page": 4
+      },
+      {
+        "description": "Renovering av entré och trapphus inklusive stentvätt av väggar och golv i entrén samt trapphuset, trappsteg, golv och socklar i trapphuset, mattvätt och komplettering av belysning i entrén och trapphuset",
+        "year": 2021,
+        "evidence_page": 4
+      },
+      {
+        "description": "Åtgärdande av OVK-anmärkningar",
+        "year": "2020-2021",
+        "evidence_page": 4
+      },
+      {
+        "description": "Rörbyten i källare och lokal. Komplettering ventilation i lokal",
+        "year": "2020-2021",
+        "evidence_page": 4
+      }
+    ],
+    "planned_future": [
+      {
+        "description": "Renovering av entréport",
+        "year": 2022,
+        "evidence_page": 5
+      },
+      {
+        "description": "Installation av två stycken säkerhetsdörrar på plan 6",
+        "year": 2022,
+        "evidence_page": 5
+      },
+      {
+        "description": "Eventuell renovering av gården och omläggning av gårdsbjälkaget",
+        "year": "2025-2029",
+        "evidence_page": 5
+      }
+    ],
+    "evidence_pages": [4, 5]
+  },
+  "major_events_2021": {
+    "elevator_renovation": {
+      "description": "Genomfört stort renoveringsprojekt gällande installation av en helt ny hiss och ett nytt hissmaskineri. Den gamla hissen saknade motvikt vilket ledde till stort slitage på hissmaskineriet. Under sommaren 2021 revs den gamla hisskorgen och hissmaskineriet. Ett nytt hissmaskineri med motvikt installerades. En ny hisskorg som byggts för att likna den gamla hisskorgen installerades. Den nya hisskorgen är försedd med automatiskt stängd vikdörr på insidan och har larmtelefon.",
+      "total_cost_sek": 1500000,
+      "year": 2021,
+      "evidence_page": 6
+    },
+    "entrance_renovation": {
+      "description": "Efter installation av den nya hissen renoverades entrén, trapphuset och entrén. Stentvätt av golv, trappsteg, socklar och väggar i entrén och trapphuset genomfördes. Entrémattan tvättades och kompletterades med nya mässingsbeslag.",
+      "year": 2021,
+      "evidence_page": 6
+    },
+    "new_tenant": {
+      "description": "Ny hyresgäst XLNT Allservice AB flyttade in i källarlokalen den 1 juli 2021. I samband därmed renoverade den nye hyresgästen lokalen och föreningen gjorde vissa förbättringsarbeten i lokalen avseende rörbyten och utbyggnad av ventilationen.",
+      "year": 2021,
+      "evidence_page": 6
+    }
+  },
+  "member_information": {
+    "member_apartments": 17,
+    "member_commercial_spaces": 1,
+    "violations_during_year": 0,
+    "approved_secondhand_rentals": 1,
+    "members_beginning_year": 25,
+    "incoming_members": 0,
+    "outgoing_members": 0,
+    "members_end_year": 25,
+    "evidence_page": 6
+  },
+  "depreciation_schedule": {
+    "2021": {
+      "buildings": 67,
+      "stairwell": 20,
+      "pilasters": 100,
+      "sophiss": 20,
+      "heat_equipment_undercentral": 20,
+      "heat_pump": 25,
+      "stammar": 40,
+      "broadband": 10
+    },
+    "2020": {
+      "buildings": 67,
+      "stairwell": 20,
+      "pilasters": 100,
+      "sophiss": 20,
+      "heat_equipment_undercentral": 20,
+      "heat_pump": 25,
+      "stammar": 40,
+      "broadband": 10
+    },
+    "evidence_page": 11
+  },
+  "budget_2022": {
+    "total_revenue": 2340000,
+    "total_operating_costs": 1928000,
+    "operating_result": 412000,
+    "financial_items": -135000,
+    "result_after_financial_items": 277000,
+    "year_result": 277000,
+    "evidence_page": 19
+  },
+  "revenue_distribution": {
+    "annual_fees_percent": 73,
+    "rent_percent": 27,
+    "evidence_page": 5
+  },
+  "cost_distribution": {
+    "periodic_maintenance_percent": 44,
+    "taxable_costs_percent": 15,
+    "property_tax_percent": 2,
+    "other_operations_percent": 19,
+    "depreciation_percent": 11,
+    "capital_costs_percent": 5,
+    "repairs_percent": 4,
+    "evidence_page": 5
+  },
+  "tax_assessment": {
+    "taxable_value_2021": {
+      "buildings": 41758000,
+      "land": 93545000,
+      "total": 135303000
+    },
+    "taxable_value_2020": {
+      "buildings": 41758000,
+      "land": 93545000,
+      "total": 135303000
+    },
+    "allocation": {
+      "apartments": 132000000,
+      "commercial": 3303000,
+      "total": 135303000
+    },
+    "property_tax_2021": 57833,
+    "tax_percentage": 0.3,
+    "evidence_pages": [6, 14]
+  },
+  "insurance": {
+    "provider": "Via Brandkontoret",
+    "liability_insurance_provider": null,
+    "evidence_page": 4
+  },
+  "heating": {
+    "type": "Bergvärme",
+    "evidence_page": 4
+  },
+  "notes": {
+    "private_housing_company": "Föreningen är ett s.k. privatbostadsföretag enligt inkomstskattelagen (1999:1229) och utgör därmed en äkta bostadsrättsförening.",
+    "maintenance_plan_span": "Föreningen följer en underhållsplan som sträcker sig mellan åren 2019 och 2033.",
+    "no_major_maintenance_planned": "Inga större underhåll är planerade de närmaste åren.",
+    "fund_reservation": "Medel reserveras årligen till det planerade underhållet. För att se avsättningens storlek, se fondnoten.",
+    "depreciation_policy": "Avskrivningar på anläggningstillgångar enligt plan baseras på ursprungliga anskaffningsvärdet och beräknad nyttjandeperiod.",
+    "evidence_page": 3
+  },
+  "extraction_quality": {
+    "confidence_score": 0.95,
+    "manual_review_needed": false,
+    "issues": [
+      "Negative year result of -1,138,534 SEK due to major elevator renovation project (~1.5 MSEK)"
+    ],
+    "completeness": "comprehensive"
+  }
+}
