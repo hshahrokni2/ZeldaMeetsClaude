@@ -20,8 +20,10 @@
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
+    "@google/generative-ai": "^0.1.1",
     "openai": "^4.20.0",
-    "@google/generative-ai": "^0.1.1"
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.3"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
