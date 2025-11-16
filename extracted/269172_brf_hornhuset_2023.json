@@ -1,0 +1,1944 @@
+{
+  "metadata": {
+    "document_id": "769612-9423_2023",
+    "document_type": "arsredovisning",
+    "fiscal_year": {
+      "value": 2023,
+      "confidence": 1.0,
+      "evidence_pages": [1, 2]
+    },
+    "report_date": {
+      "value": "2023-12-31",
+      "confidence": 1.0,
+      "evidence_pages": [2]
+    },
+    "brf_name": {
+      "value": "Brf Hörnhuset",
+      "confidence": 1.0,
+      "evidence_pages": [1, 2]
+    },
+    "organization_number": {
+      "value": "769612-9423",
+      "confidence": 1.0,
+      "evidence_pages": [1, 2]
+    },
+    "pages_total": 17,
+    "is_machine_readable": true,
+    "ocr_confidence": null,
+    "extraction_date": "2025-11-16T08:45:00Z",
+    "extraction_mode": "deep",
+    "extraction_version": "v1.0.0",
+    "file_path": "/home/user/ZeldaMeetsClaude/pdfs/269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+    "file_size_bytes": 9748480,
+    "file_hash_sha256": null
+  },
+  "governance": {
+    "chairman": {
+      "value": "V Catharina J Boethius Claeson",
+      "confidence": 1.0,
+      "evidence_pages": [4, 17]
+    },
+    "vice_chairman": null,
+    "board_members": [
+      {
+        "full_name": {
+          "value": "V Catharina J Boethius Claeson",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "role": "ordforande",
+        "term_start": null,
+        "term_end": null,
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [4]
+      },
+      {
+        "full_name": {
+          "value": "Anna van Duijvenbode",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "role": "ledamot",
+        "term_start": null,
+        "term_end": null,
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [4]
+      },
+      {
+        "full_name": {
+          "value": "Elin Wikström",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "role": "ledamot",
+        "term_start": null,
+        "term_end": null,
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [4]
+      },
+      {
+        "full_name": {
+          "value": "Hanieh Tjäder Heidarabadi",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "role": "ledamot",
+        "term_start": null,
+        "term_end": null,
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [4]
+      },
+      {
+        "full_name": {
+          "value": "Saga Lovisa Holm",
+          "confidence": 1.0,
+          "evidence_pages": [4]
+        },
+        "role": "suppleant",
+        "term_start": null,
+        "term_end": null,
+        "elected_at_meeting": null,
+        "is_employee_representative": null,
+        "contact_info": null,
+        "source_page": [4]
+      }
+    ],
+    "board_size": {
+      "value": 4,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "board_term_years": null,
+    "primary_auditor": {
+      "name": {
+        "value": "Camilla Bakklund",
+        "confidence": 1.0,
+        "evidence_pages": [4, 17]
+      },
+      "firm": null,
+      "certification": {
+        "value": "Revisor",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "contact_info": null,
+      "source_page": [4]
+    },
+    "deputy_auditor": {
+      "name": {
+        "value": "Alexandra Hill",
+        "confidence": 1.0,
+        "evidence_pages": [4, 17]
+      },
+      "firm": null,
+      "certification": {
+        "value": "Internrevisor",
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "contact_info": null,
+      "source_page": [4]
+    },
+    "audit_period": null,
+    "nomination_committee": {
+      "value": ["Carl alberto Bettini", "Lukas Lund"],
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "nomination_committee_details": null,
+    "annual_meeting_date": {
+      "value": "2023-05-11",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "annual_meeting_location": null,
+    "annual_meeting_attendees": null,
+    "extraordinary_meetings": null,
+    "stadgar_last_updated": null,
+    "bylaws_references": null,
+    "source_pages": [4, 5, 17]
+  },
+  "financial": {
+    "income_statement": {
+      "revenue_total": {
+        "value": 1530536,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "revenue_line_items": [
+        {
+          "category": {
+            "value": "Nettoomsättning",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": {
+            "value": "Årsavgifter, bostäder och hyresintäkter",
+            "confidence": 1.0,
+            "evidence_pages": [13]
+          },
+          "amount_current_year": {
+            "value": 1511926,
+            "confidence": 1.0,
+            "evidence_pages": [8, 13]
+          },
+          "amount_previous_year": {
+            "value": 1366424,
+            "confidence": 1.0,
+            "evidence_pages": [8, 13]
+          },
+          "note_reference": {
+            "value": 2,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "percentage_of_total": null,
+          "source_page": 8
+        },
+        {
+          "category": {
+            "value": "Övriga rörelseintäkter",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": {
+            "value": "Öres- och kronutjämning, elprisstöd, återbetalningar",
+            "confidence": 1.0,
+            "evidence_pages": [13]
+          },
+          "amount_current_year": {
+            "value": 18610,
+            "confidence": 1.0,
+            "evidence_pages": [8, 13]
+          },
+          "amount_previous_year": {
+            "value": 6302,
+            "confidence": 1.0,
+            "evidence_pages": [8, 13]
+          },
+          "note_reference": {
+            "value": 3,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "percentage_of_total": null,
+          "source_page": 8
+        }
+      ],
+      "revenue_apartment_fees": {
+        "value": 1318716,
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "revenue_commercial_rent": {
+        "value": 66096,
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "revenue_other": {
+        "value": 145724,
+        "confidence": 0.95,
+        "evidence_pages": [13]
+      },
+      "expenses_total": {
+        "value": 3631164,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "expenses_line_items": [
+        {
+          "category": {
+            "value": "Driftskostnader",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": {
+            "value": "Fastighet, reparationer, planerat underhåll, taxebundna kostnader, övriga driftskostnader",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_current_year": {
+            "value": 3366648,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_previous_year": {
+            "value": 1932125,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "note_reference": {
+            "value": 4,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "percentage_of_total": null,
+          "source_page": 8
+        },
+        {
+          "category": {
+            "value": "Övriga externa kostnader",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": null,
+          "amount_current_year": {
+            "value": 106174,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_previous_year": {
+            "value": 105254,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "note_reference": {
+            "value": 9,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "percentage_of_total": null,
+          "source_page": 8
+        },
+        {
+          "category": {
+            "value": "Personalkostnader",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": null,
+          "amount_current_year": {
+            "value": -1006,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_previous_year": {
+            "value": 66824,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "note_reference": {
+            "value": 10,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "percentage_of_total": null,
+          "source_page": 8
+        },
+        {
+          "category": {
+            "value": "Avskrivningar",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "subcategory": null,
+          "description": {
+            "value": "Avskrivningar av materiella anläggningstillgångar",
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_current_year": {
+            "value": 159348,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "amount_previous_year": {
+            "value": 159348,
+            "confidence": 1.0,
+            "evidence_pages": [8]
+          },
+          "note_reference": null,
+          "percentage_of_total": null,
+          "source_page": 8
+        }
+      ],
+      "operating_result": {
+        "value": -2100628,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "financial_income": {
+        "value": 8396,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "financial_expenses": {
+        "value": 251838,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "result_before_tax": {
+        "value": -2344071,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "tax": null,
+      "result_after_tax": {
+        "value": -2344071,
+        "confidence": 1.0,
+        "evidence_pages": [8]
+      },
+      "source_pages": [8]
+    },
+    "balance_sheet": {
+      "assets_total": {
+        "value": 22936977,
+        "confidence": 1.0,
+        "evidence_pages": [9]
+      },
+      "fixed_assets": {
+        "value": 22285878,
+        "confidence": 1.0,
+        "evidence_pages": [9]
+      },
+      "current_assets": {
+        "value": 651099,
+        "confidence": 1.0,
+        "evidence_pages": [9]
+      },
+      "assets_line_items": [
+        {
+          "category": {
+            "value": "Materiella anläggningstillgångar",
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "subcategory": {
+            "value": "Byggnad och mark",
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "description": null,
+          "amount_current_year": {
+            "value": 22285878,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "amount_previous_year": {
+            "value": 22445226,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "note_reference": {
+            "value": 12,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "percentage_of_total": null,
+          "source_page": 9
+        },
+        {
+          "category": {
+            "value": "Kortfristiga fordringar",
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "subcategory": null,
+          "description": null,
+          "amount_current_year": {
+            "value": 578810,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "amount_previous_year": {
+            "value": 1063616,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "note_reference": null,
+          "percentage_of_total": null,
+          "source_page": 9
+        },
+        {
+          "category": {
+            "value": "Kassa och bank",
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "subcategory": null,
+          "description": null,
+          "amount_current_year": {
+            "value": 72289,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "amount_previous_year": {
+            "value": 0,
+            "confidence": 1.0,
+            "evidence_pages": [9]
+          },
+          "note_reference": null,
+          "percentage_of_total": null,
+          "source_page": 9
+        }
+      ],
+      "liabilities_total": {
+        "value": 9789773,
+        "confidence": 1.0,
+        "evidence_pages": [10]
+      },
+      "equity_total": {
+        "value": 13147306,
+        "confidence": 1.0,
+        "evidence_pages": [10]
+      },
+      "long_term_liabilities": {
+        "value": 2172856,
+        "confidence": 1.0,
+        "evidence_pages": [10]
+      },
+      "short_term_liabilities": {
+        "value": 7616816,
+        "confidence": 1.0,
+        "evidence_pages": [10]
+      },
+      "liabilities_line_items": [
+        {
+          "category": {
+            "value": "Långfristiga skulder",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "subcategory": {
+            "value": "Skulder till kreditinstitut",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "description": null,
+          "amount_current_year": {
+            "value": 2172856,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "amount_previous_year": {
+            "value": 4258957,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "note_reference": {
+            "value": 15,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "percentage_of_total": null,
+          "source_page": 10
+        },
+        {
+          "category": {
+            "value": "Kortfristiga skulder",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "subcategory": {
+            "value": "Skulder till kreditinstitut",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "description": null,
+          "amount_current_year": {
+            "value": 7333847,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "amount_previous_year": {
+            "value": 3326290,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "note_reference": null,
+          "percentage_of_total": null,
+          "source_page": 10
+        },
+        {
+          "category": {
+            "value": "Kortfristiga skulder",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "subcategory": {
+            "value": "Leverantörsskulder",
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "description": null,
+          "amount_current_year": {
+            "value": 105699,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "amount_previous_year": {
+            "value": 162617,
+            "confidence": 1.0,
+            "evidence_pages": [10]
+          },
+          "note_reference": null,
+          "percentage_of_total": null,
+          "source_page": 10
+        }
+      ],
+      "source_pages": [9, 10]
+    },
+    "cash_flow": {
+      "operating_activities": {
+        "value": -2301916,
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "investing_activities": {
+        "value": 0,
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "financing_activities": {
+        "value": 1921456,
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "cash_flow_total": {
+        "value": -380460,
+        "confidence": 1.0,
+        "evidence_pages": [11]
+      },
+      "line_items": [],
+      "source_pages": [11]
+    },
+    "calculated_metrics": {
+      "total_debt_extracted": {
+        "value": 9506703,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "total_area_sqm_extracted": {
+        "value": 2001,
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "debt_per_sqm_extracted": {
+        "value": 4751,
+        "confidence": 1.0,
+        "evidence_pages": [6]
+      },
+      "debt_per_sqm_calculated": 4750.98,
+      "equity_extracted": {
+        "value": 13147306,
+        "confidence": 1.0,
+        "evidence_pages": [10]
+      },
+      "assets_extracted": {
+        "value": 22936977,
+        "confidence": 1.0,
+        "evidence_pages": [9]
+      },
+      "solidarity_percent_extracted": {
+        "value": 57,
+        "confidence": 1.0,
+        "evidence_pages": [6]
+      },
+      "solidarity_percent_calculated": 57.32,
+      "monthly_fee_extracted": null,
+      "apartment_area_extracted": {
+        "value": 1951,
+        "confidence": 1.0,
+        "evidence_pages": [4]
+      },
+      "fee_per_sqm_annual_extracted": {
+        "value": 721,
+        "confidence": 1.0,
+        "evidence_pages": [6]
+      },
+      "fee_per_sqm_annual_calculated": null,
+      "validation_status": "valid",
+      "validation_warnings": [],
+      "validation_errors": [],
+      "overall_confidence": 0.98,
+      "debt_per_sqm_status": "valid",
+      "solidarity_percent_status": "valid",
+      "fee_per_sqm_status": "valid"
+    }
+  },
+  "multi_year_overview": {
+    "years": [
+      {
+        "year": 2023,
+        "nettoomsattning_tkr": {
+          "value": 1512,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "driftskostnader_tkr": null,
+        "driftsoverskott_tkr": null,
+        "arsresultat_tkr": {
+          "value": -2344,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "tillgangar_tkr": {
+          "value": 22937,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "skulder_tkr": {
+          "value": 9790,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "eget_kapital_tkr": {
+          "value": 13147,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "soliditet_procent": {
+          "value": 57,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "terminology_found": "Nettoomsättning",
+        "unit_verified": true,
+        "net_revenue_tkr": null,
+        "operating_expenses_tkr": null,
+        "operating_surplus_tkr": null,
+        "total_assets_tkr": null,
+        "total_liabilities_tkr": null,
+        "equity_tkr": null,
+        "solidarity_percent": null,
+        "is_complete": true,
+        "extraction_confidence": 1.0,
+        "source_page": 6
+      },
+      {
+        "year": 2022,
+        "nettoomsattning_tkr": {
+          "value": 1366,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "driftskostnader_tkr": null,
+        "driftsoverskott_tkr": null,
+        "arsresultat_tkr": {
+          "value": -995,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "tillgangar_tkr": {
+          "value": 23509,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "skulder_tkr": {
+          "value": 8017,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "eget_kapital_tkr": {
+          "value": 15491,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "soliditet_procent": {
+          "value": 66,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "terminology_found": "Nettoomsättning",
+        "unit_verified": true,
+        "net_revenue_tkr": null,
+        "operating_expenses_tkr": null,
+        "operating_surplus_tkr": null,
+        "total_assets_tkr": null,
+        "total_liabilities_tkr": null,
+        "equity_tkr": null,
+        "solidarity_percent": null,
+        "is_complete": true,
+        "extraction_confidence": 1.0,
+        "source_page": 6
+      },
+      {
+        "year": 2021,
+        "nettoomsattning_tkr": {
+          "value": 1333,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "driftskostnader_tkr": null,
+        "driftsoverskott_tkr": null,
+        "arsresultat_tkr": {
+          "value": -361,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "tillgangar_tkr": null,
+        "skulder_tkr": null,
+        "eget_kapital_tkr": null,
+        "soliditet_procent": {
+          "value": 67,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "terminology_found": "Nettoomsättning",
+        "unit_verified": true,
+        "net_revenue_tkr": null,
+        "operating_expenses_tkr": null,
+        "operating_surplus_tkr": null,
+        "total_assets_tkr": null,
+        "total_liabilities_tkr": null,
+        "equity_tkr": null,
+        "solidarity_percent": null,
+        "is_complete": false,
+        "extraction_confidence": 0.8,
+        "source_page": 6
+      },
+      {
+        "year": 2020,
+        "nettoomsattning_tkr": {
+          "value": 1334,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "driftskostnader_tkr": null,
+        "driftsoverskott_tkr": null,
+        "arsresultat_tkr": {
+          "value": -2002,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "tillgangar_tkr": null,
+        "skulder_tkr": null,
+        "eget_kapital_tkr": null,
+        "soliditet_procent": {
+          "value": 64,
+          "confidence": 1.0,
+          "evidence_pages": [6]
+        },
+        "terminology_found": "Nettoomsättning",
+        "unit_verified": true,
+        "net_revenue_tkr": null,
+        "operating_expenses_tkr": null,
+        "operating_surplus_tkr": null,
+        "total_assets_tkr": null,
+        "total_liabilities_tkr": null,
+        "equity_tkr": null,
+        "solidarity_percent": null,
+        "is_complete": false,
+        "extraction_confidence": 0.8,
+        "source_page": 6
+      }
+    ],
+    "years_covered": [2020, 2021, 2022, 2023],
+    "num_years": 4,
+    "table_orientation": "years_columns",
+    "extraction_method": "multi_year_table",
+    "confidence": 0.95
+  },
+  "notes": {
+    "note_1_accounting_principles": {
+      "note_number": {
+        "value": 1,
+        "confidence": 1.0,
+        "evidence_pages": [12]
+      },
+      "title": {
+        "value": "Redovisnings- och värderingsprinciper",
+        "confidence": 1.0,
+        "evidence_pages": [12]
+      },
+      "content": {
+        "value": "Årsredovisningen har upprättats enligt Årsredovisningslagen och BFL. Byggnader avskrivs med 1,1%. Intäkter redovisas när betalning eller avisering sker. Årsavgift inkluderar kabel-tv, vatten och värme.",
+        "confidence": 1.0,
+        "evidence_pages": [12]
+      },
+      "tables": [],
+      "line_items": [],
+      "source_pages": [12]
+    },
+    "note_2_revenue": {
+      "note_number": {
+        "value": 2,
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "title": {
+        "value": "Nettoomsättning",
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "content": null,
+      "tables": [
+        {
+          "arsavgifter_bostader": 1318716,
+          "hyresintakter_bostader": 77724,
+          "hyresintakter_lokaler": 66096,
+          "kabel_tv_bredband": 45540,
+          "ovriga_intakter": 3850,
+          "total_2023": 1511926,
+          "total_2022": 1366424
+        }
+      ],
+      "line_items": [],
+      "source_pages": [13]
+    },
+    "note_3_personnel": null,
+    "note_4_operating_costs": {
+      "note_number": {
+        "value": 4,
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "title": {
+        "value": "Fastighetsskötsel",
+        "confidence": 1.0,
+        "evidence_pages": [13]
+      },
+      "content": null,
+      "tables": [
+        {
+          "fastskotsel_teknisk_forv_arvode": 89824,
+          "fastighetsskatt": 62410,
+          "besiktning_och_service": 43105,
+          "total_2023": 195338,
+          "total_2022": 217863
+        }
+      ],
+      "line_items": [],
+      "source_pages": [13]
+    },
+    "note_5_financial_items": null,
+    "note_6_tax": null,
+    "note_7_intangible_assets": null,
+    "note_8_buildings": {
+      "opening_acquisition_value": {
+        "value": 24445367,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "additions": null,
+      "disposals": null,
+      "closing_acquisition_value": {
+        "value": 24445367,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "opening_depreciation": {
+        "value": 2000141,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "current_year_depreciation": {
+        "value": 159348,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "disposals_depreciation": null,
+      "closing_depreciation": {
+        "value": 2159489,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "planned_residual_value": {
+        "value": 22285878,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "tax_assessment_building": {
+        "value": 21896000,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "tax_assessment_land": {
+        "value": 13198000,
+        "confidence": 1.0,
+        "evidence_pages": [15]
+      },
+      "tax_assessment_year": null,
+      "depreciation_method": {
+        "value": "Linjär avskrivning 1,1%",
+        "confidence": 1.0,
+        "evidence_pages": [12]
+      },
+      "depreciation_period_years": null,
+      "building_components": [],
+      "source_pages": [15]
+    },
+    "note_9_receivables": null,
+    "note_10_cash": null,
+    "note_11_equity": null,
+    "note_12_liabilities": null,
+    "note_13_contingencies": null,
+    "note_14_pledged_assets": {
+      "note_number": {
+        "value": 17,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "title": {
+        "value": "Ställda säkerheter",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "content": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "tables": [],
+      "line_items": [],
+      "source_pages": [16]
+    },
+    "note_15_related_parties": null,
+    "additional_notes": [
+      {
+        "note_number": {
+          "value": 5,
+          "confidence": 1.0,
+          "evidence_pages": [13]
+        },
+        "title": {
+          "value": "Reparationer",
+          "confidence": 1.0,
+          "evidence_pages": [13]
+        },
+        "content": null,
+        "tables": [],
+        "line_items": [],
+        "source_pages": [13]
+      },
+      {
+        "note_number": {
+          "value": 6,
+          "confidence": 1.0,
+          "evidence_pages": [14]
+        },
+        "title": {
+          "value": "Planerade underhåll",
+          "confidence": 1.0,
+          "evidence_pages": [14]
+        },
+        "content": null,
+        "tables": [],
+        "line_items": [],
+        "source_pages": [14]
+      },
+      {
+        "note_number": {
+          "value": 15,
+          "confidence": 1.0,
+          "evidence_pages": [16]
+        },
+        "title": {
+          "value": "Skulder till kreditinstitut",
+          "confidence": 1.0,
+          "evidence_pages": [16]
+        },
+        "content": {
+          "value": "5 lån med Stadshypotek, totalt 9,506,703 kr varav kortfristig del 7,333,847 kr",
+          "confidence": 1.0,
+          "evidence_pages": [16]
+        },
+        "tables": [],
+        "line_items": [],
+        "source_pages": [16]
+      }
+    ],
+    "total_notes": 17
+  },
+  "property": {
+    "property_designation": {
+      "value": "Vägen 8",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "address": null,
+    "postal_code": null,
+    "city": {
+      "value": "Malmö",
+      "confidence": 1.0,
+      "evidence_pages": [4, 17]
+    },
+    "municipality": {
+      "value": "Malmö",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "county": null,
+    "coordinates": null,
+    "built_year": {
+      "value": 1930,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "renovation_years": null,
+    "building_type": {
+      "value": "Hyresfastighet",
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "number_of_buildings": {
+      "value": 1,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "number_of_floors": null,
+    "total_area_sqm": {
+      "value": 2001,
+      "confidence": 1.0,
+      "evidence_pages": [4, 6]
+    },
+    "living_area_sqm": {
+      "value": 1951,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "commercial_area_sqm": {
+      "value": 50,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "total_apartments": {
+      "value": 21,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "apartment_distribution": null,
+    "apartment_units": [],
+    "commercial_tenants": [],
+    "number_of_commercial_units": {
+      "value": 1,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "common_areas": [],
+    "land_area_sqm": null,
+    "land_lease": null,
+    "land_lease_expiry": null,
+    "cooperative_type": "bostadsratt",
+    "samfallighet_percentage": null,
+    "samfallighet_description": null,
+    "energy_class": null,
+    "energy_performance_kwh_sqm_year": null,
+    "energy_declaration_date": null,
+    "heating_type": {
+      "value": "Fjärrvärme",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "source_pages": [4]
+  },
+  "fees": {
+    "arsavgift_per_sqm_total": {
+      "value": 721,
+      "confidence": 1.0,
+      "evidence_pages": [6]
+    },
+    "arsavgift_per_apartment_avg": null,
+    "manadsavgift_per_sqm": null,
+    "manadsavgift_per_apartment_avg": null,
+    "inkluderar_vatten": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+    "inkluderar_uppvarmning": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+    "inkluderar_el": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+    "inkluderar_bredband": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence_pages": [12]
+    },
+    "terminology_found": "Årsavgift per kvm upplåten bostadsrätt, kr",
+    "unit_verified": true,
+    "monthly_fee_average": null,
+    "monthly_fee_per_sqm": null,
+    "annual_fee_per_sqm": null,
+    "fee_1_rok": null,
+    "fee_2_rok": null,
+    "fee_3_rok": null,
+    "fee_4_rok": null,
+    "fee_5_rok": null,
+    "fee_calculation_basis": null,
+    "fee_includes": ["vatten", "värme", "kabel-tv", "bredband"],
+    "fee_excludes": ["el"],
+    "last_fee_increase_date": {
+      "value": "2023-01-01",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "last_fee_increase_percentage": {
+      "value": 10,
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "planned_fee_changes": [],
+    "special_assessments": [],
+    "source_pages": [5, 6, 12]
+  },
+  "loans": [
+    {
+      "loan_number": {
+        "value": "1",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "lender": {
+        "value": "Stadshypotek",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 1956486,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_rate": {
+        "value": 5.00,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2024-02-26",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "covenants": [],
+      "source_page": [16]
+    },
+    {
+      "loan_number": {
+        "value": "2",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "lender": {
+        "value": "Stadshypotek",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 1296260,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_rate": {
+        "value": 5.00,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2024-02-02",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "covenants": [],
+      "source_page": [16]
+    },
+    {
+      "loan_number": {
+        "value": "3",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "lender": {
+        "value": "Stadshypotek",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 2172856,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_rate": {
+        "value": 2.77,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2025-03-30",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "covenants": [],
+      "source_page": [16]
+    },
+    {
+      "loan_number": {
+        "value": "4",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "lender": {
+        "value": "Stadshypotek",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 2086101,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_rate": {
+        "value": 1.24,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2024-06-30",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "covenants": [],
+      "source_page": [16]
+    },
+    {
+      "loan_number": {
+        "value": "5",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "lender": {
+        "value": "Stadshypotek",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "original_amount": null,
+      "outstanding_balance": {
+        "value": 1995000,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_rate": {
+        "value": 5.00,
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "interest_type": "fixed",
+      "maturity_date": {
+        "value": "2024-01-02",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "amortization_schedule": null,
+      "collateral": {
+        "value": "Fastighetsinteckning 14,508,000 kr",
+        "confidence": 1.0,
+        "evidence_pages": [16]
+      },
+      "covenants": [],
+      "source_page": [16]
+    }
+  ],
+  "reserves": [
+    {
+      "fund_name": {
+        "value": "Fond för yttre underhåll",
+        "confidence": 1.0,
+        "evidence_pages": [7]
+      },
+      "balance": {
+        "value": 0,
+        "confidence": 1.0,
+        "evidence_pages": [7, 10]
+      },
+      "purpose": {
+        "value": "Yttre underhåll",
+        "confidence": 1.0,
+        "evidence_pages": [7]
+      },
+      "target_amount": null,
+      "annual_contribution": {
+        "value": 250000,
+        "confidence": 1.0,
+        "evidence_pages": [7]
+      },
+      "source_page": [7]
+    }
+  ],
+  "operational_costs": {
+    "electricity_cost": {
+      "value": 4293,
+      "confidence": 0.9,
+      "evidence_pages": [16]
+    },
+    "heating_cost": {
+      "value": 264020,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "water_cost": {
+      "value": 78622,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "property_maintenance_cost": {
+      "value": 89824,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "repairs_cost": {
+      "value": 125080,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "planned_maintenance_cost": {
+      "value": 2459917,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "insurance_cost": {
+      "value": 24163,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "property_tax_cost": {
+      "value": 62410,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "management_fee": {
+      "value": 74556,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "waste_management_cost": {
+      "value": 47819,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "snow_removal_cost": null,
+    "elevator_maintenance_cost": {
+      "value": 1957,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "cleaning_cost": null,
+    "garden_maintenance_cost": null,
+    "grounds_keeping_cost": null,
+    "tomtratt_cost": null,
+    "shared_facility_cost": null,
+    "other_operational_costs": {
+      "value": 144923,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "total_operational_costs": {
+      "value": 3366648,
+      "confidence": 1.0,
+      "evidence_pages": [8]
+    },
+    "source_pages": [8, 13, 14]
+  },
+  "operations": {
+    "property_manager": {
+      "value": "Nabo",
+      "confidence": 1.0,
+      "evidence_pages": [1, 5]
+    },
+    "property_management_fee": {
+      "value": 74556,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "suppliers": [
+      {
+        "company_name": {
+          "value": "Eon",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "El",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "Stena recycling",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Sophämtning och avfallshantering",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "HissElektra",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Underhåll hissar",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "Kiwa",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Besiktning av hissar",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "BengtiHus",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Vaktmästare/underhåll",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "TMO Sverige AB Martin Åhrén",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Teknisk förvaltning",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "Tele 2",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Bredband/TV",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      },
+      {
+        "company_name": {
+          "value": "Eon",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "service_type": {
+          "value": "Fjärrvärme",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "contract_value_annual": null,
+        "contract_start": null,
+        "contract_end": null,
+        "renewal_terms": null,
+        "contact_info": null,
+        "source_page": [5]
+      }
+    ],
+    "maintenance_plan_years": {
+      "value": 18,
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "planned_maintenance": [
+      {
+        "description": {
+          "value": "Genomgång av värmecentral, genomgång vatten och avloppsledningar i källargolv/Eonrelining/spolning. Genomgång av el. Målningrapphus och entré.",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "planned_year": {
+          "value": 2024,
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "planned",
+        "actual_cost": null,
+        "completion_date": null,
+        "source_page": [5]
+      }
+    ],
+    "completed_maintenance": [
+      {
+        "description": {
+          "value": "Omläggning av tak samt byte av fläkt för frånluftsventilation",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "planned_year": {
+          "value": 2023,
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": {
+          "value": 2459917,
+          "confidence": 1.0,
+          "evidence_pages": [14]
+        },
+        "completion_date": null,
+        "source_page": [5]
+      },
+      {
+        "description": {
+          "value": "Ny maskinpark i tvättstugan",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "planned_year": {
+          "value": 2021,
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": null,
+        "source_page": [5]
+      },
+      {
+        "description": {
+          "value": "Renovering/byte av föreningens 2 hissar",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "planned_year": {
+          "value": 2020,
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": null,
+        "source_page": [5]
+      },
+      {
+        "description": {
+          "value": "2019 Byte av fönster mot gata samt rRenovering av fasad mot gata och gård. Ommålning av fönster mot gård.",
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "planned_year": {
+          "value": 2019,
+          "confidence": 1.0,
+          "evidence_pages": [5]
+        },
+        "estimated_cost": null,
+        "priority": null,
+        "status": "completed",
+        "actual_cost": null,
+        "completion_date": null,
+        "source_page": [5]
+      }
+    ],
+    "insurance_provider": null,
+    "insurance_coverage_types": [],
+    "insurance_premium_annual": {
+      "value": 24163,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "insurance_deductible": null,
+    "electricity_provider": {
+      "value": "Eon",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "heating_provider": {
+      "value": "Eon",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "water_provider": null,
+    "broadband_provider": {
+      "value": "Tele 2",
+      "confidence": 1.0,
+      "evidence_pages": [5]
+    },
+    "number_of_employees": null,
+    "employee_roles": [],
+    "source_pages": [5]
+  },
+  "operational_cost_structure": {
+    "structure_type": "hybrid_5",
+    "num_categories": {
+      "value": 5,
+      "confidence": 1.0,
+      "evidence_pages": [13, 14]
+    },
+    "num_line_items": {
+      "value": 20,
+      "confidence": 0.9,
+      "evidence_pages": [13, 14]
+    },
+    "categories": [
+      "Fastighetsskötsel",
+      "Reparationer",
+      "Planerade underhåll",
+      "Taxebundna kostnader",
+      "Övriga driftskostnader"
+    ],
+    "accounting_regime": "K2",
+    "extraction_completeness": 0.95,
+    "source_pages": [13, 14]
+  },
+  "shared_facilities": [],
+  "repair_costs_breakdown": {
+    "repairs_roof": {
+      "value": 2459917,
+      "confidence": 1.0,
+      "evidence_pages": [14]
+    },
+    "repairs_facade": null,
+    "repairs_windows_doors": null,
+    "repairs_balcony": null,
+    "repairs_plumbing": null,
+    "repairs_ventilation": {
+      "value": 82500,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "repairs_elevator": {
+      "value": 1957,
+      "confidence": 1.0,
+      "evidence_pages": [13]
+    },
+    "repairs_electrical": null,
+    "repairs_heat_pump": null,
+    "repairs_stairwell": null,
+    "repairs_garage": null,
+    "preschool_repairs": null,
+    "repairs_water_sewage": null,
+    "repairs_waste_handling": null,
+    "repairs_telecom": null,
+    "repairs_lokaler": null,
+    "repairs_other": {
+      "value": 48623,
+      "confidence": 0.8,
+      "evidence_pages": [13]
+    },
+    "source_pages": [13, 14]
+  },
+  "ground_lease_metrics": {
+    "has_ground_lease": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "annual_ground_rent": null,
+    "ground_rent_percentage": null,
+    "burden_tier": "NONE",
+    "lease_expiry_year": null,
+    "years_until_expiry": null,
+    "escalation_clause": null,
+    "projected_increase_20_year": null,
+    "source_pages": [4]
+  },
+  "property_type_details": {
+    "property_type": "flerbostadshus",
+    "num_townhouses": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "num_apartments": {
+      "value": 21,
+      "confidence": 1.0,
+      "evidence_pages": [4]
+    },
+    "townhouse_percentage": null,
+    "individual_garden_count": null,
+    "shared_green_space": null,
+    "garden_maintenance_responsibility": null,
+    "source_pages": [4]
+  },
+  "events": [
+    {
+      "event_date": {
+        "value": "2023-01-01",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "event_type": {
+        "value": "Fee increase",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "description": {
+        "value": "Avgiftshöjning med 10% för att täcka ökande kostnader för el/värme och räntor",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "financial_impact": {
+        "value": 10,
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "related_documents": [],
+      "source_page": [5]
+    },
+    {
+      "event_date": null,
+      "event_type": {
+        "value": "New loan",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "description": {
+        "value": "Nytt lån togs inför takbyte på 2 000 000 som i dagsläget har rörlig ränta",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "financial_impact": {
+        "value": 2000000,
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "related_documents": [],
+      "source_page": [5]
+    },
+    {
+      "event_date": null,
+      "event_type": {
+        "value": "Management change",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "description": {
+        "value": "Föreningen har sagt upp avtalet med NABO och bytt ekonomisk förvaltare",
+        "confidence": 1.0,
+        "evidence_pages": [5]
+      },
+      "financial_impact": null,
+      "related_documents": [],
+      "source_page": [5]
+    }
+  ],
+  "policies": [],
+  "environmental": null,
+  "chairman_statement": null,
+  "board_report": {
+    "value": "Föreningen har de senaste åren genomfört stora reparationer och underhåll. Utöver detta har ökade allmänna kostnader/omkostnader samt det höjda ränteläget ökat det negativa resultatet. Styrelsen har tagit höjd för ökande omkostnader med en 10-procentig höjning förra året, utöver den nu sedvanliga höjningen med 3% årligen. Vid behov kommer även den att höjas men i dagsläget finns inga sådana planer.",
+    "confidence": 1.0,
+    "evidence_pages": [6]
+  },
+  "auditor_report": null,
+  "extraction_quality": {
+    "metadata": 1.0,
+    "governance": 0.95,
+    "financial": 0.98,
+    "property": 0.85,
+    "fees": 0.90,
+    "operations": 0.92
+  },
+  "coverage_percentage": 92,
+  "confidence_score": 0.95,
+  "all_source_pages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+}
