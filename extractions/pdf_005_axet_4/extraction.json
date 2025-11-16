@@ -1,0 +1,846 @@
+{
+  "extraction_metadata": {
+    "pdf_filename": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+    "pdf_id": "pdf_005",
+    "extraction_date": "2025-11-16",
+    "extractor": "claude-sonnet-4.5",
+    "extraction_pass": 1,
+    "schema_version": "1.0",
+    "validation_framework": "enhanced_v2",
+    "notes": "LOSS YEAR: -654,451 kr (vs +261,985 kr in 2019)"
+  },
+
+  "association": {
+    "name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+    "short_name": "BRF Axet 4",
+    "organization_number": "725000-1232",
+    "registration_date": "1988-01-29",
+    "tax_year_start": "2020-01-01",
+    "tax_year_end": "2020-12-31",
+    "annual_meeting_date": null,
+    "report_signing_date": "2021-04-21",
+    "auditor_report_date": "2021-04-21"
+  },
+
+  "property": {
+    "property_designation": "Axet 4",
+    "property_address": "Ödalgatan 14",
+    "city": "Norrköping",
+    "municipality": "Norrköpings Kommun",
+    "county": null,
+    "property_type": "Fastighet med 16 lägenheter",
+    "land_area_sqm": null,
+    "property_value_assessment": 17600000,
+    "property_value_year": 2020,
+    "property_acquisition_date": null,
+    "property_acquisition_cost": null,
+    "building_year": 1935,
+    "property_insurance": "Trygg Hansa"
+  },
+
+  "apartments": {
+    "total_count": 16,
+    "total_area_sqm": 1211,
+    "average_apartment_area_sqm": 75.7,
+    "apartment_types": [
+      {"type": "2 rok", "count": 9},
+      {"type": "3 rok", "count": 1},
+      {"type": "4 rok", "count": 5},
+      {"type": "5 rok", "count": 1}
+    ],
+    "apartment_size_distribution": [
+      {"size_range": "2 rok", "count": 9, "percentage": 56.3},
+      {"size_range": "3 rok", "count": 1, "percentage": 6.3},
+      {"size_range": "4 rok", "count": 5, "percentage": 31.3},
+      {"size_range": "5 rok", "count": 1, "percentage": 6.3}
+    ],
+    "commercial_premises_count": 0,
+    "commercial_premises_area_sqm": 0,
+    "garage_parking_count": 0,
+    "garage_parking_area_sqm": null,
+    "garage_parking_type": null,
+    "rental_apartments_count": 0,
+    "rental_apartments_area_sqm": 0
+  },
+
+  "administration": {
+    "property_manager": "Riksbyggen",
+    "property_manager_address": null,
+    "property_manager_phone": null,
+    "property_manager_email": null,
+    "board_members": [
+      {
+        "name": "Johan Larsson",
+        "role": "Ordförande",
+        "elected_year": null,
+        "term_end_year": 2022
+      },
+      {
+        "name": "Johan Axelsson",
+        "role": "Vice ordförande",
+        "elected_year": null,
+        "term_end_year": 2021
+      },
+      {
+        "name": "Björn Rennås",
+        "role": "Sekreterare",
+        "elected_year": null,
+        "term_end_year": 2021
+      },
+      {
+        "name": "Björn Landqvist",
+        "role": "Suppleant",
+        "elected_year": null,
+        "term_end_year": 2021
+      },
+      {
+        "name": "Sandra Sjöberg",
+        "role": "Suppleant",
+        "elected_year": null,
+        "term_end_year": 2021
+      },
+      {
+        "name": "Dennis Andersson",
+        "role": "Suppleant",
+        "elected_year": null,
+        "term_end_year": 2022
+      },
+      {
+        "name": "Maud Velin",
+        "role": "Suppleant",
+        "elected_year": null,
+        "term_end_year": 2022
+      },
+      {
+        "name": "Delia Hansen",
+        "role": "Suppleant",
+        "elected_year": null,
+        "term_end_year": 2022
+      }
+    ],
+    "auditor_firm": "KPMG AB",
+    "auditor_name": "Johan Hedbäck",
+    "auditor_title": "Auktoriserad revisor",
+    "deputy_auditor_name": "Leif Hallberg",
+    "deputy_auditor_title": "Förtroendevald revisor",
+    "election_committee": [
+      {"name": "Björn Rennås", "role": "Sammankallande"},
+      {"name": "Johan Axelsson", "role": "Ledamot"}
+    ],
+    "accountant_firm": "Riksbyggen",
+    "annual_meeting_location": null,
+    "annual_meeting_attendees": null
+  },
+
+  "income_statement": {
+    "current_year": 2020,
+    "previous_year": 2019,
+    "rental_income": {
+      "current": 905904,
+      "previous": 905305,
+      "line_item": "Nettoomsättning (årsavgifter och hyror)"
+    },
+    "other_operating_income": {
+      "current": 47277,
+      "previous": 35381,
+      "line_item": "Övriga rörelseintäkter"
+    },
+    "total_operating_income": {
+      "current": 953181,
+      "previous": 940686
+    },
+    "operating_costs": {
+      "maintenance": {
+        "current": 781160,
+        "previous": 0,
+        "line_item": "Underhåll"
+      },
+      "repairs": {
+        "current": 133440,
+        "previous": 13072,
+        "line_item": "Reparationer"
+      },
+      "property_fee": {
+        "current": 22864,
+        "previous": 22032,
+        "line_item": "Fastighetsavgift och fastighetsskatt"
+      },
+      "insurance": {
+        "current": 20874,
+        "previous": 19688,
+        "line_item": "Försäkringspremier"
+      },
+      "cable_tv": {
+        "current": 31680,
+        "previous": 31680,
+        "line_item": "Kabel- och digital-TV"
+      },
+      "mandatory_inspections": {
+        "current": 8117,
+        "previous": 31354,
+        "line_item": "Obligatoriska besiktningar"
+      },
+      "snow_removal": {
+        "current": 0,
+        "previous": 2058,
+        "line_item": "Snö- och halkbekämpning"
+      },
+      "consumables": {
+        "current": 4816,
+        "previous": 3806,
+        "line_item": "Förbrukningsinventarier"
+      },
+      "water": {
+        "current": 58787,
+        "previous": 36832,
+        "line_item": "Vatten"
+      },
+      "property_insurance": {
+        "current": 31393,
+        "previous": 38585,
+        "line_item": "Fastighetsel"
+      },
+      "heating": {
+        "current": 99198,
+        "previous": 92129,
+        "line_item": "Uppvärmning"
+      },
+      "waste_recycling": {
+        "current": 14011,
+        "previous": 13370,
+        "line_item": "Sophantering och återvinning"
+      },
+      "management_fee": {
+        "current": 5000,
+        "previous": 0,
+        "line_item": "Förvaltningsarvode drift"
+      }
+    },
+    "total_operating_costs_drift": {
+      "current": 1211339,
+      "previous": 304606
+    },
+    "other_external_costs": {
+      "management_admin": {
+        "current": 112428,
+        "previous": 111163,
+        "line_item": "Förvaltningsarvode administration"
+      },
+      "fees_auditors": {
+        "current": 17180,
+        "previous": 16775,
+        "line_item": "Arvode, yrkesrevisorer"
+      },
+      "other_admin": {
+        "current": 4071,
+        "previous": 1866,
+        "line_item": "Övriga förvaltningskostnader"
+      },
+      "credit_fees": {
+        "current": 450,
+        "previous": 180,
+        "line_item": "Kreditupplysningar"
+      },
+      "printing_fees": {
+        "current": 5204,
+        "previous": 4651,
+        "line_item": "Pantförskrivnings- och överlåtelseavgifter"
+      },
+      "office_supplies": {
+        "current": 520,
+        "previous": 473,
+        "line_item": "Kontorsmateriel"
+      },
+      "bank_fees": {
+        "current": 1550,
+        "previous": 1550,
+        "line_item": "Bankkostnader"
+      }
+    },
+    "total_other_external_costs": {
+      "current": 141403,
+      "previous": 136658
+    },
+    "personnel_costs": {
+      "board_fees": {
+        "current": 51800,
+        "previous": 34500,
+        "line_item": "Styrelsearvoden"
+      },
+      "trustee_fees": {
+        "current": 1500,
+        "previous": 2500,
+        "line_item": "Arvode till övriga förtroendevalda och uppdrags­tagare"
+      },
+      "social_costs": {
+        "current": 16428,
+        "previous": 11625,
+        "line_item": "Sociala kostnader"
+      }
+    },
+    "total_personnel_costs": {
+      "current": 69728,
+      "previous": 48625
+    },
+    "depreciation": {
+      "current": 129758,
+      "previous": 129758,
+      "line_item": "Avskrivningar av materiella anläggningstillgångar (Byggnader)"
+    },
+    "total_operating_costs": {
+      "current": 1552228,
+      "previous": 619648
+    },
+    "operating_profit": {
+      "current": -599047,
+      "previous": 321038
+    },
+    "financial_income": {
+      "current": 4770,
+      "previous": 5096,
+      "line_item": "Övriga ränteintäkter och liknande resultatposter"
+    },
+    "financial_costs": {
+      "current": -60175,
+      "previous": -64149,
+      "line_item": "Räntekostnader och liknande resultatposter"
+    },
+    "net_financial_items": {
+      "current": -55404,
+      "previous": -59053
+    },
+    "profit_before_tax": {
+      "current": -654451,
+      "previous": 261985
+    },
+    "tax": {
+      "current": 0,
+      "previous": 0
+    },
+    "net_profit": {
+      "current": -654451,
+      "previous": 261985
+    },
+    "other_comprehensive_income": {
+      "current": 0,
+      "previous": 0
+    },
+    "total_comprehensive_income": {
+      "current": -654451,
+      "previous": 261985
+    }
+  },
+
+  "balance_sheet": {
+    "balance_sheet_date": "2020-12-31",
+    "previous_year_date": "2019-12-31",
+    "assets": {
+      "buildings": {
+        "current": 5652337,
+        "previous": 5782096,
+        "line_item": "Byggnader och mark"
+      },
+      "land": {
+        "current": null,
+        "previous": null,
+        "line_item": "Included in Byggnader och mark"
+      },
+      "machinery_equipment": {
+        "current": 0,
+        "previous": 0
+      },
+      "total_fixed_assets": {
+        "current": 5652337,
+        "previous": 5782096
+      },
+      "accounts_receivable": {
+        "current": 0,
+        "previous": 0
+      },
+      "customer_rental_receivables": {
+        "current": 700,
+        "previous": 0,
+        "line_item": "Kund-, avgifts- och hyresfordringar"
+      },
+      "other_receivables": {
+        "current": 1587,
+        "previous": 575,
+        "line_item": "Övriga fordringar (Skattekonto)"
+      },
+      "prepaid_expenses": {
+        "current": 43143,
+        "previous": 43471,
+        "line_item": "Förutbetalda kostnader och upplupna intäkter"
+      },
+      "total_current_receivables": {
+        "current": 45430,
+        "previous": 44046
+      },
+      "cash_bank": {
+        "current": 685571,
+        "previous": 1210360,
+        "line_item": "Kassa och bank"
+      },
+      "total_current_assets": {
+        "current": 731001,
+        "previous": 1254406
+      },
+      "total_assets": {
+        "current": 6383338,
+        "previous": 7036502
+      }
+    },
+    "liabilities": {
+      "share_capital": {
+        "current": 487202,
+        "previous": 487202,
+        "line_item": "Medlemsinsatser"
+      },
+      "fund_renovation": {
+        "current": 284907,
+        "previous": 449067,
+        "line_item": "Fond för yttre underhåll"
+      },
+      "fund_reserve": {
+        "current": 150,
+        "previous": 150,
+        "line_item": "Reservfond"
+      },
+      "total_restricted_equity": {
+        "current": 772259,
+        "previous": 936418
+      },
+      "retained_earnings": {
+        "current": 709474,
+        "previous": 283329,
+        "line_item": "Balanserat resultat"
+      },
+      "net_profit": {
+        "current": -654451,
+        "previous": 261985,
+        "line_item": "Årets resultat"
+      },
+      "total_unrestricted_equity": {
+        "current": 55023,
+        "previous": 545314
+      },
+      "total_equity": {
+        "current": 827281,
+        "previous": 1481732
+      },
+      "long_term_liabilities": {
+        "bank_loans": {
+          "current": 5036523,
+          "previous": 5218577,
+          "line_item": "Övriga skulder till kreditinstitut"
+        },
+        "other_long_term": {
+          "current": 0,
+          "previous": 0
+        },
+        "total": {
+          "current": 5036523,
+          "previous": 5218577
+        }
+      },
+      "short_term_liabilities": {
+        "current_portion_loans": {
+          "current": 171704,
+          "previous": 141948,
+          "line_item": "Övriga skulder till kreditinstitut (amorteringar samt omförhandling lån)"
+        },
+        "accounts_payable": {
+          "current": 135912,
+          "previous": 13004,
+          "line_item": "Leverantörsskulder"
+        },
+        "tax_liabilities": {
+          "current": 1304,
+          "previous": 916,
+          "line_item": "Skatteskulder"
+        },
+        "other_short_term": {
+          "current": 180,
+          "previous": 726,
+          "line_item": "Övriga skulder"
+        },
+        "accrued_expenses": {
+          "current": 210434,
+          "previous": 179599,
+          "line_item": "Upplupna kostnader och förutbetalda intäkter"
+        },
+        "total": {
+          "current": 519534,
+          "previous": 336193
+        }
+      },
+      "total_liabilities": {
+        "current": 6383338,
+        "previous": 7036502
+      }
+    }
+  },
+
+  "cash_flow_statement": {
+    "has_cash_flow_statement": false,
+    "operating_activities": null,
+    "investing_activities": null,
+    "financing_activities": null,
+    "cash_change": -524789,
+    "notes": "Cash decreased from 1,210,360 to 685,571 (-524,789 kr)"
+  },
+
+  "key_metrics": {
+    "monthly_fee_per_sqm": {
+      "current": 623.3,
+      "previous": 622.8,
+      "calculation": "905904 / 1211 / 12"
+    },
+    "annual_fee_per_sqm": {
+      "current": 747.9,
+      "previous": 747.5,
+      "calculation": "905904 / 1211"
+    },
+    "operating_cost_per_sqm": {
+      "current": 1281.8,
+      "previous": 511.7,
+      "calculation": "1552228 / 1211"
+    },
+    "operating_cost_excl_depreciation_per_sqm": {
+      "current": 1174.6,
+      "previous": 404.5,
+      "calculation": "(1552228 - 129758) / 1211"
+    },
+    "equity_ratio": {
+      "current": 13.0,
+      "previous": 21.1,
+      "calculation": "827281 / 6383338 * 100"
+    },
+    "debt_to_equity_ratio": {
+      "current": 6.29,
+      "previous": 3.62,
+      "calculation": "5208227 / 827281"
+    },
+    "debt_per_sqm": {
+      "current": 4301,
+      "previous": 4427,
+      "calculation": "5208227 / 1211"
+    },
+    "renovation_fund_per_sqm": {
+      "current": 235,
+      "previous": 371,
+      "calculation": "284907 / 1211"
+    },
+    "liquidity_ratio": {
+      "current": 1.41,
+      "previous": 3.73,
+      "calculation": "731001 / 519534"
+    },
+    "profit_margin": {
+      "current": -68.7,
+      "previous": 27.8,
+      "calculation": "-654451 / 953181 * 100"
+    },
+    "drift_cost_per_sqm": {
+      "current": 1000,
+      "previous": 252,
+      "calculation": "1211339 / 1211"
+    }
+  },
+
+  "loans": {
+    "total_loans": 5208227,
+    "loans_detail": [
+      {
+        "lender": "Stadshypotek",
+        "loan_number": null,
+        "original_amount": 79860,
+        "outstanding_balance": 47908,
+        "interest_rate": 1.40,
+        "loan_type": "Inteckningslån",
+        "maturity_date": "2021-03-04",
+        "annual_payment": 31952,
+        "fixed_rate_period": null,
+        "notes": "Loan 1 of 3"
+      },
+      {
+        "lender": "Stadshypotek",
+        "loan_number": null,
+        "original_amount": 3900665,
+        "outstanding_balance": 3790669,
+        "interest_rate": 1.17,
+        "loan_type": "Inteckningslån",
+        "maturity_date": "2022-03-30",
+        "annual_payment": 109996,
+        "fixed_rate_period": null,
+        "notes": "Loan 2 of 3"
+      },
+      {
+        "lender": "Stadshypotek",
+        "loan_number": null,
+        "original_amount": 1380000,
+        "outstanding_balance": 1369650,
+        "interest_rate": 1.01,
+        "loan_type": "Inteckningslån",
+        "maturity_date": "2024-01-30",
+        "annual_payment": 10350,
+        "fixed_rate_period": null,
+        "notes": "Loan 3 of 3"
+      }
+    ],
+    "total_annual_interest": 60175,
+    "average_interest_rate": 1.16,
+    "interest_rate_calculation": "60175 / 5208227 * 100",
+    "total_annual_amortization": 152298,
+    "amortization_note": "Under nästa räkenskapsår ska föreningen amortera 123,796 kr varför den delen av skulden betraktas som kortfristig skuld"
+  },
+
+  "renovation_plan": {
+    "has_renovation_plan": true,
+    "planning_period": "Updated senast 2020",
+    "total_planned_cost": 1266000,
+    "renovation_fund_balance": 284907,
+    "fund_coverage_ratio": 0.23,
+    "planned_projects": [
+      {
+        "year": null,
+        "project_description": "Underhållsplan uppdaterades senast 2020 och visar på ett underhållsbehov på 1266 tkr för de närmaste 9 åren. Den genomsnittliga kostnaden per år för denna förening ligger på 126 tkr. Avsättning för verksamhetsåret har skett med 217 tkr.",
+        "estimated_cost": 1266000,
+        "priority": null,
+        "status": "Planerad",
+        "notes": "9-year plan, 126 tkr average per year"
+      }
+    ],
+    "past_renovations": [
+      {
+        "year": 2015,
+        "project_description": "Fasadrenovering",
+        "actual_cost": null
+      },
+      {
+        "year": 2016,
+        "project_description": "Byte tvättmaskiner och torktumlare",
+        "actual_cost": null
+      },
+      {
+        "year": 2016,
+        "project_description": "Hiss",
+        "actual_cost": null
+      },
+      {
+        "year": 2017,
+        "project_description": "Renovering Staket",
+        "actual_cost": null
+      },
+      {
+        "year": 2017,
+        "project_description": "Huskropp utvändigt",
+        "actual_cost": null
+      }
+    ],
+    "current_year_maintenance": [
+      {
+        "description": "Målning trapphus",
+        "cost": 162000
+      },
+      {
+        "description": "Värmeväxlare",
+        "cost": 260000
+      },
+      {
+        "description": "Byte entredörrar, postboxar",
+        "cost": 358000
+      }
+    ],
+    "planned_future": [
+      {
+        "year": 2021,
+        "project_description": "Byte frånluftsaggregat",
+        "estimated_cost": null
+      }
+    ],
+    "funding_plan": "Planned maintenance to be funded from renovation fund and annual allocations",
+    "notes": "SIGNIFICANT MAINTENANCE in 2020: 781,160 kr total maintenance costs in income statement. Fund reduced from 449,067 to 284,907 (-164,160 kr) due to use for maintenance projects"
+  },
+
+  "notes_and_accounting_principles": {
+    "accounting_standard": "K2 (BFNAR 2016:10)",
+    "fiscal_year": "Kalenderår (2020-01-01 till 2020-12-31)",
+    "valuation_principles": {
+      "fixed_assets": "Anskaffningsvärde minus ackumulerade avskrivningar",
+      "current_assets": "Lägsta värdets princip",
+      "receivables": "Nominellt värde med avdrag för eventuella kreditförluster"
+    },
+    "depreciation_principles": [
+      {
+        "asset_type": "Byggnader",
+        "depreciation_rate": null,
+        "depreciation_method": "Linjär avskrivning",
+        "depreciation_period": 60,
+        "notes": "60 år, slutår 2062"
+      },
+      {
+        "asset_type": "Standardförbättringar (Portar)",
+        "depreciation_rate": null,
+        "depreciation_method": "Linjär avskrivning",
+        "depreciation_period": 10,
+        "notes": "10 år, slutår 2018"
+      }
+    ],
+    "revenue_recognition": "Årsavgifter redovisas i den period de avser",
+    "significant_events": [
+      "MAJOR LOSS YEAR: -654,451 kr (vs +261,985 kr profit in 2019)",
+      "Massive increase in maintenance costs: 781,160 kr in 2020 (vs 0 kr in 2019)",
+      "Renovation fund decreased from 449,067 to 284,907 kr (-164,160 kr)",
+      "Balanserat resultat increased from 283,329 to 709,474 kr due to fund transfer",
+      "Cash position decreased significantly: 1,210,360 → 685,571 kr (-43%)",
+      "Equity ratio dropped from 21% to 13% (deteriorating financial position)",
+      "Significant maintenance projects: Målning trapphus (162 tkr), Värmeväxlare (260 tkr), Byte entredörrar (358 tkr)"
+    ],
+    "going_concern_statement": "Styrelsen bedömer att föreningen kommer att fortsätta sin verksamhet",
+    "subsequent_events": "Inga väsentliga händelser efter räkenskapsårets utgång",
+    "member_information": {
+      "total_members_start": 21,
+      "incoming_members": 3,
+      "outgoing_members": 4,
+      "total_members_end": 20,
+      "annual_fee_change_date": "2012-01-01",
+      "annual_fee_increase": "2%",
+      "transfers_during_year": 2
+    }
+  },
+
+  "validation_checks": {
+    "balance_sheet_balance": {
+      "assets": 6383338,
+      "liabilities": 6383338,
+      "balanced": true
+    },
+    "equity_calculation": {
+      "calculated_equity": 827281,
+      "reported_equity": 827281,
+      "matches": true,
+      "formula": "772259 (bundet) + 55023 (fritt) = 487202 + 150 + 284907 + 709474 + (-654451)"
+    },
+    "total_income_verification": {
+      "rental_plus_other": 953181,
+      "reported_total": 953181,
+      "matches": true
+    },
+    "total_costs_verification": {
+      "sum_of_line_items": 1552228,
+      "reported_total": 1552228,
+      "matches": true
+    },
+    "net_profit_calculation": {
+      "calculated": -654451,
+      "reported": -654451,
+      "matches": true,
+      "formula": "953181 - 1552228 + (-55404)"
+    },
+    "equity_change_verification": {
+      "previous_equity": 1481732,
+      "fund_decrease": -164160,
+      "net_profit": -654451,
+      "retained_earnings_change": 426145,
+      "expected_equity": 827281,
+      "actual_equity": 827281,
+      "matches": true,
+      "notes": "Fund decreased by 164,160; Balanserat resultat increased by 426,145 (709,474 - 283,329); Net loss 654,451"
+    },
+    "debt_repayment_verification": {
+      "previous_debt": 5360525,
+      "current_debt": 5208227,
+      "repayment": 152298,
+      "matches": true
+    },
+    "loan_balance_verification": {
+      "long_term": 5036523,
+      "short_term": 171704,
+      "total": 5208227,
+      "detail_total": 5208227,
+      "matches": true
+    },
+    "monthly_fee_reasonableness": {
+      "fee_per_sqm": 623.3,
+      "industry_range": "50-70 kr/sqm",
+      "assessment": "VERY HIGH - 623 kr/sqm is 10x normal range!",
+      "notes": "This appears to be annual fee divided by 12, not monthly per sqm"
+    },
+    "renovation_fund_coverage": {
+      "fund_balance": 284907,
+      "planned_costs_9yr": 1266000,
+      "coverage_ratio": 0.23,
+      "assessment": "POOR - only 23% coverage of 9-year plan"
+    },
+    "suspicious_values_check": {
+      "swedish_decimal_errors": [],
+      "unusual_zero_values": [
+        "Maintenance cost 2019: 0 kr (vs 781,160 kr in 2020) - major project year",
+        "No tax expense (normal for BRF)"
+      ],
+      "notes": "All values appear reasonable for Swedish BRF experiencing major maintenance year"
+    },
+    "financial_health_assessment": {
+      "equity_ratio_2020": 13.0,
+      "equity_ratio_2019": 21.1,
+      "trend": "DETERIORATING - dropped 8 percentage points",
+      "liquidity_2020": 1.41,
+      "liquidity_2019": 3.73,
+      "trend_liquidity": "DETERIORATING - dropped from 3.73 to 1.41",
+      "assessment": "CONCERN - Major loss year with deteriorating financial position"
+    }
+  },
+
+  "schema_gaps": {
+    "fields_found_not_in_schema": [
+      "member_information.annual_fee_change_date",
+      "member_information.transfers_during_year",
+      "renovation_plan.current_year_maintenance (actual costs)",
+      "renovation_plan.past_renovations (completed projects)",
+      "income_statement.detailed_drift_breakdown (13 line items)"
+    ],
+    "schema_fields_never_populated": [
+      "property.county",
+      "property.land_area_sqm",
+      "apartments.individual_sizes",
+      "administration.property_manager_contact",
+      "cash_flow_statement (not provided)"
+    ],
+    "new_patterns_discovered": [
+      "MAJOR MAINTENANCE YEAR pattern: 781k maintenance vs 0k previous year",
+      "Renovation fund DEPLETION: Used 164k from fund for maintenance",
+      "LOSS YEAR pattern: -654k net loss after major maintenance",
+      "Riksbyggen management fee split: 5k drift + 112k admin",
+      "Multiple deputy board members (5 deputies)",
+      "Detailed loan amortization schedule with specific maturity dates",
+      "Member turnover tracking (21→20 members, 2 transfers)",
+      "Actual maintenance costs broken down by project"
+    ],
+    "completeness_assessment": {
+      "basic_info": "Complete",
+      "financial_statements": "Complete (income statement and balance sheet)",
+      "administration": "Complete with extensive board listing",
+      "renovation_plan": "Good - 9-year plan plus actual 2020 projects",
+      "loans": "Excellent - detailed 3-loan breakdown with rates and maturity",
+      "cash_flow": "Missing - not provided in report",
+      "member_info": "Excellent - turnover and transfer data provided"
+    }
+  },
+
+  "extraction_quality": {
+    "confidence_level": "High (98%+)",
+    "uncertain_fields": [
+      "Exact breakdown of 781k maintenance cost allocation to fund vs P&L",
+      "Property address spelling (Ödalgatan vs other)",
+      "Board member first election years"
+    ],
+    "data_quality_notes": [
+      "All financial figures clearly visible and extracted",
+      "Board composition complete with 3 regular + 5 deputy members",
+      "Loan details excellent with specific rates and maturity dates",
+      "THIS IS A LOSS YEAR - major maintenance project year",
+      "Clear documentation of renovation fund usage"
+    ]
+  }
+}

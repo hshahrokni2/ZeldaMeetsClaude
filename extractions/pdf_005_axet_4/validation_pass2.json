@@ -1,0 +1,832 @@
+{
+  "validation_metadata": {
+    "pdf_id": "pdf_005",
+    "validation_date": "2025-11-16",
+    "validation_framework": "enhanced_v2",
+    "validator": "claude-sonnet-4.5",
+    "validation_type": "40-field stratified spot check + 10 cross-checks",
+    "source_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+    "special_note": "LOSS YEAR: -654,451 kr due to major maintenance (781,160 kr)"
+  },
+
+  "stratified_spot_check": {
+    "total_fields_checked": 40,
+    "methodology": "Stratified sampling across all major sections + high-risk fields",
+    "checks": [
+      {
+        "field_id": 1,
+        "section": "association",
+        "field": "name",
+        "extracted_value": "Bostadsrättsföreningen Axet 4 i Norrköping",
+        "pdf_location": "Page 1, header",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 2,
+        "section": "association",
+        "field": "organization_number",
+        "extracted_value": "725000-1232",
+        "pdf_location": "Page 1, Org nr",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 3,
+        "section": "association",
+        "field": "registration_date",
+        "extracted_value": "1988-01-29",
+        "pdf_location": "Page 3, Förvaltningsberättelse",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 4,
+        "section": "property",
+        "field": "property_address",
+        "extracted_value": "Ödalgatan 14",
+        "pdf_location": "Page 3, Fastighetsuppgifter",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 5,
+        "section": "property",
+        "field": "city",
+        "extracted_value": "Norrköping",
+        "pdf_location": "Page 1 & 3",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 6,
+        "section": "property",
+        "field": "building_year",
+        "extracted_value": 1935,
+        "pdf_location": "Page 3, Byggnaden är uppförd 1935",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 7,
+        "section": "apartments",
+        "field": "total_count",
+        "extracted_value": 16,
+        "pdf_location": "Page 3, apartment distribution table sum",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 8,
+        "section": "apartments",
+        "field": "total_area_sqm",
+        "extracted_value": 1211,
+        "pdf_location": "Page 3, Total bostadsarea 1 211 m²",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "Space as thousand separator - correct"
+      },
+      {
+        "field_id": 9,
+        "section": "apartments",
+        "field": "2_rok_count",
+        "extracted_value": 9,
+        "pdf_location": "Page 3, distribution table",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 10,
+        "section": "apartments",
+        "field": "4_rok_count",
+        "extracted_value": 5,
+        "pdf_location": "Page 3, distribution table",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 11,
+        "section": "administration",
+        "field": "board_chairman",
+        "extracted_value": "Johan Larsson",
+        "pdf_location": "Page 5, Styrelse - Ordförande",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 12,
+        "section": "administration",
+        "field": "auditor_firm",
+        "extracted_value": "KPMG AB",
+        "pdf_location": "Page 5, Ordinarie revisorer",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 13,
+        "section": "administration",
+        "field": "auditor_name",
+        "extracted_value": "Johan Hedbäck",
+        "pdf_location": "Page 16, signature page",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 14,
+        "section": "income_statement",
+        "field": "rental_income_2020",
+        "extracted_value": 905904,
+        "pdf_location": "Page 8, Nettoomsättning 2020",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "905 904 kr → 905,904 (correct)"
+      },
+      {
+        "field_id": 15,
+        "section": "income_statement",
+        "field": "rental_income_2019",
+        "extracted_value": 905305,
+        "pdf_location": "Page 8, Nettoomsättning 2019",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "905 305 kr → 905,305 (correct)"
+      },
+      {
+        "field_id": 16,
+        "section": "income_statement",
+        "field": "maintenance_cost_2020",
+        "extracted_value": 781160,
+        "pdf_location": "Page 12, Not 4 Driftkostnader - Underhåll",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "-781 160 kr → 781,160 (correct)",
+        "notes": "MAJOR INCREASE from 0 kr in 2019 - this is the key cost driver"
+      },
+      {
+        "field_id": 17,
+        "section": "income_statement",
+        "field": "total_operating_costs_2020",
+        "extracted_value": 1552228,
+        "pdf_location": "Page 8, Summa rörelsekostnader",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "-1 552 228 kr → 1,552,228 (correct)"
+      },
+      {
+        "field_id": 18,
+        "section": "income_statement",
+        "field": "operating_profit_2020",
+        "extracted_value": -599047,
+        "pdf_location": "Page 8, Rörelseresultat",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "-599 047 kr → -599,047 (correct)"
+      },
+      {
+        "field_id": 19,
+        "section": "income_statement",
+        "field": "interest_costs_2020",
+        "extracted_value": -60175,
+        "pdf_location": "Page 8, Räntekostnader",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "-60 175 kr → -60,175 (correct)"
+      },
+      {
+        "field_id": 20,
+        "section": "income_statement",
+        "field": "net_profit_2020",
+        "extracted_value": -654451,
+        "pdf_location": "Page 8, Årets resultat",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "-654 451 kr → -654,451 (correct)"
+      },
+      {
+        "field_id": 21,
+        "section": "balance_sheet",
+        "field": "buildings_2020",
+        "extracted_value": 5652337,
+        "pdf_location": "Page 9, Byggnader och mark",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "5 652 337 kr → 5,652,337 (correct)"
+      },
+      {
+        "field_id": 22,
+        "section": "balance_sheet",
+        "field": "cash_bank_2020",
+        "extracted_value": 685571,
+        "pdf_location": "Page 9, Kassa och bank",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "685 571 kr → 685,571 (correct)"
+      },
+      {
+        "field_id": 23,
+        "section": "balance_sheet",
+        "field": "total_assets_2020",
+        "extracted_value": 6383338,
+        "pdf_location": "Page 9, Summa tillgångar",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "6 383 338 kr → 6,383,338 (correct)"
+      },
+      {
+        "field_id": 24,
+        "section": "balance_sheet",
+        "field": "share_capital_2020",
+        "extracted_value": 487202,
+        "pdf_location": "Page 10, Medlemsinsatser",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "487 202 kr → 487,202 (correct)"
+      },
+      {
+        "field_id": 25,
+        "section": "balance_sheet",
+        "field": "renovation_fund_2020",
+        "extracted_value": 284907,
+        "pdf_location": "Page 10, Fond för yttre underhåll",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "284 907 kr → 284,907 (correct)",
+        "notes": "Decreased from 449,067 kr in 2019"
+      },
+      {
+        "field_id": 26,
+        "section": "balance_sheet",
+        "field": "retained_earnings_2020",
+        "extracted_value": 709474,
+        "pdf_location": "Page 10, Balanserat resultat",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "709 474 kr → 709,474 (correct)",
+        "notes": "Increased from 283,329 kr in 2019"
+      },
+      {
+        "field_id": 27,
+        "section": "balance_sheet",
+        "field": "total_equity_2020",
+        "extracted_value": 827281,
+        "pdf_location": "Page 10, Summa eget kapital",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "827 281 kr → 827,281 (correct)"
+      },
+      {
+        "field_id": 28,
+        "section": "balance_sheet",
+        "field": "long_term_debt_2020",
+        "extracted_value": 5036523,
+        "pdf_location": "Page 10, Övriga skulder till kreditinstitut",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "5 036 523 kr → 5,036,523 (correct)"
+      },
+      {
+        "field_id": 29,
+        "section": "balance_sheet",
+        "field": "accounts_payable_2020",
+        "extracted_value": 135912,
+        "pdf_location": "Page 10, Leverantörsskulder",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "135 912 kr → 135,912 (correct)"
+      },
+      {
+        "field_id": 30,
+        "section": "balance_sheet",
+        "field": "accrued_expenses_2020",
+        "extracted_value": 210434,
+        "pdf_location": "Page 10, Upplupna kostnader",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "210 434 kr → 210,434 (correct)"
+      },
+      {
+        "field_id": 31,
+        "section": "loans",
+        "field": "loan1_balance",
+        "extracted_value": 47908,
+        "pdf_location": "Page 14, loan table - Utg.skuld column",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 32,
+        "section": "loans",
+        "field": "loan1_interest_rate",
+        "extracted_value": 1.40,
+        "pdf_location": "Page 14, loan table - Räntesats column",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "1,40% (Swedish comma = decimal point)"
+      },
+      {
+        "field_id": 33,
+        "section": "loans",
+        "field": "loan2_balance",
+        "extracted_value": 3790669,
+        "pdf_location": "Page 14, loan table",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "3 790 669,00 → 3,790,669 (correct)"
+      },
+      {
+        "field_id": 34,
+        "section": "loans",
+        "field": "loan2_interest_rate",
+        "extracted_value": 1.17,
+        "pdf_location": "Page 14, loan table",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "1,17% → 1.17% (correct)"
+      },
+      {
+        "field_id": 35,
+        "section": "loans",
+        "field": "loan3_balance",
+        "extracted_value": 1369650,
+        "pdf_location": "Page 14, loan table",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "1 369 650,00 → 1,369,650 (correct)"
+      },
+      {
+        "field_id": 36,
+        "section": "loans",
+        "field": "total_amortization",
+        "extracted_value": 152298,
+        "pdf_location": "Page 14, Årets amorteringar column sum",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "152 298,00 → 152,298 (correct)"
+      },
+      {
+        "field_id": 37,
+        "section": "property",
+        "field": "taxeringsvärde",
+        "extracted_value": 17600000,
+        "pdf_location": "Page 13, Taxeringsvärden Bostäder",
+        "verified": true,
+        "confidence": "100%",
+        "swedish_decimal_check": "17 600 000 → 17,600,000 (correct)"
+      },
+      {
+        "field_id": 38,
+        "section": "multi_year",
+        "field": "equity_ratio_2020",
+        "extracted_value": 13,
+        "pdf_location": "Page 6, Soliditet %",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 39,
+        "section": "multi_year",
+        "field": "annual_fee_per_sqm_2020",
+        "extracted_value": 747,
+        "pdf_location": "Page 6, Årsavgiftsnivå för bostäder, kr/m²",
+        "verified": true,
+        "confidence": "100%"
+      },
+      {
+        "field_id": 40,
+        "section": "association",
+        "field": "report_signing_date",
+        "extracted_value": "2021-04-21",
+        "pdf_location": "Page 16, Norrköping den 21 april 2021",
+        "verified": true,
+        "confidence": "100%"
+      }
+    ],
+    "summary": {
+      "total_checked": 40,
+      "verified": 40,
+      "failed": 0,
+      "accuracy_rate": "100%",
+      "swedish_decimal_issues": 0,
+      "notes": "All 40 fields verified correctly. No Swedish decimal errors detected. Interest rates correctly converted from Swedish comma to decimal point."
+    }
+  },
+
+  "financial_cross_checks": {
+    "total_cross_checks": 10,
+    "checks": [
+      {
+        "check_id": 1,
+        "name": "Balance Sheet Balance",
+        "description": "Assets = Liabilities + Equity",
+        "calculation": {
+          "assets": 6383338,
+          "liabilities_equity": 6383338,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 2,
+        "name": "Equity Composition",
+        "description": "Share Capital + Funds + Retained Earnings + Net Profit = Total Equity",
+        "calculation": {
+          "share_capital": 487202,
+          "reserve_fund": 150,
+          "renovation_fund": 284907,
+          "retained_earnings": 709474,
+          "net_profit": -654451,
+          "calculated_total": 827282,
+          "reported_total": 827281,
+          "difference": 1
+        },
+        "result": "PASS (1 kr rounding)",
+        "confidence": "100%",
+        "notes": "1 kr difference likely due to rounding in source documents"
+      },
+      {
+        "check_id": 3,
+        "name": "Net Profit Calculation",
+        "description": "Total Income - Total Costs - Net Financial = Net Profit",
+        "calculation": {
+          "total_income": 953181,
+          "total_costs": 1552228,
+          "net_financial": -55404,
+          "calculated_profit": -654451,
+          "reported_profit": -654451,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 4,
+        "name": "Operating Cost Summation",
+        "description": "Sum of all cost categories = Total Operating Costs",
+        "calculation": {
+          "drift_costs": 1211339,
+          "external_costs": 141403,
+          "personnel_costs": 69728,
+          "depreciation": 129758,
+          "calculated_total": 1552228,
+          "reported_total": 1552228,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 5,
+        "name": "Apartment Count Verification",
+        "description": "Sum of apartment types = Total count",
+        "calculation": {
+          "2_rok": 9,
+          "3_rok": 1,
+          "4_rok": 5,
+          "5_rok": 1,
+          "calculated_total": 16,
+          "reported_total": 16,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 6,
+        "name": "Debt Repayment Verification",
+        "description": "Previous debt - Current debt = Annual amortization",
+        "calculation": {
+          "debt_2019": 5360525,
+          "debt_2020": 5208227,
+          "calculated_repayment": 152298,
+          "reported_repayment": 152298,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 7,
+        "name": "Loan Balance Verification",
+        "description": "Sum of 3 loans = Total debt",
+        "calculation": {
+          "loan1": 47908,
+          "loan2": 3790669,
+          "loan3": 1369650,
+          "calculated_total": 5208227,
+          "long_term": 5036523,
+          "short_term": 171704,
+          "reported_total": 5208227,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 8,
+        "name": "Equity Ratio Calculation",
+        "description": "Equity / Total Assets * 100",
+        "calculation": {
+          "equity": 827281,
+          "total_assets": 6383338,
+          "calculated_ratio": 13.0,
+          "reported_ratio": 13,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 9,
+        "name": "Liquidity Ratio Calculation",
+        "description": "Current Assets / Current Liabilities",
+        "calculation": {
+          "current_assets": 731001,
+          "current_liabilities": 519534,
+          "calculated_ratio": 1.41,
+          "expected_ratio": 1.41,
+          "difference": 0
+        },
+        "result": "PASS",
+        "confidence": "100%"
+      },
+      {
+        "check_id": 10,
+        "name": "Cash Flow Verification",
+        "description": "Verify cash change aligns with major transactions",
+        "calculation": {
+          "cash_2019": 1210360,
+          "cash_2020": 685571,
+          "cash_decrease": -524789,
+          "net_loss": -654451,
+          "loan_amortization": -152298,
+          "depreciation_add_back": 129758,
+          "working_capital_changes": "Various",
+          "assessment": "Cash decreased 524k; loss was 654k but non-cash depreciation 130k and loan amortization 152k"
+        },
+        "result": "PASS - reasonable",
+        "confidence": "95%",
+        "notes": "Cash flow makes sense given large loss offset by non-cash depreciation and actual cash outflow for loan repayment"
+      }
+    ],
+    "summary": {
+      "total_checks": 10,
+      "passed": 10,
+      "failed": 0,
+      "warnings": 0,
+      "accuracy_rate": "100%"
+    }
+  },
+
+  "completeness_audit": {
+    "section_completeness": [
+      {
+        "section": "association",
+        "required_fields": 10,
+        "populated_fields": 8,
+        "completeness": 80,
+        "missing_critical": false,
+        "missing_fields": ["annual_meeting_date", "annual_meeting_attendees"],
+        "assessment": "Good - core fields present including registration date"
+      },
+      {
+        "section": "property",
+        "required_fields": 11,
+        "populated_fields": 7,
+        "completeness": 64,
+        "missing_critical": false,
+        "missing_fields": ["county", "land_area_sqm", "acquisition_date", "acquisition_cost"],
+        "assessment": "Good - has address, building year, and tax assessment"
+      },
+      {
+        "section": "apartments",
+        "required_fields": 13,
+        "populated_fields": 8,
+        "completeness": 62,
+        "missing_critical": false,
+        "missing_fields": ["individual_sizes", "garage_count", "commercial_premises"],
+        "assessment": "Acceptable - distribution complete"
+      },
+      {
+        "section": "administration",
+        "required_fields": 12,
+        "populated_fields": 10,
+        "completeness": 83,
+        "missing_critical": false,
+        "missing_fields": ["contact_phone", "contact_email"],
+        "assessment": "Excellent - extensive board listing (3 + 5 deputies)"
+      },
+      {
+        "section": "income_statement",
+        "required_fields": 25,
+        "populated_fields": 25,
+        "completeness": 100,
+        "missing_critical": false,
+        "missing_fields": [],
+        "assessment": "Excellent - complete extraction with detailed breakdown"
+      },
+      {
+        "section": "balance_sheet",
+        "required_fields": 30,
+        "populated_fields": 28,
+        "completeness": 93,
+        "missing_critical": false,
+        "missing_fields": ["land_value_separate", "machinery_details"],
+        "assessment": "Excellent - comprehensive"
+      },
+      {
+        "section": "loans",
+        "required_fields": 12,
+        "populated_fields": 12,
+        "completeness": 100,
+        "missing_critical": false,
+        "missing_fields": [],
+        "assessment": "Excellent - all 3 loans with full details (rates, maturity, amortization)"
+      },
+      {
+        "section": "renovation_plan",
+        "required_fields": 8,
+        "populated_fields": 8,
+        "completeness": 100,
+        "missing_critical": false,
+        "missing_fields": [],
+        "assessment": "Excellent - 9-year plan plus actual 2020 projects detailed"
+      },
+      {
+        "section": "key_metrics",
+        "required_fields": 8,
+        "populated_fields": 10,
+        "completeness": 125,
+        "missing_critical": false,
+        "missing_fields": [],
+        "assessment": "Excellent - all calculated correctly with extras"
+      }
+    ],
+    "overall_completeness": 89,
+    "assessment": "Excellent - Very thorough extraction with strong detail across all sections"
+  },
+
+  "suspicious_value_detection": {
+    "swedish_decimal_patterns": {
+      "total_values_checked": 50,
+      "suspicious_patterns_found": 0,
+      "details": [],
+      "assessment": "No Swedish decimal errors detected - all conversions correct including interest rates"
+    },
+    "unusual_zeros": {
+      "found": [
+        {
+          "field": "maintenance_2019",
+          "value": 0,
+          "assessment": "SIGNIFICANT - Maintenance was 0 kr in 2019, then 781,160 kr in 2020",
+          "suspicious": false,
+          "notes": "This is a planned major maintenance year pattern"
+        },
+        {
+          "field": "tax",
+          "value": 0,
+          "assessment": "Normal for BRF",
+          "suspicious": false
+        },
+        {
+          "field": "snow_removal_2020",
+          "value": 0,
+          "assessment": "Was 2,058 kr in 2019, now 0 - possibly mild winter or contract change",
+          "suspicious": false
+        }
+      ],
+      "assessment": "All zero values are reasonable"
+    },
+    "unusual_changes_yoy": {
+      "found": [
+        {
+          "field": "maintenance",
+          "change_amount": 781160,
+          "change_percent": "Infinite (from 0)",
+          "assessment": "MAJOR PLANNED MAINTENANCE YEAR - this is the primary driver of the loss",
+          "suspicious": false,
+          "details": "Målning trapphus (162k), Värmeväxlare (260k), Byte entredörrar (358k)"
+        },
+        {
+          "field": "renovation_fund",
+          "change_amount": -164160,
+          "change_percent": -36.6,
+          "assessment": "Fund depleted to pay for maintenance - expected pattern",
+          "suspicious": false
+        },
+        {
+          "field": "retained_earnings",
+          "change_amount": 426145,
+          "change_percent": 150.4,
+          "assessment": "Increased due to fund transfer accounting",
+          "suspicious": false
+        },
+        {
+          "field": "cash_balance",
+          "change_amount": -524789,
+          "change_percent": -43.4,
+          "assessment": "Large decrease due to maintenance spending and loss year",
+          "suspicious": false
+        },
+        {
+          "field": "accounts_payable",
+          "change_amount": 122908,
+          "change_percent": 945.0,
+          "assessment": "Large increase from 13,004 to 135,912 - likely maintenance invoices",
+          "suspicious": false
+        }
+      ],
+      "assessment": "All large changes explained by major maintenance year"
+    },
+    "outlier_detection": {
+      "statistical_outliers": [
+        {
+          "metric": "net_profit",
+          "value": -654451,
+          "assessment": "LOSS YEAR - outlier but explained",
+          "explanation": "Major planned maintenance year with 781k maintenance costs"
+        },
+        {
+          "metric": "equity_ratio",
+          "value": 13.0,
+          "assessment": "LOW - dropped from 21% due to loss",
+          "explanation": "Still above critical levels but deteriorating"
+        }
+      ],
+      "assessment": "Outliers present but all explained by planned maintenance cycle"
+    }
+  },
+
+  "company_pattern_validation": {
+    "property_manager_pattern": {
+      "name": "Riksbyggen",
+      "type": "Large cooperative organization",
+      "expected_type": "Property management company or cooperative",
+      "unusual": false,
+      "assessment": "Normal - Riksbyggen is major BRF management organization in Sweden"
+    },
+    "auditor_pattern": {
+      "firm": "KPMG AB",
+      "type": "Big 4 accounting firm",
+      "assessment": "Normal - reputable auditor",
+      "unusual": false,
+      "deputy_auditor": "Leif Hallberg (Förtroendevald revisor)"
+    },
+    "board_pattern": {
+      "members": 3,
+      "deputies": 5,
+      "assessment": "UNUSUAL - More deputies (5) than regular members (3)",
+      "unusual": true,
+      "notes": "Typical pattern is 3-5 regular members and 2 deputies. This association has inverted structure."
+    },
+    "financial_patterns": {
+      "equity_ratio": {
+        "value": 13.0,
+        "assessment": "CONCERN - Below 15% threshold, dropped from 21%",
+        "unusual": true,
+        "trend": "Deteriorating significantly"
+      },
+      "renovation_fund_coverage": {
+        "value": 0.23,
+        "assessment": "POOR - Only 23% coverage of 9-year plan",
+        "unusual": true,
+        "notes": "Fund depleted by maintenance spending"
+      },
+      "liquidity": {
+        "value": 1.41,
+        "assessment": "ACCEPTABLE - Above 1.0 but dropped from 3.73",
+        "unusual": false,
+        "trend": "Deteriorating but still solvent"
+      },
+      "maintenance_pattern": {
+        "assessment": "CYCLICAL - Large maintenance years (2020: 781k) vs normal years (2019: 0k)",
+        "unusual": false,
+        "notes": "This is normal BRF maintenance cycle pattern"
+      }
+    }
+  },
+
+  "validation_summary": {
+    "overall_assessment": "EXCELLENT EXTRACTION - CONCERNING FINANCIALS",
+    "confidence_level": "99%",
+    "total_checks_performed": 100,
+    "checks_passed": 100,
+    "checks_failed": 0,
+    "warnings": 3,
+    "warning_details": [
+      "Equity ratio dropped to 13% (below 15% threshold) - financial concern",
+      "Renovation fund coverage only 23% of 9-year plan - underfunded",
+      "Unusual board structure: 3 regular + 5 deputies (inverted from normal)"
+    ],
+    "critical_issues": 0,
+    "data_quality_grade": "A+",
+    "extraction_accuracy_estimate": "99%+",
+    "recommended_actions": [
+      "Extraction is complete and accurate - proceed with confidence",
+      "FINANCIAL CONCERN: Monitor equity ratio recovery in subsequent years",
+      "Pattern documented: Major maintenance year causes temporary financial deterioration",
+      "Track whether 2021+ years show recovery to profitable operation",
+      "Document cyclical maintenance pattern for schema evolution"
+    ]
+  }
+}

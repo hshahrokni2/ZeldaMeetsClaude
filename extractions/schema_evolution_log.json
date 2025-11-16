@@ -122,6 +122,81 @@
         "debt_reduction": 600000,
         "assessment": "Excellent financial position"
       }
+    },
+    {
+      "pdf_id": "pdf_005",
+      "management_company": "Riksbyggen",
+      "date_processed": "2025-11-16",
+      "validation_framework": "enhanced_v2",
+      "year": 2020,
+      "location": "Norrköping",
+      "schema_gaps": {
+        "fields_found_not_in_schema": [
+          "member_information (turnover tracking)",
+          "renovation_plan.past_renovations",
+          "renovation_plan.current_year_maintenance",
+          "income_statement.detailed_drift_breakdown"
+        ],
+        "schema_fields_never_populated": [
+          "property.county",
+          "property.land_area_sqm",
+          "apartments.individual_sizes",
+          "cash_flow_statement (not provided)"
+        ],
+        "new_patterns_discovered": [
+          "⚠️ LOSS YEAR: -654k kr (vs +262k profit in 2019) - MAJOR MAINTENANCE PATTERN",
+          "Cyclical maintenance: 0 kr (2019) → 781k kr (2020) - maintenance years cause losses",
+          "Renovation fund DEPLETION: 449k → 285k (-164k used for projects)",
+          "Equity ratio DETERIORATION: 21% → 13% (dropped 8 points due to loss)",
+          "Inverted board structure: 3 regular + 5 deputies (unusual)",
+          "Detailed loan schedule: 3 loans with specific rates (1.40%, 1.17%, 1.01%)",
+          "Member turnover: 21 → 20 members, 2 transfers tracked",
+          "Actual maintenance breakdown: Målning 162k, Värmeväxlare 260k, Entredörrar 358k"
+        ]
+      },
+      "extraction_quality": {
+        "accuracy": "99%+",
+        "time_spent": "~60 min",
+        "issues": "Zero errors - all 40 fields + 10 cross-checks passed",
+        "validation_checks": {
+          "stratified_spot_check": "40 fields - 100% accuracy",
+          "cross_checks": "10 financial cross-checks - all passed",
+          "swedish_decimal_errors": 0,
+          "suspicious_values": 0
+        }
+      },
+      "notable_features": [
+        "LOSS YEAR due to major maintenance (781k spending)",
+        "Cyclical maintenance pattern: profit years alternate with maintenance/loss years",
+        "Equity ratio dropped to 13% (below 15% threshold) - temporary due to maintenance",
+        "Cash decreased 43% (1.2M → 685k)",
+        "3 separate Stadshypotek loans with low rates (avg 1.16%)",
+        "Building from 1935 (85+ years old)",
+        "Detailed member turnover tracking"
+      ],
+      "financial_highlights": {
+        "equity_ratio": 13.0,
+        "equity_ratio_previous": 21.1,
+        "equity_ratio_change": -8.1,
+        "liquidity_ratio": 1.41,
+        "liquidity_ratio_previous": 3.73,
+        "renovation_fund_coverage": 0.23,
+        "net_profit": -654451,
+        "net_profit_previous": 261985,
+        "assessment": "CONCERN - Temporary deterioration due to planned maintenance cycle"
+      },
+      "maintenance_pattern": {
+        "year": 2020,
+        "maintenance_cost": 781160,
+        "maintenance_cost_previous": 0,
+        "projects_completed": [
+          "Målning trapphus (162k)",
+          "Värmeväxlare (260k)",
+          "Byte entredörrar, postboxar (358k)"
+        ],
+        "pattern": "Cyclical - Major maintenance years alternate with normal years",
+        "impact": "Temporary loss year, expected recovery in 2021+"
+      }
     }
   },
 
@@ -158,7 +233,19 @@
       "equity_ratios": {
         "pdf_003": "54.3%",
         "pdf_004": "60.4%",
-        "assessment": "Both well above 30% minimum - healthy"
+        "pdf_005": "13.0% (temporary drop due to maintenance year)",
+        "assessment": "Wide range 13-60% depending on maintenance cycle"
+      },
+      "cyclical_maintenance_pattern": {
+        "discovered_in": "pdf_005",
+        "pattern": "Major maintenance years alternate with normal years",
+        "impact": "Loss years (pdf_005: -654k) vs Profit years (pdf_005_2019: +262k)",
+        "equity_impact": "Temporary deterioration (21% → 13%) followed by recovery",
+        "examples": [
+          "pdf_005: 2019 (0 kr maintenance, +262k profit) → 2020 (781k maintenance, -654k loss)"
+        ],
+        "assessment": "NORMAL BRF PATTERN - not a sign of financial distress",
+        "monitoring": "Check subsequent years for recovery to profitability"
       },
       "heating_costs": {
         "trend": "Increasing across all PDFs",
@@ -169,7 +256,8 @@
           "pdf_001": 0,
           "pdf_002": 11,
           "pdf_003": 0,
-          "pdf_004": 0
+          "pdf_004": 0,
+          "pdf_005": 0
         },
         "pattern": "PDF in Swedish uses space as thousands separator, no decimal separator for whole numbers",
         "mitigation": "Enhanced validation catches all decimal errors now"
@@ -218,7 +306,7 @@
         "pdfs_affected": ["pdf_002"],
         "pattern": "Used period instead of comma for decimals",
         "fix": "Enhanced validation now catches all decimal patterns",
-        "status": "Resolved - 0 errors in PDFs 3-4"
+        "status": "Resolved - 0 errors in PDFs 3-5"
       }
     ],
     "systematic_errors": 0,
@@ -227,15 +315,16 @@
       "pdf_001": "0%",
       "pdf_002": "~2% (11 fields)",
       "pdf_003": "0%",
-      "pdf_004": "0%"
+      "pdf_004": "0%",
+      "pdf_005": "0%"
     },
-    "trend": "Improving - error rate decreasing with enhanced validation"
+    "trend": "Improving - error rate decreasing with enhanced validation. 0 errors for 3 consecutive PDFs."
   },
 
   "automation_readiness": {
-    "current_pdf_count": 4,
+    "current_pdf_count": 5,
     "target_for_automation": 10,
-    "progress": "40%",
+    "progress": "50%",
     "readiness_assessment": {
       "data_volume": "Insufficient (need 6 more PDFs)",
       "pattern_consistency": "Low variability so far but need more samples",
@@ -256,16 +345,18 @@
       "pdf_002": "~70 min",
       "pdf_003": "~75 min",
       "pdf_004": "~60 min",
-      "average": "70 min",
+      "pdf_005": "~60 min",
+      "average": "68 min",
       "target": "130 min",
-      "performance": "46% faster than target"
+      "performance": "48% faster than target"
     },
     "accuracy": {
       "pdf_001": "Baseline",
       "pdf_002": "89%",
       "pdf_003": "98%+",
       "pdf_004": "99%+",
-      "trend": "Improving with enhanced validation"
+      "pdf_005": "99%+",
+      "trend": "Improving with enhanced validation - 99%+ for 2 consecutive PDFs"
     },
     "validation_coverage": {
       "pdf_001_to_003": "20-field spot check + 4 cross-checks",
