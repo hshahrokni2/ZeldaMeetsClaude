@@ -1,10 +1,1091 @@
 {
   "queue_version": "1.0.0",
-  "last_updated": "2025-11-17T00:00:00Z",
-  "total_pdfs": 0,
+  "last_updated": "2025-11-17T17:00:29.650635",
+  "total_pdfs": 62,
   "completed": 0,
   "processing": 0,
-  "pending": 0,
+  "pending": 62,
   "failed": 0,
-  "pdfs": []
+  "pdfs": [
+    {
+      "id": "brf_axet_4",
+      "filename": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8784,
+        "added_date": "2025-11-17T17:00:29.645714",
+        "location": "Norrköping",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_granen_18",
+      "filename": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "path": "pdfs/267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 16989,
+        "added_date": "2025-11-17T17:00:29.645818",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_hörnhuset",
+      "filename": "269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+      "path": "pdfs/269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 9489,
+        "added_date": "2025-11-17T17:00:29.645915",
+        "location": "Malmö",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_torshällahus_nr_1",
+      "filename": "269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf",
+      "path": "pdfs/269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8400,
+        "added_date": "2025-11-17T17:00:29.646011",
+        "location": "Eskilstuna",
+        "characteristics": [
+          "riksbyggen"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_älvsbacka_strand_3",
+      "filename": "270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "path": "pdfs/270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 12875,
+        "added_date": "2025-11-17T17:00:29.646103",
+        "location": "unknown",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_musketören_10",
+      "filename": "277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+      "path": "pdfs/277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8926,
+        "added_date": "2025-11-17T17:00:29.646179",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_the_brick_terra",
+      "filename": "278354_årsredovisning_stockholm_brf_the_brick_terra.pdf",
+      "path": "pdfs/278354_årsredovisning_stockholm_brf_the_brick_terra.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 611,
+        "added_date": "2025-11-17T17:00:29.646254",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_krondiket",
+      "filename": "278531_årsredovisning_falun_brf_krondiket.pdf",
+      "path": "pdfs/278531_årsredovisning_falun_brf_krondiket.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 20219,
+        "added_date": "2025-11-17T17:00:29.646352",
+        "location": "Falun",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_stäppan",
+      "filename": "281330_årsredovisning_leksand_brf_stäppan.pdf",
+      "path": "pdfs/281330_årsredovisning_leksand_brf_stäppan.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 338,
+        "added_date": "2025-11-17T17:00:29.646431",
+        "location": "Leksand",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_kulingen_6",
+      "filename": "44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+      "path": "pdfs/44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 10070,
+        "added_date": "2025-11-17T17:00:29.646507",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_yk_huset",
+      "filename": "44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+      "path": "pdfs/44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 14342,
+        "added_date": "2025-11-17T17:00:29.646583",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_stugan_2",
+      "filename": "49908_årsredovisning_sundbyberg_brf_stugan_2.pdf",
+      "path": "pdfs/49908_årsredovisning_sundbyberg_brf_stugan_2.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 10693,
+        "added_date": "2025-11-17T17:00:29.646663",
+        "location": "Sundbyberg",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_lönnen",
+      "filename": "51223_årsredovisning_jönköping_brf_lönnen.pdf",
+      "path": "pdfs/51223_årsredovisning_jönköping_brf_lönnen.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2829,
+        "added_date": "2025-11-17T17:00:29.646750",
+        "location": "Jönköping",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_smultronstället_i_ytterby",
+      "filename": "52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf",
+      "path": "pdfs/52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 764,
+        "added_date": "2025-11-17T17:00:29.646828",
+        "location": "Kungälv",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_marketenteriet_i_nacka",
+      "filename": "53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "path": "pdfs/53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 574,
+        "added_date": "2025-11-17T17:00:29.646907",
+        "location": "Nacka",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_kastanjen_4_5",
+      "filename": "54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf",
+      "path": "pdfs/54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 18959,
+        "added_date": "2025-11-17T17:00:29.647009",
+        "location": "Södertälje",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_lekerydshus_nr_1",
+      "filename": "55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+      "path": "pdfs/55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 10912,
+        "added_date": "2025-11-17T17:00:29.647113",
+        "location": "Jönköping",
+        "characteristics": [
+          "riksbyggen"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_husberget",
+      "filename": "78954_årsredovisning_solna_brf_husberget.pdf",
+      "path": "pdfs/78954_årsredovisning_solna_brf_husberget.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 423,
+        "added_date": "2025-11-17T17:00:29.647216",
+        "location": "Solna",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_roslagsbanan_12",
+      "filename": "79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf",
+      "path": "pdfs/79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 1448,
+        "added_date": "2025-11-17T17:00:29.647292",
+        "location": "Stockholm",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_vipemöllan_3",
+      "filename": "82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+      "path": "pdfs/82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 10631,
+        "added_date": "2025-11-17T17:00:29.647408",
+        "location": "Lund",
+        "characteristics": []
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_266956",
+      "filename": "brf_266956.pdf",
+      "path": "pdfs/hjorthagen/brf_266956.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2997,
+        "added_date": "2025-11-17T17:00:29.647502",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_268411",
+      "filename": "brf_268411.pdf",
+      "path": "pdfs/hjorthagen/brf_268411.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 730,
+        "added_date": "2025-11-17T17:00:29.647590",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_268882",
+      "filename": "brf_268882.pdf",
+      "path": "pdfs/hjorthagen/brf_268882.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 1041,
+        "added_date": "2025-11-17T17:00:29.647664",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_271852",
+      "filename": "brf_271852.pdf",
+      "path": "pdfs/hjorthagen/brf_271852.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 792,
+        "added_date": "2025-11-17T17:00:29.647737",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_271949",
+      "filename": "brf_271949.pdf",
+      "path": "pdfs/hjorthagen/brf_271949.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 1416,
+        "added_date": "2025-11-17T17:00:29.647837",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_44232",
+      "filename": "brf_44232.pdf",
+      "path": "pdfs/hjorthagen/brf_44232.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 1730,
+        "added_date": "2025-11-17T17:00:29.647925",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_46160",
+      "filename": "brf_46160.pdf",
+      "path": "pdfs/hjorthagen/brf_46160.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 438,
+        "added_date": "2025-11-17T17:00:29.648016",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_48574",
+      "filename": "brf_48574.pdf",
+      "path": "pdfs/hjorthagen/brf_48574.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2262,
+        "added_date": "2025-11-17T17:00:29.648112",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_48893",
+      "filename": "brf_48893.pdf",
+      "path": "pdfs/hjorthagen/brf_48893.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 659,
+        "added_date": "2025-11-17T17:00:29.648186",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_49369",
+      "filename": "brf_49369.pdf",
+      "path": "pdfs/hjorthagen/brf_49369.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 685,
+        "added_date": "2025-11-17T17:00:29.648257",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_58306",
+      "filename": "brf_58306.pdf",
+      "path": "pdfs/hjorthagen/brf_58306.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 925,
+        "added_date": "2025-11-17T17:00:29.648338",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_78906",
+      "filename": "brf_78906.pdf",
+      "path": "pdfs/hjorthagen/brf_78906.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 6075,
+        "added_date": "2025-11-17T17:00:29.648413",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_79568",
+      "filename": "brf_79568.pdf",
+      "path": "pdfs/hjorthagen/brf_79568.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 553,
+        "added_date": "2025-11-17T17:00:29.648483",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_81563",
+      "filename": "brf_81563.pdf",
+      "path": "pdfs/hjorthagen/brf_81563.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8964,
+        "added_date": "2025-11-17T17:00:29.648556",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_82841",
+      "filename": "brf_82841.pdf",
+      "path": "pdfs/hjorthagen/brf_82841.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2161,
+        "added_date": "2025-11-17T17:00:29.648628",
+        "location": "Stockholm/Hjorthagen",
+        "characteristics": [
+          "hjorthagen_area"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_198532",
+      "filename": "brf_198532.pdf",
+      "path": "pdfs/srs/brf_198532.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 464,
+        "added_date": "2025-11-17T17:00:29.648753",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_275608",
+      "filename": "brf_275608.pdf",
+      "path": "pdfs/srs/brf_275608.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 918,
+        "added_date": "2025-11-17T17:00:29.648830",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_276507",
+      "filename": "brf_276507.pdf",
+      "path": "pdfs/srs/brf_276507.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2600,
+        "added_date": "2025-11-17T17:00:29.648903",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_276629",
+      "filename": "brf_276629.pdf",
+      "path": "pdfs/srs/brf_276629.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 4393,
+        "added_date": "2025-11-17T17:00:29.648973",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_276796",
+      "filename": "brf_276796.pdf",
+      "path": "pdfs/srs/brf_276796.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 690,
+        "added_date": "2025-11-17T17:00:29.649045",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_280938",
+      "filename": "brf_280938.pdf",
+      "path": "pdfs/srs/brf_280938.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 664,
+        "added_date": "2025-11-17T17:00:29.649118",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_282765",
+      "filename": "brf_282765.pdf",
+      "path": "pdfs/srs/brf_282765.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8239,
+        "added_date": "2025-11-17T17:00:29.649200",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_43334",
+      "filename": "brf_43334.pdf",
+      "path": "pdfs/srs/brf_43334.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 4940,
+        "added_date": "2025-11-17T17:00:29.649280",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_47809",
+      "filename": "brf_47809.pdf",
+      "path": "pdfs/srs/brf_47809.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 6459,
+        "added_date": "2025-11-17T17:00:29.649362",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_47903",
+      "filename": "brf_47903.pdf",
+      "path": "pdfs/srs/brf_47903.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 691,
+        "added_date": "2025-11-17T17:00:29.649440",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_48663",
+      "filename": "brf_48663.pdf",
+      "path": "pdfs/srs/brf_48663.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 404,
+        "added_date": "2025-11-17T17:00:29.649508",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_52576",
+      "filename": "brf_52576.pdf",
+      "path": "pdfs/srs/brf_52576.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 299,
+        "added_date": "2025-11-17T17:00:29.649576",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_53107",
+      "filename": "brf_53107.pdf",
+      "path": "pdfs/srs/brf_53107.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 11037,
+        "added_date": "2025-11-17T17:00:29.649642",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_53546",
+      "filename": "brf_53546.pdf",
+      "path": "pdfs/srs/brf_53546.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 729,
+        "added_date": "2025-11-17T17:00:29.649709",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_54015",
+      "filename": "brf_54015.pdf",
+      "path": "pdfs/srs/brf_54015.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 2668,
+        "added_date": "2025-11-17T17:00:29.649776",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_57125",
+      "filename": "brf_57125.pdf",
+      "path": "pdfs/srs/brf_57125.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 10477,
+        "added_date": "2025-11-17T17:00:29.649844",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_58256",
+      "filename": "brf_58256.pdf",
+      "path": "pdfs/srs/brf_58256.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 307,
+        "added_date": "2025-11-17T17:00:29.649938",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_76536",
+      "filename": "brf_76536.pdf",
+      "path": "pdfs/srs/brf_76536.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 9041,
+        "added_date": "2025-11-17T17:00:29.650007",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_77241",
+      "filename": "brf_77241.pdf",
+      "path": "pdfs/srs/brf_77241.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 382,
+        "added_date": "2025-11-17T17:00:29.650075",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_78564",
+      "filename": "brf_78564.pdf",
+      "path": "pdfs/srs/brf_78564.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 1100,
+        "added_date": "2025-11-17T17:00:29.650142",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_78730",
+      "filename": "brf_78730.pdf",
+      "path": "pdfs/srs/brf_78730.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 6074,
+        "added_date": "2025-11-17T17:00:29.650208",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_79101",
+      "filename": "brf_79101.pdf",
+      "path": "pdfs/srs/brf_79101.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 757,
+        "added_date": "2025-11-17T17:00:29.650275",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_79510",
+      "filename": "brf_79510.pdf",
+      "path": "pdfs/srs/brf_79510.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 336,
+        "added_date": "2025-11-17T17:00:29.650356",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_80193",
+      "filename": "brf_80193.pdf",
+      "path": "pdfs/srs/brf_80193.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 5625,
+        "added_date": "2025-11-17T17:00:29.650423",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_81732",
+      "filename": "brf_81732.pdf",
+      "path": "pdfs/srs/brf_81732.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 933,
+        "added_date": "2025-11-17T17:00:29.650491",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_82839",
+      "filename": "brf_82839.pdf",
+      "path": "pdfs/srs/brf_82839.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 676,
+        "added_date": "2025-11-17T17:00:29.650561",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    },
+    {
+      "id": "brf_83301",
+      "filename": "brf_83301.pdf",
+      "path": "pdfs/srs/brf_83301.pdf",
+      "status": "pending",
+      "priority": 1,
+      "metadata": {
+        "fiscal_year": null,
+        "pages": null,
+        "size_kb": 8392,
+        "added_date": "2025-11-17T17:00:29.650628",
+        "location": "unknown",
+        "characteristics": [
+          "srs_collection"
+        ]
+      },
+      "session_history": []
+    }
+  ]
 }
