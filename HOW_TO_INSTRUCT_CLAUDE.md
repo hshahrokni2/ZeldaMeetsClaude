@@ -1,11 +1,62 @@
 # How to Instruct Claude: Enforcing Maximum Rigor
 
 **Purpose**: Instructions for how to tell Claude to follow the Rigor Protocol on every task
-**Version**: 1.0.0
+**Version**: 2.0.0 (Now includes Autonomous Session Protocol)
 
 ---
 
-## 🎯 TL;DR - Copy-Paste This at Session Start
+## 🚀 AUTONOMOUS MODE - Process One PDF (RECOMMENDED)
+
+**Most common use case:** Process PDFs one-by-one with full extraction + learning + documentation
+
+### Master Prompt (Copy-Paste This)
+
+```
+AUTONOMOUS SESSION - PROCESS NEXT PDF
+
+Protocol: AUTONOMOUS_SESSION_PROTOCOL.md
+Rigor: RIGOR_PROTOCOL.md
+Mode: FULL AUTOMATION
+
+Execute complete pipeline:
+1. PDF Selection & Lock
+2. Extraction with Rigor
+3. Validation & Analysis
+4. Learning Documentation
+5. Commit & Unlock
+
+Session ID: [GENERATE: session_YYYYMMDD_HHMMSS]
+
+BEGIN AUTONOMOUS EXECUTION
+```
+
+**What this does:**
+- ✅ Selects next available PDF from queue (locks it)
+- ✅ Runs complete extraction pipeline (sectionization → agents → aggregation)
+- ✅ Validates results (schema, equations, cross-field checks)
+- ✅ Documents learnings (what worked, what failed, new blind spots)
+- ✅ Updates pattern files (PATTERNS_THAT_WORK.md, PATTERNS_TO_AVOID.md)
+- ✅ Updates CHANGELOG.md with session summary
+- ✅ Commits everything (results + learnings + queue update)
+- ✅ Unlocks PDF and reports completion
+- ✅ Ready for next PDF immediately
+
+**For parallel processing (10 sessions):**
+Open 10 Claude sessions, paste the master prompt in each. They will:
+- Each lock a different PDF (no conflicts)
+- Process in parallel
+- Commit independently
+- Learn and improve the system compound-style
+
+See `AUTONOMOUS_SESSION_PROTOCOL.md` for full 37-step checklist.
+
+---
+
+## 🎯 MANUAL MODE - For Specific Tasks
+
+**Use when:** You need to revise prompts/validators/schemas (not process PDFs)
+
+### Manual Rigor Prompt (Copy-Paste This)
 
 ```
 RIGOR PROTOCOL ENABLED
