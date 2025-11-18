@@ -1,0 +1,200 @@
+{
+  "sessionId": "session_20251118_022852",
+  "pdfPath": "/home/user/ZeldaMeetsClaude/pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "pdfName": "267197_årsredovisning_norrköping_brf_axet_4",
+  "startTime": "2025-11-18T02:28:52.528Z",
+  "endTime": "2025-11-18T02:28:54.446Z",
+  "duration": 1.918,
+  "totalCost": 0.8718712842416383,
+  "agentResults": [
+    {
+      "agentId": "chairman_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 8,
+      "fieldsTotal": 9,
+      "confidence": 0.746571501857682,
+      "duration": 8.709995807508342,
+      "cost": 0.03926967372964563
+    },
+    {
+      "agentId": "board_members_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 10,
+      "fieldsTotal": 11,
+      "confidence": 0.8289168406741948,
+      "duration": 7.357665953577845,
+      "cost": 0.06522418161528867
+    },
+    {
+      "agentId": "auditor_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 4,
+      "fieldsTotal": 6,
+      "confidence": 0.8201801754197947,
+      "duration": 3.517306482472728,
+      "cost": 0.023728967167511432
+    },
+    {
+      "agentId": "financial_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 6,
+      "fieldsTotal": 7,
+      "confidence": 0.7171235222118871,
+      "duration": 4.081416309044428,
+      "cost": 0.029077979933883762
+    },
+    {
+      "agentId": "balance_sheet_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 2,
+      "fieldsTotal": 4,
+      "confidence": 0.8956349250354143,
+      "duration": 6.161964774865346,
+      "cost": 0.06345460427248065
+    },
+    {
+      "agentId": "cashflow_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 7,
+      "fieldsTotal": 8,
+      "confidence": 0.9633210358255019,
+      "duration": 9.750925844286636,
+      "cost": 0.05982643604589197
+    },
+    {
+      "agentId": "property_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 5,
+      "fieldsTotal": 6,
+      "confidence": 0.7034682206139276,
+      "duration": 4.341339193127487,
+      "cost": 0.029806869686774113
+    },
+    {
+      "agentId": "fees_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 2,
+      "fieldsTotal": 3,
+      "confidence": 0.8572172788880629,
+      "duration": 3.2960298858288706,
+      "cost": 0.02350887520771608
+    },
+    {
+      "agentId": "operational_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 6,
+      "fieldsTotal": 7,
+      "confidence": 0.8532106031737039,
+      "duration": 3.1114100274799874,
+      "cost": 0.037497114422015074
+    },
+    {
+      "agentId": "notes_depreciation_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 8,
+      "fieldsTotal": 11,
+      "confidence": 0.7793482969996556,
+      "duration": 7.385029986127668,
+      "cost": 0.06331038306754205
+    },
+    {
+      "agentId": "notes_maintenance_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 6,
+      "fieldsTotal": 7,
+      "confidence": 0.8405010272980353,
+      "duration": 2.89610478671721,
+      "cost": 0.023830779871661704
+    },
+    {
+      "agentId": "notes_tax_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 2,
+      "fieldsTotal": 3,
+      "confidence": 0.965746667161441,
+      "duration": 9.756272782134575,
+      "cost": 0.04465407522935791
+    },
+    {
+      "agentId": "events_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 2,
+      "fieldsTotal": 3,
+      "confidence": 0.7764840417102333,
+      "duration": 7.856774854255962,
+      "cost": 0.028292315636482997
+    },
+    {
+      "agentId": "audit_report_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 9,
+      "fieldsTotal": 10,
+      "confidence": 0.8994637120033919,
+      "duration": 8.268339912235284,
+      "cost": 0.05768445894475907
+    },
+    {
+      "agentId": "loans_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 10,
+      "fieldsTotal": 11,
+      "confidence": 0.8417557613505958,
+      "duration": 4.544240446237842,
+      "cost": 0.03417680374676993
+    },
+    {
+      "agentId": "reserves_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 3,
+      "fieldsTotal": 4,
+      "confidence": 0.9954298977195092,
+      "duration": 6.6459653812090576,
+      "cost": 0.05851179429336459
+    },
+    {
+      "agentId": "energy_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 3,
+      "fieldsTotal": 4,
+      "confidence": 0.9066903433526377,
+      "duration": 6.102601408150614,
+      "cost": 0.062059324072655644
+    },
+    {
+      "agentId": "operating_costs_agent",
+      "status": "SUCCESS",
+      "fieldsExtracted": 9,
+      "fieldsTotal": 10,
+      "confidence": 0.911346964032726,
+      "duration": 4.112097499475073,
+      "cost": 0.04626373264332406
+    },
+    {
+      "agentId": "key_metrics_agent",
+      "status": "PARTIAL",
+      "fieldsExtracted": 2,
+      "fieldsTotal": 3,
+      "confidence": 0.8363531038145993,
+      "duration": 4.514692770775607,
+      "cost": 0.03169291465451288
+    }
+  ],
+  "summary": {
+    "totalFields": 104,
+    "highConfidence": 9,
+    "mediumConfidence": 10,
+    "lowConfidence": 0,
+    "averageConfidence": 0.8494086273233156
+  },
+  "validation": {
+    "balanceSheetPass": true,
+    "crossFieldChecksPassed": 12,
+    "crossFieldChecksTotal": 12,
+    "sanityChecksPassed": 18,
+    "sanityChecksTotal": 20,
+    "warnings": [
+      "energy_class not found in document",
+      "heating_type not found in document"
+    ]
+  }
+}
