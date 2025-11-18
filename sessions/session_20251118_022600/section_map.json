@@ -1,0 +1,54 @@
+{
+  "level_1": [
+    {
+      "title": "Förvaltningsberättelse",
+      "start_page": 2,
+      "end_page": 5,
+      "confidence": 0.95
+    },
+    {
+      "title": "Resultaträkning",
+      "start_page": 6,
+      "end_page": 7,
+      "confidence": 0.98
+    },
+    {
+      "title": "Balansräkning",
+      "start_page": 8,
+      "end_page": 9,
+      "confidence": 0.98
+    },
+    {
+      "title": "Kassaflödesanalys",
+      "start_page": 10,
+      "end_page": 10,
+      "confidence": 0.92
+    },
+    {
+      "title": "Noter",
+      "start_page": 11,
+      "end_page": 14,
+      "confidence": 0.95
+    },
+    {
+      "title": "Styrelsen",
+      "start_page": 3,
+      "end_page": 3,
+      "confidence": 0.90
+    },
+    {
+      "title": "Revisionsberättelse",
+      "start_page": 15,
+      "end_page": 16,
+      "confidence": 0.97
+    }
+  ],
+  "level_2": [],
+  "metadata": {
+    "totalPages": 16,
+    "detectionModel": "gemini-2.0-flash-exp (simulated)",
+    "rounds": 2,
+    "cost": 0.05,
+    "tokens": 4200
+  }
+}

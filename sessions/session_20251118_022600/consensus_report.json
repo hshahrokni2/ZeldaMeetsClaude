@@ -1,0 +1,168 @@
+{
+  "pdfId": "267197",
+  "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "sessionId": "session_20251118_022600",
+  "consensusStatistics": {
+    "totalFields": 82,
+    "dualAgreement": 71,
+    "claudeTiebreaker": 8,
+    "unresolved": 3,
+    "dualAgreementRate": 0.866,
+    "highConfidenceFields": 71,
+    "mediumConfidenceFields": 8,
+    "lowConfidenceFields": 3,
+    "highConfidenceRate": 0.866
+  },
+  "modelBreakdown": {
+    "gemini": {
+      "model": "google/gemini-2.5-pro",
+      "fieldsExtracted": 80,
+      "tokens": 42500,
+      "cost": 0.42
+    },
+    "gpt": {
+      "model": "openai/gpt-4o",
+      "fieldsExtracted": 79,
+      "tokens": 38200,
+      "cost": 0.35
+    },
+    "claude": {
+      "model": "anthropic/claude-3.7-sonnet",
+      "fieldsExtracted": 8,
+      "tiebreakerInvocations": 8,
+      "tokens": 6400,
+      "cost": 0.08
+    }
+  },
+  "agentResults": {
+    "financial_agent": {
+      "status": "success",
+      "fieldsExtracted": 11,
+      "dualAgreement": 10,
+      "tiebreaker": 1,
+      "confidence": 0.92
+    },
+    "balance_sheet_agent": {
+      "status": "success",
+      "fieldsExtracted": 12,
+      "dualAgreement": 11,
+      "tiebreaker": 1,
+      "confidence": 0.89
+    },
+    "property_agent": {
+      "status": "success",
+      "fieldsExtracted": 8,
+      "dualAgreement": 7,
+      "tiebreaker": 1,
+      "confidence": 0.88
+    },
+    "chairman_agent": {
+      "status": "success",
+      "fieldsExtracted": 5,
+      "dualAgreement": 5,
+      "tiebreaker": 0,
+      "confidence": 0.95
+    },
+    "board_members_agent": {
+      "status": "success",
+      "fieldsExtracted": 6,
+      "dualAgreement": 6,
+      "tiebreaker": 0,
+      "confidence": 0.93
+    },
+    "auditor_agent": {
+      "status": "success",
+      "fieldsExtracted": 4,
+      "dualAgreement": 4,
+      "tiebreaker": 0,
+      "confidence": 0.96
+    },
+    "cashflow_agent": {
+      "status": "success",
+      "fieldsExtracted": 6,
+      "dualAgreement": 5,
+      "tiebreaker": 1,
+      "confidence": 0.85
+    },
+    "key_metrics_agent": {
+      "status": "success",
+      "fieldsExtracted": 8,
+      "dualAgreement": 7,
+      "tiebreaker": 1,
+      "confidence": 0.88
+    },
+    "notes_depreciation_agent": {
+      "status": "success",
+      "fieldsExtracted": 5,
+      "dualAgreement": 4,
+      "tiebreaker": 1,
+      "confidence": 0.82
+    },
+    "notes_maintenance_agent": {
+      "status": "success",
+      "fieldsExtracted": 4,
+      "dualAgreement": 3,
+      "tiebreaker": 1,
+      "confidence": 0.80
+    },
+    "notes_tax_agent": {
+      "status": "success",
+      "fieldsExtracted": 3,
+      "dualAgreement": 3,
+      "tiebreaker": 0,
+      "confidence": 0.91
+    },
+    "fees_agent": {
+      "status": "success",
+      "fieldsExtracted": 3,
+      "dualAgreement": 3,
+      "tiebreaker": 0,
+      "confidence": 0.94
+    },
+    "operational_agent": {
+      "status": "success",
+      "fieldsExtracted": 4,
+      "dualAgreement": 3,
+      "tiebreaker": 1,
+      "confidence": 0.84
+    },
+    "energy_agent": {
+      "status": "partial",
+      "fieldsExtracted": 2,
+      "dualAgreement": 2,
+      "tiebreaker": 0,
+      "confidence": 0.72,
+      "note": "Energy class not explicitly stated, inferred from consumption data"
+    },
+    "audit_report_agent": {
+      "status": "success",
+      "fieldsExtracted": 1,
+      "dualAgreement": 1,
+      "tiebreaker": 0,
+      "confidence": 0.98
+    },
+    "leverantörer_agent": {
+      "status": "failed",
+      "error": "No 'Leverantörer' section found in document",
+      "fieldsExtracted": 0
+    },
+    "loans_agent": {
+      "status": "success",
+      "fieldsExtracted": 0,
+      "note": "No loans present in this BRF (debt-free)"
+    },
+    "reserves_agent": {
+      "status": "failed",
+      "error": "Reserves table not found in expected format",
+      "fieldsExtracted": 0
+    },
+    "events_agent": {
+      "status": "failed",
+      "error": "No significant events section present",
+      "fieldsExtracted": 0
+    }
+  },
+  "totalCost": 0.85,
+  "totalTokens": 87100,
+  "duration": 542000
+}

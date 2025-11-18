@@ -1,0 +1,365 @@
+{
+  "pdfId": "267197",
+  "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "sessionId": "session_20251118_022600",
+  "extractedAt": "2025-11-18T02:26:00Z",
+  "linkage": {
+    "brfId": "267197",
+    "brfName": "BRF Axet 4",
+    "propertyDesignation": "Axet 4",
+    "city": "Norrköping",
+    "zeldadbReady": true,
+    "gripendbReady": true
+  },
+  "data": {
+    "total_revenue_tkr": {
+      "value": 8450,
+      "confidence": 0.95,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "8 450 tkr"
+    },
+    "maintenance_costs_tkr": {
+      "value": 2340,
+      "confidence": 0.92,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "2 340 tkr"
+    },
+    "operational_costs_tkr": {
+      "value": 3120,
+      "confidence": 0.94,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "3 120 tkr"
+    },
+    "administration_costs_tkr": {
+      "value": 780,
+      "confidence": 0.91,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "780 tkr"
+    },
+    "energy_costs_tkr": {
+      "value": 1450,
+      "confidence": 0.93,
+      "evidence_pages": [6, 11],
+      "source": "dual_agreement",
+      "original_string": "1 450 tkr"
+    },
+    "total_expenses_tkr": {
+      "value": 7690,
+      "confidence": 0.96,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "7 690 tkr"
+    },
+    "net_income_tkr": {
+      "value": 760,
+      "confidence": 0.97,
+      "evidence_pages": [6],
+      "source": "dual_agreement",
+      "original_string": "760 tkr"
+    },
+    "total_assets_tkr": {
+      "value": 45200,
+      "confidence": 0.89,
+      "evidence_pages": [8],
+      "source": "dual_agreement",
+      "original_string": "45 200 tkr"
+    },
+    "total_liabilities_tkr": {
+      "value": 12400,
+      "confidence": 0.88,
+      "evidence_pages": [9],
+      "source": "claude_tiebreaker",
+      "original_string": "12 400 tkr",
+      "tiebreakerReason": "Gemini read 12,400, GPT read 12,500 (OCR confusion on last digit)"
+    },
+    "total_equity_tkr": {
+      "value": 32800,
+      "confidence": 0.90,
+      "evidence_pages": [9],
+      "source": "dual_agreement",
+      "original_string": "32 800 tkr"
+    },
+    "building_value_tkr": {
+      "value": 42000,
+      "confidence": 0.87,
+      "evidence_pages": [8, 11],
+      "source": "dual_agreement",
+      "original_string": "42 000 tkr"
+    },
+    "accumulated_depreciation_tkr": {
+      "value": -8200,
+      "confidence": 0.85,
+      "evidence_pages": [11],
+      "source": "claude_tiebreaker",
+      "original_string": "-8 200 tkr",
+      "tiebreakerReason": "Gemini and GPT disagreed on sign convention"
+    },
+    "cash_and_equivalents_tkr": {
+      "value": 2850,
+      "confidence": 0.94,
+      "evidence_pages": [8],
+      "source": "dual_agreement",
+      "original_string": "2 850 tkr"
+    },
+    "accounts_receivable_tkr": {
+      "value": 120,
+      "confidence": 0.88,
+      "evidence_pages": [8],
+      "source": "dual_agreement",
+      "original_string": "120 tkr"
+    },
+    "prepaid_expenses_tkr": {
+      "value": 180,
+      "confidence": 0.91,
+      "evidence_pages": [8],
+      "source": "dual_agreement",
+      "original_string": "180 tkr"
+    },
+    "accounts_payable_tkr": {
+      "value": 340,
+      "confidence": 0.89,
+      "evidence_pages": [9],
+      "source": "dual_agreement",
+      "original_string": "340 tkr"
+    },
+    "accrued_expenses_tkr": {
+      "value": 560,
+      "confidence": 0.90,
+      "evidence_pages": [9],
+      "source": "dual_agreement",
+      "original_string": "560 tkr"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 0,
+      "confidence": 0.98,
+      "evidence_pages": [9],
+      "source": "dual_agreement",
+      "original_string": "Inga långfristiga skulder"
+    },
+    "chairman_name": {
+      "value": "Anders Eriksson",
+      "confidence": 0.95,
+      "evidence_pages": [3],
+      "source": "dual_agreement",
+      "original_string": "Anders Eriksson, Styrelseordförande"
+    },
+    "chairman_org_number": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "source": "not_found",
+      "original_string": null
+    },
+    "board_member_count": {
+      "value": 5,
+      "confidence": 0.93,
+      "evidence_pages": [3],
+      "source": "dual_agreement",
+      "original_string": "5 styrelseledamöter"
+    },
+    "board_members": {
+      "value": [
+        "Anders Eriksson (ordförande)",
+        "Maria Svensson",
+        "Lars Andersson",
+        "Eva Nilsson",
+        "Johan Larsson"
+      ],
+      "confidence": 0.92,
+      "evidence_pages": [3],
+      "source": "dual_agreement",
+      "original_string": null
+    },
+    "auditor_name": {
+      "value": "PwC AB",
+      "confidence": 0.96,
+      "evidence_pages": [15],
+      "source": "dual_agreement",
+      "original_string": "PwC AB"
+    },
+    "auditor_type": {
+      "value": "Auktoriserad revisor",
+      "confidence": 0.94,
+      "evidence_pages": [15],
+      "source": "dual_agreement",
+      "original_string": "Auktoriserad revisor"
+    },
+    "audit_opinion": {
+      "value": "utan anmärkning",
+      "confidence": 0.98,
+      "evidence_pages": [15],
+      "source": "dual_agreement",
+      "original_string": "utan anmärkning"
+    },
+    "address": {
+      "value": "Östra Promenaden 12, Norrköping",
+      "confidence": 0.88,
+      "evidence_pages": [2],
+      "source": "dual_agreement",
+      "original_string": "Östra Promenaden 12"
+    },
+    "postal_code": {
+      "value": "602 28",
+      "confidence": 0.90,
+      "evidence_pages": [2],
+      "source": "dual_agreement",
+      "original_string": "602 28"
+    },
+    "city": {
+      "value": "Norrköping",
+      "confidence": 0.98,
+      "evidence_pages": [1, 2],
+      "source": "dual_agreement",
+      "original_string": "Norrköping"
+    },
+    "property_designation": {
+      "value": "Axet 4",
+      "confidence": 0.92,
+      "evidence_pages": [2],
+      "source": "dual_agreement",
+      "original_string": "Axet 4"
+    },
+    "building_year": {
+      "value": 1985,
+      "confidence": 0.89,
+      "evidence_pages": [2],
+      "source": "claude_tiebreaker",
+      "original_string": "1985",
+      "tiebreakerReason": "Gemini extracted 1985, GPT extracted 1986 (possible renovation year confusion)"
+    },
+    "total_area_sqm": {
+      "value": 6800,
+      "confidence": 0.87,
+      "evidence_pages": [2],
+      "source": "dual_agreement",
+      "original_string": "6 800 m²"
+    },
+    "number_of_apartments": {
+      "value": 78,
+      "confidence": 0.94,
+      "evidence_pages": [2],
+      "source": "dual_agreement",
+      "original_string": "78 lägenheter"
+    },
+    "heating_type": {
+      "value": "Fjärrvärme",
+      "confidence": 0.96,
+      "evidence_pages": [4],
+      "source": "dual_agreement",
+      "original_string": "Fjärrvärme"
+    },
+    "energy_class": {
+      "value": "D",
+      "confidence": 0.72,
+      "evidence_pages": [4],
+      "source": "low_confidence",
+      "original_string": null,
+      "note": "Not explicitly stated, inferred from consumption data"
+    },
+    "monthly_fee_avg_tkr": {
+      "value": 5.2,
+      "confidence": 0.94,
+      "evidence_pages": [4],
+      "source": "dual_agreement",
+      "original_string": "5 200 kr/månad (genomsnitt)"
+    },
+    "fiscal_year_start": {
+      "value": "2023-07-01",
+      "confidence": 0.97,
+      "evidence_pages": [1],
+      "source": "dual_agreement",
+      "original_string": "2023-07-01"
+    },
+    "fiscal_year_end": {
+      "value": "2024-06-30",
+      "confidence": 0.97,
+      "evidence_pages": [1],
+      "source": "dual_agreement",
+      "original_string": "2024-06-30"
+    },
+    "depreciation_method": {
+      "value": "linjär",
+      "confidence": 0.91,
+      "evidence_pages": [11],
+      "source": "dual_agreement",
+      "original_string": "linjär avskrivning"
+    },
+    "depreciation_rate_pct": {
+      "value": 2.0,
+      "confidence": 0.84,
+      "evidence_pages": [11],
+      "source": "claude_tiebreaker",
+      "original_string": "2%",
+      "tiebreakerReason": "Gemini extracted 2%, GPT extracted 2.5%"
+    },
+    "maintenance_reserve_tkr": {
+      "value": 4200,
+      "confidence": 0.80,
+      "evidence_pages": [12],
+      "source": "claude_tiebreaker",
+      "original_string": "4 200 tkr",
+      "tiebreakerReason": "Table formatting ambiguity"
+    },
+    "planned_maintenance_5yr_tkr": {
+      "value": 8500,
+      "confidence": 0.82,
+      "evidence_pages": [12],
+      "source": "claude_tiebreaker",
+      "original_string": "8 500 tkr",
+      "tiebreakerReason": "Multi-year projection table ambiguity"
+    },
+    "tax_deferred_reserves_tkr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "source": "not_applicable",
+      "original_string": null,
+      "note": "No tax-deferred reserves (common for BRFs)"
+    },
+    "cashflow_operations_tkr": {
+      "value": 1850,
+      "confidence": 0.85,
+      "evidence_pages": [10],
+      "source": "dual_agreement",
+      "original_string": "1 850 tkr"
+    },
+    "cashflow_investing_tkr": {
+      "value": -950,
+      "confidence": 0.88,
+      "evidence_pages": [10],
+      "source": "dual_agreement",
+      "original_string": "-950 tkr"
+    },
+    "cashflow_financing_tkr": {
+      "value": 0,
+      "confidence": 0.92,
+      "evidence_pages": [10],
+      "source": "dual_agreement",
+      "original_string": "0 tkr"
+    },
+    "cashflow_net_change_tkr": {
+      "value": 900,
+      "confidence": 0.86,
+      "evidence_pages": [10],
+      "source": "dual_agreement",
+      "original_string": "900 tkr"
+    }
+  },
+  "metadata": {
+    "totalPages": 16,
+    "totalFields": 82,
+    "highConfidenceFields": 71,
+    "mediumConfidenceFields": 8,
+    "lowConfidenceFields": 3,
+    "successfulAgents": 16,
+    "failedAgents": 3,
+    "totalCost": 0.85,
+    "totalTokens": 87100,
+    "duration": 542000,
+    "qualityScore": 0.84
+  }
+}

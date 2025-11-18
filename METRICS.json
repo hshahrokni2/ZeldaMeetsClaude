@@ -1,0 +1,55 @@
+{
+  "projectName": "ZeldaMeetsClaude",
+  "lastUpdated": "2025-11-18T02:35:02Z",
+  "cumulativeMetrics": {
+    "totalSessions": 1,
+    "successfulSessions": 1,
+    "failedSessions": 0,
+    "successRate": 1.0,
+    "totalPdfsProcessed": 1,
+    "totalFieldsExtracted": 82,
+    "totalCost": 0.85,
+    "totalDuration": 542000,
+    "averageCostPerPdf": 0.85,
+    "averageDurationPerPdf": 542000,
+    "averageFieldsPerPdf": 82.0,
+    "averageQualityScore": 0.857
+  },
+  "qualityMetrics": {
+    "averageConsensusRate": 0.866,
+    "averageHighConfidencePct": 0.866,
+    "averageAgentSuccessRate": 0.842,
+    "averageFieldCoverage": 0.863
+  },
+  "sessionHistory": [
+    {
+      "sessionId": "session_20251118_022600",
+      "pdfId": "267197",
+      "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "timestamp": "2025-11-18T02:26:00Z",
+      "status": "success",
+      "qualityScore": 0.857,
+      "fieldsExtracted": 82,
+      "cost": 0.85,
+      "duration": 542000,
+      "consensusRate": 0.866,
+      "agentSuccessRate": 0.842
+    }
+  ],
+  "targets": {
+    "consensusRate": 0.85,
+    "highConfidencePct": 0.80,
+    "fieldCoverage": 0.75,
+    "costPerPdf": 1.0,
+    "durationPerPdf": 720000,
+    "qualityScore": 0.70
+  },
+  "performanceVsTargets": {
+    "consensusRate": "+1.9%",
+    "highConfidencePct": "+8.3%",
+    "fieldCoverage": "+15.1%",
+    "costPerPdf": "-15.0%",
+    "durationPerPdf": "-24.7%",
+    "qualityScore": "+22.4%"
+  }
+}

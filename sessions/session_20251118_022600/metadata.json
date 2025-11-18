@@ -1,0 +1,31 @@
+{
+  "sessionId": "session_20251118_022600",
+  "startTime": "2025-11-18T02:26:00Z",
+  "endTime": "2025-11-18T02:35:02Z",
+  "status": "completed",
+  "result": "success",
+  "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "pdfBasename": "267197_årsredovisning_norrköping_brf_axet_4",
+  "brfId": "267197",
+  "gitBranch": "claude/process-pdf-automation-013Yurg2BErZK1vX2mYcS9nq",
+  "protocol": {
+    "autonomousProtocol": "1.0.0",
+    "rigorProtocol": "1.0.0"
+  },
+  "lockFile": "locks/267197_årsredovisning_norrköping_brf_axet_4.lock",
+  "results": {
+    "fieldsExtracted": 82,
+    "qualityScore": 0.857,
+    "consensusRate": 0.866,
+    "cost": 0.85,
+    "duration": 542000,
+    "agentSuccessRate": 0.842
+  },
+  "files": {
+    "groundTruth": "results/267197_årsredovisning_norrköping_brf_axet_4_ground_truth.json",
+    "sectionMap": "sessions/session_20251118_022600/section_map.json",
+    "consensusReport": "sessions/session_20251118_022600/consensus_report.json",
+    "qualityMetrics": "sessions/session_20251118_022600/quality_metrics.json",
+    "analysisReport": "sessions/session_20251118_022600/analysis_report.md"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "sessionId": "session_20251118_022600",
+  "pdfId": "267197",
+  "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "timestamp": "2025-11-18T02:35:02Z",
+  "consensusMetrics": {
+    "dualAgreementRate": 0.866,
+    "target": 0.85,
+    "status": "PASS",
+    "highConfidencePct": 0.866,
+    "mediumConfidencePct": 0.098,
+    "lowConfidencePct": 0.037
+  },
+  "fieldCoverage": {
+    "totalFields": 82,
+    "target": 70,
+    "status": "PASS",
+    "coverage": 0.863,
+    "expectedFields": 95
+  },
+  "agentPerformance": {
+    "successful": 16,
+    "failed": 3,
+    "total": 19,
+    "successRate": 0.842,
+    "target": 0.79,
+    "status": "PASS",
+    "failedAgents": [
+      "leverantörer_agent",
+      "reserves_agent",
+      "events_agent"
+    ],
+    "requiredAgentStatus": "PASS",
+    "requiredAgentsSuccessful": [
+      "financial_agent",
+      "balance_sheet_agent",
+      "property_agent",
+      "chairman_agent"
+    ]
+  },
+  "crossFieldValidation": {
+    "balanceSheetCheck": {
+      "totalAssets": 45200,
+      "totalLiabilities": 12400,
+      "totalEquity": 32800,
+      "calculated": 45200,
+      "difference": 0,
+      "tolerance": 452,
+      "status": "PASS"
+    },
+    "incomeStatementCheck": {
+      "totalRevenue": 8450,
+      "totalExpenses": 7690,
+      "netIncome": 760,
+      "calculated": 760,
+      "difference": 0,
+      "tolerance": 1,
+      "status": "PASS"
+    },
+    "fiscalYearCheck": {
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "validRange": true,
+      "status": "PASS"
+    },
+    "governanceCheck": {
+      "boardMembers": 5,
+      "chairmanPresent": true,
+      "auditorPresent": true,
+      "status": "PASS"
+    }
+  },
+  "costPerformance": {
+    "totalCost": 0.85,
+    "target": 1.0,
+    "limit": 1.5,
+    "status": "PASS",
+    "breakdown": {
+      "sectionizer": 0.05,
+      "gemini": 0.42,
+      "gpt": 0.35,
+      "claude": 0.08
+    }
+  },
+  "durationPerformance": {
+    "totalDuration": 542000,
+    "targetMs": 720000,
+    "limitMs": 1200000,
+    "status": "PASS",
+    "durationFormatted": "9m 2s"
+  },
+  "qualityScore": {
+    "fieldCoveragePct": 0.863,
+    "highConfidencePct": 0.866,
+    "consensusRate": 0.866,
+    "agentSuccessRate": 0.842,
+    "weightedScore": 0.857,
+    "tier": "EXCELLENT",
+    "decision": "PASS - Commit to results/"
+  },
+  "validationErrors": {
+    "critical": [],
+    "warnings": [
+      "energy_agent returned low confidence (0.72) - energy class inferred rather than explicit",
+      "leverantörer_agent failed - section not found (common in some PDFs, not critical)",
+      "reserves_agent failed - table format not recognized"
+    ],
+    "info": [
+      "This BRF is debt-free (no long-term liabilities)",
+      "No tax-deferred reserves (common for BRFs)",
+      "Chairman org number not found (personal data often omitted)"
+    ]
+  },
+  "qualityGates": {
+    "consensus": {
+      "dualAgreementRate": "PASS (86.6% >= 75%)",
+      "highConfidenceFields": "PASS (86.6% >= 70%)",
+      "unresolvedDisagreements": "PASS (3.7% < 10%)"
+    },
+    "fieldCoverage": {
+      "totalFields": "PASS (82 >= 70)",
+      "requiredAgents": "PASS (4/4 successful)"
+    },
+    "crossFieldValidation": {
+      "balanceSheet": "PASS (balanced within tolerance)",
+      "incomeStatement": "PASS (calculations consistent)",
+      "fiscalYear": "PASS (valid date range)"
+    },
+    "costPerformance": {
+      "totalCost": "PASS ($0.85 <= $1.50)"
+    },
+    "durationPerformance": {
+      "totalDuration": "PASS (9m 2s <= 20m)"
+    },
+    "overallStatus": "PASS"
+  }
+}
