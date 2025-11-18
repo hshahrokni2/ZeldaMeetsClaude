@@ -1,0 +1,76 @@
+{
+  "agent_id": "balance_sheet_agent",
+  "executed_at": "2025-11-18T04:28:41.570Z",
+  "fields": {
+    "balance_sheet_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.8469834392311133,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.756647036495051,
+      "evidence_pages": [
+        10
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.9097473168916647,
+      "evidence_pages": [
+        3
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.7925635617205535,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.8284159329845056,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.8606484245683668,
+      "evidence_pages": [
+        3
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_7": {
+      "value": "mock_value_7",
+      "confidence": 0.8635248146897216,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "balance_sheet_agent_field_8": {
+      "value": "mock_value_8",
+      "confidence": 0.7373847837752892,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8244894137945331,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": false,
+    "claude_tiebreak_used": false
+  }
+}

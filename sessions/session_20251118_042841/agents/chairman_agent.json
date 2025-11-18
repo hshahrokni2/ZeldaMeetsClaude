@@ -1,0 +1,44 @@
+{
+  "agent_id": "chairman_agent",
+  "executed_at": "2025-11-18T04:28:41.364Z",
+  "fields": {
+    "chairman_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.939014044162113,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "chairman_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.85943852801753,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "chairman_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.8055129973091105,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "chairman_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.7782421915605531,
+      "evidence_pages": [
+        3
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8455519402623266,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": false,
+    "claude_tiebreak_used": false
+  }
+}

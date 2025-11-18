@@ -1,0 +1,513 @@
+{
+  "last_updated": "2025-11-18T04:28:42.394Z",
+  "total_pdfs": 62,
+  "completed": 1,
+  "processing": 0,
+  "pending": 61,
+  "failed": 0,
+  "pdfs": {
+    "267197_årsredovisning_norrköping_brf_axet_4.pdf": {
+      "status": "completed",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": "2025-11-18T04:28:42.394Z",
+      "session_id": "session_20251118_042841",
+      "metrics": {
+        "field_coverage": 115.78947368421053,
+        "avg_confidence": 0.8253227317646116,
+        "cost": 1.09,
+        "duration_minutes": 1.09,
+        "quality_tier": "MEDIUM",
+        "agents_succeeded": 18
+      }
+    },
+    "267456_årsredovisning_stockholm_brf_granen_18.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "269172_årsredovisning_malmö_brf_hörnhuset.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "270695_årsredovisning__brf_älvsbacka_strand_3.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "277136_årsredovisning_stockholm_brf_musketören_10.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "278354_årsredovisning_stockholm_brf_the_brick_terra.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "278531_årsredovisning_falun_brf_krondiket.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "281330_årsredovisning_leksand_brf_stäppan.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "44444_årsredovisning_stockholm_brf_kulingen_6.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "44549_årsredovisning_stockholm_brf_yk_huset.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "49908_årsredovisning_sundbyberg_brf_stugan_2.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "51223_årsredovisning_jönköping_brf_lönnen.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "78954_årsredovisning_solna_brf_husberget.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "82665_årsredovisning_lund_brf_vipemöllan_3.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_266956.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_268411.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_268882.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_271852.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_271949.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_44232.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_46160.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_48574.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_48893.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_49369.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_58306.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_78906.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_79568.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_81563.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "hjorthagen/brf_82841.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_198532.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_275608.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_276507.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_276629.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_276796.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_280938.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_282765.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_43334.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_47809.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_47903.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_48663.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_52576.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_53107.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_53546.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_54015.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_57125.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_58256.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_76536.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_77241.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_78564.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_78730.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_79101.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_79510.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_80193.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_81732.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_82839.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    },
+    "srs/brf_83301.pdf": {
+      "status": "pending",
+      "locked_at": null,
+      "locked_by": null,
+      "completed_at": null,
+      "session_id": null,
+      "metrics": null
+    }
+  }
+}

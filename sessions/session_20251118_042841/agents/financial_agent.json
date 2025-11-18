@@ -1,0 +1,76 @@
+{
+  "agent_id": "financial_agent",
+  "executed_at": "2025-11-18T04:28:41.519Z",
+  "fields": {
+    "financial_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.7239282082893524,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.776475687709769,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.946234740270665,
+      "evidence_pages": [
+        2
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.7467584076996934,
+      "evidence_pages": [
+        2
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.8957015388279561,
+      "evidence_pages": [
+        9
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.7112337207240379,
+      "evidence_pages": [
+        8
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_7": {
+      "value": "mock_value_7",
+      "confidence": 0.711602632385143,
+      "evidence_pages": [
+        10
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "financial_agent_field_8": {
+      "value": "mock_value_8",
+      "confidence": 0.8554400170179501,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.7959218691155708,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": true
+  }
+}

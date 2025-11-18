@@ -1,0 +1,44 @@
+{
+  "agent_id": "notes_tax_agent",
+  "executed_at": "2025-11-18T04:28:41.931Z",
+  "fields": {
+    "notes_tax_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.8281274714586015,
+      "evidence_pages": [
+        10
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_tax_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.9014762948939403,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_tax_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.764692184333035,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_tax_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.8898613293352791,
+      "evidence_pages": [
+        9
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8460393200052139,
+  "model_consensus": {
+    "gemini_agreed": false,
+    "gpt_agreed": false,
+    "claude_tiebreak_used": true
+  }
+}

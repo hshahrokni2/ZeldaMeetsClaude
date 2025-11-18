@@ -1,0 +1,68 @@
+{
+  "agent_id": "notes_maintenance_agent",
+  "executed_at": "2025-11-18T04:28:41.879Z",
+  "fields": {
+    "notes_maintenance_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.9060062238145326,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.8991608152354243,
+      "evidence_pages": [
+        8
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.765633574171712,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.7441258398899806,
+      "evidence_pages": [
+        2
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.8562710899745513,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.7361329345606935,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "notes_maintenance_agent_field_7": {
+      "value": "mock_value_7",
+      "confidence": 0.7916728023453455,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8141433257131772,
+  "model_consensus": {
+    "gemini_agreed": false,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": false
+  }
+}

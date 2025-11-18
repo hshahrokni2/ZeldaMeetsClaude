@@ -1,0 +1,84 @@
+{
+  "agent_id": "key_metrics_agent",
+  "executed_at": "2025-11-18T04:28:42.239Z",
+  "fields": {
+    "key_metrics_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.7505376333887996,
+      "evidence_pages": [
+        8
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.8602032875675785,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.864759013323788,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.9240212309778325,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.7771395263908489,
+      "evidence_pages": [
+        8
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.8984126649120332,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_7": {
+      "value": "mock_value_7",
+      "confidence": 0.7387099225574407,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_8": {
+      "value": "mock_value_8",
+      "confidence": 0.9058043951875552,
+      "evidence_pages": [
+        10
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "key_metrics_agent_field_9": {
+      "value": "mock_value_9",
+      "confidence": 0.7554872486714075,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8305638803308094,
+  "model_consensus": {
+    "gemini_agreed": false,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": false
+  }
+}

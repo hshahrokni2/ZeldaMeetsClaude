@@ -1,0 +1,60 @@
+{
+  "agent_id": "leverantörer_agent",
+  "executed_at": "2025-11-18T04:28:42.291Z",
+  "fields": {
+    "leverantörer_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.9382800691122728,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "leverantörer_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.8707309528516473,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "leverantörer_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.7226702877602589,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "leverantörer_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.8370356691867618,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "leverantörer_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.905821216871308,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "leverantörer_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.908376707868876,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8638191506085208,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": false
+  }
+}

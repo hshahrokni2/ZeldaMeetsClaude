@@ -1,0 +1,68 @@
+{
+  "agent_id": "loans_agent",
+  "executed_at": "2025-11-18T04:28:42.085Z",
+  "fields": {
+    "loans_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.8661984395294859,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.869160109279051,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.8500217091358166,
+      "evidence_pages": [
+        5
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.8818269576918623,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_5": {
+      "value": "mock_value_5",
+      "confidence": 0.9358132058762482,
+      "evidence_pages": [
+        7
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_6": {
+      "value": "mock_value_6",
+      "confidence": 0.7284724366778843,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "loans_agent_field_7": {
+      "value": "mock_value_7",
+      "confidence": 0.797060768199831,
+      "evidence_pages": [
+        4
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8469362323414541,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": false
+  }
+}

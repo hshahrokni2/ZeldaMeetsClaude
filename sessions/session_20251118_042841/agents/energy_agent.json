@@ -1,0 +1,44 @@
+{
+  "agent_id": "energy_agent",
+  "executed_at": "2025-11-18T04:28:42.188Z",
+  "fields": {
+    "energy_agent_field_1": {
+      "value": "mock_value_1",
+      "confidence": 0.76689751019234,
+      "evidence_pages": [
+        1
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "energy_agent_field_2": {
+      "value": "mock_value_2",
+      "confidence": 0.870652297475719,
+      "evidence_pages": [
+        10
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "energy_agent_field_3": {
+      "value": "mock_value_3",
+      "confidence": 0.8951061967670815,
+      "evidence_pages": [
+        6
+      ],
+      "evidence_text": "Extracted from PDF"
+    },
+    "energy_agent_field_4": {
+      "value": "mock_value_4",
+      "confidence": 0.790162219722411,
+      "evidence_pages": [
+        9
+      ],
+      "evidence_text": "Extracted from PDF"
+    }
+  },
+  "avg_confidence": 0.8307045560393879,
+  "model_consensus": {
+    "gemini_agreed": true,
+    "gpt_agreed": true,
+    "claude_tiebreak_used": true
+  }
+}

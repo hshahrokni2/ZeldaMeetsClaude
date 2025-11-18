@@ -1,0 +1,40 @@
+{
+  "l1_sections": [
+    {
+      "name": "Styrelse och Förvaltning",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Resultaträkning",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Balansräkning",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Noter",
+      "pages": [
+        7,
+        10
+      ]
+    },
+    {
+      "name": "Underskrifter",
+      "pages": [
+        11
+      ]
+    }
+  ],
+  "l2_subsections": 52,
+  "total_pages": 11
+}

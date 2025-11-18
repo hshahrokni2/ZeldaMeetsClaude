@@ -1,0 +1,14 @@
+{
+  "session_id": "session_20251118_042841",
+  "pdf_path": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "extracted_at": "2025-11-18T04:28:42.393Z",
+  "metadata": {
+    "total_pages": 11,
+    "agents_succeeded": 18,
+    "field_coverage": 115.78947368421053,
+    "avg_confidence": 0.8253227317646116
+  },
+  "data": {
+    "_note": "In production, this contains all extracted fields from 19 agents"
+  }
+}

@@ -4,7 +4,10 @@
   "description": "Autonomous ground truth generation for Swedish BRF annual reports using 19-agent consensus system",
   "main": "index.ts",
   "scripts": {
-    "extract": "echo 'Extraction scripts require source implementation from chameleon_api'",
+    "autonomous": "tsx scripts/autonomous-orchestrator.ts",
+    "autonomous:demo": "tsx scripts/autonomous-orchestrator.ts --demo",
+    "autonomous:limit": "tsx scripts/autonomous-orchestrator.ts --limit",
+    "init-tracking": "tsx scripts/init-tracking.ts",
     "test": "echo 'Test suite pending Phase 2 completion'"
   },
   "keywords": [

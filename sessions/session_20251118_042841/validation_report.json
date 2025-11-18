@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-11-18T04:28:42.392Z",
+  "agents_succeeded": 18,
+  "agents_total": 19,
+  "field_coverage": 115.78947368421053,
+  "avg_confidence": 0.8253227317646116,
+  "critical_fields_present": 8,
+  "critical_fields_total": 10,
+  "validation_checks": {
+    "balance_sheet_equation": {
+      "passed": true,
+      "deviation": 0.02
+    },
+    "date_sanity": {
+      "passed": true
+    },
+    "format_validation": {
+      "passed": true,
+      "warnings": 2
+    }
+  },
+  "quality_tier": "MEDIUM"
+}
