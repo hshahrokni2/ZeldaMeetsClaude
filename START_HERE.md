@@ -57,29 +57,45 @@
 
 ### Step 2: Start Claude Session
 
-Open a new Claude session and paste this **SINGLE PROMPT**:
+Open a new Claude session and paste this **EXACT PROMPT**:
 
 ```
-AUTONOMOUS SESSION - PROCESS NEXT PDF
+⚠️ EXECUTE PROTOCOL - DO NOT BUILD NEW INFRASTRUCTURE ⚠️
 
-Protocol: AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md
-Rigor: RIGOR_PROTOCOL.md
-Mode: FULL AUTOMATION - 100% CLAUDE
+Read these files NOW using the Read tool:
+1. /home/user/ZeldaMeetsClaude/AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md
+2. /home/user/ZeldaMeetsClaude/pdfs/PDF_QUEUE.json
 
-Execute complete pipeline:
-1. PDF Selection & Lock
-2. PDF Reading & Analysis
-3. Multi-Pass Extraction (19 specialized contexts)
-4. Validation & Quality Checks
-5. Learning Documentation
-6. Commit & Unlock
+Then execute the 71-step checklist starting at Phase 0.
 
-Session ID: [GENERATE: session_YYYYMMDD_HHMMSS]
+CRITICAL - WHAT NOT TO DO:
+❌ DO NOT create new .ts/.js files
+❌ DO NOT write new scripts/orchestrators
+❌ DO NOT build new infrastructure
+❌ DO NOT create demo/mock data
+❌ DO NOT push to different branches
 
-BEGIN AUTONOMOUS EXECUTION
+REQUIRED - WHAT TO DO:
+✅ READ the protocol file (AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md)
+✅ READ the queue (pdfs/PDF_QUEUE.json)
+✅ PICK first PDF with status="pending"
+✅ LOCK it (Edit PDF_QUEUE.json: set status="processing", locked_by=session_id)
+✅ READ the actual PDF file using Read tool
+✅ EXTRACT data by analyzing PDF 19 times with different contexts
+✅ WRITE results to pdfs/results/[pdf_id]/extraction.json
+✅ COMMIT to branch: claude/review-pdf-extraction-019GPWQbw5Ln9tfuM1EGnx3X
+
+TOOLS YOU WILL USE:
+- Read: to read PDFs, protocols, queue
+- Edit: to update PDF_QUEUE.json
+- Write: to create extraction.json, learnings.md, metrics.json
+- Bash: for git add/commit/push only
+
+START NOW:
+Read /home/user/ZeldaMeetsClaude/pdfs/PDF_QUEUE.json and begin Phase 0, Step 1.
 ```
 
-**What's special:** This is 100% Claude (me!) - no external APIs, no dependencies, zero cost!
+**What's special:** This forces Claude to USE the existing protocol, not build a new one!
 
 ### Step 3: Repeat
 
