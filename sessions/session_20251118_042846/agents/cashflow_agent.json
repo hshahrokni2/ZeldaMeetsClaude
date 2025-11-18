@@ -1,0 +1,11 @@
+{
+  "agent_id": "cashflow_agent",
+  "status": "failed",
+  "consensus_level": "LOW",
+  "overall_confidence": 0,
+  "fields_extracted": 0,
+  "data": {},
+  "cost": 0.01,
+  "duration_ms": 1089,
+  "error": "Simulated failure for demonstration"
+}

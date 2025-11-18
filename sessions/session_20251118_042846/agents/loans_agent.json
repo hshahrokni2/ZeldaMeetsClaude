@@ -1,0 +1,27 @@
+{
+  "agent_id": "loans_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.8856726111521935,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.7748927505521815,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 1023,
+      "confidence": 0.9964524717522055,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.03325482019148137,
+  "duration_ms": 1505
+}

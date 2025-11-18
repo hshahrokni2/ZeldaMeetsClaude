@@ -1,0 +1,27 @@
+{
+  "agent_id": "notes_tax_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.9250416034526687,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.8856863046214899,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 110,
+      "confidence": 0.9643969022838477,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.04211270837202929,
+  "duration_ms": 1589
+}

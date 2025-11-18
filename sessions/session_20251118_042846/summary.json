@@ -1,0 +1,9 @@
+{
+  "total_agents": 19,
+  "agents_succeeded": 18,
+  "agents_failed": 1,
+  "total_fields": 37,
+  "high_confidence_fields": 19,
+  "total_cost": 0.7406407495928378,
+  "duration_seconds": 3
+}

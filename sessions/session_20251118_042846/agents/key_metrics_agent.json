@@ -1,0 +1,27 @@
+{
+  "agent_id": "key_metrics_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.8452184968694805,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.9798481466202744,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 1008,
+      "confidence": 0.7105888471186866,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.03611717332108737,
+  "duration_ms": 1473
+}

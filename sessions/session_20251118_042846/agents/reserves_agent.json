@@ -1,0 +1,27 @@
+{
+  "agent_id": "reserves_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.8443138423089296,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.8094880341284487,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 657,
+      "confidence": 0.8791396504894105,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.033110636314706926,
+  "duration_ms": 2586
+}

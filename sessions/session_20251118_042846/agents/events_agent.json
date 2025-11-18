@@ -1,0 +1,27 @@
+{
+  "agent_id": "events_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.7615920372726487,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.7268770266247047,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 736,
+      "confidence": 0.7963070479205927,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.03195504118258639,
+  "duration_ms": 1615
+}

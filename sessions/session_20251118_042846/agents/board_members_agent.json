@@ -1,0 +1,27 @@
+{
+  "agent_id": "board_members_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.9005005628001264,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.9113542232388159,
+      "evidence_pages": [
+        1
+      ],
+      "source": "tiebreaker"
+    },
+    "field_2": {
+      "value": 192,
+      "confidence": 0.8896469023614368,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.045108887513527735,
+  "duration_ms": 2075
+}

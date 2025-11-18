@@ -1,0 +1,22 @@
+{
+  "processed": [
+    {
+      "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+      "session_id": "session_20251118_042846",
+      "processed_at": "2025-11-18T04:28:50.294Z",
+      "status": "completed",
+      "quality_score": 0.951274148586477,
+      "agents_succeeded": 18,
+      "total_cost": 0.7406407495928378,
+      "duration_seconds": 3,
+      "pdf_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf"
+    }
+  ],
+  "statistics": {
+    "total_processed": 1,
+    "total_cost": 0.7406407495928378,
+    "average_quality_score": 0.951274148586477,
+    "average_duration_seconds": 3
+  },
+  "last_updated": "2025-11-18T04:28:50.294Z"
+}

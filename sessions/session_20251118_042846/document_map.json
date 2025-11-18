@@ -1,0 +1,146 @@
+{
+  "l1_sections": [
+    {
+      "name": "Förvaltningsberättelse",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Resultaträkning",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Balansräkning",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "name": "Kassaflödesanalys",
+      "pages": [
+        8
+      ]
+    },
+    {
+      "name": "Noter",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "Revisionsberättelse",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    {
+      "name": "Styrelse och revisorer",
+      "pages": [
+        15
+      ]
+    },
+    {
+      "name": "Fastighetsförteckning",
+      "pages": [
+        16
+      ]
+    },
+    {
+      "name": "Övrig information",
+      "pages": [
+        17,
+        18
+      ]
+    }
+  ],
+  "l2_subsections": [
+    {
+      "name": "Förvaltningsberättelse - Allmänt",
+      "pages": [
+        1
+      ],
+      "parent": "Förvaltningsberättelse"
+    },
+    {
+      "name": "Förvaltningsberättelse - Verksamheten",
+      "pages": [
+        2
+      ],
+      "parent": "Förvaltningsberättelse"
+    },
+    {
+      "name": "Förvaltningsberättelse - Framtida utveckling",
+      "pages": [
+        3
+      ],
+      "parent": "Förvaltningsberättelse"
+    },
+    {
+      "name": "Resultaträkning - Intäkter",
+      "pages": [
+        4
+      ],
+      "parent": "Resultaträkning"
+    },
+    {
+      "name": "Resultaträkning - Kostnader",
+      "pages": [
+        5
+      ],
+      "parent": "Resultaträkning"
+    },
+    {
+      "name": "Balansräkning - Tillgångar",
+      "pages": [
+        6
+      ],
+      "parent": "Balansräkning"
+    },
+    {
+      "name": "Balansräkning - Skulder och eget kapital",
+      "pages": [
+        7
+      ],
+      "parent": "Balansräkning"
+    },
+    {
+      "name": "Noter - Redovisningsprinciper",
+      "pages": [
+        9
+      ],
+      "parent": "Noter"
+    },
+    {
+      "name": "Noter - Avskrivningar",
+      "pages": [
+        10
+      ],
+      "parent": "Noter"
+    },
+    {
+      "name": "Noter - Underhåll",
+      "pages": [
+        11
+      ],
+      "parent": "Noter"
+    },
+    {
+      "name": "Noter - Skatter",
+      "pages": [
+        12
+      ],
+      "parent": "Noter"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "agent_id": "energy_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.838509821063232,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.7116657075011054,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 730,
+      "confidence": 0.9653539346253586,
+      "evidence_pages": [
+        2
+      ],
+      "source": "tiebreaker"
+    }
+  },
+  "cost": 0.0414649092221054,
+  "duration_ms": 2591
+}

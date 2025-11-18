@@ -1,0 +1,39 @@
+{
+  "agent_id": "financial_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.7423107430141654,
+  "fields_extracted": 3,
+  "data": {
+    "total_revenue_tkr": {
+      "value": 12500,
+      "confidence": 0.7253793010659153,
+      "evidence_pages": [
+        4,
+        5
+      ],
+      "original_string": "12,5 MSEK",
+      "source": "dual_agreement"
+    },
+    "total_costs_tkr": {
+      "value": 10300,
+      "confidence": 0.7646414839434711,
+      "evidence_pages": [
+        5
+      ],
+      "original_string": "10,3 MSEK",
+      "source": "dual_agreement"
+    },
+    "net_result_tkr": {
+      "value": 2200,
+      "confidence": 0.7369114440331099,
+      "evidence_pages": [
+        5
+      ],
+      "original_string": "2 200 tkr",
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.041682698441391754,
+  "duration_ms": 1062
+}

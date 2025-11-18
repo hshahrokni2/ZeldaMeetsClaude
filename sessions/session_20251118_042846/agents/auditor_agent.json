@@ -1,0 +1,27 @@
+{
+  "agent_id": "auditor_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.8563730549841294,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.9685665199146685,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 694,
+      "confidence": 0.7441795900535904,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.035436742648124485,
+  "duration_ms": 1083
+}

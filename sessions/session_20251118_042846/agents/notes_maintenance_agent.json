@@ -1,0 +1,27 @@
+{
+  "agent_id": "notes_maintenance_agent",
+  "status": "completed",
+  "consensus_level": "MEDIUM",
+  "overall_confidence": 0.8222768362228653,
+  "fields_extracted": 2,
+  "data": {
+    "field_1": {
+      "value": "Sample value",
+      "confidence": 0.9299291526147696,
+      "evidence_pages": [
+        1
+      ],
+      "source": "dual_agreement"
+    },
+    "field_2": {
+      "value": 853,
+      "confidence": 0.714624519830961,
+      "evidence_pages": [
+        2
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.04438601692305555,
+  "duration_ms": 2642
+}

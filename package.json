@@ -4,7 +4,8 @@
   "description": "Autonomous ground truth generation for Swedish BRF annual reports using 19-agent consensus system",
   "main": "index.ts",
   "scripts": {
-    "extract": "echo 'Extraction scripts require source implementation from chameleon_api'",
+    "extract": "tsx scripts/autonomous-extract-demo.ts",
+    "extract:demo": "tsx scripts/autonomous-extract-demo.ts",
     "test": "echo 'Test suite pending Phase 2 completion'"
   },
   "keywords": [
@@ -21,7 +22,9 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
     "openai": "^4.20.0",
-    "@google/generative-ai": "^0.1.1"
+    "@google/generative-ai": "^0.1.1",
+    "glob": "^10.3.10",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

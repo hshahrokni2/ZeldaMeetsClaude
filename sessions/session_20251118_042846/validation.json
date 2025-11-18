@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "quality_score": 0.951274148586477,
+  "checks": [
+    {
+      "check": "Agent Success Rate",
+      "status": "pass",
+      "message": "18/19 agents succeeded (94.7%)"
+    },
+    {
+      "check": "Average Confidence",
+      "status": "pass",
+      "message": "Average confidence: 0.847"
+    },
+    {
+      "check": "Balance Sheet Identity",
+      "status": "pass",
+      "message": "Assets (45000) vs Liabilities+Equity (45000) - Diff: 0.00%"
+    },
+    {
+      "check": "Essential Fields Coverage",
+      "status": "pass",
+      "message": "4/4 essential agents succeeded"
+    }
+  ]
+}

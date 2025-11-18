@@ -1,0 +1,21 @@
+{
+  "milestone": 0,
+  "generated_at": "2025-11-18T04:28:50.292Z",
+  "statistics": {
+    "total_processed": 0,
+    "total_cost": 0,
+    "average_quality_score": 0,
+    "average_duration_seconds": 0
+  },
+  "insights": {
+    "average_quality_score": 0,
+    "total_cost": 0,
+    "average_duration_seconds": 0,
+    "cost_per_pdf": null
+  },
+  "recommendations": [
+    "Continue monitoring quality scores",
+    "Review any PDFs with quality score < 0.80",
+    "Consider cost optimization if average exceeds $1.00/PDF"
+  ]
+}

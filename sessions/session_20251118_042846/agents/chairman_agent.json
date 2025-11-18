@@ -1,0 +1,19 @@
+{
+  "agent_id": "chairman_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.9203346034557538,
+  "fields_extracted": 1,
+  "data": {
+    "chairman_name": {
+      "value": "Anders Svensson",
+      "confidence": 0.9203346034557538,
+      "evidence_pages": [
+        15
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.03978392293090166,
+  "duration_ms": 2016
+}

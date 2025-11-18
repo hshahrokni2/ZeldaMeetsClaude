@@ -1,0 +1,29 @@
+{
+  "agent_id": "property_agent",
+  "status": "completed",
+  "consensus_level": "HIGH",
+  "overall_confidence": 0.9391669768880306,
+  "fields_extracted": 2,
+  "data": {
+    "number_of_apartments": {
+      "value": 120,
+      "confidence": 0.9736540096817035,
+      "evidence_pages": [
+        1,
+        16
+      ],
+      "original_string": "120 lägenheter",
+      "source": "dual_agreement"
+    },
+    "construction_year": {
+      "value": 1985,
+      "confidence": 0.9046799440943578,
+      "evidence_pages": [
+        16
+      ],
+      "source": "dual_agreement"
+    }
+  },
+  "cost": 0.0382243422900368,
+  "duration_ms": 1428
+}
