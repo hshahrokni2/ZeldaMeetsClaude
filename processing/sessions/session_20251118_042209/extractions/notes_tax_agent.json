@@ -1,0 +1,37 @@
+{
+  "agent_id": "notes_tax_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:31:15Z",
+  "execution_time_seconds": 25,
+  "data": {
+    "tax_assessment_value_total_tkr": {
+      "value": 17600,
+      "confidence": 0.98,
+      "evidence_pages": [13],
+      "original_string": "17 600 000",
+      "extraction_method": "vision_direct_read",
+      "notes": "Totalt taxeringsvärde - Bostäder"
+    },
+    "tax_assessment_value_buildings_tkr": {
+      "value": 10400,
+      "confidence": 0.97,
+      "evidence_pages": [13],
+      "original_string": "10 400 000",
+      "extraction_method": "vision_direct_read",
+      "notes": "varav byggnader"
+    },
+    "tax_assessment_value_land_tkr": {
+      "value": 7200,
+      "confidence": 0.97,
+      "evidence_pages": [13],
+      "original_string": "7 200 000",
+      "extraction_method": "vision_direct_read",
+      "notes": "varav mark"
+    }
+  },
+  "fields_extracted": 3,
+  "high_confidence_count": 3,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

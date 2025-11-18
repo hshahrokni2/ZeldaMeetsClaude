@@ -1,0 +1,13 @@
+{
+  "agent_id": "cashflow_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:31:40Z",
+  "execution_time_seconds": 15,
+  "data": {},
+  "fields_extracted": 0,
+  "high_confidence_count": 0,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0,
+  "notes": "No explicit cash flow statement (Kassaflödesanalys) found in this annual report. This is common for smaller BRFs."
+}

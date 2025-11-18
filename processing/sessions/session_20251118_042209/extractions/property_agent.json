@@ -1,0 +1,74 @@
+{
+  "agent_id": "property_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:27:30Z",
+  "execution_time_seconds": 35,
+  "data": {
+    "property_name": {
+      "value": "Axet 4",
+      "confidence": 0.98,
+      "evidence_pages": [1, 3],
+      "original_string": "Bostadsrättsföreningen Axet 4 i Norrköping",
+      "extraction_method": "vision_direct_read"
+    },
+    "property_address": {
+      "value": "Odalgatan 14",
+      "confidence": 0.97,
+      "evidence_pages": [3],
+      "original_string": "Odalgatan 14 i Norrköping",
+      "extraction_method": "vision_direct_read"
+    },
+    "city": {
+      "value": "Norrköping",
+      "confidence": 0.99,
+      "evidence_pages": [1, 3],
+      "original_string": "Norrköping",
+      "extraction_method": "vision_direct_read"
+    },
+    "building_year": {
+      "value": 1935,
+      "confidence": 0.96,
+      "evidence_pages": [3],
+      "original_string": "1935",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fastigheten är uppförd 1935"
+    },
+    "total_area_m2": {
+      "value": 1211,
+      "confidence": 0.98,
+      "evidence_pages": [3],
+      "original_string": "1 211 m²",
+      "extraction_method": "vision_direct_read",
+      "notes": "Total bostadsarea"
+    },
+    "num_apartments": {
+      "value": 16,
+      "confidence": 0.97,
+      "evidence_pages": [3],
+      "original_string": "16 lägenheter",
+      "extraction_method": "vision_direct_read",
+      "notes": "Breakdown: 9x 2 rum och kök, 1x 3 rum och kök, 5x 4 rum och kök, 1x 5 rum och kök"
+    },
+    "tax_assessment_value_tkr": {
+      "value": 17600,
+      "confidence": 0.98,
+      "evidence_pages": [4, 13],
+      "original_string": "17 600 000 kr",
+      "extraction_method": "vision_direct_read",
+      "notes": "Taxeringsvärde for bostäder"
+    },
+    "insurance_provider": {
+      "value": "Trygg Hansa",
+      "confidence": 0.94,
+      "evidence_pages": [3],
+      "original_string": "Trygg Hansa",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fastigheten är fullvärdeförsäkrad"
+    }
+  },
+  "fields_extracted": 8,
+  "high_confidence_count": 8,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

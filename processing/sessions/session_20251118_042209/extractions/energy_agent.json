@@ -1,0 +1,38 @@
+{
+  "agent_id": "energy_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:32:00Z",
+  "execution_time_seconds": 22,
+  "data": {
+    "heating_costs_tkr": {
+      "value": 99.198,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-99 198",
+      "extraction_method": "vision_direct_read",
+      "notes": "Uppvärmning (heating costs, absolute value)"
+    },
+    "property_electricity_tkr": {
+      "value": 31.393,
+      "confidence": 0.93,
+      "evidence_pages": [12],
+      "original_string": "-31 393",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fastighetsel (property electricity)"
+    },
+    "water_costs_tkr": {
+      "value": 58.787,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-58 787",
+      "extraction_method": "vision_direct_read",
+      "notes": "Vatten (water costs)"
+    }
+  },
+  "fields_extracted": 3,
+  "high_confidence_count": 3,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0,
+  "notes": "No energy class rating found in document. Energy costs extracted from operating costs breakdown."
+}

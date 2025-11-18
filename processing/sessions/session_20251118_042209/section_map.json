@@ -1,0 +1,58 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "total_pages": 18,
+  "fiscal_year": "2020",
+  "fiscal_period": "2020-01-01 to 2020-12-31",
+  "sections": [
+    {
+      "name": "Cover",
+      "pages": [1],
+      "relevant_agents": []
+    },
+    {
+      "name": "Innehållsförteckning",
+      "pages": [2],
+      "relevant_agents": []
+    },
+    {
+      "name": "Förvaltningsberättelse",
+      "pages": [3, 4, 5, 6, 7],
+      "relevant_agents": ["chairman_agent", "board_members_agent", "property_agent", "fees_agent", "key_metrics_agent", "reserves_agent"]
+    },
+    {
+      "name": "Resultaträkning",
+      "pages": [8],
+      "relevant_agents": ["financial_agent", "operational_agent", "energy_agent"]
+    },
+    {
+      "name": "Balansräkning",
+      "pages": [9, 10],
+      "relevant_agents": ["balance_sheet_agent", "loans_agent", "property_agent"]
+    },
+    {
+      "name": "Noter",
+      "pages": [11, 12, 13, 14, 15],
+      "relevant_agents": ["notes_depreciation_agent", "notes_maintenance_agent", "notes_tax_agent", "loans_agent", "operational_agent", "leverantörer_agent"]
+    },
+    {
+      "name": "Styrelse Underskrifter",
+      "pages": [16],
+      "relevant_agents": ["board_members_agent", "chairman_agent"]
+    },
+    {
+      "name": "Revisionsberättelse",
+      "pages": [17, 18],
+      "relevant_agents": ["audit_report_agent", "auditor_agent"]
+    }
+  ],
+  "key_metadata": {
+    "brf_name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+    "org_number": "725000-1232",
+    "location": "Norrköping",
+    "address": "Odalgatan 14 i Norrköping",
+    "total_area_m2": 1211,
+    "building_year": 1935,
+    "num_apartments": 16,
+    "audit_date": "2021-04-21"
+  }
+}

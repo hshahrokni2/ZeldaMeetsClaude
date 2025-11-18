@@ -1,0 +1,40 @@
+{
+  "agent_id": "leverantörer_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:32:30Z",
+  "execution_time_seconds": 20,
+  "data": {
+    "suppliers": {
+      "value": [
+        {
+          "name": "Riksbyggen",
+          "service": "Ekonomisk förvaltning"
+        },
+        {
+          "name": "Kone AB",
+          "service": "Hissar"
+        },
+        {
+          "name": "Telenor",
+          "service": "Bredband och telefoni"
+        }
+      ],
+      "confidence": 0.96,
+      "evidence_pages": [4],
+      "extraction_method": "vision_direct_read",
+      "notes": "Föreningen har ingått följande avtal (suppliers/contracts)"
+    },
+    "management_company": {
+      "value": "Riksbyggen",
+      "confidence": 0.98,
+      "evidence_pages": [4],
+      "original_string": "Riksbyggen - Ekonomisk förvaltning",
+      "extraction_method": "vision_direct_read"
+    }
+  },
+  "fields_extracted": 2,
+  "high_confidence_count": 2,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

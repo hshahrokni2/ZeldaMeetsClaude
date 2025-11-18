@@ -1,0 +1,85 @@
+{
+  "agent_id": "key_metrics_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:34:00Z",
+  "execution_time_seconds": 40,
+  "data": {
+    "net_revenue_per_m2_2020": {
+      "value": 747,
+      "confidence": 0.97,
+      "evidence_pages": [6],
+      "original_string": "747",
+      "extraction_method": "vision_direct_read",
+      "notes": "Årsavgiftsnivå för bostäder, kr/m² (2020)"
+    },
+    "operating_costs_per_m2_2020": {
+      "value": 1000,
+      "confidence": 0.95,
+      "evidence_pages": [6],
+      "original_string": "1 000",
+      "extraction_method": "vision_direct_read",
+      "notes": "Driftkostnader, kr/m² (2020)"
+    },
+    "operating_costs_excl_maintenance_per_m2_2020": {
+      "value": 355,
+      "confidence": 0.94,
+      "evidence_pages": [6],
+      "original_string": "355",
+      "extraction_method": "vision_direct_read",
+      "notes": "Driftkostnader exkl underhåll, kr/m² (2020)"
+    },
+    "interest_costs_per_m2_2020": {
+      "value": 50,
+      "confidence": 0.93,
+      "evidence_pages": [6],
+      "original_string": "50",
+      "extraction_method": "vision_direct_read",
+      "notes": "Ränta, kr/m² (2020)"
+    },
+    "maintenance_fund_per_m2_2020": {
+      "value": 235,
+      "confidence": 0.94,
+      "evidence_pages": [6],
+      "original_string": "235",
+      "extraction_method": "vision_direct_read",
+      "notes": "Underhållsfond, kr/m² (2020)"
+    },
+    "loan_per_m2_2020": {
+      "value": 4301,
+      "confidence": 0.96,
+      "evidence_pages": [6],
+      "original_string": "4 301",
+      "extraction_method": "vision_direct_read",
+      "notes": "Lån, kr/m² (2020)"
+    },
+    "solidarity_percentage_2020": {
+      "value": 13,
+      "confidence": 0.95,
+      "evidence_pages": [6],
+      "original_string": "13",
+      "extraction_method": "vision_direct_read",
+      "notes": "Soliditet % (2020)"
+    },
+    "liquidity_excl_shortterm_loans_2020": {
+      "value": 155,
+      "confidence": 0.94,
+      "evidence_pages": [6],
+      "original_string": "155",
+      "extraction_method": "vision_direct_read",
+      "notes": "Likviditet % exklusive låneomförhandlingar kommande verksamhetsår (2020)"
+    },
+    "liquidity_incl_shortterm_loans_2020": {
+      "value": 141,
+      "confidence": 0.94,
+      "evidence_pages": [6],
+      "original_string": "141",
+      "extraction_method": "vision_direct_read",
+      "notes": "Likviditet % inklusive låneomförhandlingar kommande verksamhetsår (2020)"
+    }
+  },
+  "fields_extracted": 9,
+  "high_confidence_count": 8,
+  "medium_confidence_count": 1,
+  "low_confidence_count": 0
+}

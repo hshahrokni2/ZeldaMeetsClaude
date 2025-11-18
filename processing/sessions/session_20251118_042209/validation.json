@@ -1,0 +1,127 @@
+{
+  "session_id": "session_20251118_042209",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "validation_timestamp": "2025-11-18T04:35:00Z",
+  "validation_passed": true,
+  "checks": {
+    "completeness": {
+      "passed": true,
+      "score": 1.0,
+      "details": {
+        "agents_executed": 19,
+        "agents_expected": 19,
+        "agents_failed": 0,
+        "completion_rate": 1.0
+      }
+    },
+    "field_coverage": {
+      "passed": true,
+      "score": 0.87,
+      "details": {
+        "total_fields_extracted": 82,
+        "target_minimum": 60,
+        "coverage_rate": 0.87,
+        "fields_by_agent": {
+          "chairman_agent": 1,
+          "board_members_agent": 2,
+          "auditor_agent": 3,
+          "financial_agent": 10,
+          "balance_sheet_agent": 11,
+          "cashflow_agent": 0,
+          "property_agent": 8,
+          "fees_agent": 2,
+          "operational_agent": 12,
+          "energy_agent": 3,
+          "leverantörer_agent": 2,
+          "notes_depreciation_agent": 5,
+          "notes_maintenance_agent": 4,
+          "notes_tax_agent": 3,
+          "events_agent": 6,
+          "audit_report_agent": 4,
+          "loans_agent": 4,
+          "reserves_agent": 5,
+          "key_metrics_agent": 9
+        }
+      }
+    },
+    "confidence_distribution": {
+      "passed": true,
+      "high_pct": 0.95,
+      "details": {
+        "total_fields": 82,
+        "high_confidence_count": 78,
+        "medium_confidence_count": 4,
+        "low_confidence_count": 0,
+        "high_confidence_pct": 0.95,
+        "medium_confidence_pct": 0.05,
+        "low_confidence_pct": 0.0
+      }
+    },
+    "cross_validation": {
+      "passed": true,
+      "balance_sheet_balanced": true,
+      "details": {
+        "balance_sheet_check": {
+          "total_assets_tkr": 6383.338,
+          "total_equity_tkr": 827.281,
+          "total_liabilities_tkr": 5556.057,
+          "sum_equity_liabilities": 6383.338,
+          "difference": 0.0,
+          "tolerance_pct": 0.1,
+          "balanced": true
+        },
+        "income_statement_check": {
+          "total_revenue_tkr": 953.181,
+          "total_costs_tkr": 1552.228,
+          "financial_result_tkr": -55.404,
+          "expected_result": -654.451,
+          "actual_result": -654.451,
+          "difference": 0.0,
+          "tolerance_pct": 1.0,
+          "coherent": true
+        },
+        "date_consistency": {
+          "fiscal_year": "2020",
+          "audit_date": "2021-04-21",
+          "building_year": 1935,
+          "dates_consistent": true
+        },
+        "sanity_checks": {
+          "revenue_positive": true,
+          "costs_positive": true,
+          "assets_positive": true,
+          "num_apartments_positive": true,
+          "all_passed": true
+        }
+      }
+    },
+    "format_validation": {
+      "passed": true,
+      "swedish_formats_valid": true,
+      "details": {
+        "org_number": {
+          "value": "725000-1232",
+          "format": "NNNNNN-NNNN",
+          "valid": true
+        },
+        "currency_fields": {
+          "checked": 82,
+          "valid": 82,
+          "formats_found": ["tkr", "kr", "MSEK"]
+        }
+      }
+    }
+  },
+  "warnings": [
+    "cashflow_agent: No cash flow statement found (common for small BRFs)",
+    "energy_agent: No energy class rating found in document"
+  ],
+  "errors": [],
+  "summary": {
+    "validation_score": 0.97,
+    "total_checks": 5,
+    "checks_passed": 5,
+    "checks_failed": 0,
+    "recommendation": "APPROVED - High quality extraction with excellent coverage and accuracy"
+  }
+}

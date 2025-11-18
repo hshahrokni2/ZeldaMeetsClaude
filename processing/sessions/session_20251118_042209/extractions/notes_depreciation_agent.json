@@ -1,0 +1,53 @@
+{
+  "agent_id": "notes_depreciation_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:30:15Z",
+  "execution_time_seconds": 28,
+  "data": {
+    "annual_depreciation_tkr": {
+      "value": 129.758,
+      "confidence": 0.98,
+      "evidence_pages": [8, 12],
+      "original_string": "-129 758",
+      "extraction_method": "vision_direct_read",
+      "notes": "Avskrivning Byggnader from Note 7"
+    },
+    "depreciation_method_buildings": {
+      "value": "Linjär",
+      "confidence": 0.96,
+      "evidence_pages": [11],
+      "original_string": "Linjär",
+      "extraction_method": "vision_direct_read",
+      "notes": "Linear depreciation method for buildings"
+    },
+    "depreciation_period_buildings_years": {
+      "value": 60,
+      "confidence": 0.97,
+      "evidence_pages": [11],
+      "original_string": "60",
+      "extraction_method": "vision_direct_read",
+      "notes": "Byggnader depreciated over 60 years"
+    },
+    "depreciation_period_doors_years": {
+      "value": 10,
+      "confidence": 0.96,
+      "evidence_pages": [11],
+      "original_string": "10",
+      "extraction_method": "vision_direct_read",
+      "notes": "Portar (doors) depreciated over 10 years"
+    },
+    "building_book_value_tkr": {
+      "value": 5652.337,
+      "confidence": 0.98,
+      "evidence_pages": [9, 13],
+      "original_string": "5 652 337",
+      "extraction_method": "vision_direct_read",
+      "notes": "Restvärde enligt plan vid årets slut (book value after depreciation)"
+    }
+  },
+  "fields_extracted": 5,
+  "high_confidence_count": 5,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

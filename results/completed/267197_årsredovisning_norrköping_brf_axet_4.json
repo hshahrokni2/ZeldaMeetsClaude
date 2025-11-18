@@ -1,0 +1,312 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "file_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:35:30Z",
+  "total_duration_minutes": 13.5,
+  "completion_number": 1,
+  "brf_metadata": {
+    "name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+    "org_number": "725000-1232",
+    "city": "Norrköping",
+    "address": "Odalgatan 14",
+    "fiscal_year": "2020",
+    "fiscal_period": "2020-01-01 to 2020-12-31"
+  },
+  "agents": [
+    {
+      "agent_id": "chairman_agent",
+      "fields_extracted": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.98,
+      "data": {
+        "chairman": "Johan Larsson"
+      }
+    },
+    {
+      "agent_id": "board_members_agent",
+      "fields_extracted": 2,
+      "high_confidence": 2,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "ordinarie": ["Johan Larsson (Ordförande)", "Johan Axelsson (Vice ordförande)", "Björn Remnås (Sekreterare)"],
+        "suppleanter": ["Björn Landqvist", "Sandra Sjöberg", "Dennis Andersson", "Maud Velin", "Delia Hansen"]
+      }
+    },
+    {
+      "agent_id": "auditor_agent",
+      "fields_extracted": 3,
+      "high_confidence": 3,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "audit_firm": "KPMG AB",
+        "authorized_auditor": "Johan Hedbäck",
+        "elected_auditor": "Leif Hallberg"
+      }
+    },
+    {
+      "agent_id": "financial_agent",
+      "fields_extracted": 10,
+      "high_confidence": 9,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "avg_confidence": 0.95,
+      "data": {
+        "total_revenue_tkr": 953.181,
+        "property_revenue_tkr": 905.904,
+        "other_revenue_tkr": 47.277,
+        "interest_revenue_tkr": 4.770,
+        "total_costs_tkr": 1552.228,
+        "operational_costs_tkr": 1211.339,
+        "administrative_costs_tkr": 141.403,
+        "interest_costs_tkr": 60.175,
+        "depreciation_tkr": 129.758,
+        "net_result_tkr": -654.451
+      }
+    },
+    {
+      "agent_id": "balance_sheet_agent",
+      "fields_extracted": 11,
+      "high_confidence": 11,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "total_assets_tkr": 6383.338,
+        "fixed_assets_tkr": 5652.337,
+        "cash_and_bank_tkr": 685.571,
+        "current_assets_tkr": 731.001,
+        "total_equity_tkr": 827.281,
+        "member_contributions_tkr": 487.202,
+        "reserve_fund_tkr": 0.150,
+        "maintenance_fund_tkr": 284.907,
+        "total_liabilities_tkr": 5556.057,
+        "long_term_liabilities_tkr": 5036.523,
+        "short_term_liabilities_tkr": 519.534
+      }
+    },
+    {
+      "agent_id": "cashflow_agent",
+      "fields_extracted": 0,
+      "high_confidence": 0,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0,
+      "data": {},
+      "notes": "No cash flow statement found"
+    },
+    {
+      "agent_id": "property_agent",
+      "fields_extracted": 8,
+      "high_confidence": 8,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "property_name": "Axet 4",
+        "address": "Odalgatan 14",
+        "city": "Norrköping",
+        "building_year": 1935,
+        "total_area_m2": 1211,
+        "num_apartments": 16,
+        "tax_assessment_value_tkr": 17600,
+        "insurance_provider": "Trygg Hansa"
+      }
+    },
+    {
+      "agent_id": "fees_agent",
+      "fields_extracted": 2,
+      "high_confidence": 1,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "avg_confidence": 0.95,
+      "data": {
+        "annual_fee_per_m2": 747,
+        "fee_change_rate_pct": 2
+      }
+    },
+    {
+      "agent_id": "operational_agent",
+      "fields_extracted": 12,
+      "high_confidence": 10,
+      "medium_confidence": 2,
+      "low_confidence": 0,
+      "avg_confidence": 0.94,
+      "data": {
+        "total_operating_costs_tkr": 1211.339,
+        "maintenance_costs_tkr": 781.160,
+        "water_costs_tkr": 58.787,
+        "heating_costs_tkr": 31.393,
+        "electricity_costs_tkr": 99.198,
+        "insurance_tkr": 20.874,
+        "cable_tv_tkr": 31.680
+      }
+    },
+    {
+      "agent_id": "energy_agent",
+      "fields_extracted": 3,
+      "high_confidence": 3,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.94,
+      "data": {
+        "heating_costs_tkr": 99.198,
+        "electricity_costs_tkr": 31.393,
+        "water_costs_tkr": 58.787
+      }
+    },
+    {
+      "agent_id": "leverantörer_agent",
+      "fields_extracted": 2,
+      "high_confidence": 2,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "management_company": "Riksbyggen",
+        "suppliers": ["Riksbyggen", "Kone AB", "Telenor"]
+      }
+    },
+    {
+      "agent_id": "notes_depreciation_agent",
+      "fields_extracted": 5,
+      "high_confidence": 5,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "annual_depreciation_tkr": 129.758,
+        "depreciation_method": "Linjär",
+        "buildings_period_years": 60,
+        "doors_period_years": 10
+      }
+    },
+    {
+      "agent_id": "notes_maintenance_agent",
+      "fields_extracted": 4,
+      "high_confidence": 4,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.94,
+      "data": {
+        "maintenance_costs_current_tkr": 781.160,
+        "completed_projects": 5,
+        "planned_projects": 3
+      }
+    },
+    {
+      "agent_id": "notes_tax_agent",
+      "fields_extracted": 3,
+      "high_confidence": 3,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.97,
+      "data": {
+        "tax_assessment_total_tkr": 17600,
+        "tax_assessment_buildings_tkr": 10400,
+        "tax_assessment_land_tkr": 7200
+      }
+    },
+    {
+      "agent_id": "events_agent",
+      "fields_extracted": 6,
+      "high_confidence": 5,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "avg_confidence": 0.94,
+      "data": {
+        "fiscal_year_result_tkr": -654.451,
+        "result_change_tkr": -916,
+        "liquidity_ratio_current": 141,
+        "liquidity_ratio_prior": 373
+      }
+    },
+    {
+      "agent_id": "audit_report_agent",
+      "fields_extracted": 4,
+      "high_confidence": 4,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.96,
+      "data": {
+        "audit_opinion": "unqualified",
+        "audit_date": "2021-04-21",
+        "audit_location": "Norrköping"
+      }
+    },
+    {
+      "agent_id": "loans_agent",
+      "fields_extracted": 4,
+      "high_confidence": 4,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "avg_confidence": 0.96,
+      "data": {
+        "total_long_term_debt_tkr": 5036.523,
+        "num_loans": 3,
+        "creditor": "STADSHYPOTEK",
+        "total_outstanding_tkr": 5208.227
+      }
+    },
+    {
+      "agent_id": "reserves_agent",
+      "fields_extracted": 5,
+      "high_confidence": 4,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "avg_confidence": 0.95,
+      "data": {
+        "reserve_fund_tkr": 0.150,
+        "maintenance_fund_tkr": 284.907,
+        "maintenance_plan_need_tkr": 1266
+      }
+    },
+    {
+      "agent_id": "key_metrics_agent",
+      "fields_extracted": 9,
+      "high_confidence": 8,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "avg_confidence": 0.95,
+      "data": {
+        "fee_per_m2": 747,
+        "operating_costs_per_m2": 1000,
+        "loan_per_m2": 4301,
+        "solidarity_pct": 13,
+        "liquidity_pct": 141
+      }
+    }
+  ],
+  "summary": {
+    "total_fields": 82,
+    "high_confidence": 78,
+    "medium_confidence": 4,
+    "low_confidence": 0,
+    "field_coverage": 0.87,
+    "avg_confidence": 0.95,
+    "validation_passed": true,
+    "agents_succeeded": 19,
+    "agents_failed": 0
+  },
+  "validation": {
+    "balance_sheet_balanced": true,
+    "income_statement_coherent": true,
+    "dates_consistent": true,
+    "sanity_checks_passed": true,
+    "format_validation_passed": true
+  },
+  "learning": {
+    "document_quality": "excellent",
+    "extraction_success_rate": 1.0,
+    "avg_confidence": 0.95,
+    "challenges": 2,
+    "insights": 5
+  },
+  "meta_analysis": null
+}

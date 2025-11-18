@@ -1,0 +1,46 @@
+{
+  "agent_id": "audit_report_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:33:30Z",
+  "execution_time_seconds": 35,
+  "data": {
+    "audit_opinion": {
+      "value": "unqualified",
+      "confidence": 0.97,
+      "evidence_pages": [17, 18],
+      "original_string": "Vi tillstyrker därför att föreningsstämman fastställer resultaträkningen och balansräkningen",
+      "extraction_method": "vision_direct_read",
+      "notes": "Clean audit opinion - auditors recommend approval of financial statements"
+    },
+    "audit_date": {
+      "value": "2021-04-21",
+      "confidence": 0.98,
+      "evidence_pages": [18],
+      "original_string": "Norrköping den 21 april 2021",
+      "extraction_method": "vision_direct_read"
+    },
+    "audit_location": {
+      "value": "Norrköping",
+      "confidence": 0.98,
+      "evidence_pages": [18],
+      "original_string": "Norrköping",
+      "extraction_method": "vision_direct_read"
+    },
+    "auditor_statements": {
+      "value": [
+        "Revisionen enligt god revisionssed i Sverige har upprättats i enlighet med årsredovisningslagen",
+        "Vårt mål är att uppnå en rimlig grad av säkerhet om huruvida årsredovisningen har upprättats i enlighet med årsredovisningslagen",
+        "Vi anser att de revisionsbevis vi har inhämtat är tillräckliga och ändamålsenliga som grund för våra uttalanden"
+      ],
+      "confidence": 0.94,
+      "evidence_pages": [17, 18],
+      "extraction_method": "vision_direct_read",
+      "notes": "Standard audit statements from Revisionsberättelse"
+    }
+  },
+  "fields_extracted": 4,
+  "high_confidence_count": 4,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

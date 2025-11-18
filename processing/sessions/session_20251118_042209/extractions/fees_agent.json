@@ -1,0 +1,29 @@
+{
+  "agent_id": "fees_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:28:00Z",
+  "execution_time_seconds": 28,
+  "data": {
+    "annual_fee_per_m2": {
+      "value": 747,
+      "confidence": 0.97,
+      "evidence_pages": [5, 6],
+      "original_string": "747 kr/m²/år",
+      "extraction_method": "vision_direct_read",
+      "notes": "Årsavgiften för 2020 uppgick i genomsnitt till 747 kr/m²/år"
+    },
+    "annual_fee_change_rate": {
+      "value": 0.02,
+      "confidence": 0.92,
+      "evidence_pages": [5],
+      "original_string": "2 %",
+      "extraction_method": "vision_direct_read",
+      "notes": "Föreningens årsavgift ändrades 2012-01-01 då den höjdes med 2 %"
+    }
+  },
+  "fields_extracted": 2,
+  "high_confidence_count": 1,
+  "medium_confidence_count": 1,
+  "low_confidence_count": 0
+}

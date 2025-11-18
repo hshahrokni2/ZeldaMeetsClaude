@@ -1,0 +1,102 @@
+{
+  "agent_id": "balance_sheet_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:26:45Z",
+  "execution_time_seconds": 38,
+  "data": {
+    "total_assets_tkr": {
+      "value": 6383.338,
+      "confidence": 0.98,
+      "evidence_pages": [9, 10],
+      "original_string": "6 383 338",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa tillgångar"
+    },
+    "fixed_assets_tkr": {
+      "value": 5652.337,
+      "confidence": 0.97,
+      "evidence_pages": [9],
+      "original_string": "5 652 337",
+      "extraction_method": "vision_direct_read",
+      "notes": "Materiella anläggningstillgångar (buildings and land)"
+    },
+    "cash_and_bank_tkr": {
+      "value": 685.571,
+      "confidence": 0.98,
+      "evidence_pages": [9],
+      "original_string": "685 571",
+      "extraction_method": "vision_direct_read",
+      "notes": "Kassa och bank"
+    },
+    "current_assets_tkr": {
+      "value": 731.001,
+      "confidence": 0.96,
+      "evidence_pages": [9],
+      "original_string": "731 001",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa omsättningstillgångar"
+    },
+    "total_equity_tkr": {
+      "value": 827.281,
+      "confidence": 0.98,
+      "evidence_pages": [10],
+      "original_string": "827 281",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa eget kapital"
+    },
+    "member_contributions_tkr": {
+      "value": 487.202,
+      "confidence": 0.97,
+      "evidence_pages": [10],
+      "original_string": "487 202",
+      "extraction_method": "vision_direct_read",
+      "notes": "Medlemsinsatser (bundet eget kapital)"
+    },
+    "reserve_fund_tkr": {
+      "value": 0.150,
+      "confidence": 0.96,
+      "evidence_pages": [10],
+      "original_string": "150",
+      "extraction_method": "vision_direct_read",
+      "notes": "Reservfond"
+    },
+    "maintenance_fund_tkr": {
+      "value": 284.907,
+      "confidence": 0.96,
+      "evidence_pages": [10],
+      "original_string": "284 907",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fond för yttre underhåll (external maintenance fund)"
+    },
+    "total_liabilities_tkr": {
+      "value": 5556.057,
+      "confidence": 0.97,
+      "evidence_pages": [10],
+      "original_string": "Calculated: 5 036 523 + 519 534",
+      "extraction_method": "vision_direct_read",
+      "notes": "Long-term + short-term liabilities"
+    },
+    "long_term_liabilities_tkr": {
+      "value": 5036.523,
+      "confidence": 0.98,
+      "evidence_pages": [10],
+      "original_string": "5 036 523",
+      "extraction_method": "vision_direct_read",
+      "notes": "Långfristiga skulder"
+    },
+    "short_term_liabilities_tkr": {
+      "value": 519.534,
+      "confidence": 0.97,
+      "evidence_pages": [10],
+      "original_string": "519 534",
+      "extraction_method": "vision_direct_read",
+      "notes": "Kortfristiga skulder"
+    }
+  },
+  "fields_extracted": 11,
+  "high_confidence_count": 11,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0,
+  "validation_notes": "Balance sheet balances: Assets (6,383,338) = Equity (827,281) + Liabilities (5,556,057) = 6,383,338 ✓"
+}

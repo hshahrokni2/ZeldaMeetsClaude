@@ -1,0 +1,81 @@
+{
+  "agent_id": "notes_maintenance_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:30:45Z",
+  "execution_time_seconds": 30,
+  "data": {
+    "completed_maintenance_2020": {
+      "value": [
+        {
+          "description": "Fasadrenovering",
+          "year": 2015
+        },
+        {
+          "description": "Byte tvättmaskiner och torktumlare",
+          "year": 2016
+        },
+        {
+          "description": "Hiss",
+          "year": 2016
+        },
+        {
+          "description": "Renovering Staket",
+          "year": 2017
+        },
+        {
+          "description": "Huskropp utvändigt",
+          "year": 2017
+        }
+      ],
+      "confidence": 0.95,
+      "evidence_pages": [4],
+      "extraction_method": "vision_direct_read",
+      "notes": "Tidigare utfört underhåll listed on page 4"
+    },
+    "maintenance_costs_current_year_tkr": {
+      "value": 781.160,
+      "confidence": 0.95,
+      "evidence_pages": [12],
+      "original_string": "-781 160",
+      "extraction_method": "vision_direct_read",
+      "notes": "Underhåll from Note 4 (Driftkostnader)"
+    },
+    "planned_maintenance_2020": {
+      "value": [
+        {
+          "description": "Målning trapphus",
+          "amount_tkr": 162
+        },
+        {
+          "description": "Värmeväxlare",
+          "amount_tkr": 260
+        },
+        {
+          "description": "Byte entredörrar, postboxar",
+          "amount_tkr": 358
+        }
+      ],
+      "confidence": 0.93,
+      "evidence_pages": [4],
+      "extraction_method": "vision_direct_read",
+      "notes": "Årets utförda underhåll (i tkr) from page 4"
+    },
+    "future_planned_maintenance": {
+      "value": [
+        {
+          "description": "Byte frånluftsaggregat",
+          "year": 2021
+        }
+      ],
+      "confidence": 0.94,
+      "evidence_pages": [4],
+      "extraction_method": "vision_direct_read",
+      "notes": "Planerat underhåll listed on page 4"
+    }
+  },
+  "fields_extracted": 4,
+  "high_confidence_count": 4,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

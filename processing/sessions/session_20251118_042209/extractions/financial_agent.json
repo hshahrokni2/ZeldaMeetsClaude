@@ -1,0 +1,93 @@
+{
+  "agent_id": "financial_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:26:00Z",
+  "execution_time_seconds": 42,
+  "data": {
+    "total_revenue_tkr": {
+      "value": 953.181,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "953 181",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa rörelseintäkter (total operating revenue)"
+    },
+    "property_revenue_tkr": {
+      "value": 905.904,
+      "confidence": 0.96,
+      "evidence_pages": [8],
+      "original_string": "905 904",
+      "extraction_method": "vision_direct_read",
+      "notes": "Nettoomsättning (net sales/property revenue)"
+    },
+    "other_revenue_tkr": {
+      "value": 47.277,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "47 277",
+      "extraction_method": "vision_direct_read",
+      "notes": "Övriga rörelseintäkter"
+    },
+    "interest_revenue_tkr": {
+      "value": 4.770,
+      "confidence": 0.94,
+      "evidence_pages": [8],
+      "original_string": "4 770",
+      "extraction_method": "vision_direct_read",
+      "notes": "Övriga ränteintäkter och liknande resultatposter"
+    },
+    "total_costs_tkr": {
+      "value": 1552.228,
+      "confidence": 0.94,
+      "evidence_pages": [8],
+      "original_string": "-1 552 228",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa rörelsekostnader (total operating costs, absolute value)"
+    },
+    "operational_costs_tkr": {
+      "value": 1211.339,
+      "confidence": 0.95,
+      "evidence_pages": [8],
+      "original_string": "-1 211 339",
+      "extraction_method": "vision_direct_read",
+      "notes": "Driftkostnader (operating costs, absolute value)"
+    },
+    "administrative_costs_tkr": {
+      "value": 141.403,
+      "confidence": 0.93,
+      "evidence_pages": [8],
+      "original_string": "-141 403",
+      "extraction_method": "vision_direct_read",
+      "notes": "Övriga externa kostnader (external admin costs, absolute value)"
+    },
+    "interest_costs_tkr": {
+      "value": 60.175,
+      "confidence": 0.96,
+      "evidence_pages": [8],
+      "original_string": "-60 175",
+      "extraction_method": "vision_direct_read",
+      "notes": "Räntekostnader och liknande resultatposter (absolute value)"
+    },
+    "depreciation_tkr": {
+      "value": 129.758,
+      "confidence": 0.97,
+      "evidence_pages": [8],
+      "original_string": "-129 758",
+      "extraction_method": "vision_direct_read",
+      "notes": "Avskrivningar av materiella anläggningstillgångar (absolute value)"
+    },
+    "net_result_tkr": {
+      "value": -654.451,
+      "confidence": 0.97,
+      "evidence_pages": [8],
+      "original_string": "-654 451",
+      "extraction_method": "vision_direct_read",
+      "notes": "Årets resultat (negative result for 2020)"
+    }
+  },
+  "fields_extracted": 10,
+  "high_confidence_count": 9,
+  "medium_confidence_count": 1,
+  "low_confidence_count": 0
+}

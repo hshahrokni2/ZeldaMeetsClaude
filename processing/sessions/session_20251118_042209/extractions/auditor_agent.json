@@ -1,0 +1,36 @@
+{
+  "agent_id": "auditor_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:25:30Z",
+  "execution_time_seconds": 15,
+  "data": {
+    "authorized_auditor": {
+      "value": "Johan Hedbäck",
+      "confidence": 0.97,
+      "evidence_pages": [5, 16],
+      "original_string": "KPMG AB - Auktoriserad revisor - Johan Hedbäck",
+      "extraction_method": "vision_direct_read",
+      "notes": "Found in Revisorer section and signature page"
+    },
+    "audit_firm": {
+      "value": "KPMG AB",
+      "confidence": 0.98,
+      "evidence_pages": [5, 16],
+      "original_string": "KPMG AB",
+      "extraction_method": "vision_direct_read"
+    },
+    "secondary_auditor": {
+      "value": "Leif Hallberg",
+      "confidence": 0.97,
+      "evidence_pages": [5, 16],
+      "original_string": "Leif Hallberg - Förtroendevald revisor",
+      "extraction_method": "vision_direct_read",
+      "notes": "Förtroendevald revisor (elected trustee auditor)"
+    }
+  },
+  "fields_extracted": 3,
+  "high_confidence_count": 3,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

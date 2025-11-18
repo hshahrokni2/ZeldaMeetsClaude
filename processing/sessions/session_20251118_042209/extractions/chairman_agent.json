@@ -1,0 +1,21 @@
+{
+  "agent_id": "chairman_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:25:00Z",
+  "execution_time_seconds": 12,
+  "data": {
+    "chairman": {
+      "value": "Johan Larsson",
+      "confidence": 0.98,
+      "evidence_pages": [5, 16],
+      "original_string": "Johan Larsson - Ordförande",
+      "extraction_method": "vision_direct_read",
+      "notes": "Found in Styrelse section on page 5 and signature page 16"
+    }
+  },
+  "fields_extracted": 1,
+  "high_confidence_count": 1,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}

@@ -1,0 +1,109 @@
+{
+  "agent_id": "operational_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:29:00Z",
+  "execution_time_seconds": 52,
+  "data": {
+    "total_operating_costs_tkr": {
+      "value": 1211.339,
+      "confidence": 0.96,
+      "evidence_pages": [8, 12],
+      "original_string": "-1 211 339",
+      "extraction_method": "vision_direct_read",
+      "notes": "Summa driftkostnader from Note 4"
+    },
+    "maintenance_costs_tkr": {
+      "value": 781.160,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-781 160",
+      "extraction_method": "vision_direct_read",
+      "notes": "Underhåll (maintenance and repairs, absolute value)"
+    },
+    "repair_costs_tkr": {
+      "value": 133.440,
+      "confidence": 0.93,
+      "evidence_pages": [12],
+      "original_string": "-133 440",
+      "extraction_method": "vision_direct_read",
+      "notes": "Reparationer (repairs, absolute value)"
+    },
+    "property_insurance_tkr": {
+      "value": 22.864,
+      "confidence": 0.95,
+      "evidence_pages": [12],
+      "original_string": "-22 864",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fastighetsavgift och fastighetsskatt"
+    },
+    "insurance_premiums_tkr": {
+      "value": 20.874,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-20 874",
+      "extraction_method": "vision_direct_read",
+      "notes": "Försäkringspremier"
+    },
+    "cable_tv_costs_tkr": {
+      "value": 31.680,
+      "confidence": 0.95,
+      "evidence_pages": [12],
+      "original_string": "-31 680",
+      "extraction_method": "vision_direct_read",
+      "notes": "Kabel- och digital-TV"
+    },
+    "snow_removal_costs_tkr": {
+      "value": 0,
+      "confidence": 0.90,
+      "evidence_pages": [12],
+      "original_string": "0",
+      "extraction_method": "vision_direct_read",
+      "notes": "Snö- och halkbekämpning - no costs in 2020"
+    },
+    "water_costs_tkr": {
+      "value": 58.787,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-58 787",
+      "extraction_method": "vision_direct_read",
+      "notes": "Vatten (water costs, absolute value)"
+    },
+    "heating_costs_tkr": {
+      "value": 31.393,
+      "confidence": 0.93,
+      "evidence_pages": [12],
+      "original_string": "-31 393",
+      "extraction_method": "vision_direct_read",
+      "notes": "Fastighetsel (property electricity/heating, absolute value)"
+    },
+    "building_cleaning_tkr": {
+      "value": 99.198,
+      "confidence": 0.94,
+      "evidence_pages": [12],
+      "original_string": "-99 198",
+      "extraction_method": "vision_direct_read",
+      "notes": "Uppvärmning (heating, absolute value)"
+    },
+    "waste_management_tkr": {
+      "value": 14.011,
+      "confidence": 0.93,
+      "evidence_pages": [12],
+      "original_string": "-14 011",
+      "extraction_method": "vision_direct_read",
+      "notes": "Sophantering och återvinning (waste management, absolute value)"
+    },
+    "admin_fee_tkr": {
+      "value": 5,
+      "confidence": 0.92,
+      "evidence_pages": [12],
+      "original_string": "-5 000",
+      "extraction_method": "vision_direct_read",
+      "notes": "Förvaltningsarvode drift (management fee)"
+    }
+  },
+  "fields_extracted": 12,
+  "high_confidence_count": 10,
+  "medium_confidence_count": 2,
+  "low_confidence_count": 0
+}

@@ -1,0 +1,101 @@
+{
+  "session_id": "session_20251118_042209",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "insights": [
+    {
+      "type": "layout_standard",
+      "description": "Well-structured Riksbyggen annual report with clear sections",
+      "impact": "Standard layout made extraction straightforward and reliable",
+      "confidence_impact": 0.05
+    },
+    {
+      "type": "data_quality",
+      "description": "Financial statements clearly presented with consistent formatting",
+      "impact": "High-quality source data resulted in 95% high-confidence extractions",
+      "confidence_impact": 0.10
+    },
+    {
+      "type": "governance_clarity",
+      "description": "Board member information clearly listed with roles and mandate years",
+      "impact": "Governance agents extracted data with very high confidence (0.96-0.98)",
+      "confidence_impact": 0.08
+    },
+    {
+      "type": "notes_detail",
+      "description": "Comprehensive notes section with detailed breakdowns (Note 4 - Driftkostnader had 12+ line items)",
+      "impact": "Operational agent able to extract granular cost breakdown",
+      "confidence_impact": 0.05
+    },
+    {
+      "type": "loan_transparency",
+      "description": "Loan table (Note 13) provided complete details: rates, maturity, amortization schedule",
+      "impact": "Loans agent extracted full loan structure with high confidence",
+      "confidence_impact": 0.08
+    }
+  ],
+  "challenges": [
+    {
+      "agent": "cashflow_agent",
+      "issue": "No cash flow statement present in annual report",
+      "resolution": "Marked as no data found - common for smaller BRFs",
+      "future_guidance": "Cash flow statements optional for small BRFs, don't flag as error"
+    },
+    {
+      "agent": "energy_agent",
+      "issue": "No energy class rating visible in document",
+      "resolution": "Extracted energy costs from operational breakdown instead",
+      "future_guidance": "Energy class not always required; focus on cost data as fallback"
+    },
+    {
+      "agent": "fees_agent",
+      "issue": "Annual fee change rate mentioned in 2012, not recent",
+      "resolution": "Extracted historical reference with medium confidence (0.92)",
+      "future_guidance": "When fee changes are historical, note date and reduce confidence slightly"
+    }
+  ],
+  "performance": {
+    "total_duration_minutes": 13.5,
+    "avg_confidence": 0.95,
+    "high_confidence_pct": 0.95,
+    "fields_extracted": 82,
+    "agents_succeeded": 19,
+    "agents_failed": 0
+  },
+  "document_characteristics": {
+    "brf_type": "Riksbyggen-managed cooperative",
+    "document_quality": "excellent",
+    "fiscal_year": "2020",
+    "total_pages": 18,
+    "complexity": "medium",
+    "completeness": "comprehensive",
+    "special_features": [
+      "Multi-year comparison table (Flerårsöversikt) on page 6",
+      "Detailed loan amortization schedule",
+      "Maintenance plan with 9-year forecast",
+      "Dual auditors (authorized + elected trustee)"
+    ]
+  },
+  "extraction_patterns": {
+    "successful_keywords": [
+      "Årsredovisning",
+      "Förvaltningsberättelse",
+      "Resultaträkning",
+      "Balansräkning",
+      "Styrelse",
+      "Revisorer",
+      "Noter"
+    ],
+    "section_locations": {
+      "governance": [3, 4, 5],
+      "financials": [8, 9, 10],
+      "notes": [11, 12, 13, 14, 15],
+      "audit": [17, 18]
+    }
+  },
+  "recommendations_for_future": [
+    "Riksbyggen reports follow consistent format - use template matching for faster processing",
+    "Page 6 Flerårsöversikt is goldmine for key_metrics_agent - prioritize this section",
+    "Note 4 (Driftkostnader) consistently provides detailed operational breakdown",
+    "Note 13 (Loans) format is standardized across Riksbyggen reports"
+  ]
+}

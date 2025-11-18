@@ -1,0 +1,72 @@
+{
+  "agent_id": "loans_agent",
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_20251118_042209",
+  "extracted_at": "2025-11-18T04:28:30Z",
+  "execution_time_seconds": 45,
+  "data": {
+    "total_long_term_debt_tkr": {
+      "value": 5036.523,
+      "confidence": 0.98,
+      "evidence_pages": [10, 14],
+      "original_string": "5 036 523",
+      "extraction_method": "vision_direct_read",
+      "notes": "Långfristig skuld vid årets slut"
+    },
+    "loans": {
+      "value": [
+        {
+          "creditor": "STADSHYPOTEK",
+          "interest_rate": "1,40%",
+          "maturity_date": "2021-03-04",
+          "original_amount_tkr": 79.860,
+          "new_loan_amount_tkr": 0,
+          "amortization_tkr": 31.952,
+          "outstanding_amount_tkr": 47.908
+        },
+        {
+          "creditor": "STADSHYPOTEK",
+          "interest_rate": "1,17%",
+          "maturity_date": "2022-03-30",
+          "original_amount_tkr": 3900.665,
+          "new_loan_amount_tkr": 0,
+          "amortization_tkr": 109.996,
+          "outstanding_amount_tkr": 3790.669
+        },
+        {
+          "creditor": "STADSHYPOTEK",
+          "interest_rate": "1,01%",
+          "maturity_date": "2024-01-30",
+          "original_amount_tkr": 1380,
+          "new_loan_amount_tkr": 0,
+          "amortization_tkr": 10.350,
+          "outstanding_amount_tkr": 1369.650
+        }
+      ],
+      "confidence": 0.96,
+      "evidence_pages": [14],
+      "extraction_method": "vision_direct_read",
+      "notes": "Three loans from STADSHYPOTEK with different interest rates and maturity dates"
+    },
+    "total_outstanding_loans_tkr": {
+      "value": 5208.227,
+      "confidence": 0.97,
+      "evidence_pages": [14],
+      "original_string": "5 208 227,00",
+      "extraction_method": "vision_direct_read",
+      "notes": "Sum of all three outstanding loans"
+    },
+    "planned_amortization_next_year_tkr": {
+      "value": 123.796,
+      "confidence": 0.94,
+      "evidence_pages": [14],
+      "original_string": "123 796 kr",
+      "extraction_method": "vision_direct_read",
+      "notes": "Nästa års amortering på långfristiga skulder till kreditinstitut - will be short-term debt"
+    }
+  },
+  "fields_extracted": 4,
+  "high_confidence_count": 4,
+  "medium_confidence_count": 0,
+  "low_confidence_count": 0
+}
