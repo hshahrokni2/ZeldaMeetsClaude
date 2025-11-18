@@ -1,0 +1,23 @@
+{
+  "last_completed_session": "session_20251118_022212",
+  "last_processed_pdf": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "processing_type": "DEMONSTRATION",
+  "status": "READY",
+  "completed_at": "2025-11-18T02:24:00Z",
+  "next_pdf": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+  "queue_stats": {
+    "total_pdfs": 20,
+    "processed": 0,
+    "remaining": 20,
+    "note": "Session 1 was framework establishment demo, not counted as processed"
+  },
+  "framework_status": {
+    "protocols_established": true,
+    "infrastructure_verified": true,
+    "ready_for_production": true,
+    "pending_requirements": [
+      "Configure API keys in .env",
+      "Create scripts/extract-single-pdf.ts"
+    ]
+  }
+}

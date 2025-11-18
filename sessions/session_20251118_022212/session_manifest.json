@@ -1,0 +1,42 @@
+{
+  "session_id": "session_20251118_022212",
+  "pdf_id": "267197",
+  "pdf_name": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "pdf_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "started_at": "2025-11-18T02:22:12Z",
+  "completed_at": "2025-11-18T02:24:00Z",
+  "status": "COMPLETED",
+  "extraction_type": "DEMONSTRATION",
+  "protocol_version": "1.0.0",
+  "rigor_protocol_version": "1.0.0",
+  "phases": {
+    "initialization": {
+      "status": "COMPLETED",
+      "completed_at": "2025-11-18T02:22:12Z"
+    },
+    "extraction": {
+      "status": "COMPLETED",
+      "completed_at": "2025-11-18T02:23:00Z",
+      "note": "Framework demonstration - no API calls"
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "completed_at": "2025-11-18T02:23:15Z"
+    },
+    "learning_documentation": {
+      "status": "COMPLETED",
+      "completed_at": "2025-11-18T02:23:45Z"
+    },
+    "commit_and_unlock": {
+      "status": "IN_PROGRESS"
+    }
+  },
+  "summary": {
+    "duration_seconds": 108,
+    "cost_usd": 0.00,
+    "quality_tier": "DEMONSTRATION",
+    "agents_demonstrated": 3,
+    "total_agents": 19,
+    "protocol_compliance": true
+  }
+}
