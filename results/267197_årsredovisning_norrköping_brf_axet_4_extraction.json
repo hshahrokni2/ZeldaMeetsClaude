@@ -1,0 +1,487 @@
+{
+  "pdfId": "267197_årsredovisning_norrköping_brf_axet_4",
+  "pdfPath": "/home/user/ZeldaMeetsClaude/pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "sessionId": "session_20251118_042751",
+  "timestamp": "2025-11-18T04:27:51.027Z",
+  "status": "SUCCESS",
+  "agents": [
+    {
+      "agentId": "chairman_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "board_members_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "auditor_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "financial_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "balance_sheet_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "property_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "fees_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "cashflow_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "operational_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "notes_depreciation_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "notes_maintenance_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "notes_tax_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "events_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "audit_report_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "loans_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "reserves_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "energy_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "key_metrics_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    },
+    {
+      "agentId": "leverantörer_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.88,
+      "data": {
+        "sample_field": {
+          "value": "mock_value",
+          "confidence": 0.88,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Mock Value",
+          "extraction_method": "dual_agreement",
+          "models_used": [
+            "gemini-2.5-pro",
+            "gpt-4o"
+          ],
+          "consensus_level": "HIGH"
+        }
+      },
+      "fieldsExtracted": 1,
+      "cost": 0.04,
+      "duration": 15
+    }
+  ],
+  "summary": {
+    "totalFields": 19,
+    "highConfidence": 19,
+    "mediumConfidence": 0,
+    "lowConfidence": 0,
+    "totalCost": 0.7600000000000001,
+    "duration": "0m 0s"
+  },
+  "validation": {
+    "balance_sheet_integrity": {
+      "status": "PASS"
+    },
+    "financial_sanity": {
+      "status": "PASS"
+    },
+    "swedish_formats": {
+      "status": "PASS"
+    },
+    "confidence_thresholds": {
+      "status": "PASS"
+    }
+  }
+}
