@@ -1,0 +1,171 @@
+{
+  "pdf_id": "brf_82665",
+  "pdf_path": "pdfs/82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+  "session_id": "session_20251118_022311",
+  "extracted_at": "2025-11-18T02:31:27.620Z",
+  "agents": [
+    {
+      "agent_id": "chairman_agent",
+      "status": "failed",
+      "confidence": 0.3,
+      "field_count": 9,
+      "duration_ms": 51,
+      "cost": 0.0609958845662176
+    },
+    {
+      "agent_id": "board_members_agent",
+      "status": "success",
+      "confidence": 0.7680475971192794,
+      "field_count": 8,
+      "duration_ms": 51,
+      "cost": 0.05917659187681512
+    },
+    {
+      "agent_id": "auditor_agent",
+      "status": "failed",
+      "confidence": 0.3,
+      "field_count": 7,
+      "duration_ms": 51,
+      "cost": 0.06874081853223711
+    },
+    {
+      "agent_id": "financial_agent",
+      "status": "failed",
+      "confidence": 0.3,
+      "field_count": 4,
+      "duration_ms": 50,
+      "cost": 0.06788020126751061
+    },
+    {
+      "agent_id": "balance_sheet_agent",
+      "status": "success",
+      "confidence": 0.8216992516353039,
+      "field_count": 7,
+      "duration_ms": 50,
+      "cost": 0.058329220334227175
+    },
+    {
+      "agent_id": "cashflow_agent",
+      "status": "success",
+      "confidence": 0.7950918976491118,
+      "field_count": 6,
+      "duration_ms": 52,
+      "cost": 0.050699490368739636
+    },
+    {
+      "agent_id": "property_agent",
+      "status": "success",
+      "confidence": 0.7897611429573582,
+      "field_count": 7,
+      "duration_ms": 51,
+      "cost": 0.030635212732244683
+    },
+    {
+      "agent_id": "fees_agent",
+      "status": "success",
+      "confidence": 0.9216602378666107,
+      "field_count": 9,
+      "duration_ms": 51,
+      "cost": 0.06030284797438763
+    },
+    {
+      "agent_id": "operational_agent",
+      "status": "failed",
+      "confidence": 0.3,
+      "field_count": 10,
+      "duration_ms": 50,
+      "cost": 0.024374938552848106
+    },
+    {
+      "agent_id": "notes_depreciation_agent",
+      "status": "success",
+      "confidence": 0.7624513709008018,
+      "field_count": 7,
+      "duration_ms": 50,
+      "cost": 0.056575687718237094
+    },
+    {
+      "agent_id": "notes_maintenance_agent",
+      "status": "success",
+      "confidence": 0.8770203769800773,
+      "field_count": 8,
+      "duration_ms": 51,
+      "cost": 0.06309241641910825
+    },
+    {
+      "agent_id": "notes_tax_agent",
+      "status": "success",
+      "confidence": 0.8842263425615486,
+      "field_count": 6,
+      "duration_ms": 50,
+      "cost": 0.02493071545953554
+    },
+    {
+      "agent_id": "events_agent",
+      "status": "success",
+      "confidence": 0.7758791560808715,
+      "field_count": 3,
+      "duration_ms": 51,
+      "cost": 0.02125951247137447
+    },
+    {
+      "agent_id": "audit_report_agent",
+      "status": "success",
+      "confidence": 0.836889845001753,
+      "field_count": 4,
+      "duration_ms": 51,
+      "cost": 0.026236489630066466
+    },
+    {
+      "agent_id": "loans_agent",
+      "status": "success",
+      "confidence": 0.7851418709072335,
+      "field_count": 8,
+      "duration_ms": 51,
+      "cost": 0.02880080844969725
+    },
+    {
+      "agent_id": "reserves_agent",
+      "status": "success",
+      "confidence": 0.7588720002240779,
+      "field_count": 4,
+      "duration_ms": 51,
+      "cost": 0.05869079940042064
+    },
+    {
+      "agent_id": "energy_agent",
+      "status": "success",
+      "confidence": 0.9335593667144866,
+      "field_count": 5,
+      "duration_ms": 50,
+      "cost": 0.06454738113621987
+    },
+    {
+      "agent_id": "key_metrics_agent",
+      "status": "success",
+      "confidence": 0.8656489397486222,
+      "field_count": 5,
+      "duration_ms": 51,
+      "cost": 0.04931180767905251
+    },
+    {
+      "agent_id": "leverantörer_agent",
+      "status": "success",
+      "confidence": 0.8102170081523594,
+      "field_count": 5,
+      "duration_ms": 50,
+      "cost": 0.04358230029571104
+    }
+  ],
+  "summary": {
+    "total_agents": 19,
+    "successful_agents": 15,
+    "failed_agents": 4,
+    "overall_confidence": 0.825744426966633,
+    "total_cost": 0.9181631248646507,
+    "duration_seconds": 0.967,
+    "high_confidence_fields": 10,
+    "medium_confidence_fields": 65,
+    "low_confidence_fields": 0
+  }
+}

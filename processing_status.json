@@ -1,0 +1,211 @@
+{
+  "session_id": "session_20251118_022311",
+  "started_at": "2025-11-18T02:31:26.651Z",
+  "current_phase": "completed",
+  "pdfs_processed": 1,
+  "pdfs_total": 62,
+  "total_cost": 0.9181631248646507,
+  "total_duration_seconds": 0.967,
+  "pdfs": [
+    {
+      "pdf_path": "pdfs/82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+      "pdf_id": "brf_82665",
+      "status": "completed",
+      "session_id": "session_20251118_022311",
+      "locked_at": "2025-11-18T02:31:26.651Z",
+      "completed_at": "2025-11-18T02:31:27.620Z",
+      "confidence_score": 0.825744426966633,
+      "cost": 0.9181631248646507
+    },
+    {
+      "pdf_path": "pdfs/79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf",
+      "pdf_id": "brf_79446",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/78954_årsredovisning_solna_brf_husberget.pdf",
+      "pdf_id": "brf_78954",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+      "pdf_id": "brf_55218",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf",
+      "pdf_id": "brf_54886",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "pdf_id": "brf_53536",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf",
+      "pdf_id": "brf_52476",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/51223_årsredovisning_jönköping_brf_lönnen.pdf",
+      "pdf_id": "brf_51223",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/49908_årsredovisning_sundbyberg_brf_stugan_2.pdf",
+      "pdf_id": "brf_49908",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+      "pdf_id": "brf_44549",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+      "pdf_id": "brf_44444",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/281330_årsredovisning_leksand_brf_stäppan.pdf",
+      "pdf_id": "brf_281330",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/278531_årsredovisning_falun_brf_krondiket.pdf",
+      "pdf_id": "brf_278531",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+      "pdf_id": "brf_277136",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/278354_årsredovisning_stockholm_brf_the_brick_terra.pdf",
+      "pdf_id": "brf_278354",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "pdf_id": "brf_270695",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf",
+      "pdf_id": "brf_269295",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+      "pdf_id": "brf_269172",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "pdf_id": "brf_267456",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    },
+    {
+      "pdf_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "pdf_id": "brf_267197",
+      "status": "pending",
+      "session_id": null,
+      "locked_at": null,
+      "completed_at": null,
+      "confidence_score": null,
+      "cost": null
+    }
+  ]
+}
