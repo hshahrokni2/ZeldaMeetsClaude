@@ -1,0 +1,2 @@
+{"session_id":"session_20251118_042716","pdf":"267197_årsredovisning_norrköping_brf_axet_4.pdf","status":"started","timestamp":"2025-11-18T04:27:16.233Z"}
+{"session_id":"session_20251118_042716","pdf":"267197_årsredovisning_norrköping_brf_axet_4.pdf","status":"failed","error":"No API keys found. Please configure .env with at least one of:\n  - OPENROUTER_API_KEY\n  - ANTHROPIC_API_KEY\n  - OPENAI_API_KEY","duration_ms":5,"timestamp":"2025-11-18T04:27:16.238Z"}
