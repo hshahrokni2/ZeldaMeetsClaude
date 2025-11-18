@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "sessions": [
+    {
+      "session_id": "session_20251118_001",
+      "pdf_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "pdf_filename": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "pdf_id": "267197",
+      "status": "infrastructure_complete",
+      "started_at": "2025-11-18T02:26:00Z",
+      "completed_at": "2025-11-18T02:28:25Z",
+      "agent_name": "claude-code",
+      "result_path": null,
+      "session_report": "results/sessions/session_20251118_001.md",
+      "metrics": {
+        "duration_seconds": 145,
+        "cost_usd": 0.0,
+        "fields_extracted": 0,
+        "high_confidence_pct": null,
+        "infrastructure_files_created": 7
+      },
+      "notes": "Infrastructure setup session - protocols created, tracking established. PDF remains locked for Session 002 extraction.",
+      "next_action": "Install dependencies (npm install) and configure .env before Session 002"
+    }
+  ],
+  "current_session": null,
+  "last_updated": "2025-11-18T02:28:25Z",
+  "statistics": {
+    "total_processed": 1,
+    "total_completed": 0,
+    "total_infrastructure_sessions": 1,
+    "total_extraction_sessions": 0,
+    "total_failed": 0,
+    "total_cost_usd": 0.0,
+    "avg_duration_seconds": 145,
+    "avg_fields_extracted": 0
+  },
+  "ready_for_extraction": {
+    "pdf_locked": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+    "requires": ["npm install", ".env configuration", "extraction script"]
+  }
+}
