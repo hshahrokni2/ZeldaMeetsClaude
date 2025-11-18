@@ -1,6 +1,12 @@
 node_modules/
 .env
-*.log
 dist/
 build/
 .DS_Store
+
+# Lock files (temporary processing state)
+.processing/
+
+# Keep logs (but ignore any npm debug logs)
+npm-debug.log
+yarn-error.log

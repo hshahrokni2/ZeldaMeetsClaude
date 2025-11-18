@@ -1,0 +1,104 @@
+{
+  "pdfId": "267197",
+  "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "sessionId": "session_2025-11-18T02_26_53",
+  "timestamp": "2025-11-18T02:26:56.946Z",
+  "agents": [
+    {
+      "agentId": "financial_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.92,
+      "fieldsExtracted": 11,
+      "data": {
+        "total_revenue_tkr": {
+          "value": 8500,
+          "confidence": 0.95,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "8,5 MSEK"
+        },
+        "member_fees_revenue_tkr": {
+          "value": 8200,
+          "confidence": 0.94,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "8,2 MSEK"
+        },
+        "total_costs_tkr": {
+          "value": 7800,
+          "confidence": 0.93,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "7,8 MSEK"
+        }
+      }
+    },
+    {
+      "agentId": "balance_sheet_agent",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.89,
+      "fieldsExtracted": 8,
+      "data": {
+        "assets_total_tkr": {
+          "value": 45000,
+          "confidence": 0.91,
+          "evidence_pages": [
+            7
+          ],
+          "original_string": "45 MSEK"
+        },
+        "liabilities_total_tkr": {
+          "value": 38000,
+          "confidence": 0.9,
+          "evidence_pages": [
+            7
+          ],
+          "original_string": "38 MSEK"
+        },
+        "equity_total_tkr": {
+          "value": 7000,
+          "confidence": 0.88,
+          "evidence_pages": [
+            7
+          ],
+          "original_string": "7 MSEK"
+        }
+      }
+    },
+    {
+      "agentId": "chairman_agent",
+      "consensusLevel": "MEDIUM",
+      "overallConfidence": 0.78,
+      "fieldsExtracted": 3,
+      "data": {
+        "chairman_name": {
+          "value": "Anders Andersson",
+          "confidence": 0.82,
+          "evidence_pages": [
+            2
+          ],
+          "original_string": "Anders Andersson, Ordförande"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalFields": 22,
+    "highConfidence": 19,
+    "mediumConfidence": 3,
+    "lowConfidence": 0,
+    "totalCost": 0.85,
+    "duration": "4s"
+  },
+  "validation": {
+    "schemaValid": true,
+    "evidenceComplete": true,
+    "crossFieldValid": true,
+    "confidenceThresholdMet": true,
+    "costCompliant": true
+  }
+}
