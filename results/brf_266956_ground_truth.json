@@ -1,0 +1,266 @@
+{
+  "pdfId": "brf_266956",
+  "sessionId": "session_20251118_022723",
+  "status": "success",
+  "agents": [
+    {
+      "agentId": "chairman_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8227681974537646,
+      "fieldsExtracted": 10,
+      "data": {
+        "chairman_name": {
+          "value": "Anders Svensson",
+          "confidence": 0.98,
+          "evidence_pages": [
+            3
+          ]
+        },
+        "chairman_start_year": {
+          "value": 2020,
+          "confidence": 0.85,
+          "evidence_pages": [
+            3
+          ]
+        }
+      },
+      "cost": 0.06262381709156517,
+      "duration": 6577.878272053798
+    },
+    {
+      "agentId": "board_members_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8537127649530933,
+      "fieldsExtracted": 8,
+      "data": {},
+      "cost": 0.0323812356219984,
+      "duration": 6071.503682791135
+    },
+    {
+      "agentId": "auditor_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8065425210474882,
+      "fieldsExtracted": 6,
+      "data": {},
+      "cost": 0.06465345895717922,
+      "duration": 7787.126827020174
+    },
+    {
+      "agentId": "financial_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8296752212070655,
+      "fieldsExtracted": 11,
+      "data": {
+        "total_revenue_tkr": {
+          "value": 12500,
+          "confidence": 0.95,
+          "evidence_pages": [
+            5,
+            6
+          ]
+        },
+        "total_costs_tkr": {
+          "value": 10200,
+          "confidence": 0.92,
+          "evidence_pages": [
+            5,
+            6
+          ]
+        },
+        "net_result_tkr": {
+          "value": 2300,
+          "confidence": 0.9,
+          "evidence_pages": [
+            6
+          ]
+        }
+      },
+      "cost": 0.07510587644818806,
+      "duration": 7587.2007988598325
+    },
+    {
+      "agentId": "balance_sheet_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.7876826115193638,
+      "fieldsExtracted": 7,
+      "data": {},
+      "cost": 0.07260248287627508,
+      "duration": 4603.883469835104
+    },
+    {
+      "agentId": "property_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.9256437492155778,
+      "fieldsExtracted": 3,
+      "data": {
+        "building_year": {
+          "value": 1965,
+          "confidence": 0.9,
+          "evidence_pages": [
+            4
+          ]
+        },
+        "apartments_count": {
+          "value": 42,
+          "confidence": 0.95,
+          "evidence_pages": [
+            2
+          ]
+        }
+      },
+      "cost": 0.04709118306217673,
+      "duration": 7847.119850997962
+    },
+    {
+      "agentId": "fees_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.9139332357247569,
+      "fieldsExtracted": 6,
+      "data": {},
+      "cost": 0.07205510230176917,
+      "duration": 6620.885728441892
+    },
+    {
+      "agentId": "cashflow_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8452787788733428,
+      "fieldsExtracted": 3,
+      "data": {},
+      "cost": 0.05595145064819915,
+      "duration": 5086.188786287478
+    },
+    {
+      "agentId": "operational_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8511454947654491,
+      "fieldsExtracted": 4,
+      "data": {},
+      "cost": 0.03705013123908105,
+      "duration": 4437.4908616205075
+    },
+    {
+      "agentId": "notes_depreciation_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.931357146113409,
+      "fieldsExtracted": 5,
+      "data": {},
+      "cost": 0.03765593630744121,
+      "duration": 6040.845717850485
+    },
+    {
+      "agentId": "notes_maintenance_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.9094503015660179,
+      "fieldsExtracted": 9,
+      "data": {},
+      "cost": 0.04603330492405644,
+      "duration": 6448.6265817939875
+    },
+    {
+      "agentId": "notes_tax_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8464457265871326,
+      "fieldsExtracted": 3,
+      "data": {},
+      "cost": 0.03992517676930075,
+      "duration": 7808.457393790495
+    },
+    {
+      "agentId": "events_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.9377477733632148,
+      "fieldsExtracted": 6,
+      "data": {},
+      "cost": 0.03648688389909332,
+      "duration": 6495.820425596799
+    },
+    {
+      "agentId": "audit_report_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8957719665971277,
+      "fieldsExtracted": 12,
+      "data": {},
+      "cost": 0.03114353475764699,
+      "duration": 4148.8895388864485
+    },
+    {
+      "agentId": "loans_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.8974753929862771,
+      "fieldsExtracted": 6,
+      "data": {},
+      "cost": 0.044063212754247356,
+      "duration": 7269.800155507639
+    },
+    {
+      "agentId": "reserves_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.7594318495503785,
+      "fieldsExtracted": 11,
+      "data": {},
+      "cost": 0.048561277077037876,
+      "duration": 7634.786503032556
+    },
+    {
+      "agentId": "energy_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.764132777289764,
+      "fieldsExtracted": 7,
+      "data": {},
+      "cost": 0.03578981319517615,
+      "duration": 6581.371797351725
+    },
+    {
+      "agentId": "operating_costs_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.769395350706054,
+      "fieldsExtracted": 9,
+      "data": {},
+      "cost": 0.0448232041433058,
+      "duration": 4776.037644750663
+    },
+    {
+      "agentId": "key_metrics_agent",
+      "status": "success",
+      "consensusLevel": "HIGH",
+      "overallConfidence": 0.859811179131069,
+      "fieldsExtracted": 3,
+      "data": {},
+      "cost": 0.07941790985834433,
+      "duration": 4256.677932260909
+    }
+  ],
+  "summary": {
+    "totalFields": 129,
+    "highConfidence": 76,
+    "mediumConfidence": 0,
+    "lowConfidence": 53,
+    "nullFields": 6,
+    "totalCost": 0.96,
+    "duration": "0m 1s",
+    "qualityGate": "FLAGGED"
+  },
+  "metadata": {
+    "fiscal_year": 2024,
+    "brf_name": "Mock BRF brf_266956",
+    "organization_number": "769621-2194"
+  }
+}

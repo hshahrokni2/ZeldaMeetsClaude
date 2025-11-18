@@ -1,0 +1,9 @@
+{
+  "session_id": "session_20251118_022723",
+  "pdf_id": "brf_266956",
+  "pdf_path": "pdfs/hjorthagen/brf_266956.pdf",
+  "status": "completed",
+  "locked_at": "2025-11-18T02:27:23.229Z",
+  "completed_at": "2025-11-18T02:27:25.149Z",
+  "processor": "claude-code-autonomous"
+}
