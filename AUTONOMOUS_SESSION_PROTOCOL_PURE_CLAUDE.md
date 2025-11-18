@@ -1,7 +1,7 @@
 # Autonomous Session Protocol - Pure Claude Edition
 
-**Version**: 2.0.0 (Pure Claude - No External APIs)
-**Purpose**: Single prompt that processes one PDF through complete extraction pipeline - 100% Claude with specialized prompts
+**Version**: 3.0.0 (Pure Claude + Automatic Meta-Analysis)
+**Purpose**: Single prompt that processes one PDF through complete extraction pipeline - 100% Claude with specialized prompts. Automatically runs meta-analysis every 10 PDFs to refine the system.
 
 ---
 
@@ -20,7 +20,8 @@ Execute complete pipeline:
 3. Multi-Pass Extraction (19 specialized contexts)
 4. Validation & Quality Checks
 5. Learning Documentation
-6. Commit & Unlock
+6. Meta-Analysis (automatic at 10, 20, 30... completions)
+7. Commit & Unlock
 
 Session ID: [GENERATE: session_YYYYMMDD_HHMMSS]
 
@@ -29,7 +30,7 @@ BEGIN AUTONOMOUS EXECUTION
 
 ---
 
-## 🏗️ ARCHITECTURE: 100% Claude
+## 🏗️ ARCHITECTURE: 100% Claude + Self-Improving
 
 **Key Principle:** Instead of calling external APIs, each "agent" is **me (Claude) analyzing the same PDF with different specialized prompts**.
 
@@ -55,9 +56,19 @@ User → Single prompt → Claude reads PDF → Claude analyzes with 19 contexts
    - Commit everything
 3. **I report completion** with full metrics
 
+**Meta-Analysis Integration:**
+- Every 10 completed PDFs (10, 20, 30...), the system automatically:
+  - Analyzes patterns across the last 10 sessions
+  - Identifies winning prompts/validators/schemas
+  - Promotes high-confidence improvements to production
+  - Documents new blind spots discovered
+  - Updates PATTERNS_*.md with evidence-based findings
+- This happens **automatically** within the same session that completes PDF #10, #20, etc.
+- No manual intervention required
+
 ---
 
-## 📋 AUTONOMOUS EXECUTION CHECKLIST (62 steps)
+## 📋 AUTONOMOUS EXECUTION CHECKLIST (71 steps, +meta-analysis when triggered)
 
 ### PHASE 0: INITIALIZATION (5 minutes)
 
@@ -603,7 +614,171 @@ For each of 19 agents:
       ✅ EXTRACTION_ROBUSTNESS_ANALYSIS.md (updated if needed)
       ✅ CHANGELOG.md (updated)
 
-☐ 56. Git commit all changes:
+☐ 56. Check if meta-analysis threshold reached:
+
+      Read PDF_QUEUE.json
+      Check: completed_count % 10 == 0?
+
+      If TRUE:
+        → Proceed to Step 57 (Meta-Analysis Phase)
+
+      If FALSE:
+        → Skip to Step 65 (Git Commit)
+```
+
+---
+
+### PHASE 7B: META-ANALYSIS (AUTOMATIC AT 10, 20, 30... COMPLETIONS)
+
+**Trigger**: Runs automatically when `completed % 10 == 0` (e.g., after PDF #10, #20, #30, etc.)
+
+**Duration**: ~30-45 minutes
+
+```
+☐ 57. Initialize meta-analysis:
+
+      session_id_meta = "meta_analysis_batch_[N]_session_[timestamp]"
+      batch_number = completed_count / 10
+      start_range = (batch_number - 1) * 10 + 1
+      end_range = batch_number * 10
+
+      Example: If completed=20, then batch_number=2, range=11-20
+
+☐ 58. Gather data from last 10 sessions:
+
+      Read PDF_QUEUE.json
+      sessions_to_analyze = pdfs where status=="completed"
+        AND session_history[-1].completed_at >= [timestamp of PDF #start_range]
+
+      Collect for each:
+        - learnings.md files
+        - metrics.json files
+        - validation_report.json files
+        - extraction.json field coverage
+
+☐ 59. Analyze cross-session patterns:
+
+      For each category:
+
+      A. Winning Prompts:
+         - Which agent prompts consistently achieved >85% confidence?
+         - Which prompts worked across diverse document types?
+         - Which prompts failed consistently?
+
+      B. Effective Validators:
+         - Which validators caught the most errors?
+         - Which validators produced false positives?
+         - Which validation rules need adjustment?
+
+      C. Schema Coverage Gaps:
+         - Which fields are consistently null (>70% sessions)?
+         - Which fields have low confidence (<0.75 avg)?
+         - Which fields need better extraction logic?
+
+      D. Common Failure Modes:
+         - What patterns caused extraction failures?
+         - What document characteristics predict low quality?
+         - What root causes appear repeatedly?
+
+      E. Blind Spots Discovered:
+         - New issues not in EXTRACTION_ROBUSTNESS_ANALYSIS.md
+         - Frequency and impact of each
+         - Recommended fixes
+
+☐ 60. Generate meta-analysis documents:
+
+      Create experiments/meta_analysis/batch_[N]/
+
+      A. cross_session_patterns.md:
+         - Patterns that worked in ≥8/10 sessions → HIGH CONFIDENCE
+         - Patterns that worked in 5-7/10 sessions → MEDIUM
+         - Patterns that worked in <5/10 sessions → LOW
+
+      B. winning_configurations.md:
+         - Best prompts (with evidence from sessions)
+         - Best validators (with error catch rates)
+         - Best extraction strategies (with coverage stats)
+
+      C. failure_modes_catalog.md:
+         - Each failure mode with:
+           - Frequency (N/10 sessions)
+           - Root cause analysis
+           - Recommended fix
+           - Priority (Critical/High/Medium/Low)
+
+      D. recommendations.md:
+         - Changes to promote to production
+         - Changes to test in experiments
+         - Changes to defer (low impact)
+
+☐ 61. Decide what to promote to production:
+
+      Criteria for promotion:
+      - Pattern appeared in ≥8/10 sessions
+      - Measurable improvement (>10% coverage or >0.05 confidence)
+      - No negative side effects observed
+      - Clear evidence in metrics
+
+      For each promotion candidate:
+        → Update agents/[agent].md with improved prompt
+        → Update schemas/brf-schema-v1.0.0.ts with field changes
+        → Update lib/validators/ with improved validation
+        → Document change in CHANGELOG.md
+
+☐ 62. Update EXTRACTION_ROBUSTNESS_ANALYSIS.md:
+
+      Add any new blind spots discovered:
+      - Blind Spot #[next number]
+      - Description with evidence
+      - Impact assessment
+      - Frequency across batch
+      - Recommended mitigation
+
+☐ 63. Update PATTERNS files:
+
+      PATTERNS_THAT_WORK.md:
+        - Promote high-confidence patterns from batch
+        - Update confidence ratings with new evidence
+        - Add batch number as evidence source
+
+      PATTERNS_TO_AVOID.md:
+        - Add anti-patterns discovered in batch
+        - Update impact ratings
+        - Add specific failure examples
+
+☐ 64. Create batch summary in CHANGELOG.md:
+
+      ## [Batch [N] Meta-Analysis] - [Date]
+
+      ### Batch Summary
+      - **PDFs Processed**: #[start_range] to #[end_range] (10 PDFs)
+      - **Success Rate**: [X]/10 ([Y]%)
+      - **Avg Field Coverage**: [X]%
+      - **Avg Confidence**: [X]
+      - **Total Cost**: $0 (pure Claude)
+
+      ### Key Findings
+      - [Finding 1 with evidence]
+      - [Finding 2 with evidence]
+      - [Finding 3 with evidence]
+
+      ### Production Promotions
+      - [Promoted change 1]: [agent/schema/validator]
+      - [Promoted change 2]: [agent/schema/validator]
+
+      ### New Blind Spots
+      - Blind Spot #[X]: [Name] (Impact: [Critical/High/Medium/Low])
+
+      ### Next Steps
+      - [Recommendation for next batch]
+```
+
+---
+
+### PHASE 8: FINALIZATION (5 minutes)
+
+```
+☐ 65. Git commit all changes (including meta-analysis if ran):
 
       git add pdfs/results/[pdf_id]/
       git add pdfs/PDF_QUEUE.json
@@ -611,6 +786,12 @@ For each of 19 agents:
       git add PATTERNS_TO_AVOID.md
       git add EXTRACTION_ROBUSTNESS_ANALYSIS.md
       git add CHANGELOG.md
+
+      # If meta-analysis ran, also add:
+      git add experiments/meta_analysis/batch_[N]/
+      git add agents/ (if any promoted changes)
+      git add schemas/ (if any promoted changes)
+      git add lib/validators/ (if any promoted changes)
 
       git commit -m "session([session_id]): Process [pdf_id] - [status]
 
@@ -632,15 +813,20 @@ For each of 19 agents:
       - +[N] patterns to PATTERNS_THAT_WORK.md
       - +[N] anti-patterns to PATTERNS_TO_AVOID.md
 
-      [New blind spots if any]
+      [If meta-analysis ran]
+      Meta-Analysis (Batch [N]):
+      - Analyzed sessions [start]-[end]
+      - [N] production promotions
+      - [N] new blind spots identified
 
       Files:
       - extraction.json ([X] fields)
       - validation_report.json ([X]% pass rate)
       - learnings.md ([X] observations)
-      - metrics.json"
+      - metrics.json
+      [If meta-analysis ran: + experiments/meta_analysis/batch_[N]/]"
 
-☐ 57. Git push with retry:
+☐ 66. Git push with retry:
 
       Try: git push origin [branch]
 
@@ -655,11 +841,11 @@ For each of 19 agents:
               If fails again:
                 Log error, continue (will be pushed later)
 
-☐ 58. Clean up temporary files:
+☐ 67. Clean up temporary files:
       - Remove any .tmp files
       - Remove intermediate processing files
 
-☐ 59. Verify repository state:
+☐ 68. Verify repository state:
       Run: git status
       Expected: "nothing to commit, working tree clean"
       If uncommitted files remain: Investigate and fix
@@ -667,15 +853,19 @@ For each of 19 agents:
 
 ---
 
-### PHASE 8: REPORTING (2 minutes)
+### PHASE 9: REPORTING (2 minutes)
 
 ```
-☐ 60. Generate session report (see format below)
+☐ 69. Generate session report (see format below)
+      [Include meta-analysis summary if it ran]
 
-☐ 61. Log completion:
-      console.log("✅ SESSION [session_id] COMPLETE")
+☐ 70. Log completion:
+      If meta-analysis ran:
+        console.log("✅ SESSION [session_id] COMPLETE + META-ANALYSIS BATCH [N] COMPLETE")
+      Else:
+        console.log("✅ SESSION [session_id] COMPLETE")
 
-☐ 62. Exit gracefully
+☐ 71. Exit gracefully
 ```
 
 ---

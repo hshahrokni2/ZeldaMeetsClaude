@@ -92,10 +92,13 @@ When Claude finishes (reports "Session complete ✅"), paste the prompt again fo
 - ✅ Validates results
 - ✅ Documents learnings
 - ✅ Updates pattern database
+- ✅ **Runs meta-analysis** (every 10th PDF: #10, #20, #30...)
+- ✅ **Refines prompts/validators** (promotes winning patterns to production)
 - ✅ Commits everything
 - ✅ Reports completion
 
-**Time per PDF:** ~60-90 minutes (vs 30-45 with APIs, but zero setup & zero cost!)
+**Time per PDF:** ~60-90 minutes regular | ~90-135 minutes with meta-analysis (every 10th)
+**Cost:** $0 (100% Claude, no external APIs!)
 
 ---
 
@@ -244,36 +247,44 @@ Output:
 
 ---
 
-## 🔄 After 10 PDFs: Meta-Analysis
+## 🔄 Automatic Meta-Analysis (Every 10 PDFs)
 
-Once you've processed 10+ PDFs, run meta-analysis:
+**No manual intervention required!** The system automatically runs meta-analysis when completing PDFs #10, #20, #30, etc.
 
-```
-TASK: Meta-Analysis Across Sessions 001-010
+### What Happens Automatically
 
-Protocol: RIGOR_PROTOCOL.md → "LEARNING PROTOCOL: 10 Parallel Sessions"
+When you complete PDF #10 (or #20, #30...), the same session will:
 
-Analyze:
-1. Cross-session patterns (what worked across all documents?)
-2. Winning configurations (best prompts, validators, schemas)
-3. Failure modes catalog (common failures + root causes)
-4. Next hypotheses (what to test next)
+1. **Analyze Last 10 Sessions**:
+   - Cross-session patterns (what worked across all documents?)
+   - Winning configurations (best prompts, validators, schemas)
+   - Failure modes catalog (common failures + root causes)
+   - New blind spots discovered
 
-Deliverables:
-- experiments/meta_analysis/cross_session_patterns.md
-- experiments/meta_analysis/winning_configurations.md
-- experiments/meta_analysis/failure_modes_catalog.md
-- experiments/meta_analysis/next_hypotheses.md
-- Promoted configs to production (if validated)
+2. **Generate Analysis Documents**:
+   - `experiments/meta_analysis/batch_N/cross_session_patterns.md`
+   - `experiments/meta_analysis/batch_N/winning_configurations.md`
+   - `experiments/meta_analysis/batch_N/failure_modes_catalog.md`
+   - `experiments/meta_analysis/batch_N/recommendations.md`
 
-BEGIN META-ANALYSIS
-```
+3. **Promote to Production** (automatically):
+   - Patterns that work in ≥8/10 sessions → update `agents/*.md`
+   - Validators that catch errors consistently → update `lib/validators/`
+   - Schema improvements → update `schemas/brf-schema-v1.0.0.ts`
 
-This identifies:
-- Patterns that work **across all documents** → promote to production
-- Patterns that work **only for specific types** → document conditions
-- Prompts that consistently **outperform** → make default
-- Validators that consistently **catch errors** → keep and expand
+4. **Update Learning Databases**:
+   - Add high-confidence patterns to `PATTERNS_THAT_WORK.md`
+   - Add anti-patterns to `PATTERNS_TO_AVOID.md`
+   - Add new blind spots to `EXTRACTION_ROBUSTNESS_ANALYSIS.md`
+
+5. **Commit Everything** (single commit with PDF + meta-analysis)
+
+### Result
+
+- Session #10 takes ~90-135 min instead of ~60-90 min
+- Session #11 benefits from improved prompts/validators
+- System gets **measurably better** every 10 PDFs
+- **Zero manual work** required from you!
 
 ---
 
