@@ -28,7 +28,10 @@
       "completed_at": "2025-11-18T02:23:45Z"
     },
     "commit_and_unlock": {
-      "status": "IN_PROGRESS"
+      "status": "COMPLETED",
+      "completed_at": "2025-11-18T02:24:30Z",
+      "git_commit": "4e037ed",
+      "git_push": "SUCCESS"
     }
   },
   "summary": {
