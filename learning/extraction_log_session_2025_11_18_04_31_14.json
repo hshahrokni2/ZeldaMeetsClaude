@@ -1,0 +1,33 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_2025_11_18_04_31_14",
+  "metrics": {
+    "duration_seconds": 15,
+    "total_cost_usd": 0.699,
+    "total_fields": 110,
+    "extracted_fields": 109,
+    "high_confidence_fields": 100,
+    "medium_confidence_fields": 9,
+    "low_confidence_fields": 1,
+    "completeness_rate": 0.991,
+    "consensus_breakdown": {
+      "dual_agreement": 100,
+      "tiebreaker_used": 9,
+      "no_consensus": 1
+    }
+  },
+  "patterns": {
+    "document_complexity": "simulated",
+    "layout_type": "mixed",
+    "table_detection_success_rate": 0.88,
+    "common_challenges": [
+      "Multi-column financial tables (simulated)",
+      "Board member names in mixed formats (simulated)"
+    ]
+  },
+  "model_performance": {
+    "best_for_financial": "GPT-4o (simulated)",
+    "best_for_swedish_text": "Gemini 2.5 Pro (simulated)",
+    "best_for_names": "Claude 3.7 Sonnet (simulated)"
+  }
+}

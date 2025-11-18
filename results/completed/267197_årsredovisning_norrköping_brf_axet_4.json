@@ -1,0 +1,1641 @@
+{
+  "pdf_id": "267197_årsredovisning_norrköping_brf_axet_4",
+  "session_id": "session_2025_11_18_04_31_14",
+  "processing_started_at": "2025-11-18T04:31:15.096Z",
+  "processing_completed_at": "2025-11-18T04:31:30.096Z",
+  "agents": [
+    {
+      "agent_id": "financial_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9203822768441818,
+      "data": {
+        "financial_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9106761283883699,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "financial_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9087812781275741,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "financial_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9678228194003192,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "financial_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.707533130707855,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "tiebreaker"
+        },
+        "financial_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9891824729826618,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "financial_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9192994594661575,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "financial_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.9099022291422915,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        },
+        "financial_agent_field_8": {
+          "value": "mock_value_7",
+          "confidence": 0.9662688456734106,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 7",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_7",
+            "gpt4": "mock_value_7"
+          }
+        },
+        "financial_agent_field_9": {
+          "value": "mock_value_8",
+          "confidence": 0.953821905693188,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 8",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_8",
+            "gpt4": "mock_value_8"
+          }
+        },
+        "financial_agent_field_10": {
+          "value": "mock_value_9",
+          "confidence": 0.9392637433537815,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 9",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_9",
+            "gpt4": "mock_value_9"
+          }
+        },
+        "financial_agent_field_11": {
+          "value": "mock_value_10",
+          "confidence": 0.951653032350392,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 10",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_10",
+            "gpt4": "mock_value_10"
+          }
+        }
+      },
+      "extraction_duration_ms": 1014.900449878669,
+      "cost_usd": 0.020724559301306823
+    },
+    {
+      "agent_id": "balance_sheet_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9466471416567511,
+      "data": {
+        "balance_sheet_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9856752924323023,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "balance_sheet_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9788542209348057,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "balance_sheet_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.7908447372524089,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "tiebreaker"
+        },
+        "balance_sheet_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.980903422423579,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "balance_sheet_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.938413612830777,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "balance_sheet_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9788053783503788,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "balance_sheet_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.9115536498751703,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        },
+        "balance_sheet_agent_field_8": {
+          "value": "mock_value_7",
+          "confidence": 0.9711259322996929,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 7",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_7",
+            "gpt4": "mock_value_7"
+          }
+        },
+        "balance_sheet_agent_field_9": {
+          "value": "mock_value_8",
+          "confidence": 0.9874774000043914,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 8",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_8",
+            "gpt4": "mock_value_8"
+          }
+        },
+        "balance_sheet_agent_field_10": {
+          "value": "mock_value_9",
+          "confidence": 0.9583990950248942,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 9",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_9",
+            "gpt4": "mock_value_9"
+          }
+        },
+        "balance_sheet_agent_field_11": {
+          "value": "mock_value_10",
+          "confidence": 0.9208834381696916,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 10",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_10",
+            "gpt4": "mock_value_10"
+          }
+        },
+        "balance_sheet_agent_field_12": {
+          "value": "mock_value_11",
+          "confidence": 0.9568295202829199,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 11",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_11",
+            "gpt4": "mock_value_11"
+          }
+        }
+      },
+      "extraction_duration_ms": 763.7955324046318,
+      "cost_usd": 0.04872257088171397
+    },
+    {
+      "agent_id": "chairman_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9722733628604391,
+      "data": {
+        "chairman_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9525963303739665,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "chairman_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9862780980228709,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "chairman_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.97794566018448,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        }
+      },
+      "extraction_duration_ms": 1082.3278935544233,
+      "cost_usd": 0.03318543504078047
+    },
+    {
+      "agent_id": "board_members_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9493555784791736,
+      "data": {
+        "board_members_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9470696131318658,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "board_members_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9736283803249178,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "board_members_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.975116162220383,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "board_members_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.8462269119977068,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "tiebreaker"
+        },
+        "board_members_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9819821079307702,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "board_members_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9700498223831645,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "board_members_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.9496007241404136,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        },
+        "board_members_agent_field_8": {
+          "value": "mock_value_7",
+          "confidence": 0.9511709057041675,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 7",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_7",
+            "gpt4": "mock_value_7"
+          }
+        }
+      },
+      "extraction_duration_ms": 904.9930915547177,
+      "cost_usd": 0.038587793103286416
+    },
+    {
+      "agent_id": "auditor_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9419634982089728,
+      "data": {
+        "auditor_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9392085993035844,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "auditor_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9791335541790922,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "auditor_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9102732074513051,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "auditor_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9392386319019097,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        }
+      },
+      "extraction_duration_ms": 1214.1292877859855,
+      "cost_usd": 0.04272228624459083
+    },
+    {
+      "agent_id": "property_agent",
+      "consensus_level": "MEDIUM",
+      "overall_confidence": 0.8383296169304328,
+      "data": {
+        "property_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.939748746378867,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "property_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9105922735078602,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "property_agent_field_3": {
+          "value": null,
+          "confidence": 0.3468675300299746,
+          "evidence_pages": [],
+          "original_string": null,
+          "extraction_method": "no_consensus"
+        },
+        "property_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9586736256810598,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "property_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9301659422696511,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "property_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9439295837151847,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        }
+      },
+      "extraction_duration_ms": 989.2092165906658,
+      "cost_usd": 0.029759446845579858
+    },
+    {
+      "agent_id": "fees_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9684862137806032,
+      "data": {
+        "fees_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9550700807554551,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "fees_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9858539962832578,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "fees_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9772044108737169,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "fees_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9479592961445951,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "fees_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9763432848459911,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        }
+      },
+      "extraction_duration_ms": 634.3320857202024,
+      "cost_usd": 0.041314238574751944
+    },
+    {
+      "agent_id": "cashflow_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9419278893818863,
+      "data": {
+        "cashflow_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9873368557150195,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "cashflow_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9628432752153125,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "cashflow_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9386342258145781,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "cashflow_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9108894898594793,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "cashflow_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.925422559756695,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "cashflow_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9410092686078402,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "cashflow_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.9273595507042796,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        }
+      },
+      "extraction_duration_ms": 1159.3126345459816,
+      "cost_usd": 0.02002608225691658
+    },
+    {
+      "agent_id": "operational_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9250459856998923,
+      "data": {
+        "operational_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9432487748113163,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "operational_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.7960597283235602,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "tiebreaker"
+        },
+        "operational_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9090211895371061,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "operational_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9610938366699208,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "operational_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9029562587330888,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "operational_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9157293997123208,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "operational_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.9766099510082767,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        },
+        "operational_agent_field_8": {
+          "value": "mock_value_7",
+          "confidence": 0.9435215479452917,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 7",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_7",
+            "gpt4": "mock_value_7"
+          }
+        },
+        "operational_agent_field_9": {
+          "value": "mock_value_8",
+          "confidence": 0.97717318455815,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 8",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_8",
+            "gpt4": "mock_value_8"
+          }
+        }
+      },
+      "extraction_duration_ms": 909.8117148013375,
+      "cost_usd": 0.03510810090472889
+    },
+    {
+      "agent_id": "notes_depreciation_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9012255458029775,
+      "data": {
+        "notes_depreciation_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.6660057739746634,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "tiebreaker"
+        },
+        "notes_depreciation_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9727679171882957,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "notes_depreciation_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9880447820753517,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "notes_depreciation_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9780837099735994,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        }
+      },
+      "extraction_duration_ms": 592.2798959795252,
+      "cost_usd": 0.020315638000802876
+    },
+    {
+      "agent_id": "notes_maintenance_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9213968175556905,
+      "data": {
+        "notes_maintenance_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9157855779379298,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "notes_maintenance_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9164921681790547,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "notes_maintenance_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9319127065500871,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        }
+      },
+      "extraction_duration_ms": 1022.6996096906245,
+      "cost_usd": 0.0477556276258584
+    },
+    {
+      "agent_id": "notes_tax_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9197849950133651,
+      "data": {
+        "notes_tax_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9879907503164407,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "notes_tax_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.8149650803721596,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "tiebreaker"
+        },
+        "notes_tax_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9563991543514948,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        }
+      },
+      "extraction_duration_ms": 1047.1485355481345,
+      "cost_usd": 0.05667704450670058
+    },
+    {
+      "agent_id": "events_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9459891509515647,
+      "data": {
+        "events_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9531904268287368,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "events_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9192762719077363,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "events_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9833019151720279,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "events_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9701809241462033,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "events_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9039962167031189,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        }
+      },
+      "extraction_duration_ms": 616.0856654976894,
+      "cost_usd": 0.03484319304163301
+    },
+    {
+      "agent_id": "audit_report_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9200620647159378,
+      "data": {
+        "audit_report_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.82753557623,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "tiebreaker"
+        },
+        "audit_report_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9437440703217601,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "audit_report_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9889065475960535,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        }
+      },
+      "extraction_duration_ms": 511.99017566858186,
+      "cost_usd": 0.02671711023643642
+    },
+    {
+      "agent_id": "loans_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.8908264079938406,
+      "data": {
+        "loans_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9231602980379511,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "loans_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9867317686310959,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "loans_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9043851070369628,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "loans_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9151022608606086,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "loans_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.7153958463578697,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "tiebreaker"
+        },
+        "loans_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9001831670385557,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        }
+      },
+      "extraction_duration_ms": 1189.8334038605412,
+      "cost_usd": 0.039812577716059235
+    },
+    {
+      "agent_id": "reserves_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9507061259137412,
+      "data": {
+        "reserves_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9605534835576572,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "reserves_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9464639447479195,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "reserves_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9169356853441154,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "reserves_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9788713900052722,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        }
+      },
+      "extraction_duration_ms": 894.2878012949857,
+      "cost_usd": 0.05034419196275587
+    },
+    {
+      "agent_id": "energy_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9150057128603415,
+      "data": {
+        "energy_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9058381091085842,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "energy_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.7786257233395925,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "tiebreaker"
+        },
+        "energy_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9833824574586504,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "energy_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9653820241423885,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "energy_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.941800250252492,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        }
+      },
+      "extraction_duration_ms": 642.9394906322455,
+      "cost_usd": 0.05752805726083651
+    },
+    {
+      "agent_id": "key_metrics_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9419514463342202,
+      "data": {
+        "key_metrics_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.9594622526573077,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "key_metrics_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9700487366711879,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "key_metrics_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9193070900894744,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "key_metrics_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9568422063764881,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        },
+        "key_metrics_agent_field_5": {
+          "value": "mock_value_4",
+          "confidence": 0.9092838397850627,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 4",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_4",
+            "gpt4": "mock_value_4"
+          }
+        },
+        "key_metrics_agent_field_6": {
+          "value": "mock_value_5",
+          "confidence": 0.9306270273673322,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 5",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_5",
+            "gpt4": "mock_value_5"
+          }
+        },
+        "key_metrics_agent_field_7": {
+          "value": "mock_value_6",
+          "confidence": 0.902930161906031,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 6",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_6",
+            "gpt4": "mock_value_6"
+          }
+        },
+        "key_metrics_agent_field_8": {
+          "value": "mock_value_7",
+          "confidence": 0.987110255820878,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 7",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_7",
+            "gpt4": "mock_value_7"
+          }
+        }
+      },
+      "extraction_duration_ms": 1451.324543098554,
+      "cost_usd": 0.02050535515791066
+    },
+    {
+      "agent_id": "leverantörer_agent",
+      "consensus_level": "HIGH",
+      "overall_confidence": 0.9485460563537711,
+      "data": {
+        "leverantörer_agent_field_1": {
+          "value": "mock_value_0",
+          "confidence": 0.972997018946166,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 0",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_0",
+            "gpt4": "mock_value_0"
+          }
+        },
+        "leverantörer_agent_field_2": {
+          "value": "mock_value_1",
+          "confidence": 0.9156732767810489,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 1",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_1",
+            "gpt4": "mock_value_1"
+          }
+        },
+        "leverantörer_agent_field_3": {
+          "value": "mock_value_2",
+          "confidence": 0.9496052432964741,
+          "evidence_pages": [
+            5,
+            6
+          ],
+          "original_string": "Original Swedish text for field 2",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_2",
+            "gpt4": "mock_value_2"
+          }
+        },
+        "leverantörer_agent_field_4": {
+          "value": "mock_value_3",
+          "confidence": 0.9559086863913955,
+          "evidence_pages": [
+            5
+          ],
+          "original_string": "Original Swedish text for field 3",
+          "extraction_method": "dual_agreement",
+          "models_agreement": {
+            "gemini": "mock_value_3",
+            "gpt4": "mock_value_3"
+          }
+        }
+      },
+      "extraction_duration_ms": 1312.0527893357566,
+      "cost_usd": 0.03414835772913331
+    }
+  ],
+  "summary": {
+    "total_fields": 110,
+    "extracted_fields": 109,
+    "high_confidence_count": 100,
+    "medium_confidence_count": 9,
+    "low_confidence_count": 1,
+    "completeness_rate": 0.991,
+    "total_cost_usd": 0.699,
+    "total_duration_seconds": 15
+  }
+}
