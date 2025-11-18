@@ -10,37 +10,47 @@
 ```
 ⚠️ EXECUTE PROTOCOL - DO NOT BUILD NEW INFRASTRUCTURE ⚠️
 
-Read these files NOW using the Read tool:
+STEP 0: Setup Git Branch (CRITICAL - Do this FIRST!)
+cd /home/user/ZeldaMeetsClaude
+git fetch origin claude/review-pdf-extraction-019GPWQbw5Ln9tfuM1EGnx3X
+git checkout claude/review-pdf-extraction-019GPWQbw5Ln9tfuM1EGnx3X
+git pull origin claude/review-pdf-extraction-019GPWQbw5Ln9tfuM1EGnx3X
+
+STEP 1: Read Protocol & Queue Files
+Use Read tool on:
 1. /home/user/ZeldaMeetsClaude/AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md
 2. /home/user/ZeldaMeetsClaude/pdfs/PDF_QUEUE.json
 
-Then execute the 71-step checklist starting at Phase 0.
+STEP 2: Execute 71-Step Checklist
+Follow protocol starting at Phase 0.
 
 CRITICAL - WHAT NOT TO DO:
 ❌ DO NOT create new .ts/.js files
 ❌ DO NOT write new scripts/orchestrators
 ❌ DO NOT build new infrastructure
 ❌ DO NOT create demo/mock data
-❌ DO NOT push to different branches
+❌ DO NOT switch branches after checkout
 
 REQUIRED - WHAT TO DO:
-✅ READ the protocol file (AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md)
-✅ READ the queue (pdfs/PDF_QUEUE.json)
-✅ PICK first PDF with status="pending"
-✅ LOCK it (Edit PDF_QUEUE.json: set status="processing", locked_by=session_id)
-✅ READ the actual PDF file using Read tool
-✅ EXTRACT data by analyzing PDF 19 times with different contexts
-✅ WRITE results to pdfs/results/[pdf_id]/extraction.json
-✅ COMMIT to branch: claude/review-pdf-extraction-019GPWQbw5Ln9tfuM1EGnx3X
+✅ RUN git checkout (Step 0)
+✅ RUN git pull (Step 0)
+✅ READ protocol (AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md)
+✅ READ queue (pdfs/PDF_QUEUE.json)
+✅ PICK first "pending" PDF
+✅ LOCK it (Edit PDF_QUEUE.json: status="processing")
+✅ READ actual PDF using Read tool
+✅ EXTRACT data (19 contexts)
+✅ WRITE to pdfs/results/[pdf_id]/
+✅ COMMIT & PUSH to same branch
 
-TOOLS YOU WILL USE:
-- Read: to read PDFs, protocols, queue
-- Edit: to update PDF_QUEUE.json
-- Write: to create extraction.json, learnings.md, metrics.json
-- Bash: for git add/commit/push only
+TOOLS:
+- Bash: git commands
+- Read: PDFs, protocols, queue
+- Edit: PDF_QUEUE.json
+- Write: extraction.json, learnings.md, metrics.json
 
 START NOW:
-Read /home/user/ZeldaMeetsClaude/pdfs/PDF_QUEUE.json and begin Phase 0, Step 1.
+Run git checkout, then read PDF_QUEUE.json.
 ```
 
 ---
