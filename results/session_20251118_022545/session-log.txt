@@ -1,0 +1,13 @@
+[2025-11-18T02:28:24.019Z] WARN  API keys missing
+[2025-11-18T02:28:24.021Z] INFO  Lock acquired for 267197_årsredovisning_norrköping_brf_axet_4.pdf
+[2025-11-18T02:28:24.021Z] INFO  Starting extraction pipeline for: pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf
+[2025-11-18T02:28:24.021Z] INFO  PDF size: 8.58 MB
+[2025-11-18T02:28:24.021Z] INFO  Stage 1: Vision Sectionization - Starting
+[2025-11-18T02:28:24.022Z] WARN  Sectionization not implemented - using mock data
+[2025-11-18T02:28:24.022Z] INFO  Stage 2: Orchestrator Routing - Starting
+[2025-11-18T02:28:24.022Z] WARN  Routing not implemented - using mock data
+[2025-11-18T02:28:24.022Z] INFO  Stage 3: Agent Execution - Starting
+[2025-11-18T02:28:24.022Z] WARN  Agent execution not implemented - using mock data
+[2025-11-18T02:28:24.022Z] INFO  Stage 4: Validation - Starting
+[2025-11-18T02:28:24.022Z] INFO  Extraction pipeline complete
+[2025-11-18T02:28:24.023Z] INFO  Learnings document generated

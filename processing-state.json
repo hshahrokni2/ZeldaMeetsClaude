@@ -1,0 +1,16 @@
+{
+  "processed": [
+    {
+      "filename": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "session_id": "session_20251118_022545",
+      "completed_at": "2025-11-18T02:28:24.024Z",
+      "status": "partial",
+      "quality_score": 0,
+      "agents_succeeded": 0
+    }
+  ],
+  "in_progress": null,
+  "failed": [],
+  "last_updated": "2025-11-18T02:28:24.024Z",
+  "sessions": []
+}

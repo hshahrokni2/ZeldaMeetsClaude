@@ -1,0 +1,11 @@
+{
+  "total_fields": 0,
+  "high_confidence": 0,
+  "medium_confidence": 0,
+  "low_confidence": 0,
+  "avg_confidence": 0,
+  "schema_valid": true,
+  "cross_validation_passed": true,
+  "agents_succeeded": 0,
+  "agents_failed": 19
+}

@@ -1,0 +1,79 @@
+{
+  "session_id": "session_20251118_022545",
+  "pdf_path": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "started_at": "2025-11-18T02:28:24.018Z",
+  "entries": [
+    {
+      "timestamp": "2025-11-18T02:28:24.019Z",
+      "level": "WARN",
+      "message": "API keys missing",
+      "metadata": {
+        "missing": [
+          "GEMINI_API_KEY",
+          "ANTHROPIC_API_KEY",
+          "OPENAI_API_KEY"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.021Z",
+      "level": "INFO",
+      "message": "Lock acquired for 267197_årsredovisning_norrköping_brf_axet_4.pdf"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.021Z",
+      "level": "INFO",
+      "message": "Starting extraction pipeline for: pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.021Z",
+      "level": "INFO",
+      "message": "PDF size: 8.58 MB"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.021Z",
+      "level": "INFO",
+      "message": "Stage 1: Vision Sectionization - Starting"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "WARN",
+      "message": "Sectionization not implemented - using mock data"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "INFO",
+      "message": "Stage 2: Orchestrator Routing - Starting"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "WARN",
+      "message": "Routing not implemented - using mock data"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "INFO",
+      "message": "Stage 3: Agent Execution - Starting"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "WARN",
+      "message": "Agent execution not implemented - using mock data"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "INFO",
+      "message": "Stage 4: Validation - Starting"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.022Z",
+      "level": "INFO",
+      "message": "Extraction pipeline complete"
+    },
+    {
+      "timestamp": "2025-11-18T02:28:24.023Z",
+      "level": "INFO",
+      "message": "Learnings document generated"
+    }
+  ]
+}
