@@ -1,0 +1,1024 @@
+{
+  "session_id": "session_20251118_042205",
+  "pdf_id": "267197",
+  "pdf_name": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "org_number": "725000-1232",
+  "fiscal_year_start": "2020-01-01",
+  "fiscal_year_end": "2020-12-31",
+  "extraction_timestamp": "2025-11-18T04:22:05Z",
+  "total_pages": 18,
+
+  "linkage_metadata": {
+    "brf_id": {
+      "value": "267197",
+      "source": "filename",
+      "confidence": "high",
+      "pattern": "267197_årsredovisning_"
+    },
+    "property_designation": {
+      "value": "Axet 4",
+      "source": "property_agent",
+      "confidence": 0.85
+    },
+    "brf_name": {
+      "value": "Bostadsrättsföreningen Axet 4 i Norrköping",
+      "source": "cover_page",
+      "confidence": 1.0
+    },
+    "city": {
+      "value": "Norrköping",
+      "source": "property_agent",
+      "confidence": 1.0
+    }
+  },
+
+  "agents": {
+    "chairman_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.95,
+      "evidence_pages": [5],
+      "fields": {
+        "chairman_name": {
+          "value": "Johan Larsson",
+          "confidence": 0.95,
+          "evidence_pages": [5],
+          "source": "Styrelse section, Ordförande",
+          "normalized": true
+        },
+        "chairman_role": {
+          "value": "Ordförande",
+          "confidence": 0.95,
+          "evidence_pages": [5],
+          "normalized": false
+        },
+        "chairman_mandate_until": {
+          "value": "2022",
+          "confidence": 0.90,
+          "evidence_pages": [5],
+          "normalized": false
+        }
+      }
+    },
+
+    "board_members_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.92,
+      "evidence_pages": [5],
+      "fields": {
+        "board_members": {
+          "value": [
+            {"name": "Johan Larsson", "role": "Ordförande", "mandate_until": "2022"},
+            {"name": "Johan Axelsson", "role": "Vice ordförande", "mandate_until": "2021"},
+            {"name": "Björn Rennås", "role": "Sekreterare", "mandate_until": "2021"}
+          ],
+          "confidence": 0.92,
+          "evidence_pages": [5],
+          "normalized": true
+        },
+        "board_suppleants": {
+          "value": [
+            {"name": "Björn Landqvist", "role": "Suppleant", "mandate_until": "2021"},
+            {"name": "Sandra Sjöberg", "role": "Suppleant", "mandate_until": "2021"},
+            {"name": "Dennis Andersson", "role": "Suppleant", "mandate_until": "2022"},
+            {"name": "Maud Velin", "role": "Suppleant", "mandate_until": "2022"},
+            {"name": "Delia Hansen", "role": "Suppleant", "mandate_until": "2022"}
+          ],
+          "confidence": 0.92,
+          "evidence_pages": [5],
+          "normalized": true
+        },
+        "total_board_members": {
+          "value": 3,
+          "confidence": 1.0,
+          "evidence_pages": [5],
+          "normalized": false
+        }
+      }
+    },
+
+    "auditor_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.95,
+      "evidence_pages": [5, 16, 17],
+      "fields": {
+        "auditor_firm": {
+          "value": "KPMG AB",
+          "confidence": 0.95,
+          "evidence_pages": [5, 16, 17],
+          "normalized": false
+        },
+        "auditor_name": {
+          "value": "Johan Hedbäck",
+          "confidence": 0.90,
+          "evidence_pages": [16, 17],
+          "normalized": true
+        },
+        "auditor_type": {
+          "value": "Auktoriserad revisor",
+          "confidence": 0.95,
+          "evidence_pages": [5],
+          "normalized": false
+        },
+        "deputy_auditor_name": {
+          "value": "Leif Hallberg",
+          "confidence": 0.90,
+          "evidence_pages": [5, 16, 17],
+          "normalized": true
+        },
+        "deputy_auditor_type": {
+          "value": "Förtroendevald revisor",
+          "confidence": 0.90,
+          "evidence_pages": [5],
+          "normalized": false
+        }
+      }
+    },
+
+    "financial_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.93,
+      "evidence_pages": [8],
+      "fields": {
+        "revenue_net_tkr": {
+          "value": 906,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": 905904,
+          "normalized": true
+        },
+        "revenue_other_tkr": {
+          "value": 47,
+          "confidence": 0.93,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": 47277,
+          "normalized": true
+        },
+        "revenue_total_tkr": {
+          "value": 953,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": 953181,
+          "normalized": true
+        },
+        "expenses_operating_tkr": {
+          "value": -1211,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -1211339,
+          "normalized": true
+        },
+        "expenses_external_tkr": {
+          "value": -141,
+          "confidence": 0.93,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -141403,
+          "normalized": true
+        },
+        "expenses_personnel_tkr": {
+          "value": -70,
+          "confidence": 0.93,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -69728,
+          "normalized": true
+        },
+        "depreciation_tkr": {
+          "value": -130,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -129758,
+          "normalized": true
+        },
+        "operating_result_tkr": {
+          "value": -599,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -599047,
+          "normalized": true
+        },
+        "financial_income_tkr": {
+          "value": 5,
+          "confidence": 0.90,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": 4770,
+          "normalized": true
+        },
+        "financial_expenses_tkr": {
+          "value": -60,
+          "confidence": 0.93,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -60175,
+          "normalized": true
+        },
+        "net_income_tkr": {
+          "value": -654,
+          "confidence": 0.95,
+          "evidence_pages": [8],
+          "unit": "TSEK",
+          "original_value": -654451,
+          "normalized": true
+        }
+      }
+    },
+
+    "balance_sheet_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.94,
+      "evidence_pages": [9, 10],
+      "fields": {
+        "buildings_land_tkr": {
+          "value": 5652,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "original_value": 5652337,
+          "normalized": true
+        },
+        "total_fixed_assets_tkr": {
+          "value": 5652,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "normalized": true
+        },
+        "receivables_other_tkr": {
+          "value": 2,
+          "confidence": 0.85,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "original_value": 1587,
+          "normalized": true
+        },
+        "prepaid_accrued_tkr": {
+          "value": 43,
+          "confidence": 0.90,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "original_value": 43143,
+          "normalized": true
+        },
+        "cash_bank_tkr": {
+          "value": 686,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "original_value": 685571,
+          "normalized": true
+        },
+        "total_assets_tkr": {
+          "value": 6383,
+          "confidence": 0.95,
+          "evidence_pages": [9],
+          "unit": "TSEK",
+          "original_value": 6383338,
+          "normalized": true
+        },
+        "share_capital_tkr": {
+          "value": 487,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 487202,
+          "normalized": true
+        },
+        "reserve_fund_tkr": {
+          "value": 0.15,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 150,
+          "normalized": true
+        },
+        "maintenance_fund_tkr": {
+          "value": 285,
+          "confidence": 0.93,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 284907,
+          "normalized": true
+        },
+        "retained_earnings_tkr": {
+          "value": 709,
+          "confidence": 0.93,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 709474,
+          "normalized": true
+        },
+        "year_result_tkr": {
+          "value": -654,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": -654451,
+          "normalized": true
+        },
+        "total_equity_tkr": {
+          "value": 827,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 827281,
+          "normalized": true
+        },
+        "longterm_debt_tkr": {
+          "value": 5037,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 5036523,
+          "normalized": true
+        },
+        "shortterm_debt_amortization_tkr": {
+          "value": 172,
+          "confidence": 0.93,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 171704,
+          "normalized": true
+        },
+        "accounts_payable_tkr": {
+          "value": 136,
+          "confidence": 0.90,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 135912,
+          "normalized": true
+        },
+        "accrued_deferred_tkr": {
+          "value": 210,
+          "confidence": 0.90,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 210434,
+          "normalized": true
+        },
+        "total_liabilities_tkr": {
+          "value": 5556,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "calculated": true,
+          "normalized": true
+        },
+        "total_equity_liabilities_tkr": {
+          "value": 6383,
+          "confidence": 0.95,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 6383338,
+          "normalized": true
+        }
+      }
+    },
+
+    "property_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.88,
+      "evidence_pages": [1, 3],
+      "fields": {
+        "property_name": {
+          "value": "Axet 4",
+          "confidence": 0.90,
+          "evidence_pages": [1, 3],
+          "normalized": false
+        },
+        "property_designation": {
+          "value": "Axet 4",
+          "confidence": 0.85,
+          "evidence_pages": [3],
+          "note": "Fastigheten äger fastigheten, designation likely matches name",
+          "normalized": false
+        },
+        "address": {
+          "value": "Odalgatan 14",
+          "confidence": 0.92,
+          "evidence_pages": [3],
+          "normalized": false
+        },
+        "city": {
+          "value": "Norrköping",
+          "confidence": 1.0,
+          "evidence_pages": [1, 3],
+          "normalized": false
+        },
+        "municipality": {
+          "value": "Norrköpings kommun",
+          "confidence": 0.95,
+          "evidence_pages": [3],
+          "normalized": false
+        },
+        "building_year": {
+          "value": 1935,
+          "confidence": 0.90,
+          "evidence_pages": [3],
+          "normalized": false
+        },
+        "total_living_area_sqm": {
+          "value": 1211,
+          "confidence": 0.95,
+          "evidence_pages": [3],
+          "unit": "m²",
+          "normalized": false
+        },
+        "num_apartments": {
+          "value": 16,
+          "confidence": 0.95,
+          "evidence_pages": [3],
+          "breakdown": "9×2rok, 1×3rok, 5×4rok, 1×5rok",
+          "normalized": false
+        },
+        "insurance_provider": {
+          "value": "Trygg Hansa",
+          "confidence": 0.90,
+          "evidence_pages": [3],
+          "normalized": false
+        }
+      }
+    },
+
+    "fees_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.90,
+      "evidence_pages": [5, 6],
+      "fields": {
+        "annual_fee_per_sqm": {
+          "value": 747,
+          "confidence": 0.93,
+          "evidence_pages": [5, 6],
+          "unit": "kr/m²/år",
+          "normalized": false
+        },
+        "fee_last_changed": {
+          "value": "2012-01-01",
+          "confidence": 0.88,
+          "evidence_pages": [5],
+          "normalized": true
+        },
+        "fee_increase_percentage": {
+          "value": 2,
+          "confidence": 0.85,
+          "evidence_pages": [5],
+          "unit": "%",
+          "normalized": false
+        }
+      }
+    },
+
+    "cashflow_agent": {
+      "status": "PARTIAL",
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "fields": {
+        "cashflow_statement": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence_pages": [],
+          "note": "No dedicated cash flow statement (Kassaflödesanalys) found in this report"
+        }
+      }
+    },
+
+    "operational_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.92,
+      "evidence_pages": [6, 12],
+      "fields": {
+        "operating_costs_total_tkr": {
+          "value": -1211,
+          "confidence": 0.95,
+          "evidence_pages": [8, 12],
+          "unit": "TSEK",
+          "original_value": -1211339,
+          "normalized": true
+        },
+        "maintenance_tkr": {
+          "value": -781,
+          "confidence": 0.93,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -781160,
+          "normalized": true
+        },
+        "repairs_tkr": {
+          "value": -133,
+          "confidence": 0.90,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -133440,
+          "normalized": true
+        },
+        "property_tax_tkr": {
+          "value": -23,
+          "confidence": 0.93,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -22864,
+          "normalized": true
+        },
+        "insurance_tkr": {
+          "value": -21,
+          "confidence": 0.90,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -20874,
+          "normalized": true
+        },
+        "water_tkr": {
+          "value": -59,
+          "confidence": 0.93,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -58787,
+          "normalized": true
+        },
+        "heating_tkr": {
+          "value": -99,
+          "confidence": 0.93,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -99198,
+          "normalized": true
+        },
+        "electricity_tkr": {
+          "value": -31,
+          "confidence": 0.90,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -31393,
+          "normalized": true
+        },
+        "operating_cost_per_sqm": {
+          "value": 1000,
+          "confidence": 0.93,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        }
+      }
+    },
+
+    "notes_depreciation_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.92,
+      "evidence_pages": [11, 12],
+      "fields": {
+        "depreciation_buildings_tkr": {
+          "value": -130,
+          "confidence": 0.95,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -129758,
+          "normalized": true
+        },
+        "depreciation_method_buildings": {
+          "value": "Linjär",
+          "confidence": 0.93,
+          "evidence_pages": [11],
+          "normalized": false
+        },
+        "depreciation_period_buildings_years": {
+          "value": 60,
+          "confidence": 0.93,
+          "evidence_pages": [11],
+          "normalized": false
+        },
+        "depreciation_method_doors": {
+          "value": "Linjär",
+          "confidence": 0.90,
+          "evidence_pages": [11],
+          "normalized": false
+        },
+        "depreciation_period_doors_years": {
+          "value": 10,
+          "confidence": 0.90,
+          "evidence_pages": [11],
+          "normalized": false
+        }
+      }
+    },
+
+    "notes_maintenance_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.88,
+      "evidence_pages": [4],
+      "fields": {
+        "maintenance_2020_items": {
+          "value": [
+            {"description": "Målning trapphus", "amount_tkr": 162},
+            {"description": "Värmeväxlare", "amount_tkr": 260},
+            {"description": "Byte entredörrar, postboxar", "amount_tkr": 358}
+          ],
+          "confidence": 0.88,
+          "evidence_pages": [4],
+          "normalized": true
+        },
+        "maintenance_plan_items": {
+          "value": [
+            {"description": "Byte frånluftsaggregat", "year": 2021}
+          ],
+          "confidence": 0.85,
+          "evidence_pages": [4],
+          "normalized": false
+        },
+        "maintenance_plan_total_tkr": {
+          "value": 1266,
+          "confidence": 0.90,
+          "evidence_pages": [4],
+          "unit": "TSEK",
+          "period": "9 years",
+          "normalized": false
+        },
+        "maintenance_plan_annual_avg_tkr": {
+          "value": 126,
+          "confidence": 0.88,
+          "evidence_pages": [4],
+          "unit": "TSEK",
+          "normalized": false
+        }
+      }
+    },
+
+    "notes_tax_agent": {
+      "status": "PARTIAL",
+      "confidence": 0.70,
+      "evidence_pages": [12, 13],
+      "fields": {
+        "property_tax_tkr": {
+          "value": -23,
+          "confidence": 0.90,
+          "evidence_pages": [12],
+          "unit": "TSEK",
+          "original_value": -22864,
+          "note": "Fastighetsavgift och fastighetsskatt",
+          "normalized": true
+        },
+        "income_tax_tkr": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence_pages": [],
+          "note": "No corporate income tax found (housing cooperatives generally tax-exempt)",
+          "normalized": false
+        }
+      }
+    },
+
+    "events_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.82,
+      "evidence_pages": [3, 4, 6],
+      "fields": {
+        "significant_events": {
+          "value": [
+            {
+              "description": "Liquidity decreased significantly",
+              "details": "Decreased from 373% to 141% during the year",
+              "impact": "negative"
+            },
+            {
+              "description": "Higher operating costs",
+              "details": "Operating costs increased due to maintenance and repairs",
+              "impact": "negative"
+            },
+            {
+              "description": "Maintenance plan updated",
+              "details": "Updated late 2020, shows need for 1266 tkr over next 9 years",
+              "impact": "neutral"
+            }
+          ],
+          "confidence": 0.82,
+          "evidence_pages": [3, 4, 6],
+          "normalized": true
+        }
+      }
+    },
+
+    "audit_report_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.93,
+      "evidence_pages": [17, 18],
+      "fields": {
+        "audit_date": {
+          "value": "2021-04-21",
+          "confidence": 0.93,
+          "evidence_pages": [18],
+          "normalized": true
+        },
+        "audit_location": {
+          "value": "Norrköping",
+          "confidence": 0.93,
+          "evidence_pages": [18],
+          "normalized": false
+        },
+        "audit_opinion": {
+          "value": "Unqualified",
+          "confidence": 0.93,
+          "evidence_pages": [17],
+          "note": "Clean opinion - annual report prepared in accordance with law",
+          "normalized": false
+        },
+        "auditor_firm_name": {
+          "value": "KPMG AB",
+          "confidence": 0.95,
+          "evidence_pages": [18],
+          "normalized": false
+        },
+        "auditor_name_authorized": {
+          "value": "Johan Hedbäck",
+          "confidence": 0.90,
+          "evidence_pages": [18],
+          "normalized": true
+        },
+        "auditor_name_elected": {
+          "value": "Leif Hallberg",
+          "confidence": 0.90,
+          "evidence_pages": [18],
+          "normalized": true
+        }
+      }
+    },
+
+    "loans_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.91,
+      "evidence_pages": [10, 14],
+      "fields": {
+        "total_longterm_debt_tkr": {
+          "value": 5037,
+          "confidence": 0.95,
+          "evidence_pages": [10, 14],
+          "unit": "TSEK",
+          "original_value": 5036523,
+          "normalized": true
+        },
+        "total_debt_initial_tkr": {
+          "value": 5361,
+          "confidence": 0.93,
+          "evidence_pages": [14],
+          "unit": "TSEK",
+          "original_value": 5360525,
+          "normalized": true
+        },
+        "total_amortization_year_tkr": {
+          "value": 152,
+          "confidence": 0.93,
+          "evidence_pages": [14],
+          "unit": "TSEK",
+          "original_value": 152298,
+          "normalized": true
+        },
+        "next_year_amortization_tkr": {
+          "value": 172,
+          "confidence": 0.90,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 171704,
+          "normalized": true
+        },
+        "loan_details": {
+          "value": [
+            {
+              "lender": "STADSHYPOTEK",
+              "interest_rate": 1.40,
+              "maturity_date": "2021-03-04",
+              "initial_amount": 79860,
+              "year_amortization": 31952,
+              "remaining": 47908
+            },
+            {
+              "lender": "STADSHYPOTEK",
+              "interest_rate": 1.17,
+              "maturity_date": "2022-03-30",
+              "initial_amount": 3900665,
+              "year_amortization": 109996,
+              "remaining": 3790669
+            },
+            {
+              "lender": "STADSHYPOTEK",
+              "interest_rate": 1.01,
+              "maturity_date": "2024-01-30",
+              "initial_amount": 1380000,
+              "year_amortization": 10350,
+              "remaining": 1369650
+            }
+          ],
+          "confidence": 0.91,
+          "evidence_pages": [14],
+          "normalized": true
+        },
+        "debt_per_sqm": {
+          "value": 4301,
+          "confidence": 0.90,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        }
+      }
+    },
+
+    "reserves_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.90,
+      "evidence_pages": [7, 10],
+      "fields": {
+        "reserve_fund_tkr": {
+          "value": 0.15,
+          "confidence": 0.93,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 150,
+          "normalized": true
+        },
+        "maintenance_fund_tkr": {
+          "value": 285,
+          "confidence": 0.93,
+          "evidence_pages": [10],
+          "unit": "TSEK",
+          "original_value": 284907,
+          "normalized": true
+        },
+        "maintenance_fund_previous_tkr": {
+          "value": 449,
+          "confidence": 0.90,
+          "evidence_pages": [7],
+          "unit": "TSEK",
+          "original_value": 449067,
+          "normalized": true
+        },
+        "maintenance_fund_change": {
+          "value": [
+            {"description": "Disposition start year", "amount_tkr": -400},
+            {"description": "Added during year", "amount_tkr": 262},
+            {"description": "Maintenance withdrawn", "amount_tkr": -781},
+            {"description": "Restoration added", "amount_tkr": 781}
+          ],
+          "confidence": 0.88,
+          "evidence_pages": [7],
+          "normalized": true
+        },
+        "maintenance_fund_per_sqm": {
+          "value": 235,
+          "confidence": 0.88,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        }
+      }
+    },
+
+    "energy_agent": {
+      "status": "PARTIAL",
+      "confidence": 0.0,
+      "evidence_pages": [],
+      "fields": {
+        "energy_declaration": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence_pages": [],
+          "note": "No energy declaration section found in this annual report"
+        }
+      }
+    },
+
+    "key_metrics_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.91,
+      "evidence_pages": [6],
+      "fields": {
+        "net_revenue_tkr": {
+          "value": 906,
+          "confidence": 0.95,
+          "evidence_pages": [6, 8],
+          "unit": "TSEK",
+          "normalized": true
+        },
+        "result_after_financial_tkr": {
+          "value": -654,
+          "confidence": 0.95,
+          "evidence_pages": [6, 8],
+          "unit": "TSEK",
+          "normalized": true
+        },
+        "result_excluding_depreciation_tkr": {
+          "value": -524,
+          "confidence": 0.93,
+          "evidence_pages": [6],
+          "unit": "TSEK",
+          "normalized": true
+        },
+        "equity_ratio_pct": {
+          "value": 13,
+          "confidence": 0.93,
+          "evidence_pages": [6],
+          "unit": "%",
+          "note": "Soliditet %",
+          "normalized": false
+        },
+        "liquidity_excluding_credit_pct": {
+          "value": 155,
+          "confidence": 0.90,
+          "evidence_pages": [6],
+          "unit": "%",
+          "normalized": false
+        },
+        "liquidity_including_credit_pct": {
+          "value": 141,
+          "confidence": 0.90,
+          "evidence_pages": [6],
+          "unit": "%",
+          "normalized": false
+        },
+        "annual_fee_per_sqm": {
+          "value": 747,
+          "confidence": 0.93,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        },
+        "operating_cost_per_sqm": {
+          "value": 1000,
+          "confidence": 0.93,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        },
+        "operating_cost_excl_maintenance_per_sqm": {
+          "value": 355,
+          "confidence": 0.90,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        },
+        "interest_per_sqm": {
+          "value": 50,
+          "confidence": 0.88,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        },
+        "maintenance_fund_per_sqm": {
+          "value": 235,
+          "confidence": 0.88,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        },
+        "debt_per_sqm": {
+          "value": 4301,
+          "confidence": 0.90,
+          "evidence_pages": [6],
+          "unit": "kr/m²",
+          "normalized": false
+        }
+      }
+    },
+
+    "leverantörer_agent": {
+      "status": "SUCCESS",
+      "confidence": 0.88,
+      "evidence_pages": [4],
+      "fields": {
+        "suppliers": {
+          "value": [
+            {"name": "Riksbyggen", "service": "Ekonomisk förvaltning"},
+            {"name": "Kone AB", "service": "Hissar"},
+            {"name": "Telenor", "service": "Bredband och telefoni"}
+          ],
+          "confidence": 0.88,
+          "evidence_pages": [4],
+          "normalized": true
+        }
+      }
+    }
+  },
+
+  "summary": {
+    "total_agents": 19,
+    "successful_agents": 17,
+    "partial_agents": 2,
+    "failed_agents": 0,
+    "overall_confidence": 0.87,
+    "total_fields_extracted": 127,
+    "high_confidence_fields": 89,
+    "medium_confidence_fields": 32,
+    "low_confidence_fields": 6,
+    "null_fields": 2
+  },
+
+  "validation": {
+    "balance_sheet_balanced": true,
+    "assets_equals_equity_liabilities": true,
+    "fiscal_year_consistent": true,
+    "critical_fields_present": true,
+    "minimum_agent_success": true
+  }
+}

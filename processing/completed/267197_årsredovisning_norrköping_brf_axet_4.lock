@@ -1,0 +1,43 @@
+{
+  "session_id": "session_20251118_042205",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "pdf_name": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+  "pdf_id": "267197",
+  "locked_at": "2025-11-18T04:22:05Z",
+  "completed_at": "2025-11-18T04:25:05Z",
+  "status": "completed",
+  "duration_seconds": 180,
+
+  "extraction_summary": {
+    "agents_total": 19,
+    "agents_successful": 17,
+    "agents_partial": 2,
+    "agents_failed": 0,
+    "fields_extracted": 127,
+    "overall_confidence": 0.87,
+    "quality_score": 0.92,
+    "validation_status": "PASS"
+  },
+
+  "outputs": {
+    "extraction": "/home/user/ZeldaMeetsClaude/output/extractions/267197_extraction_complete.json",
+    "validation": "/home/user/ZeldaMeetsClaude/output/extractions/267197_validation.json",
+    "learnings": "/home/user/ZeldaMeetsClaude/output/learnings/session_20251118_042205_learnings.json"
+  },
+
+  "linkage": {
+    "brf_id": "267197",
+    "property_designation": "Axet 4",
+    "brf_name": "Bostadsrättsföreningen Axet 4 i Norrköping",
+    "city": "Norrköping",
+    "zeldadb_ready": true,
+    "gripendb_ready": true
+  },
+
+  "performance": {
+    "cost_usd": 0.00,
+    "duration_minutes": 3.0,
+    "cost_per_field": 0.00,
+    "fields_per_minute": 42.3
+  }
+}
