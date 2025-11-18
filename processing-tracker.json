@@ -1,0 +1,573 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-18T02:28:20.278Z",
+  "summary": {
+    "total": 62,
+    "pending": 62,
+    "processing": 0,
+    "completed": 0,
+    "failed": 0,
+    "partial_success": 0
+  },
+  "pdfs": [
+    {
+      "pdfId": "267197",
+      "pdfPath": "pdfs/267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0,
+      "notes": "Reset from failed - initial session blocked on configuration"
+    },
+    {
+      "pdfId": "267456",
+      "pdfPath": "pdfs/267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "269172",
+      "pdfPath": "pdfs/269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "269295",
+      "pdfPath": "pdfs/269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "270695",
+      "pdfPath": "pdfs/270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "277136",
+      "pdfPath": "pdfs/277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "278354",
+      "pdfPath": "pdfs/278354_årsredovisning_stockholm_brf_the_brick_terra.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "278531",
+      "pdfPath": "pdfs/278531_årsredovisning_falun_brf_krondiket.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "281330",
+      "pdfPath": "pdfs/281330_årsredovisning_leksand_brf_stäppan.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "44444",
+      "pdfPath": "pdfs/44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "44549",
+      "pdfPath": "pdfs/44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "49908",
+      "pdfPath": "pdfs/49908_årsredovisning_sundbyberg_brf_stugan_2.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "51223",
+      "pdfPath": "pdfs/51223_årsredovisning_jönköping_brf_lönnen.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "52476",
+      "pdfPath": "pdfs/52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "53536",
+      "pdfPath": "pdfs/53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "54886",
+      "pdfPath": "pdfs/54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "55218",
+      "pdfPath": "pdfs/55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "78954",
+      "pdfPath": "pdfs/78954_årsredovisning_solna_brf_husberget.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "79446",
+      "pdfPath": "pdfs/79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "82665",
+      "pdfPath": "pdfs/82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_266956",
+      "pdfPath": "pdfs/hjorthagen/brf_266956.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_268411",
+      "pdfPath": "pdfs/hjorthagen/brf_268411.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_268882",
+      "pdfPath": "pdfs/hjorthagen/brf_268882.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_271852",
+      "pdfPath": "pdfs/hjorthagen/brf_271852.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_271949",
+      "pdfPath": "pdfs/hjorthagen/brf_271949.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_44232",
+      "pdfPath": "pdfs/hjorthagen/brf_44232.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_46160",
+      "pdfPath": "pdfs/hjorthagen/brf_46160.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_48574",
+      "pdfPath": "pdfs/hjorthagen/brf_48574.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_48893",
+      "pdfPath": "pdfs/hjorthagen/brf_48893.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_49369",
+      "pdfPath": "pdfs/hjorthagen/brf_49369.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_58306",
+      "pdfPath": "pdfs/hjorthagen/brf_58306.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_78906",
+      "pdfPath": "pdfs/hjorthagen/brf_78906.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_79568",
+      "pdfPath": "pdfs/hjorthagen/brf_79568.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_81563",
+      "pdfPath": "pdfs/hjorthagen/brf_81563.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "hjorthagen_82841",
+      "pdfPath": "pdfs/hjorthagen/brf_82841.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_198532",
+      "pdfPath": "pdfs/srs/brf_198532.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_275608",
+      "pdfPath": "pdfs/srs/brf_275608.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_276507",
+      "pdfPath": "pdfs/srs/brf_276507.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_276629",
+      "pdfPath": "pdfs/srs/brf_276629.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_276796",
+      "pdfPath": "pdfs/srs/brf_276796.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_280938",
+      "pdfPath": "pdfs/srs/brf_280938.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_282765",
+      "pdfPath": "pdfs/srs/brf_282765.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_43334",
+      "pdfPath": "pdfs/srs/brf_43334.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_47809",
+      "pdfPath": "pdfs/srs/brf_47809.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_47903",
+      "pdfPath": "pdfs/srs/brf_47903.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_48663",
+      "pdfPath": "pdfs/srs/brf_48663.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_52576",
+      "pdfPath": "pdfs/srs/brf_52576.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_53107",
+      "pdfPath": "pdfs/srs/brf_53107.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_53546",
+      "pdfPath": "pdfs/srs/brf_53546.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_54015",
+      "pdfPath": "pdfs/srs/brf_54015.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_57125",
+      "pdfPath": "pdfs/srs/brf_57125.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_58256",
+      "pdfPath": "pdfs/srs/brf_58256.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_76536",
+      "pdfPath": "pdfs/srs/brf_76536.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_77241",
+      "pdfPath": "pdfs/srs/brf_77241.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_78564",
+      "pdfPath": "pdfs/srs/brf_78564.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_78730",
+      "pdfPath": "pdfs/srs/brf_78730.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_79101",
+      "pdfPath": "pdfs/srs/brf_79101.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_79510",
+      "pdfPath": "pdfs/srs/brf_79510.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_80193",
+      "pdfPath": "pdfs/srs/brf_80193.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_81732",
+      "pdfPath": "pdfs/srs/brf_81732.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_82839",
+      "pdfPath": "pdfs/srs/brf_82839.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    },
+    {
+      "pdfId": "srs_83301",
+      "pdfPath": "pdfs/srs/brf_83301.pdf",
+      "status": "pending",
+      "sessionId": null,
+      "lockedAt": null,
+      "completedAt": null,
+      "attempts": 0
+    }
+  ]
+}
