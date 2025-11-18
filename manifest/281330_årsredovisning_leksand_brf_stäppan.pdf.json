@@ -1,0 +1,10 @@
+{
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/281330_årsredovisning_leksand_brf_stäppan.pdf",
+  "session_id": "session_2025-11-18T04-27-40",
+  "status": "completed",
+  "started_at": "2025-11-18T04:27:40.330Z",
+  "completed_at": "2025-11-18T04:27:40.330Z",
+  "extraction_result": "mock_extraction",
+  "agents_successful": 0,
+  "agents_total": 19
+}

@@ -1,0 +1,19 @@
+{
+  "session_id": "session_2025-11-18T04-27-40",
+  "pdf_path": "/home/user/ZeldaMeetsClaude/pdfs/281330_årsredovisning_leksand_brf_stäppan.pdf",
+  "pdf_hash": "40a6bdff7ca78299b4bbb56635e033eeee042904d9924546857fba700c728f9d",
+  "status": "mock_extraction",
+  "timestamp": "2025-11-18T04:27:40.328Z",
+  "agents": {
+    "total": 19,
+    "successful": 0,
+    "failed": 0,
+    "details": []
+  },
+  "quality_metrics": {
+    "average_confidence": 0,
+    "fields_extracted": 0,
+    "validation_passed": false
+  },
+  "note": "This is a skeleton output - full extraction requires API integration"
+}
