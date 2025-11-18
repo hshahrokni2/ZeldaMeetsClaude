@@ -1,0 +1,26 @@
+{
+  "assets_total_tkr": {
+    "value": 85000,
+    "original": "85 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  },
+  "liabilities_total_tkr": {
+    "value": 55000,
+    "original": "55 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  },
+  "equity_total_tkr": {
+    "value": 30000,
+    "original": "30 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  }
+}

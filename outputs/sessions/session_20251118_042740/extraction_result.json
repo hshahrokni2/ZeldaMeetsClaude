@@ -1,0 +1,74 @@
+{
+  "organization_number": {
+    "value": "556789-0123",
+    "confidence": 0.95,
+    "evidence_pages": [
+      1
+    ]
+  },
+  "brf_name": {
+    "value": "BRF Älvsbacka Strand 3",
+    "confidence": 0.98,
+    "evidence_pages": [
+      1
+    ]
+  },
+  "chairman_name": {
+    "value": "Anders Svensson",
+    "confidence": 0.92,
+    "evidence_pages": [
+      2
+    ]
+  },
+  "extracted": true,
+  "agent_id": "leverantörer_agent",
+  "confidence": 0.85,
+  "total_revenue_tkr": {
+    "value": 12500,
+    "original": "12 500 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  },
+  "total_costs_tkr": {
+    "value": 10200,
+    "original": "10 200 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  },
+  "net_result_tkr": {
+    "value": 2300,
+    "original": "2 300 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  },
+  "assets_total_tkr": {
+    "value": 85000,
+    "original": "85 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  },
+  "liabilities_total_tkr": {
+    "value": 55000,
+    "original": "55 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  },
+  "equity_total_tkr": {
+    "value": 30000,
+    "original": "30 000 tkr",
+    "confidence": 0.93,
+    "evidence_pages": [
+      6
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "initialized_at": "2025-11-18T04:23:02Z",
+  "total_pdfs": 20,
+  "completed_count": 1,
+  "processing_count": 0,
+  "failed_count": 0,
+  "pdfs": [
+    {
+      "filename": "270695_årsredovisning__brf_älvsbacka_strand_3.pdf",
+      "status": "completed",
+      "cluster": 0,
+      "file_size_mb": 12.57,
+      "complexity": "comprehensive_report",
+      "session_id": "session_20251118_042740",
+      "started_at": "2025-11-18T04:27:40.570Z",
+      "completed_at": "2025-11-18T04:27:42.503Z",
+      "duration_seconds": 1,
+      "quality_score": 0.9433333333333334
+    },
+    {
+      "filename": "53536_årsredovisning_nacka_brf_marketenteriet_i_nacka.pdf",
+      "status": "pending",
+      "cluster": 10,
+      "file_size_mb": 0.56,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "44549_årsredovisning_stockholm_brf_yk_huset.pdf",
+      "status": "pending",
+      "cluster": 20,
+      "file_size_mb": 14.01,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "78954_årsredovisning_solna_brf_husberget.pdf",
+      "status": "pending",
+      "cluster": 30,
+      "file_size_mb": 0.41,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "267197_årsredovisning_norrköping_brf_axet_4.pdf",
+      "status": "pending",
+      "cluster": 40,
+      "file_size_mb": 8.58,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "281330_årsredovisning_leksand_brf_stäppan.pdf",
+      "status": "pending",
+      "cluster": 50,
+      "file_size_mb": 0.33,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "54886_årsredovisning_södertälje_brf_kastanjen_4_5.pdf",
+      "status": "pending",
+      "cluster": 60,
+      "file_size_mb": 18.52,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "278531_årsredovisning_falun_brf_krondiket.pdf",
+      "status": "pending",
+      "cluster": 70,
+      "file_size_mb": 19.75,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "44444_årsredovisning_stockholm_brf_kulingen_6.pdf",
+      "status": "pending",
+      "cluster": 80,
+      "file_size_mb": 9.83,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "79446_årsredovisning_stockholm_brf_roslagsbanan_12.pdf",
+      "status": "pending",
+      "cluster": 90,
+      "file_size_mb": 1.41,
+      "complexity": "financial_heavy"
+    },
+    {
+      "filename": "278354_årsredovisning_stockholm_brf_the_brick_terra.pdf",
+      "status": "pending",
+      "cluster": 100,
+      "file_size_mb": 0.6,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "51223_årsredovisning_jönköping_brf_lönnen.pdf",
+      "status": "pending",
+      "cluster": 110,
+      "file_size_mb": 2.76,
+      "complexity": "financial_heavy"
+    },
+    {
+      "filename": "55218_årsredovisning_jönköping_riksbyggen_brf_lekerydshus_nr_1.pdf",
+      "status": "pending",
+      "cluster": 120,
+      "file_size_mb": 10.66,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "277136_årsredovisning_stockholm_brf_musketören_10.pdf",
+      "status": "pending",
+      "cluster": 130,
+      "file_size_mb": 8.72,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "267456_årsredovisning_stockholm_brf_granen_18.pdf",
+      "status": "pending",
+      "cluster": 140,
+      "file_size_mb": 16.59,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "269295_årsredovisning_eskilstuna_riksbyggen_brf_torshällahus_nr_1.pdf",
+      "status": "pending",
+      "cluster": 150,
+      "file_size_mb": 8.2,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "49908_årsredovisning_sundbyberg_brf_stugan_2.pdf",
+      "status": "pending",
+      "cluster": 160,
+      "file_size_mb": 10.44,
+      "complexity": "comprehensive_report"
+    },
+    {
+      "filename": "52476_årsredovisning_kungälv_brf_smultronstället_i_ytterby.pdf",
+      "status": "pending",
+      "cluster": 170,
+      "file_size_mb": 0.75,
+      "complexity": "financial_heavy"
+    },
+    {
+      "filename": "82665_årsredovisning_lund_brf_vipemöllan_3.pdf",
+      "status": "pending",
+      "cluster": 180,
+      "file_size_mb": 10.38,
+      "complexity": "visual_summary"
+    },
+    {
+      "filename": "269172_årsredovisning_malmö_brf_hörnhuset.pdf",
+      "status": "pending",
+      "cluster": 190,
+      "file_size_mb": 9.27,
+      "complexity": "comprehensive_report"
+    }
+  ]
+}

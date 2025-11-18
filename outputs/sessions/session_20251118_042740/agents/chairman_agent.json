@@ -1,0 +1,23 @@
+{
+  "organization_number": {
+    "value": "556789-0123",
+    "confidence": 0.95,
+    "evidence_pages": [
+      1
+    ]
+  },
+  "brf_name": {
+    "value": "BRF Älvsbacka Strand 3",
+    "confidence": 0.98,
+    "evidence_pages": [
+      1
+    ]
+  },
+  "chairman_name": {
+    "value": "Anders Svensson",
+    "confidence": 0.92,
+    "evidence_pages": [
+      2
+    ]
+  }
+}

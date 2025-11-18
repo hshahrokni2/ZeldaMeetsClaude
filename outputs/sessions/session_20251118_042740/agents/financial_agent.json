@@ -1,0 +1,26 @@
+{
+  "total_revenue_tkr": {
+    "value": 12500,
+    "original": "12 500 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  },
+  "total_costs_tkr": {
+    "value": 10200,
+    "original": "10 200 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  },
+  "net_result_tkr": {
+    "value": 2300,
+    "original": "2 300 tkr",
+    "confidence": 0.95,
+    "evidence_pages": [
+      5
+    ]
+  }
+}
