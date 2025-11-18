@@ -62,21 +62,24 @@ Open a new Claude session and paste this **SINGLE PROMPT**:
 ```
 AUTONOMOUS SESSION - PROCESS NEXT PDF
 
-Protocol: AUTONOMOUS_SESSION_PROTOCOL.md
+Protocol: AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md
 Rigor: RIGOR_PROTOCOL.md
-Mode: FULL AUTOMATION
+Mode: FULL AUTOMATION - 100% CLAUDE
 
 Execute complete pipeline:
 1. PDF Selection & Lock
-2. Extraction with Rigor
-3. Validation & Analysis
-4. Learning Documentation
-5. Commit & Unlock
+2. PDF Reading & Analysis
+3. Multi-Pass Extraction (19 specialized contexts)
+4. Validation & Quality Checks
+5. Learning Documentation
+6. Commit & Unlock
 
 Session ID: [GENERATE: session_YYYYMMDD_HHMMSS]
 
 BEGIN AUTONOMOUS EXECUTION
 ```
+
+**What's special:** This is 100% Claude (me!) - no external APIs, no dependencies, zero cost!
 
 ### Step 3: Repeat
 
@@ -84,12 +87,15 @@ When Claude finishes (reports "Session complete ✅"), paste the prompt again fo
 
 **That's it!** Each session automatically:
 - ✅ Picks next PDF from queue
-- ✅ Extracts with full rigor
+- ✅ Reads PDF content (using Read tool)
+- ✅ Analyzes with 19 specialized contexts (all Claude!)
 - ✅ Validates results
 - ✅ Documents learnings
 - ✅ Updates pattern database
 - ✅ Commits everything
 - ✅ Reports completion
+
+**Time per PDF:** ~60-90 minutes (vs 30-45 with APIs, but zero setup & zero cost!)
 
 ---
 
@@ -100,16 +106,17 @@ Open **10 Claude sessions**, paste the **SAME prompt** in each:
 ```
 AUTONOMOUS SESSION - PROCESS NEXT PDF
 
-Protocol: AUTONOMOUS_SESSION_PROTOCOL.md
+Protocol: AUTONOMOUS_SESSION_PROTOCOL_PURE_CLAUDE.md
 Rigor: RIGOR_PROTOCOL.md
-Mode: FULL AUTOMATION
+Mode: FULL AUTOMATION - 100% CLAUDE
 
 Execute complete pipeline:
 1. PDF Selection & Lock
-2. Extraction with Rigor
-3. Validation & Analysis
-4. Learning Documentation
-5. Commit & Unlock
+2. PDF Reading & Analysis
+3. Multi-Pass Extraction (19 specialized contexts)
+4. Validation & Quality Checks
+5. Learning Documentation
+6. Commit & Unlock
 
 Session ID: [GENERATE: session_YYYYMMDD_HHMMSS]
 
@@ -123,6 +130,11 @@ All 10 sessions will:
 - All **learn together** (compound knowledge in shared files)
 
 **No coordination needed** - the queue handles everything!
+
+**62 PDFs ÷ 10 sessions = ~6 PDFs per session**
+**Estimated time: 8-10 hours total** (vs 60+ hours sequential)
+
+**Why slower than you might expect?** Pure Claude (no external APIs) takes ~75 min per PDF vs ~30 min with parallel API calls. Trade-off: Zero setup, zero cost, full transparency!
 
 ---
 
